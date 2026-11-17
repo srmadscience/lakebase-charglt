@@ -32,24 +32,9 @@ max_seconds = int(arg("max_seconds"))
 
 # COMMAND ----------
 
-# Target table. CLUSTER BY event_id lets each MERGE skip files outside the batch's event_id range.
-catalog, schema, _ = target.split(".")
-spark.sql(f"CREATE SCHEMA IF NOT EXISTS {catalog}.{schema}")
-spark.sql(f"""
-CREATE TABLE IF NOT EXISTS {target} (
-  event_id BIGINT,
-  userid BIGINT,
-  user_txn_id STRING,
-  txn_time TIMESTAMP_NTZ,
-  sessionid BIGINT,
-  approved_amount BIGINT,
-  spent_amount BIGINT,
-  purpose STRING,
-  exported_at TIMESTAMP
-)
-CLUSTER BY (event_id)
-COMMENT 'charglt transactions exported from Lakebase charglt_events'
-""")
+# The target table is created by databricks/create_tables.sql.
+if not spark.catalog.tableExists(target):
+    raise RuntimeError(f"{target} does not exist: run ./databricks-sql.sh -f databricks/create_tables.sql")
 
 # COMMAND ----------
 

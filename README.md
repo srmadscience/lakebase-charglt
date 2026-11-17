@@ -77,6 +77,7 @@ Delta, then deletes it from Lakebase in the same Postgres transaction, so a fail
 one. The job logs in to Lakebase the same way `lakebase-env.sh` does, as the job owner.
 
 ```
+./databricks-sql.sh -f databricks/create_tables.sql   # create workspace.charglt.transactions
 ./databricks-job.sh --run            # upload databricks/charglt_export.py, create the job, run it once
 ./databricks-job.sh --schedule on    # export every 5 minutes (--schedule off to pause)
 ./databricks-sql.sh -f databricks/charglt_views.sql
@@ -132,6 +133,24 @@ client in the same region.
 | 200 | 30 min | 2,063,974 | 1,146 | 422 / 1,574 | 420 / 1,574 |
 
 Averaged over 30 minutes, throughput and latency are close to the 60-second run with 200 workers.
+
+#### With the export job running
+
+`ChargingDemoTransactions` with 10,000 users, 60 seconds, 2 tpms and 16 workers, after `SendToKafka` started writing
+to `charglt_events`, with the `charglt-export` job on its 5-minute schedule (same workspace and client as above):
+
+| Workers | Transactions | TPS | ReportQuotaUsage median / p99 (ms) | AddCredit median / p99 (ms) |
+|---|---|---|---|---|
+| 16 | 6,213 | 102 | 693 / 1,702 | 786 / 1,711 |
+
+Throughput matches the earlier 16-worker run (99 TPS). Medians are higher, but so is the time spent waiting in the
+client's queue (554 ms against 443 ms), and there were only 41 AddCredit calls, so a 60-second run can't separate the
+cost of the extra insert from run-to-run variation.
+
+The export kept up. A scheduled run fired during the benchmark and exported 2,830 rows while transactions were
+still arriving; the next exported the remaining 3,329 in 26 seconds. `workspace.charglt.transactions` ended with
+6,159 rows (6,118 Spend, 41 Add Credit), the same as the benchmark's ReportQuotaUsage and AddCredit counts, with no
+duplicates and nothing left in `charglt_events`.
 
 ### For comparison: a local PostgreSQL server
 
