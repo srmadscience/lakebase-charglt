@@ -67,32 +67,26 @@ psql -d charglt -f ddl/create_procs.sql
 (default `primary`) select the endpoint. The hostname, username and password CLI arguments are then ignored.
 Re-source the script before each run: new logins need an unexpired token.
 
-### Streaming transactions to Delta with Lakebase Change Data Feed
+### Exporting transactions to Delta
 
 Every successful `UpsertUser`, `ReportQuotaUsage` and `AddCredit` calls `SendToKafka` (named after the VoltDB
-original's Kafka export), which copies the new `user_recent_transactions` row into the append-only `charglt_events`
-table. Lakebase Change Data Feed (CDF, Public Preview) streams that table into a Delta table,
-`lb_charglt_events_history`, in Unity Catalog, flushing about every 15 seconds. CDF runs inside the Lakebase
-compute; the SQL warehouse is only used to query the result.
+original's Kafka export), which copies the new `user_recent_transactions` row into the `charglt_events` table.
+A serverless Databricks job, `charglt-export`, moves those rows into the Delta table
+`workspace.charglt.transactions` every 5 minutes. It locks a batch of up to 50,000 rows in Lakebase, merges it into
+Delta, then deletes it from Lakebase in the same Postgres transaction, so a failed run is simply redone by the next
+one. The job logs in to Lakebase the same way `lakebase-env.sh` does, as the job owner.
 
-1. A workspace admin enables the **Lakebase Change Data Feed** preview on the workspace Previews page.
-2. `create_db.sql` already sets `REPLICA IDENTITY FULL` on `charglt_events`, which CDF needs.
-3. In Lakebase, open the project's branch, then the **Lakebase CDF** tab, and click **Start**: database `charglt`,
-   the source schema holding `charglt_events` (usually `public`), and a destination catalog and schema. The catalog
-   must not use default storage (on Free Edition, create one whose managed storage is an external location).
-   Only tables with at least one row are streamed, so run some transactions first.
-4. Create the views on the Serverless Starter Warehouse:
-   ```
-   export CHARGLT_CATALOG=<catalog> CHARGLT_SCHEMA=<schema>
-   ./databricks-sql.sh -f ddl/databricks/charglt_events.sql
-   ./databricks-sql.sh 'SELECT * FROM charglt_activity_by_minute ORDER BY txn_minute DESC LIMIT 20'
-   ```
-   `databricks-sql.sh` uses the SQL Statement Execution API with the same `databricks.properties` as
-   `lakebase-env.sh`; set `DATABRICKS_WAREHOUSE_ID` to use a warehouse other than `8682c92f3ae0c2a8`.
+```
+./databricks-job.sh --run            # upload databricks/charglt_export.py, create the job, run it once
+./databricks-job.sh --schedule on    # export every 5 minutes (--schedule off to pause)
+./databricks-sql.sh -f databricks/charglt_views.sql
+./databricks-sql.sh 'SELECT * FROM export_lag'
+```
 
-`charglt_events` grows by one row per transaction. Trim it with `SELECT PurgeChargltEvents(INTERVAL '1 hour')`.
-Each purged row appears in the history table as a `delete`, which the `charglt_transactions` view filters out.
-Adding, dropping or retyping a column of `charglt_events` makes CDF re-snapshot the whole table.
+The schedule starts paused: on Free Edition each run counts against the daily compute quota, so turn it on for a
+benchmark run and off afterwards. `databricks-sql.sh` runs SQL on the Serverless Starter Warehouse
+(`8682c92f3ae0c2a8`; set `DATABRICKS_WAREHOUSE_ID` to use another). To discard a backlog without exporting it, run
+`SELECT PurgeChargltEvents(INTERVAL '1 hour')`.
 
 Every call is a network round trip, so when running far from the endpoint use plenty of loader threads and
 benchmark workers.
@@ -208,7 +202,7 @@ hostname usercount tpms username password
 * `user_table.user_json_object` is stored as `JSONB`.
 * `user_json_cardid` is a generated column (`BIGINT`) computed from `user_json_object->>'loyaltySchemeNumber'`, automatically indexed.
 * All stored procedures are implemented as PL/pgSQL **functions** and are called with `SELECT * FROM FunctionName(...)`.
-* `SendToKafka` writes each transaction to `charglt_events` rather than Kafka; see *Streaming transactions to Delta* above.
+* `SendToKafka` writes each transaction to `charglt_events` rather than Kafka; see *Exporting transactions to Delta* above.
 
 ## Removing the schema
 

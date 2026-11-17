@@ -1,16 +1,16 @@
 #!/bin/bash
 # Runs SQL on a Databricks SQL warehouse through the Statement Execution API.
 #
-#   ./databricks-sql.sh 'SELECT COUNT(*) FROM charglt_transactions'
-#   ./databricks-sql.sh -f ddl/databricks/charglt_events.sql
+#   ./databricks-sql.sh 'SELECT COUNT(*) FROM transactions'
+#   ./databricks-sql.sh -f databricks/charglt_views.sql
 #
 # A file may hold several statements, each ending with ';' at the end of a line.
 #
 # Reads databricks.host and databricks.token from DATABRICKS_PROPERTIES (default
 # ../databricks-faadata-demo/databricks.properties; DATABRICKS_HOST and DATABRICKS_TOKEN
 # override). DATABRICKS_WAREHOUSE_ID defaults to the Serverless Starter Warehouse.
-# CHARGLT_CATALOG and CHARGLT_SCHEMA (required) are the catalog and schema that
-# Lakebase Change Data Feed writes to; unqualified names resolve there.
+# Unqualified names resolve in CHARGLT_CATALOG.CHARGLT_SCHEMA (default
+# workspace.charglt, where the charglt-export job writes).
 
 set -euo pipefail
 
@@ -20,8 +20,7 @@ prop() { grep "^$1=" "$props" 2>/dev/null | cut -d= -f2-; }
 host=${DATABRICKS_HOST:-$(prop databricks.host)}
 token=${DATABRICKS_TOKEN:-$(prop databricks.token)}
 warehouse=${DATABRICKS_WAREHOUSE_ID:-8682c92f3ae0c2a8}
-: "${CHARGLT_CATALOG:?set CHARGLT_CATALOG to the CDF destination catalog}"
-: "${CHARGLT_SCHEMA:?set CHARGLT_SCHEMA to the CDF destination schema}"
+export CHARGLT_CATALOG=${CHARGLT_CATALOG:-workspace} CHARGLT_SCHEMA=${CHARGLT_SCHEMA:-charglt}
 
 if [ -z "$host" ] || [ -z "$token" ]; then
     echo "databricks-sql.sh: no databricks.host/databricks.token in $props" >&2

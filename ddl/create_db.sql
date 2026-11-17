@@ -39,10 +39,10 @@ CREATE TABLE user_recent_transactions
 CREATE INDEX urt_del_idx ON user_recent_transactions(userid, txn_time, user_txn_id);
 CREATE INDEX urt_del_idx3 ON user_recent_transactions(txn_time);
 
--- Append-only transaction events, written by SendToKafka and streamed to Delta by
--- Lakebase Change Data Feed. CDF needs REPLICA IDENTITY FULL. event_id is a
--- surrogate key because a txn id can repeat once its user_recent_transactions row
--- has been aged out.
+-- Transaction events, written by SendToKafka and moved to Delta by the charglt-export
+-- Databricks job (databricks/charglt_export.py), which deletes the rows it has copied.
+-- event_id is a surrogate key because a txn id can repeat once its
+-- user_recent_transactions row has been aged out.
 CREATE TABLE charglt_events
 (event_id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY
 ,userid bigint not null
@@ -55,8 +55,6 @@ CREATE TABLE charglt_events
 );
 
 CREATE INDEX ce_del_idx ON charglt_events(txn_time);
-
-ALTER TABLE charglt_events REPLICA IDENTITY FULL;
 
 
 CREATE VIEW current_locks AS

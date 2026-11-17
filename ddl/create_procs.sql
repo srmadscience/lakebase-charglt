@@ -6,8 +6,8 @@
 
 -- Publishes a transaction event. The name is kept from the VoltDB original, where
 -- this wrote to Kafka. Here it copies the user_recent_transactions row the caller
--- has just inserted into the append-only charglt_events table, which Lakebase
--- Change Data Feed streams to a Delta table in Unity Catalog (see README).
+-- has just inserted into charglt_events, which the charglt-export Databricks job
+-- moves into a Delta table (see README).
 CREATE OR REPLACE FUNCTION SendToKafka(p_userid bigint, p_txnId TEXT)
 RETURNS VOID AS $$
 BEGIN
@@ -21,9 +21,8 @@ END;
 $$ LANGUAGE plpgsql;
 
 
--- Deletes events older than p_age. Lakebase CDF records each delete in the Delta
--- history table as a 'delete' row, so purge in bulk and filter on
--- _pg_change_type = 'insert' downstream.
+-- Deletes events older than p_age without exporting them, e.g. to clear a backlog
+-- when the export job is not running. The job deletes what it exports itself.
 CREATE OR REPLACE FUNCTION PurgeChargltEvents(p_age INTERVAL)
 RETURNS BIGINT AS $$
 DECLARE
