@@ -89,6 +89,31 @@ benchmark run and off afterwards. `databricks-sql.sh` runs SQL on the Serverless
 (`8682c92f3ae0c2a8`; set `DATABRICKS_WAREHOUSE_ID` to use another). To discard a backlog without exporting it, run
 `SELECT PurgeChargltEvents(INTERVAL '1 hour')`.
 
+### Applying approved credits from Databricks
+
+Credits can also flow the other way. Rows inserted into the Delta table `workspace.charglt.approved_addcredits`
+(created by `databricks/create_tables.sql`) are applied in Lakebase with `AddCredit` by the `charglt-apply-credits`
+job:
+
+```
+./databricks-sql.sh 'INSERT INTO approved_addcredits (userid, add_credit_value) VALUES (42, 100)'
+./databricks-job.sh apply-credits --run          # or --schedule on|off
+./databricks-sql.sh 'SELECT * FROM approved_addcredits ORDER BY request_id DESC LIMIT 10'
+```
+
+Each request gets a `request_id`. The job sends up to 1,000 unapplied requests (`applied_at IS NULL`) per call to
+`ApplyApprovedAddCredits`, which runs in one Postgres transaction: for each request it records `request_id` in
+`approved_addcredit_log` and calls `AddCredit`, so the credits and the log commit or roll back together. A
+`request_id` already in the log is not applied again, so a batch resent after a failure (for example, if the job
+stops after Postgres commits but before Delta is updated) changes nothing. The job then writes each request's
+`status_byte`, `status_string` and `applied_at` back to Delta: 56 means added, 50 means the user does not exist.
+Requests that fail are not retried.
+
+`AddCredit`'s own duplicate check only covers about a second (`user_recent_transactions` is aged out), which is why
+the log is needed. Don't recreate `approved_addcredits` without also clearing `approved_addcredit_log`: its
+`request_id` would restart at 1, and `ApplyApprovedAddCredits` rejects a known `request_id` with a different user
+or amount.
+
 Every call is a network round trip, so when running far from the endpoint use plenty of loader threads and
 benchmark workers.
 

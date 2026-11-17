@@ -108,3 +108,15 @@ FROM user_recent_transactions;
 CREATE VIEW cluster_users AS
 SELECT COUNT(*) AS how_many
 FROM user_table;
+
+-- One row per approved credit applied from the Databricks approved_addcredits table
+-- (see ApplyApprovedAddCredits). request_id is that table's key, so a request that is
+-- already here has been applied and is never applied again.
+CREATE TABLE approved_addcredit_log
+(request_id bigint not null primary key
+,userid bigint not null
+,add_credit_value bigint not null
+,status_byte integer
+,status_string text
+,applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP not null
+);

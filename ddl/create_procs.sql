@@ -368,3 +368,53 @@ BEGIN
   RETURN QUERY SELECT l_sb, l_ss, l_spendable, NULL::BIGINT;
 END;
 $$ LANGUAGE plpgsql;
+
+
+-- Applies approved credits from the Databricks approved_addcredits table. For each
+-- request it claims request_id in approved_addcredit_log and, only if the claim is new,
+-- calls AddCredit and records its status. Call it inside one transaction per batch: the
+-- credits and the log rows commit or roll back together, and a batch resent after a
+-- failure applies nothing twice. Returns the log row for every request in the batch,
+-- including ones applied by an earlier call. A request_id already logged with a
+-- different user or amount (e.g. approved_addcredits was recreated and its ids restarted)
+-- raises an error, which rolls back the whole batch.
+CREATE OR REPLACE FUNCTION ApplyApprovedAddCredits(p_request_ids BIGINT[], p_userids BIGINT[],
+                                                    p_amounts BIGINT[])
+RETURNS TABLE(l_request_id BIGINT, l_status_byte INTEGER, l_status_string TEXT,
+              l_applied_at TIMESTAMP) AS $$
+DECLARE
+  l_claimed BIGINT;
+  l_result RECORD;
+BEGIN
+  SELECT r.id INTO l_claimed
+  FROM UNNEST(p_request_ids, p_userids, p_amounts) AS r(id, userid, amount)
+  JOIN approved_addcredit_log acl ON acl.request_id = r.id
+  WHERE acl.userid <> r.userid OR acl.add_credit_value <> r.amount
+  LIMIT 1;
+  IF l_claimed IS NOT NULL THEN
+    RAISE EXCEPTION 'request_id % was already applied with a different userid or amount', l_claimed;
+  END IF;
+
+  FOR i IN 1 .. COALESCE(array_length(p_request_ids, 1), 0) LOOP
+    l_claimed := NULL;
+    INSERT INTO approved_addcredit_log (request_id, userid, add_credit_value)
+    VALUES (p_request_ids[i], p_userids[i], p_amounts[i])
+    ON CONFLICT (request_id) DO NOTHING
+    RETURNING request_id INTO l_claimed;
+
+    IF l_claimed IS NOT NULL THEN
+      SELECT * INTO l_result
+      FROM AddCredit(p_userids[i], p_amounts[i], 'approved-addcredit-' || p_request_ids[i]);
+
+      UPDATE approved_addcredit_log
+      SET status_byte = l_result.l_status_byte, status_string = l_result.l_status_string
+      WHERE request_id = l_claimed;
+    END IF;
+  END LOOP;
+
+  RETURN QUERY
+    SELECT acl.request_id, acl.status_byte, acl.status_string, acl.applied_at
+    FROM approved_addcredit_log acl
+    WHERE acl.request_id = ANY(p_request_ids);
+END;
+$$ LANGUAGE plpgsql;
