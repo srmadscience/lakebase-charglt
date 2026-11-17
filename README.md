@@ -148,6 +148,16 @@ Loading 10,000 users (`CreateChargingDemoData`):
 | 16 | 6,018 | 99 | 588 / 1,703 | 571 / 1,691 |
 | 100 | 34,698 | 569 | 428 / 1,683 | 417 / 1,658 |
 | 150 | 50,998 | 836 | 421 / 1,634 | 404 / 1,614 |
+
+A longer run, 15 minutes (900 seconds) with 150 workers and the same settings otherwise, held the same rate.
+Opening the 150 connections took a further 2.5 minutes, which isn't included in the timing:
+
+| Transactions | TPS | ReportQuotaUsage median / p95 / p99 (ms) | AddCredit median / p95 / p99 (ms) |
+|---|---|---|---|
+| 755,669 | 834 | 441 / 1,240 / 1,665 | 444 / 1,232 / 1,652 |
+
+The run wrote 722,794 events to `charglt_events`. With `charglt-export` on its 5-minute schedule, one run exported
+617,669 of them to Delta in 93 seconds and the next run exported the rest.
 | 200 | 71,544 | 1,173 | 445 / 1,616 | 443 / 1,674 |
 
 Latencies are measured at the client and include time waiting in the client's queue (a median of 443 ms with
