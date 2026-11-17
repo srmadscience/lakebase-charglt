@@ -26,22 +26,24 @@ COMMENT 'charglt transactions exported from Lakebase charglt_events';
 -- (databricks/charglt_apply_credits.py). Add a request with:
 --   INSERT INTO approved_addcredits (userid, add_credit_value) VALUES (42, 100);
 -- request_id identifies the request to Lakebase, so it is applied at most once. The job
--- fills in the status columns: applied_at IS NULL means not yet applied, and status_byte
--- is AddCredit's (56 = added, 50 = user does not exist).
--- Row tracking and deletion vectors give row-level concurrency, so inserts and the job's
--- status updates don't conflict.
+-- only reads this table (its table-update trigger watches it, so writing here would start
+-- another run); outcomes go to approved_addcredit_results.
 CREATE TABLE IF NOT EXISTS approved_addcredits (
   request_id BIGINT GENERATED ALWAYS AS IDENTITY,
   userid BIGINT NOT NULL,
   add_credit_value BIGINT NOT NULL,
-  approved_at TIMESTAMP DEFAULT current_timestamp(),
+  approved_at TIMESTAMP DEFAULT current_timestamp()
+)
+TBLPROPERTIES ('delta.feature.allowColumnDefaults' = 'supported')
+COMMENT 'Approved credits for charglt users, applied in Lakebase by AddCredit';
+
+-- One row per applied request, written by the charglt-apply-credits job from Lakebase's
+-- approved_addcredit_log. status_byte is AddCredit's: 56 = added, 50 = user does not exist.
+-- A request with no row here has not been applied yet.
+CREATE TABLE IF NOT EXISTS approved_addcredit_results (
+  request_id BIGINT NOT NULL,
   status_byte INT,
   status_string STRING,
   applied_at TIMESTAMP
 )
-TBLPROPERTIES (
-  'delta.feature.allowColumnDefaults' = 'supported',
-  'delta.enableRowTracking' = 'true',
-  'delta.enableDeletionVectors' = 'true'
-)
-COMMENT 'Approved credits for charglt users, applied in Lakebase by AddCredit';
+COMMENT 'Outcome of each approved_addcredits request';

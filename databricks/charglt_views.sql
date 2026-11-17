@@ -29,3 +29,10 @@ SELECT userid,
        SUM(spent_amount) AS spent_amount
 FROM transactions
 GROUP BY userid, DATE_TRUNC('HOUR', txn_time);
+
+-- Each approved credit with its outcome; applied_at IS NULL means not applied yet.
+CREATE OR REPLACE VIEW approved_addcredits_status AS
+SELECT a.request_id, a.userid, a.add_credit_value, a.approved_at,
+       r.status_byte, r.status_string, r.applied_at
+FROM approved_addcredits a
+LEFT JOIN approved_addcredit_results r ON r.request_id = a.request_id;

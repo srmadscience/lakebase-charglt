@@ -1,16 +1,21 @@
 #!/bin/bash
 # Deploys a charglt Databricks job: uploads its notebook from databricks/ and creates (or
-# updates) a serverless job that runs it every 5 minutes.
+# updates) a serverless job that runs it.
 #
 #   export          charglt-export: databricks/charglt_export.py moves charglt_events
-#                   from Lakebase into workspace.charglt.transactions (the default)
+#                   from Lakebase into workspace.charglt.transactions every 5 minutes
+#                   (the default job)
 #   apply-credits   charglt-apply-credits: databricks/charglt_apply_credits.py applies
-#                   workspace.charglt.approved_addcredits in Lakebase with AddCredit
+#                   workspace.charglt.approved_addcredits in Lakebase with AddCredit,
+#                   started by a table-update trigger when that table changes
 #
-#   ./databricks-job.sh [job]                 deploy; the schedule stays paused
-#   ./databricks-job.sh [job] --run           deploy and run once now, waiting for the result
-#   ./databricks-job.sh [job] --schedule on   deploy and unpause the 5-minute schedule
-#   ./databricks-job.sh [job] --schedule off  deploy and pause it again
+#   ./databricks-job.sh [job]            deploy; a paused schedule or trigger stays paused
+#   ./databricks-job.sh [job] --run      deploy and run once now, waiting for the result
+#   ./databricks-job.sh [job] --start on   deploy and unpause the schedule (export) or
+#                                          trigger (apply-credits)
+#   ./databricks-job.sh [job] --start off  deploy and pause it
+#
+# --schedule and --trigger are accepted as synonyms for --start.
 #
 # Reads databricks.host and databricks.token from DATABRICKS_PROPERTIES (default
 # ../databricks-faadata-demo/databricks.properties; DATABRICKS_HOST and DATABRICKS_TOKEN
@@ -36,8 +41,8 @@ while [ $# -gt 0 ]; do
     case $1 in
         export|apply-credits) JOB_KEY=$1 ;;
         --run) JOB_RUN=yes ;;
-        --schedule) JOB_SCHEDULE=${2:?--schedule on|off}; shift ;;
-        *) echo "usage: databricks-job.sh [export|apply-credits] [--run] [--schedule on|off]" >&2; exit 1 ;;
+        --start|--schedule|--trigger) JOB_SCHEDULE=${2:?$1 on|off}; shift ;;
+        *) echo "usage: databricks-job.sh [export|apply-credits] [--run] [--start on|off]" >&2; exit 1 ;;
     esac
     shift
 done
@@ -60,6 +65,18 @@ JOBS = {
                       {"source_table": env("CHARGLT_CREDITS_TABLE", "workspace.charglt.approved_addcredits")}),
 }
 JOB_NAME, notebook_name, job_params = JOBS[os.environ["JOB_KEY"]]
+
+# How each job starts: export on a cron schedule; apply-credits when approved_addcredits
+# changes (waiting until it has been quiet for 60 seconds, at most one run a minute).
+def start_settings(pause):
+    if os.environ["JOB_KEY"] == "export":
+        return "schedule", {"quartz_cron_expression": "0 0/5 * * * ?", "timezone_id": "UTC",
+                            "pause_status": pause}, "schedule every 5 minutes"
+    table = job_params["source_table"]
+    return "trigger", {"pause_status": pause, "table_update": {
+        "table_names": [table], "condition": "ANY_UPDATED",
+        "min_time_between_triggers_seconds": 60, "wait_after_last_change_seconds": 60,
+    }}, f"trigger on updates to {table}"
 
 def call(method, path, body=None):
     req = urllib.request.Request(
@@ -86,13 +103,15 @@ print(f"Notebook: {notebook}")
 jobs = call("GET", f"/2.2/jobs/list?name={JOB_NAME}").get("jobs", [])
 existing = jobs[0] if jobs else None
 
+start_key = start_settings("PAUSED")[0]
 schedule = os.environ["JOB_SCHEDULE"]
 if schedule:
     pause = {"on": "UNPAUSED", "off": "PAUSED"}[schedule]
 elif existing:
-    pause = existing["settings"].get("schedule", {}).get("pause_status", "PAUSED")
+    pause = existing["settings"].get(start_key, {}).get("pause_status", "PAUSED")
 else:
     pause = "PAUSED"
+start_key, start, start_desc = start_settings(pause)
 
 settings = {
     "name": JOB_NAME,
@@ -107,7 +126,7 @@ settings = {
             "base_parameters": {**lakebase, **job_params},
         },
     }],
-    "schedule": {"quartz_cron_expression": "0 0/5 * * * ?", "timezone_id": "UTC", "pause_status": pause},
+    start_key: start,
 }
 
 if existing:
@@ -115,7 +134,7 @@ if existing:
     call("POST", "/2.2/jobs/reset", {"job_id": job_id, "new_settings": settings})
 else:
     job_id = call("POST", "/2.2/jobs/create", settings)["job_id"]
-print(f"Job: {JOB_NAME} ({job_id}), schedule every 5 minutes, {pause.lower()}")
+print(f"Job: {JOB_NAME} ({job_id}), {start_desc}, {pause.lower()}")
 print(f"     https://{host}/jobs/{job_id}")
 
 if os.environ["JOB_RUN"] == "yes":

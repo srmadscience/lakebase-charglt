@@ -79,7 +79,7 @@ one. The job logs in to Lakebase the same way `lakebase-env.sh` does, as the job
 ```
 ./databricks-sql.sh -f databricks/create_tables.sql   # create workspace.charglt.transactions
 ./databricks-job.sh --run            # upload databricks/charglt_export.py, create the job, run it once
-./databricks-job.sh --schedule on    # export every 5 minutes (--schedule off to pause)
+./databricks-job.sh --start on       # export every 5 minutes (--start off to pause)
 ./databricks-sql.sh -f databricks/charglt_views.sql
 ./databricks-sql.sh 'SELECT * FROM export_lag'
 ```
@@ -93,26 +93,33 @@ benchmark run and off afterwards. `databricks-sql.sh` runs SQL on the Serverless
 
 Credits can also flow the other way. Rows inserted into the Delta table `workspace.charglt.approved_addcredits`
 (created by `databricks/create_tables.sql`) are applied in Lakebase with `AddCredit` by the `charglt-apply-credits`
-job:
+job, which a table-update trigger starts when that table changes:
 
 ```
+./databricks-job.sh apply-credits --start on     # enable the trigger (--start off to pause; --run to run once)
 ./databricks-sql.sh 'INSERT INTO approved_addcredits (userid, add_credit_value) VALUES (42, 100)'
-./databricks-job.sh apply-credits --run          # or --schedule on|off
-./databricks-sql.sh 'SELECT * FROM approved_addcredits ORDER BY request_id DESC LIMIT 10'
+./databricks-sql.sh 'SELECT * FROM approved_addcredits_status ORDER BY request_id DESC LIMIT 10'
 ```
 
-Each request gets a `request_id`. The job sends up to 1,000 unapplied requests (`applied_at IS NULL`) per call to
+The trigger waits until the table has been quiet for 60 seconds and starts at most one run a minute; in testing a
+run started about a minute after an insert. Changes made in the first minute or so after the trigger is enabled can
+be missed; they are picked up by the next run (each run applies everything pending), or use `--run`. Watching the
+table costs nothing; only the runs use compute. The job only reads `approved_addcredits` and writes outcomes to
+`approved_addcredit_results`, so its own writes don't start another run. The `approved_addcredits_status` view
+joins the two; a request with no `applied_at` has not been applied yet.
+
+Each request gets a `request_id`. The job sends up to 1,000 unapplied requests per call to
 `ApplyApprovedAddCredits`, which runs in one Postgres transaction: for each request it records `request_id` in
 `approved_addcredit_log` and calls `AddCredit`, so the credits and the log commit or roll back together. A
 `request_id` already in the log is not applied again, so a batch resent after a failure (for example, if the job
 stops after Postgres commits but before Delta is updated) changes nothing. The job then writes each request's
-`status_byte`, `status_string` and `applied_at` back to Delta: 56 means added, 50 means the user does not exist.
-Requests that fail are not retried.
+`status_byte`, `status_string` and `applied_at` to `approved_addcredit_results`: 56 means added, 50 means the user
+does not exist. Requests that fail are not retried.
 
 `AddCredit`'s own duplicate check only covers about a second (`user_recent_transactions` is aged out), which is why
-the log is needed. Don't recreate `approved_addcredits` without also clearing `approved_addcredit_log`: its
-`request_id` would restart at 1, and `ApplyApprovedAddCredits` rejects a known `request_id` with a different user
-or amount.
+the log is needed. Don't recreate `approved_addcredits` without also clearing `approved_addcredit_log` and
+`approved_addcredit_results`: its `request_id` would restart at 1, and `ApplyApprovedAddCredits` rejects a known
+`request_id` with a different user or amount.
 
 Every call is a network round trip, so when running far from the endpoint use plenty of loader threads and
 benchmark workers.

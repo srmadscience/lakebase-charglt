@@ -7,11 +7,14 @@
 # MAGIC Each batch goes to Lakebase as one call to `ApplyApprovedAddCredits`, in one Postgres
 # MAGIC transaction: every credit in the batch is applied and logged in `approved_addcredit_log`, or
 # MAGIC none is. The log is keyed on `request_id`, so a request is never applied twice. The statuses
-# MAGIC it returns are then merged back into `approved_addcredits`. If a run fails after Postgres has
+# MAGIC it returns are then merged into `approved_addcredit_results`. If a run fails after Postgres has
 # MAGIC committed but before that merge, the next run sends the batch again, Postgres skips it, and
 # MAGIC the merge writes the statuses from the log.
 # MAGIC
-# MAGIC Deployed and scheduled by `databricks-job.sh apply-credits`.
+# MAGIC The job only reads `approved_addcredits`: its table-update trigger watches that table, so a
+# MAGIC write there would start another run.
+# MAGIC
+# MAGIC Deployed and triggered by `databricks-job.sh apply-credits`.
 
 # COMMAND ----------
 
@@ -24,18 +27,21 @@ dbutils.widgets.text("lakebase_branch", "production")
 dbutils.widgets.text("lakebase_endpoint", "primary")
 dbutils.widgets.text("database", "charglt")
 dbutils.widgets.text("source_table", "workspace.charglt.approved_addcredits")
+dbutils.widgets.text("results_table", "workspace.charglt.approved_addcredit_results")
 dbutils.widgets.text("batch_size", "1000")
 dbutils.widgets.text("max_seconds", "600")
 
 arg = dbutils.widgets.get
 endpoint = f"projects/{arg('lakebase_project')}/branches/{arg('lakebase_branch')}/endpoints/{arg('lakebase_endpoint')}"
 source = arg("source_table")
+results_table = arg("results_table")
 batch_size = int(arg("batch_size"))
 max_seconds = int(arg("max_seconds"))
 
-# The table is created by databricks/create_tables.sql.
-if not spark.catalog.tableExists(source):
-    raise RuntimeError(f"{source} does not exist: run ./databricks-sql.sh -f databricks/create_tables.sql")
+# The tables are created by databricks/create_tables.sql.
+for table in (source, results_table):
+    if not spark.catalog.tableExists(table):
+        raise RuntimeError(f"{table} does not exist: run ./databricks-sql.sh -f databricks/create_tables.sql")
 
 # COMMAND ----------
 
@@ -63,13 +69,15 @@ result_schema = StructType([
 # applied_at in the log is a Postgres TIMESTAMP without time zone, in Lakebase's UTC.
 spark.conf.set("spark.sql.session.timeZone", "UTC")
 merge = f"""
-MERGE INTO {source} t
+MERGE INTO {results_table} t
 USING charglt_credit_results s
 ON t.request_id = s.request_id
 WHEN MATCHED THEN UPDATE SET
   status_byte = s.status_byte,
   status_string = s.status_string,
   applied_at = CAST(s.applied_at AS TIMESTAMP)
+WHEN NOT MATCHED THEN INSERT (request_id, status_byte, status_string, applied_at)
+  VALUES (s.request_id, s.status_byte, s.status_string, CAST(s.applied_at AS TIMESTAMP))
 """
 
 started = time.monotonic()
@@ -78,8 +86,9 @@ with psycopg.connect(host=pg_host, dbname=arg("database"), user=pg_user,
                      password=pg_password, sslmode="require", autocommit=True) as conn:
     while time.monotonic() - started < max_seconds:
         pending = spark.sql(f"""
-            SELECT request_id, userid, add_credit_value FROM {source}
-            WHERE applied_at IS NULL ORDER BY request_id LIMIT {batch_size}
+            SELECT a.request_id, a.userid, a.add_credit_value FROM {source} a
+            LEFT ANTI JOIN {results_table} r ON r.request_id = a.request_id
+            ORDER BY a.request_id LIMIT {batch_size}
         """).collect()
         if not pending:
             break
