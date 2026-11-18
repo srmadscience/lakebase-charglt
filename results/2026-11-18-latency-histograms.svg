@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" font-family="Inter, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Latency histograms, Lakebase and RDS side by side">
+<rect width="920" height="640" fill="#fcfcfb"/>
+<text x="64.0" y="24" font-size="15" font-weight="600" fill="#0b0b0b"><tspan fill="#2a78d6">■</tspan> Lakebase (Free Edition, 1 CU)</text>
+<text x="504.0" y="24" font-size="15" font-weight="600" fill="#0b0b0b"><tspan fill="#eb6834">■</tspan> RDS PostgreSQL 17 (db.m7g.large)</text>
+<g transform="translate(64.0,64.0)">
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="229.0" font-size="11" text-anchor="end" fill="#52514e">0%</text>
+<line x1="0" x2="400.0" y1="187.5" y2="187.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="191.5" font-size="11" text-anchor="end" fill="#52514e">5%</text>
+<line x1="0" x2="400.0" y1="150.0" y2="150.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="154.0" font-size="11" text-anchor="end" fill="#52514e">10%</text>
+<line x1="0" x2="400.0" y1="112.5" y2="112.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="116.5" font-size="11" text-anchor="end" fill="#52514e">15%</text>
+<line x1="0" x2="400.0" y1="75.0" y2="75.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="79.0" font-size="11" text-anchor="end" fill="#52514e">20%</text>
+<line x1="0" x2="400.0" y1="37.5" y2="37.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="41.5" font-size="11" text-anchor="end" fill="#52514e">25%</text>
+<line x1="0" x2="400.0" y1="0.0" y2="0.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="4.0" font-size="11" text-anchor="end" fill="#52514e">30%</text>
+<line x1="33.4" x2="33.4" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="33.4" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1 ms</text>
+<line x1="144.5" x2="144.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="144.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">10 ms</text>
+<line x1="255.5" x2="255.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="255.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">100 ms</text>
+<line x1="366.6" x2="366.6" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="366.6" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1,000 ms</text>
+<rect x="111.5" y="224.0" width="7.8" height="1.0" rx="1" fill="#2a78d6"><title>5 ms: 1 calls (0.00%)</title></rect>
+<rect x="120.3" y="224.0" width="6.4" height="1.0" rx="1" fill="#2a78d6"><title>6 ms: 20 calls (0.00%)</title></rect>
+<rect x="127.8" y="224.0" width="5.4" height="1.0" rx="1" fill="#2a78d6"><title>7 ms: 59 calls (0.00%)</title></rect>
+<rect x="134.2" y="224.0" width="4.7" height="1.0" rx="1" fill="#2a78d6"><title>8 ms: 159 calls (0.01%)</title></rect>
+<rect x="139.9" y="224.0" width="4.1" height="1.0" rx="1" fill="#2a78d6"><title>9 ms: 377 calls (0.02%)</title></rect>
+<rect x="145.0" y="224.0" width="7.8" height="1.0" rx="1" fill="#2a78d6"><title>10–12 ms: 1,605 calls (0.07%)</title></rect>
+<rect x="153.8" y="223.0" width="9.8" height="2.0" rx="1" fill="#2a78d6"><title>12–15 ms: 5,868 calls (0.25%)</title></rect>
+<rect x="164.5" y="219.5" width="12.9" height="5.5" rx="1" fill="#2a78d6"><title>15–20 ms: 21,174 calls (0.91%)</title></rect>
+<rect x="178.4" y="211.9" width="9.8" height="13.1" rx="1" fill="#2a78d6"><title>20–25 ms: 39,269 calls (1.70%)</title></rect>
+<rect x="189.2" y="198.8" width="7.8" height="26.2" rx="1" fill="#2a78d6"><title>25–30 ms: 64,111 calls (2.77%)</title></rect>
+<rect x="198.0" y="173.0" width="12.9" height="52.0" rx="1" fill="#2a78d6"><title>30–40 ms: 200,434 calls (8.66%)</title></rect>
+<rect x="211.8" y="152.4" width="9.8" height="72.6" rx="1" fill="#2a78d6"><title>40–50 ms: 217,264 calls (9.38%)</title></rect>
+<rect x="222.6" y="160.1" width="7.8" height="64.9" rx="1" fill="#2a78d6"><title>50–60 ms: 158,615 calls (6.85%)</title></rect>
+<rect x="231.4" y="160.0" width="12.9" height="65.0" rx="1" fill="#2a78d6"><title>60–80 ms: 250,588 calls (10.82%)</title></rect>
+<rect x="245.3" y="153.8" width="9.8" height="71.2" rx="1" fill="#2a78d6"><title>80–100 ms: 212,959 calls (9.20%)</title></rect>
+<rect x="256.0" y="153.3" width="7.8" height="71.7" rx="1" fill="#2a78d6"><title>100–120 ms: 175,182 calls (7.57%)</title></rect>
+<rect x="264.8" y="153.4" width="9.8" height="71.6" rx="1" fill="#2a78d6"><title>120–150 ms: 214,117 calls (9.25%)</title></rect>
+<rect x="275.6" y="157.6" width="12.9" height="67.4" rx="1" fill="#2a78d6"><title>150–200 ms: 259,950 calls (11.23%)</title></rect>
+<rect x="289.5" y="166.0" width="9.8" height="59.0" rx="1" fill="#2a78d6"><title>200–250 ms: 176,449 calls (7.62%)</title></rect>
+<rect x="300.2" y="176.7" width="7.8" height="48.3" rx="1" fill="#2a78d6"><title>250–300 ms: 117,968 calls (5.10%)</title></rect>
+<rect x="309.0" y="191.8" width="12.9" height="33.2" rx="1" fill="#2a78d6"><title>300–400 ms: 127,976 calls (5.53%)</title></rect>
+<rect x="322.9" y="208.0" width="9.8" height="17.0" rx="1" fill="#2a78d6"><title>400–500 ms: 50,819 calls (2.20%)</title></rect>
+<rect x="333.6" y="218.7" width="7.8" height="6.3" rx="1" fill="#2a78d6"><title>500–600 ms: 15,436 calls (0.67%)</title></rect>
+<rect x="342.4" y="223.9" width="12.9" height="1.1" rx="1" fill="#2a78d6"><title>600–800 ms: 4,324 calls (0.19%)</title></rect>
+<rect x="356.3" y="224.0" width="9.8" height="1.0" rx="1" fill="#2a78d6"><title>800–1000 ms: 332 calls (0.01%)</title></rect>
+<rect x="367.1" y="224.0" width="7.8" height="1.0" rx="1" fill="#2a78d6"><title>1000–1200 ms: 14 calls (0.00%)</title></rect>
+<rect x="375.9" y="224.0" width="9.8" height="1.0" rx="1" fill="#2a78d6"><title>1200–1500 ms: 12 calls (0.00%)</title></rect>
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#52514e" stroke-width="1"/>
+<line x1="254.8" x2="254.8" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="250.8" y="12" font-size="11" text-anchor="end" fill="#0b0b0b">median 98 ms</text>
+<line x1="332.1" x2="332.1" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="328.1" y="26" font-size="11" text-anchor="end" fill="#0b0b0b">p99 489 ms</text>
+<text x="0" y="-10" font-size="13" font-weight="600" fill="#0b0b0b">ReportQuotaUsage<tspan font-weight="400" fill="#52514e">  2,315,082 calls</tspan></text>
+</g>
+<g transform="translate(504.0,64.0)">
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="187.5" y2="187.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="150.0" y2="150.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="112.5" y2="112.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="75.0" y2="75.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="37.5" y2="37.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="0.0" y2="0.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="33.4" x2="33.4" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="33.4" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1 ms</text>
+<line x1="144.5" x2="144.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="144.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">10 ms</text>
+<line x1="255.5" x2="255.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="255.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">100 ms</text>
+<line x1="366.6" x2="366.6" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="366.6" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1,000 ms</text>
+<rect x="0.5" y="224.0" width="32.4" height="1.0" rx="1" fill="#eb6834"><title>&lt; 1 ms: 7,774 calls (0.22%)</title></rect>
+<rect x="33.9" y="183.0" width="32.4" height="42.0" rx="1" fill="#eb6834"><title>1 ms: 601,517 calls (16.85%)</title></rect>
+<rect x="67.4" y="5.9" width="18.6" height="219.1" rx="1" fill="#eb6834"><title>2 ms: 1,837,194 calls (51.45%)</title></rect>
+<rect x="86.9" y="151.8" width="12.9" height="73.2" rx="1" fill="#eb6834"><title>3 ms: 435,684 calls (12.20%)</title></rect>
+<rect x="100.8" y="201.3" width="9.8" height="23.7" rx="1" fill="#eb6834"><title>4 ms: 109,311 calls (3.06%)</title></rect>
+<rect x="111.5" y="211.0" width="7.8" height="14.0" rx="1" fill="#eb6834"><title>5 ms: 52,821 calls (1.48%)</title></rect>
+<rect x="120.3" y="214.2" width="6.4" height="10.8" rx="1" fill="#eb6834"><title>6 ms: 34,510 calls (0.97%)</title></rect>
+<rect x="127.8" y="215.3" width="5.4" height="9.7" rx="1" fill="#eb6834"><title>7 ms: 26,848 calls (0.75%)</title></rect>
+<rect x="134.2" y="215.7" width="4.7" height="9.3" rx="1" fill="#eb6834"><title>8 ms: 22,656 calls (0.63%)</title></rect>
+<rect x="139.9" y="215.9" width="4.1" height="9.1" rx="1" fill="#eb6834"><title>9 ms: 19,878 calls (0.56%)</title></rect>
+<rect x="145.0" y="215.8" width="7.8" height="9.2" rx="1" fill="#eb6834"><title>10–12 ms: 34,496 calls (0.97%)</title></rect>
+<rect x="153.8" y="215.5" width="9.8" height="9.5" rx="1" fill="#eb6834"><title>12–15 ms: 43,748 calls (1.23%)</title></rect>
+<rect x="164.5" y="215.2" width="12.9" height="9.8" rx="1" fill="#eb6834"><title>15–20 ms: 58,119 calls (1.63%)</title></rect>
+<rect x="178.4" y="215.7" width="9.8" height="9.3" rx="1" fill="#eb6834"><title>20–25 ms: 43,134 calls (1.21%)</title></rect>
+<rect x="189.2" y="216.0" width="7.8" height="9.0" rx="1" fill="#eb6834"><title>25–30 ms: 33,811 calls (0.95%)</title></rect>
+<rect x="198.0" y="216.8" width="12.9" height="8.2" rx="1" fill="#eb6834"><title>30–40 ms: 48,539 calls (1.36%)</title></rect>
+<rect x="211.8" y="217.8" width="9.8" height="7.2" rx="1" fill="#eb6834"><title>40–50 ms: 33,377 calls (0.93%)</title></rect>
+<rect x="222.6" y="218.6" width="7.8" height="6.4" rx="1" fill="#eb6834"><title>50–60 ms: 23,993 calls (0.67%)</title></rect>
+<rect x="231.4" y="219.5" width="12.9" height="5.5" rx="1" fill="#eb6834"><title>60–80 ms: 32,712 calls (0.92%)</title></rect>
+<rect x="245.3" y="220.4" width="9.8" height="4.6" rx="1" fill="#eb6834"><title>80–100 ms: 21,354 calls (0.60%)</title></rect>
+<rect x="256.0" y="221.0" width="7.8" height="4.0" rx="1" fill="#eb6834"><title>100–120 ms: 15,169 calls (0.42%)</title></rect>
+<rect x="264.8" y="221.6" width="9.8" height="3.4" rx="1" fill="#eb6834"><title>120–150 ms: 15,845 calls (0.44%)</title></rect>
+<rect x="275.6" y="223.0" width="12.9" height="2.0" rx="1" fill="#eb6834"><title>150–200 ms: 11,811 calls (0.33%)</title></rect>
+<rect x="289.5" y="224.0" width="9.8" height="1.0" rx="1" fill="#eb6834"><title>200–250 ms: 3,900 calls (0.11%)</title></rect>
+<rect x="300.2" y="224.0" width="7.8" height="1.0" rx="1" fill="#eb6834"><title>250–300 ms: 1,449 calls (0.04%)</title></rect>
+<rect x="309.0" y="224.0" width="12.9" height="1.0" rx="1" fill="#eb6834"><title>300–400 ms: 1,049 calls (0.03%)</title></rect>
+<rect x="322.9" y="224.0" width="9.8" height="1.0" rx="1" fill="#eb6834"><title>400–500 ms: 171 calls (0.00%)</title></rect>
+<rect x="333.6" y="224.0" width="7.8" height="1.0" rx="1" fill="#eb6834"><title>500–600 ms: 13 calls (0.00%)</title></rect>
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#52514e" stroke-width="1"/>
+<line x1="77.6" x2="77.6" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="81.6" y="12" font-size="11" text-anchor="start" fill="#0b0b0b">median 2 ms</text>
+<line x1="263.3" x2="263.3" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="267.3" y="26" font-size="11" text-anchor="start" fill="#0b0b0b">p99 117 ms</text>
+<text x="0" y="-10" font-size="13" font-weight="600" fill="#0b0b0b">ReportQuotaUsage<tspan font-weight="400" fill="#52514e">  3,570,883 calls</tspan></text>
+</g>
+<g transform="translate(64.0,359.0)">
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="229.0" font-size="11" text-anchor="end" fill="#52514e">0%</text>
+<line x1="0" x2="400.0" y1="187.5" y2="187.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="191.5" font-size="11" text-anchor="end" fill="#52514e">5%</text>
+<line x1="0" x2="400.0" y1="150.0" y2="150.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="154.0" font-size="11" text-anchor="end" fill="#52514e">10%</text>
+<line x1="0" x2="400.0" y1="112.5" y2="112.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="116.5" font-size="11" text-anchor="end" fill="#52514e">15%</text>
+<line x1="0" x2="400.0" y1="75.0" y2="75.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="79.0" font-size="11" text-anchor="end" fill="#52514e">20%</text>
+<line x1="0" x2="400.0" y1="37.5" y2="37.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="41.5" font-size="11" text-anchor="end" fill="#52514e">25%</text>
+<line x1="0" x2="400.0" y1="0.0" y2="0.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="-8" y="4.0" font-size="11" text-anchor="end" fill="#52514e">30%</text>
+<line x1="33.4" x2="33.4" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="33.4" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1 ms</text>
+<line x1="144.5" x2="144.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="144.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">10 ms</text>
+<line x1="255.5" x2="255.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="255.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">100 ms</text>
+<line x1="366.6" x2="366.6" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="366.6" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1,000 ms</text>
+<rect x="127.8" y="224.0" width="5.4" height="1.0" rx="1" fill="#2a78d6"><title>7 ms: 3 calls (0.00%)</title></rect>
+<rect x="134.2" y="224.0" width="4.7" height="1.0" rx="1" fill="#2a78d6"><title>8 ms: 5 calls (0.01%)</title></rect>
+<rect x="139.9" y="224.0" width="4.1" height="1.0" rx="1" fill="#2a78d6"><title>9 ms: 2 calls (0.00%)</title></rect>
+<rect x="145.0" y="224.0" width="7.8" height="1.0" rx="1" fill="#2a78d6"><title>10–12 ms: 49 calls (0.07%)</title></rect>
+<rect x="153.8" y="223.3" width="9.8" height="1.7" rx="1" fill="#2a78d6"><title>12–15 ms: 151 calls (0.22%)</title></rect>
+<rect x="164.5" y="219.8" width="12.9" height="5.2" rx="1" fill="#2a78d6"><title>15–20 ms: 588 calls (0.86%)</title></rect>
+<rect x="178.4" y="211.7" width="9.8" height="13.3" rx="1" fill="#2a78d6"><title>20–25 ms: 1,168 calls (1.72%)</title></rect>
+<rect x="189.2" y="197.0" width="7.8" height="28.0" rx="1" fill="#2a78d6"><title>25–30 ms: 2,010 calls (2.96%)</title></rect>
+<rect x="198.0" y="172.7" width="12.9" height="52.3" rx="1" fill="#2a78d6"><title>30–40 ms: 5,927 calls (8.72%)</title></rect>
+<rect x="211.8" y="154.4" width="9.8" height="70.6" rx="1" fill="#2a78d6"><title>40–50 ms: 6,206 calls (9.13%)</title></rect>
+<rect x="222.6" y="159.6" width="7.8" height="65.4" rx="1" fill="#2a78d6"><title>50–60 ms: 4,692 calls (6.90%)</title></rect>
+<rect x="231.4" y="160.2" width="12.9" height="64.8" rx="1" fill="#2a78d6"><title>60–80 ms: 7,337 calls (10.79%)</title></rect>
+<rect x="245.3" y="154.1" width="9.8" height="70.9" rx="1" fill="#2a78d6"><title>80–100 ms: 6,233 calls (9.17%)</title></rect>
+<rect x="256.0" y="153.2" width="7.8" height="71.8" rx="1" fill="#2a78d6"><title>100–120 ms: 5,157 calls (7.58%)</title></rect>
+<rect x="264.8" y="152.7" width="9.8" height="72.3" rx="1" fill="#2a78d6"><title>120–150 ms: 6,353 calls (9.34%)</title></rect>
+<rect x="275.6" y="156.5" width="12.9" height="68.5" rx="1" fill="#2a78d6"><title>150–200 ms: 7,756 calls (11.41%)</title></rect>
+<rect x="289.5" y="165.6" width="9.8" height="59.4" rx="1" fill="#2a78d6"><title>200–250 ms: 5,220 calls (7.68%)</title></rect>
+<rect x="300.2" y="178.3" width="7.8" height="46.7" rx="1" fill="#2a78d6"><title>250–300 ms: 3,349 calls (4.93%)</title></rect>
+<rect x="309.0" y="192.6" width="12.9" height="32.4" rx="1" fill="#2a78d6"><title>300–400 ms: 3,675 calls (5.41%)</title></rect>
+<rect x="322.9" y="207.4" width="9.8" height="17.6" rx="1" fill="#2a78d6"><title>400–500 ms: 1,548 calls (2.28%)</title></rect>
+<rect x="333.6" y="218.8" width="7.8" height="6.2" rx="1" fill="#2a78d6"><title>500–600 ms: 447 calls (0.66%)</title></rect>
+<rect x="342.4" y="224.0" width="12.9" height="1.0" rx="1" fill="#2a78d6"><title>600–800 ms: 112 calls (0.16%)</title></rect>
+<rect x="356.3" y="224.0" width="9.8" height="1.0" rx="1" fill="#2a78d6"><title>800–1000 ms: 2 calls (0.00%)</title></rect>
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#52514e" stroke-width="1"/>
+<line x1="254.8" x2="254.8" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="250.8" y="12" font-size="11" text-anchor="end" fill="#0b0b0b">median 98 ms</text>
+<line x1="331.7" x2="331.7" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="327.7" y="26" font-size="11" text-anchor="end" fill="#0b0b0b">p99 485 ms</text>
+<text x="0" y="-10" font-size="13" font-weight="600" fill="#0b0b0b">AddCredit<tspan font-weight="400" fill="#52514e">  67,990 calls</tspan></text>
+</g>
+<g transform="translate(504.0,359.0)">
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="187.5" y2="187.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="150.0" y2="150.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="112.5" y2="112.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="75.0" y2="75.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="37.5" y2="37.5" stroke="#e4e3df" stroke-width="1"/>
+<line x1="0" x2="400.0" y1="0.0" y2="0.0" stroke="#e4e3df" stroke-width="1"/>
+<line x1="33.4" x2="33.4" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="33.4" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1 ms</text>
+<line x1="144.5" x2="144.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="144.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">10 ms</text>
+<line x1="255.5" x2="255.5" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="255.5" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">100 ms</text>
+<line x1="366.6" x2="366.6" y1="0" y2="225.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="366.6" y="241.0" font-size="11" text-anchor="middle" fill="#52514e">1,000 ms</text>
+<rect x="0.5" y="224.0" width="32.4" height="1.0" rx="1" fill="#eb6834"><title>&lt; 1 ms: 2 calls (0.02%)</title></rect>
+<rect x="33.9" y="203.1" width="32.4" height="21.9" rx="1" fill="#eb6834"><title>1 ms: 881 calls (8.79%)</title></rect>
+<rect x="67.4" y="28.7" width="18.6" height="196.3" rx="1" fill="#eb6834"><title>2 ms: 4,619 calls (46.08%)</title></rect>
+<rect x="86.9" y="95.6" width="12.9" height="129.4" rx="1" fill="#eb6834"><title>3 ms: 2,161 calls (21.56%)</title></rect>
+<rect x="100.8" y="180.7" width="9.8" height="44.3" rx="1" fill="#eb6834"><title>4 ms: 574 calls (5.73%)</title></rect>
+<rect x="111.5" y="204.4" width="7.8" height="20.6" rx="1" fill="#eb6834"><title>5 ms: 218 calls (2.17%)</title></rect>
+<rect x="120.3" y="211.6" width="6.4" height="13.4" rx="1" fill="#eb6834"><title>6 ms: 120 calls (1.20%)</title></rect>
+<rect x="127.8" y="213.5" width="5.4" height="11.5" rx="1" fill="#eb6834"><title>7 ms: 89 calls (0.89%)</title></rect>
+<rect x="134.2" y="214.6" width="4.7" height="10.4" rx="1" fill="#eb6834"><title>8 ms: 71 calls (0.71%)</title></rect>
+<rect x="139.9" y="215.7" width="4.1" height="9.3" rx="1" fill="#eb6834"><title>9 ms: 57 calls (0.57%)</title></rect>
+<rect x="145.0" y="216.3" width="7.8" height="8.7" rx="1" fill="#eb6834"><title>10–12 ms: 92 calls (0.92%)</title></rect>
+<rect x="153.8" y="215.6" width="9.8" height="9.4" rx="1" fill="#eb6834"><title>12–15 ms: 122 calls (1.22%)</title></rect>
+<rect x="164.5" y="214.7" width="12.9" height="10.3" rx="1" fill="#eb6834"><title>15–20 ms: 172 calls (1.72%)</title></rect>
+<rect x="178.4" y="215.7" width="9.8" height="9.3" rx="1" fill="#eb6834"><title>20–25 ms: 121 calls (1.21%)</title></rect>
+<rect x="189.2" y="214.0" width="7.8" height="11.0" rx="1" fill="#eb6834"><title>25–30 ms: 116 calls (1.16%)</title></rect>
+<rect x="198.0" y="215.9" width="12.9" height="9.1" rx="1" fill="#eb6834"><title>30–40 ms: 152 calls (1.52%)</title></rect>
+<rect x="211.8" y="217.0" width="9.8" height="8.0" rx="1" fill="#eb6834"><title>40–50 ms: 104 calls (1.04%)</title></rect>
+<rect x="222.6" y="217.8" width="7.8" height="7.2" rx="1" fill="#eb6834"><title>50–60 ms: 76 calls (0.76%)</title></rect>
+<rect x="231.4" y="218.6" width="12.9" height="6.4" rx="1" fill="#eb6834"><title>60–80 ms: 107 calls (1.07%)</title></rect>
+<rect x="245.3" y="221.1" width="9.8" height="3.9" rx="1" fill="#eb6834"><title>80–100 ms: 51 calls (0.51%)</title></rect>
+<rect x="256.0" y="221.2" width="7.8" height="3.8" rx="1" fill="#eb6834"><title>100–120 ms: 40 calls (0.40%)</title></rect>
+<rect x="264.8" y="222.5" width="9.8" height="2.5" rx="1" fill="#eb6834"><title>120–150 ms: 33 calls (0.33%)</title></rect>
+<rect x="275.6" y="223.1" width="12.9" height="1.9" rx="1" fill="#eb6834"><title>150–200 ms: 31 calls (0.31%)</title></rect>
+<rect x="289.5" y="224.0" width="9.8" height="1.0" rx="1" fill="#eb6834"><title>200–250 ms: 7 calls (0.07%)</title></rect>
+<rect x="300.2" y="224.0" width="7.8" height="1.0" rx="1" fill="#eb6834"><title>250–300 ms: 4 calls (0.04%)</title></rect>
+<rect x="309.0" y="224.0" width="12.9" height="1.0" rx="1" fill="#eb6834"><title>300–400 ms: 4 calls (0.04%)</title></rect>
+<line x1="0" x2="400.0" y1="225.0" y2="225.0" stroke="#52514e" stroke-width="1"/>
+<line x1="77.6" x2="77.6" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="81.6" y="12" font-size="11" text-anchor="start" fill="#0b0b0b">median 2 ms</text>
+<line x1="259.9" x2="259.9" y1="0" y2="225.0" stroke="#0b0b0b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="263.9" y="26" font-size="11" text-anchor="start" fill="#0b0b0b">p99 109 ms</text>
+<text x="0" y="-10" font-size="13" font-weight="600" fill="#0b0b0b">AddCredit<tspan font-weight="400" fill="#52514e">  10,024 calls</tspan></text>
+</g>
+<text x="64" y="626" font-size="11" fill="#52514e">Latency (log scale). Bar height: share of calls per tenth of a decade of latency, so bins of different widths compare fairly.</text>
+</svg>

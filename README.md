@@ -148,16 +148,6 @@ Loading 10,000 users (`CreateChargingDemoData`):
 | 16 | 6,018 | 99 | 588 / 1,703 | 571 / 1,691 |
 | 100 | 34,698 | 569 | 428 / 1,683 | 417 / 1,658 |
 | 150 | 50,998 | 836 | 421 / 1,634 | 404 / 1,614 |
-
-A longer run, 15 minutes (900 seconds) with 150 workers and the same settings otherwise, held the same rate.
-Opening the 150 connections took a further 2.5 minutes, which isn't included in the timing:
-
-| Transactions | TPS | ReportQuotaUsage median / p95 / p99 (ms) | AddCredit median / p95 / p99 (ms) |
-|---|---|---|---|
-| 755,669 | 834 | 441 / 1,240 / 1,665 | 444 / 1,232 / 1,652 |
-
-The run wrote 722,794 events to `charglt_events`. With `charglt-export` on its 5-minute schedule, one run exported
-617,669 of them to Delta in 93 seconds and the next run exported the rest.
 | 200 | 71,544 | 1,173 | 445 / 1,616 | 443 / 1,674 |
 
 Latencies are measured at the client and include time waiting in the client's queue (a median of 443 ms with
@@ -165,8 +155,8 @@ Latencies are measured at the client and include time waiting in the client's qu
 
 Throughput stays at about 5.7 TPS per worker from 100 to 200 workers, and median latency does not rise, so the
 1 CU endpoint is not saturated: the round trip is the limit. The endpoint allows 225 connections (7 reserved for
-superusers), so about 200 workers is as far as this client can go. Finding the endpoint's real limit would need a
-client in the same region.
+superusers), so about 200 workers is as far as this client can go. See *From a client in the same region* below
+for a run without the round trip.
 
 `ChargingDemoTransactions` with 200 workers for 30 minutes:
 
@@ -175,6 +165,16 @@ client in the same region.
 | 200 | 30 min | 2,063,974 | 1,146 | 422 / 1,574 | 420 / 1,574 |
 
 Averaged over 30 minutes, throughput and latency are close to the 60-second run with 200 workers.
+
+A 15-minute run (900 seconds) with 150 workers held the rate of the 60-second run with 150 workers. Opening the
+150 connections took a further 2.5 minutes, which isn't included in the timing:
+
+| Transactions | TPS | ReportQuotaUsage median / p95 / p99 (ms) | AddCredit median / p95 / p99 (ms) |
+|---|---|---|---|
+| 755,669 | 834 | 441 / 1,240 / 1,665 | 444 / 1,232 / 1,652 |
+
+The run wrote 722,794 events to `charglt_events`. With `charglt-export` on its 5-minute schedule, one run exported
+617,669 of them to Delta in 93 seconds and the next run exported the rest.
 
 #### With the export job running
 
@@ -193,6 +193,38 @@ The export kept up. A scheduled run fired during the benchmark and exported 2,83
 still arriving; the next exported the remaining 3,329 in 26 seconds. `workspace.charglt.transactions` ended with
 6,159 rows (6,118 Spend, 41 Add Credit), the same as the benchmark's ReportQuotaUsage and AddCredit counts, with no
 duplicates and nothing left in `charglt_events`.
+
+#### From a client in the same region
+
+> **Disclaimer:** also a smoke test, not a benchmark. The Lakebase and RDS setups below are not sized to match,
+> so they compare these two configurations, not the products.
+
+The same 15-minute run (10,000 users, 150 workers, 2 tpms requested) from an EC2 c7g.xlarge (4 vCPU, Amazon Linux
+2023, Java 21) in us-east-2c, against the same Lakebase endpoint and against RDS for PostgreSQL 17.11 on a
+db.m7g.large (2 vCPU, 8 GB, gp3) in the same zone:
+
+| Database | Transactions | TPS | ReportQuotaUsage median / p95 / p99 (ms) | AddCredit median / p95 / p99 (ms) |
+|---|---|---|---|---|
+| Lakebase, 1 CU | 2,470,681 | 2,745 | 98 / 354 / 489 | 98 / 354 / 485 |
+| RDS PostgreSQL 17 | 3,591,724 | 3,991 | 2 / 35 / 117 | 2 / 36 / 109 |
+
+![Latency histograms, Lakebase and RDS side by side](results/2026-11-18-latency-histograms.svg)
+
+Without the 130 ms round trip, Lakebase ran at 3.3 times the rate from the Mac, and opening the 150 connections
+took 5 seconds instead of 2.5 minutes. A TCP connect to the Lakebase endpoint took under 10 ms.
+
+- **Storage limit:** Free Edition caps a Lakebase instance at 512 MB. A first run from EC2, with the export job
+  paused, failed after 14 minutes at about 2,770 TPS, when `charglt_events` reached 2.3 million rows and
+  transactions began failing with `could not extend file because instance size limit (512 MB) has been exceeded`. With
+  `charglt-export` on its 5-minute schedule, the rerun above kept the database near 200 MB and finished cleanly. At
+  these rates, keep the export job running.
+- **Initial credit:** the RDS users were loaded with `CreateChargingDemoData` and a maximum initial credit of
+  100,000 (4,757 users per second with 32 threads). The Lakebase users came from an earlier load whose credit
+  setting wasn't recorded, which is why Lakebase made 67,990 AddCredit calls against 10,024 on RDS.
+- **Events:** on RDS, `charglt_events` was never exported and grew by 3.6 million rows during the run.
+
+The redacted logs, the per-millisecond histograms (`results/2026-11-18-latency-histograms.csv`) and the scripts
+that extract and draw them are in `results/`.
 
 ### For comparison: a local PostgreSQL server
 
