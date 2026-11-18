@@ -172,7 +172,10 @@ DECLARE
   l_found_userid BIGINT := NULL;
   l_found_txn_id TEXT := NULL;
 BEGIN
-  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid;
+  -- Lock an existing user's row first (see ReportQuotaUsage), so the duplicate check below
+  -- can't miss a concurrent call with the same p_txnId. A new user has no row to lock: two
+  -- concurrent inserts of the same new user still end with a primary key error.
+  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE;
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
   WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId;
@@ -238,10 +241,14 @@ DECLARE
 BEGIN
   l_amount_spent := p_units_used * -1;
 
+  -- Lock the user row so calls for the same user (ReportQuotaUsage or AddCredit) run one
+  -- at a time. Under READ COMMITTED each statement below takes a fresh snapshot after the
+  -- lock is granted, so the balance, duplicate check and allocations are all current.
   SELECT ut.userid, ut.user_balance
   INTO l_found_userid, l_balance
   FROM user_table ut
-  WHERE ut.userid = p_userid;
+  WHERE ut.userid = p_userid
+  FOR UPDATE;
 
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
@@ -324,7 +331,9 @@ DECLARE
   l_found_userid BIGINT := NULL;
   l_found_txn_id TEXT := NULL;
 BEGIN
-  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid;
+  -- Lock the user row first (see ReportQuotaUsage), so the duplicate check below can't
+  -- miss a concurrent call with the same p_txnId.
+  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE;
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
   WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId;
