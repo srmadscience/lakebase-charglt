@@ -226,6 +226,32 @@ took 5 seconds instead of 2.5 minutes. A TCP connect to the Lakebase endpoint to
 The redacted logs, the per-millisecond histograms (`results/2026-11-18-latency-histograms.csv`) and the scripts
 that extract and draw them are in `results/`.
 
+#### Many calls for the same user at once
+
+`ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row (`SELECT ... FOR UPDATE`) before reading
+anything, so calls for one user run one after another. Without the lock, each statement in these functions took
+its own Read Committed snapshot with nothing held: two concurrent `ReportQuotaUsage` calls for a user with a
+balance of 1,000 were each allocated 600, and a repeated `AddCredit` or `UpsertUser` transaction ID failed with a
+duplicate key error instead of returning status 46.
+
+The benchmark client normally never sends two calls for the same user at once, so it can't show the cost of the
+lock. With `CHARGLT_SAME_USER_CONCURRENCY=true` it can. Two-minute runs from the same EC2 client, 150 workers, at
+different user counts:
+
+| Users | TPS | ReportQuotaUsage median / p95 / p99 (ms) | Sessions waiting on a lock, average / max |
+|---|---|---|---|
+| 10,000 | 2,564 | 91 / 340 / 476 | 1.6 / 55 |
+| 1,000 | 2,372 | 100 / 378 / 531 | 6.4 / 25 |
+| 100 | 2,047 | 122 / 437 / 620 | 35.9 / 77 |
+| 10 | 743 | 288 / 1,263 / 1,881 | 74.1 / 129 |
+
+Lock waits were sampled once a second from `pg_stat_activity`; most were `transactionid` waits (a `FOR UPDATE`
+waiting for the transaction that holds the row to commit), the rest `tuple` waits (sessions queued behind another
+waiter). With 10 users, each user handled about 74 calls a second, so each call held its user's row for about
+13.5 ms, until its commit finished. That is the most one row can take. Latencies include time in the client's
+queue (a median of 47 ms with 10,000 users and 141 ms with 10). Logs and lock samples are in
+`results/2026-11-18-locking/`.
+
 ### For comparison: a local PostgreSQL server
 
 > **Disclaimer:** also a smoke test, not a benchmark. The gap below is almost all network distance (1.6 ms
@@ -273,6 +299,14 @@ Example — run against 100,000 users at 10 tpms for 120 seconds, printing globa
 10.13.1.101 100000 10 120 30 postgres mypassword 0
 ```
 
+The reported TPS counts only calls sent to the database. By default a user's calls always go to the same worker,
+and a user who already has a call in flight is skipped (and counted as skipped), so two calls for one user never
+overlap. Set `CHARGLT_SAME_USER_CONCURRENCY=true` to send each call to any worker without skipping, so calls for
+the same user run at the same time and wait on its row lock.
+
+Results in this README before the *Many calls for the same user at once* section were measured when TPS also counted
+skipped calls (4% of them in the 15-minute run from the Mac, 3.5% in the same-region run).
+
 ### Key-Value store benchmark — ChargingDemoKVStore
 
 ```
@@ -295,6 +329,7 @@ hostname usercount tpms username password
 * `user_table.user_json_object` is stored as `JSONB`.
 * `user_json_cardid` is a generated column (`BIGINT`) computed from `user_json_object->>'loyaltySchemeNumber'`, automatically indexed.
 * All stored procedures are implemented as PL/pgSQL **functions** and are called with `SELECT * FROM FunctionName(...)`.
+* `ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row with `SELECT ... FOR UPDATE` first, so calls for one user run in turn.
 * `SendToKafka` writes each transaction to `charglt_events` rather than Kafka; see *Exporting transactions to Delta* above.
 
 ## Removing the schema

@@ -42,6 +42,14 @@ public abstract class BaseChargingDemo {
     public static final String KV_GET = "KV_GET";
     public static final String UNABLE_TO_MEET_REQUESTED_TPS = "UNABLE_TO_MEET_REQUESTED_TPS";
     public static final String EXTRA_MS = "EXTRA_MS";
+
+    /**
+     * Set to true to let calls for the same user run at the same time: each call goes to a
+     * random worker, and users with a call in flight aren't skipped. Off by default, when
+     * a user's calls always go to one worker and never overlap. Use it to see how the
+     * database handles concurrent calls for one user (row lock waits).
+     */
+    public static final String SAME_USER_CONCURRENCY = "CHARGLT_SAME_USER_CONCURRENCY";
     public static final int BATCH_SIZE = 50;
     protected static final String QUEUE_QUEUE = "QUEUE_QUEUE";
     static final String ATTEMPTS = "ATTEMPTS";
@@ -717,6 +725,11 @@ public abstract class BaseChargingDemo {
             users[i] = new UserTransactionState(i, Long.MAX_VALUE);
         }
 
+        final boolean sameUserConcurrency = Boolean.parseBoolean(System.getenv(SAME_USER_CONCURRENCY));
+        if (sameUserConcurrency) {
+            msg(SAME_USER_CONCURRENCY + " is true: calls for the same user may run at the same time");
+        }
+
         final long startMsRun = System.currentTimeMillis();
         long currentMs = System.currentTimeMillis();
         int tpThisMs = 0;
@@ -726,6 +739,7 @@ public abstract class BaseChargingDemo {
         // How many transactions we've done...
         long tranCount = 0;
         long inFlightCount = 0;
+        long sentCount = 0;
         long lastGlobalQueryMs = System.currentTimeMillis();
 
         msg("starting...");
@@ -756,17 +770,19 @@ public abstract class BaseChargingDemo {
 
                 final long startMs = System.currentTimeMillis();
 
-                if (users[randomuser].isTxInFlight()) {
+                if (!sameUserConcurrency && users[randomuser].isTxInFlight()) {
                     inFlightCount++;
                 } else {
 
                     users[randomuser].startTran();
+                    sentCount++;
 
                     if (workercount == 0) {
                         doTransaction(users, randomuser, r, addCredit, pid, startMs, reportUsage, tranCount);
                     } else {
                         TxRequest request = new TxRequest(tranCount, pid, randomuser);
-                        workers[randomuser % workercount].addRequest(request);
+                        int worker = sameUserConcurrency ? r.nextInt(workercount) : randomuser % workercount;
+                        workers[worker].addRequest(request);
                     }
 
                 }
@@ -804,9 +820,11 @@ public abstract class BaseChargingDemo {
         msg("Queue drained");
 
         long elapsedTimeMs = System.currentTimeMillis() - startMsRun;
-        msg("Processed " + tranCount + " transactions in " + elapsedTimeMs + " milliseconds");
+        msg("Processed " + sentCount + " transactions in " + elapsedTimeMs + " milliseconds ("
+                + inFlightCount + " more skipped because the user had one in flight)");
 
-        double tps = tranCount;
+        // Count only the calls actually sent to the database, not the skipped ones.
+        double tps = sentCount;
         tps = tps / (elapsedTimeMs / 1000);
 
         msg("TPS = " + tps);
