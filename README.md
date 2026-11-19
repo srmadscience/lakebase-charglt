@@ -1,7 +1,9 @@
-# postgres-charglt
-PostgreSQL implementation of [Charglt](https://github.com/srmadscience/voltdb-charglt)
+# lakebase-charglt
+Databricks Lakebase implementation of [Charglt](https://github.com/srmadscience/voltdb-charglt), derived from
+[postgres-charglt](https://github.com/srmadscience/postgres-charglt).
 
-It has the same basic functionality as charglt, adapted for PostgreSQL — see TODO for known gaps.
+It has the same basic functionality as charglt, adapted for PostgreSQL and Databricks Lakebase — see TODO for known gaps.
+Transactions are exported to a Delta table by a Databricks job, and approved credits are applied back from Databricks.
 
 Far more documentation about the benchmark itself is available at the link above.
 
@@ -9,9 +11,11 @@ Far more documentation about the benchmark itself is available at the link above
 
 * [aerospike-charglt](https://github.com/srmadscience/aerospike-charglt)
 * [mongodb-charglt](https://github.com/srmadscience/mongodb-charglt)
-* [redis-charglt](https://github.com/srmadscience/redis-charglt)
-* [voltdb-charglt](https://github.com/srmadscience/voltdb-charglt)
 * [oracle-charglt](https://github.com/srmadscience/oracle-charglt)
+* [postgres-charglt](https://github.com/srmadscience/postgres-charglt)
+* [redis-charglt](https://github.com/srmadscience/redis-charglt)
+* [s2-charglt](https://github.com/srmadscience/s2-charglt)
+* [voltdb-charglt](https://github.com/srmadscience/voltdb-charglt)
 
 ## Prerequisites
 
