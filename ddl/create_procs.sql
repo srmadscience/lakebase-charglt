@@ -175,7 +175,7 @@ BEGIN
   -- Lock an existing user's row first (see ReportQuotaUsage), so the duplicate check below
   -- can't miss a concurrent call with the same p_txnId. A new user has no row to lock: two
   -- concurrent inserts of the same new user still end with a primary key error.
-  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE;
+  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE NOWAIT;
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
   WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId;
@@ -244,11 +244,15 @@ BEGIN
   -- Lock the user row so calls for the same user (ReportQuotaUsage or AddCredit) run one
   -- at a time. Under READ COMMITTED each statement below takes a fresh snapshot after the
   -- lock is granted, so the balance, duplicate check and allocations are all current.
+  -- NOWAIT: if another transaction has the row, the call fails at once with SQLSTATE 55P03
+  -- (lock_not_available), having changed nothing, and the caller can retry it. The error is
+  -- deliberately not caught here and turned into a status: an EXCEPTION block would add a
+  -- subtransaction to every call.
   SELECT ut.userid, ut.user_balance
   INTO l_found_userid, l_balance
   FROM user_table ut
   WHERE ut.userid = p_userid
-  FOR UPDATE;
+  FOR UPDATE NOWAIT;
 
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
@@ -333,7 +337,7 @@ DECLARE
 BEGIN
   -- Lock the user row first (see ReportQuotaUsage), so the duplicate check below can't
   -- miss a concurrent call with the same p_txnId.
-  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE;
+  SELECT ut.userid INTO l_found_userid FROM user_table ut WHERE ut.userid = p_userid FOR UPDATE NOWAIT;
   SELECT urt.user_txn_id INTO l_found_txn_id
   FROM user_recent_transactions urt
   WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId;
@@ -384,7 +388,10 @@ $$ LANGUAGE plpgsql;
 -- calls AddCredit and records its status. Call it inside one transaction per batch: the
 -- credits and the log rows commit or roll back together, and a batch resent after a
 -- failure applies nothing twice. Returns the log row for every request in the batch,
--- including ones applied by an earlier call. A request_id already logged with a
+-- including ones applied by an earlier call. A request whose user is locked by another
+-- transaction is skipped: it is neither logged nor returned, and the caller sends it again
+-- later. (AddCredit's NOWAIT would otherwise roll back the whole batch for one busy user.)
+-- A request_id already logged with a
 -- different user or amount (e.g. approved_addcredits was recreated and its ids restarted)
 -- raises an error, which rolls back the whole batch.
 CREATE OR REPLACE FUNCTION ApplyApprovedAddCredits(p_request_ids BIGINT[], p_userids BIGINT[],
@@ -393,6 +400,7 @@ RETURNS TABLE(l_request_id BIGINT, l_status_byte INTEGER, l_status_string TEXT,
               l_applied_at TIMESTAMP) AS $$
 DECLARE
   l_claimed BIGINT;
+  l_locked BIGINT[];
   l_result RECORD;
 BEGIN
   SELECT r.id INTO l_claimed
@@ -404,7 +412,18 @@ BEGIN
     RAISE EXCEPTION 'request_id % was already applied with a different userid or amount', l_claimed;
   END IF;
 
+  -- Lock the users that nobody else has locked. This transaction then owns those rows, so
+  -- AddCredit can't fail on them.
+  SELECT COALESCE(array_agg(free.userid), '{}') INTO l_locked
+  FROM (SELECT ut.userid FROM user_table ut
+        WHERE ut.userid = ANY(p_userids)
+        FOR UPDATE SKIP LOCKED) free;
+
   FOR i IN 1 .. COALESCE(array_length(p_request_ids, 1), 0) LOOP
+    -- A user who doesn't exist has no row to lock; AddCredit returns status 50 for them.
+    CONTINUE WHEN p_userids[i] <> ALL(l_locked)
+      AND EXISTS (SELECT 1 FROM user_table ut WHERE ut.userid = p_userids[i]);
+
     l_claimed := NULL;
     INSERT INTO approved_addcredit_log (request_id, userid, add_credit_value)
     VALUES (p_request_ids[i], p_userids[i], p_amounts[i])

@@ -35,4 +35,21 @@ public class ReferenceData {
 
     public static final int LOCK_TIMEOUT_MS = 50;
 
+    /**
+     * PostgreSQL's lock_not_available: the user's row is locked by another transaction and
+     * the function, which uses FOR UPDATE NOWAIT, didn't wait for it.
+     */
+    public static final String SQLSTATE_LOCK_NOT_AVAILABLE = "55P03";
+
+    /**
+     * How many times to retry a call that fails because the user's row is locked.
+     */
+    public static final int MAX_LOCK_RETRIES = 10;
+
+    /**
+     * Upper limit of the random delay before the first retry. Doubles for each further
+     * retry, up to LOCK_TIMEOUT_MS.
+     */
+    public static final int LOCK_RETRY_MS = 5;
+
 }

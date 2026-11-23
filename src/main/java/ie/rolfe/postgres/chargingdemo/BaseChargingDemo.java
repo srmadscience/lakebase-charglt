@@ -20,9 +20,12 @@ import org.voltdb.voltutil.stats.SafeHistogramCache;
 import java.io.IOException;
 import java.sql.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Properties;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -47,7 +50,7 @@ public abstract class BaseChargingDemo {
      * Set to true to let calls for the same user run at the same time: each call goes to a
      * random worker, and users with a call in flight aren't skipped. Off by default, when
      * a user's calls always go to one worker and never overlap. Use it to see how the
-     * database handles concurrent calls for one user (row lock waits).
+     * database handles concurrent calls for one user (row lock conflicts).
      */
     public static final String SAME_USER_CONCURRENCY = "CHARGLT_SAME_USER_CONCURRENCY";
     public static final int BATCH_SIZE = 50;
@@ -55,6 +58,16 @@ public abstract class BaseChargingDemo {
     static final String ATTEMPTS = "ATTEMPTS";
     static final String QUEUE_LAG = "QUEUE_LAG";
     private static final String ADD_CREDIT = "ADD_CREDIT";
+
+    /**
+     * Counts calls that failed because the user's row was locked by another transaction
+     */
+    static final String ROW_LOCKED = "ROW_LOCKED";
+
+    /**
+     * Counts calls abandoned because the row was still locked after MAX_LOCK_RETRIES retries
+     */
+    static final String ROW_LOCKED_GAVE_UP = "ROW_LOCKED_GAVE_UP";
     public static SafeHistogramCache shc = SafeHistogramCache.getInstance();
 
     /**
@@ -161,6 +174,67 @@ public abstract class BaseChargingDemo {
             connection.commit();
         }
 
+    }
+
+    /**
+     * See if a call failed because another transaction has the user's row locked. Nothing
+     * was changed, so the call can be repeated with the same transaction id.
+     *
+     * @param e
+     * @return true if the error is lock_not_available
+     */
+    static boolean isRowLocked(SQLException e) {
+        return ReferenceData.SQLSTATE_LOCK_NOT_AVAILABLE.equals(e.getSQLState());
+    }
+
+    /**
+     * Execute a statement, retrying after a short random delay if the user's row is locked
+     * by another transaction. The connection must be in autocommit mode: otherwise the
+     * failed call has aborted a transaction that needs to be rolled back first.
+     *
+     * @param statement
+     * @return false if the row was still locked after MAX_LOCK_RETRIES retries
+     * @throws SQLException any error other than the row being locked
+     */
+    static boolean executeWithLockRetry(PreparedStatement statement) throws SQLException {
+
+        for (int attempt = 0; ; attempt++) {
+            try {
+                statement.execute();
+                return true;
+            } catch (SQLException e) {
+                if (!isRowLocked(e)) {
+                    throw e;
+                }
+            }
+
+            shc.incCounter(ROW_LOCKED);
+
+            if (attempt >= ReferenceData.MAX_LOCK_RETRIES) {
+                shc.incCounter(ROW_LOCKED_GAVE_UP);
+                return false;
+            }
+
+            sleepBeforeLockRetry(attempt);
+        }
+    }
+
+    /**
+     * Sleep for a random time, which tends to be longer for later attempts.
+     *
+     * @param attempt 0 for the first retry
+     */
+    private static void sleepBeforeLockRetry(int attempt) {
+
+        final int maxMs = Math.min(ReferenceData.LOCK_TIMEOUT_MS,
+                ReferenceData.LOCK_RETRY_MS << Math.min(attempt, 10));
+
+        try {
+            Thread.sleep(ThreadLocalRandom.current().nextInt(1, maxMs + 1));
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException(e);
+        }
     }
 
     /**
@@ -272,6 +346,9 @@ public abstract class BaseChargingDemo {
 
             PreparedStatement cs = mainConnection.prepareStatement("SELECT * FROM UpsertUser(?,?,?,?,?,?)");
 
+            // Upserts in the current database transaction, in case we have to redo it
+            List<UserUpsert> uncommitted = new ArrayList<>();
+
             for (int i = firstUser; i < userCount; i += step) {
 
                 String ourJson = getExtraUserDataAsJsonString(loblength, gson, r, userCount);
@@ -287,18 +364,19 @@ public abstract class BaseChargingDemo {
                 }
 
 
-                cs.setLong(1, i);
-                cs.setLong(2, r.nextInt(initialCredit));
-                cs.setString(3, ourJson);
-                cs.setString(4, "Initial Creation");
-                cs.setTimestamp(5, new Timestamp(System.currentTimeMillis()));
-                cs.setString(6, startMsUpsert + "_" + i);
-                cs.execute();
+                uncommitted.add(new UserUpsert(i, r.nextInt(initialCredit), ourJson,
+                        new Timestamp(System.currentTimeMillis()), startMsUpsert + "_" + i));
+                upsertLastOrRedoAll(uncommitted, cs, mainConnection);
                 upserted++;
+
+                if (mainConnection.getAutoCommit()) {
+                    uncommitted.clear();
+                }
 
                 if (upserted % 100 == 1) {
                     msg("Upserted " + upserted + " users...");
                     commitIfNeeded(mainConnection);
+                    uncommitted.clear();
                 }
 
             }
@@ -310,6 +388,69 @@ public abstract class BaseChargingDemo {
             msg("Upserted " + (upserted * 1000L / elapsedMs) + " users per second...");
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * Arguments for one call to UpsertUser.
+     */
+    private record UserUpsert(long userId, long balance, String json, Timestamp lastSeen, String txnId) {
+
+        void execute(PreparedStatement cs) throws SQLException {
+            cs.setLong(1, userId);
+            cs.setLong(2, balance);
+            cs.setString(3, json);
+            cs.setString(4, "Initial Creation");
+            cs.setTimestamp(5, lastSeen);
+            cs.setString(6, txnId);
+            cs.execute();
+        }
+    }
+
+    /**
+     * Call UpsertUser for the last entry in a list of uncommitted upserts. If that user's row
+     * is locked by someone else the error aborts our whole database transaction, so we roll
+     * it back, which also releases the rows we have locked, and redo everything in the list.
+     *
+     * @param uncommitted    upserts in the current database transaction; the last is new
+     * @param cs             UpsertUser statement
+     * @param mainConnection
+     * @throws SQLException any error other than a locked row, or the row was still locked
+     *                      after MAX_LOCK_RETRIES retries
+     */
+    private static void upsertLastOrRedoAll(List<UserUpsert> uncommitted, PreparedStatement cs,
+                                            Connection mainConnection) throws SQLException {
+
+        int firstToDo = uncommitted.size() - 1;
+
+        for (int attempt = 0; ; attempt++) {
+            try {
+                for (UserUpsert upsert : uncommitted.subList(firstToDo, uncommitted.size())) {
+                    upsert.execute(cs);
+                }
+                return;
+            } catch (SQLException e) {
+                if (!isRowLocked(e)) {
+                    throw e;
+                }
+
+                shc.incCounter(ROW_LOCKED);
+
+                if (!mainConnection.getAutoCommit()) {
+                    mainConnection.rollback();
+                    firstToDo = 0;
+                }
+
+                if (attempt >= ReferenceData.MAX_LOCK_RETRIES) {
+                    shc.incCounter(ROW_LOCKED_GAVE_UP);
+                    throw e;
+                }
+
+                msg("Row locked by another session, redoing " + (uncommitted.size() - firstToDo)
+                        + " upserts: " + e.getMessage());
+            }
+
+            sleepBeforeLockRetry(attempt);
         }
     }
 
@@ -815,6 +956,11 @@ public abstract class BaseChargingDemo {
             workers[i].setKeepGoing(false);
         }
 
+        // Calls already taken off the queue may still be retrying, so wait for them before
+        // we report any numbers
+        for (Thread workerThread : workerThreads) {
+            workerThread.join();
+        }
 
         //mainConnection.drain();
         msg("Queue drained");
@@ -823,8 +969,10 @@ public abstract class BaseChargingDemo {
         msg("Processed " + sentCount + " transactions in " + elapsedTimeMs + " milliseconds ("
                 + inFlightCount + " more skipped because the user had one in flight)");
 
-        // Count only the calls actually sent to the database, not the skipped ones.
-        double tps = sentCount;
+        // Count only the calls that the database carried out: not the skipped ones, nor those
+        // we gave up on because the user's row stayed locked.
+        final long gaveUpCount = shc.getCounter(ROW_LOCKED_GAVE_UP);
+        double tps = sentCount - gaveUpCount;
         tps = tps / (elapsedTimeMs / 1000);
 
         msg("TPS = " + tps);
@@ -832,6 +980,8 @@ public abstract class BaseChargingDemo {
         msg("Add Credit calls = " + shc.getCounter("ADD_CREDIT"));
         msg("Report Usage calls = " + shc.getCounter("REPORT_USAGE"));
         msg("Skipped because transaction was in flight = " + inFlightCount);
+        msg("Attempts that failed because the user's row was locked = " + shc.getCounter(ROW_LOCKED));
+        msg("Calls abandoned because the user's row stayed locked = " + gaveUpCount);
 
         reportRunLatencyStats(tpMs, tps);
 
@@ -850,9 +1000,12 @@ public abstract class BaseChargingDemo {
             addCredit.setLong(1, randomuser);
             addCredit.setLong(2, extraCredit);
             addCredit.setString(3, "AddCreditOnShortage_" + pid + "_" + txId + "_" + System.currentTimeMillis());
-            addCredit.execute();
-            updateUserBalance(users[randomuser], addCredit, users[randomuser].sessionId);
-            shc.reportLatency(BaseChargingDemo.ADD_CREDIT, startMs, "ADD_CREDIT", 2000);
+
+            // If we give up the user's balance and reservation are unchanged
+            if (executeWithLockRetry(addCredit)) {
+                updateUserBalance(users[randomuser], addCredit, users[randomuser].sessionId);
+                shc.reportLatency(BaseChargingDemo.ADD_CREDIT, startMs, "ADD_CREDIT", 2000);
+            }
 
         } else {
 
@@ -866,9 +1019,13 @@ public abstract class BaseChargingDemo {
             reportUsage.setLong(3, unitsWanted);
             reportUsage.setLong(4, randomuser);
             reportUsage.setString(5, "ReportQuotaUsage_" + pid + "_" + txId + "_" + System.currentTimeMillis());
-            reportUsage.execute();
-            updateUserBalance(users[randomuser], reportUsage, randomuser);
-            shc.reportLatency(BaseChargingDemo.REPORT_QUOTA_USAGE, startMs, "REPORT_QUOTA_USAGE", 2000);
+
+            // If we give up the user's balance and reservation are unchanged, so the next
+            // call for them reports this usage instead
+            if (executeWithLockRetry(reportUsage)) {
+                updateUserBalance(users[randomuser], reportUsage, randomuser);
+                shc.reportLatency(BaseChargingDemo.REPORT_QUOTA_USAGE, startMs, "REPORT_QUOTA_USAGE", 2000);
+            }
         }
 
         users[randomuser].endTran();

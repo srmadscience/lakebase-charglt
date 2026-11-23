@@ -15,6 +15,8 @@ import org.junit.jupiter.api.Test;
 import java.sql.*;
 
 import static ie.rolfe.postgres.chargingdemo.ReferenceData.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
 class DDLTest {
@@ -46,9 +48,7 @@ class DDLTest {
     final String[] tearDownTables = {"delete from user_table", "delete from user_recent_transactions", "delete from user_usage_table"};
     Connection connection = null;
 
-    @BeforeEach
-    void setUp() {
-        BaseChargingDemo.msg("setup");
+    private static String connectString() {
         String password = System.getenv("PG_PASSWORD");
         if (password == null) {
             password = "xraytunnel";
@@ -62,10 +62,14 @@ class DDLTest {
             user = "root";
         }
 
-        final String connectString = "jdbc:postgresql://" + host + ":5432/charglt?user=" + user + "&password=" + password;
+        return "jdbc:postgresql://" + host + ":5432/charglt?user=" + user + "&password=" + password;
+    }
+
+    @BeforeEach
+    void setUp() {
+        BaseChargingDemo.msg("setup");
         try {
-            BaseChargingDemo.msg("Connecting to " + connectString);
-            connection = DriverManager.getConnection(connectString);
+            connection = DriverManager.getConnection(connectString());
             connection.setAutoCommit(false);
 
             for (int i = 0; i < tearDownTables.length; i++) {
@@ -423,6 +427,106 @@ class DDLTest {
             throw new RuntimeException(e);
         }
 
+    }
+
+    /**
+     * ReportQuotaUsage, AddCredit and UpsertUser use FOR UPDATE NOWAIT, so they should fail
+     * at once, changing nothing, if another session has the user's row locked.
+     */
+    @Test
+    void LockedUserRow() throws SQLException {
+        BaseChargingDemo.msg("LockedUserRow");
+        final String[] calls = {
+                "SELECT * FROM ReportQuotaUsage(" + TEST_USER_ID + ",0,1," + TEST_SESSION_ID + ",'Locked1')"
+                , "SELECT * FROM AddCredit(" + TEST_USER_ID + "," + TEST_EXTRA_CREDIT + ",'Locked2')"
+                , "SELECT * FROM UpsertUser(" + TEST_USER_ID + ",1,'{}','x',LOCALTIMESTAMP,'Locked3')"};
+
+        try (Connection other = DriverManager.getConnection(connectString());
+             Statement otherStatement = other.createStatement();
+             Statement statement = connection.createStatement()) {
+
+            // If NOWAIT is missing, fail with 57014 (query_canceled) instead of hanging
+            statement.execute("SET statement_timeout = '5s'");
+            connection.commit();
+
+            other.setAutoCommit(false);
+            otherStatement.execute("SELECT * FROM user_table WHERE userid = " + TEST_USER_ID + " FOR UPDATE");
+
+            for (String call : calls) {
+                try {
+                    statement.execute(call);
+                    fail("LockedUserRow: should have failed: " + call);
+                } catch (SQLException e) {
+                    BaseChargingDemo.msg(e.getMessage());
+                    assertEquals(SQLSTATE_LOCK_NOT_AVAILABLE, e.getSQLState(), call);
+                    assertTrue(BaseChargingDemo.isRowLocked(e));
+                }
+                connection.rollback();
+            }
+
+            other.rollback();
+
+            try (ResultSet rs = statement.executeQuery("SELECT user_balance FROM user_table WHERE userid = " + TEST_USER_ID)) {
+                rs.next();
+                assertEquals(TEST_BALANCE, rs.getLong(1));
+            }
+
+            // With the lock gone they should all work, using the same transaction ids
+            for (String call : calls) {
+                statement.execute(call);
+            }
+            connection.rollback();
+        }
+    }
+
+    /**
+     * ApplyApprovedAddCredits should skip a request for a locked user, and apply the rest.
+     */
+    @Test
+    void ApplyApprovedAddCreditsLockedUser() throws SQLException {
+        BaseChargingDemo.msg("ApplyApprovedAddCreditsLockedUser");
+
+        // Request -1 is for the locked user, -2 for an unlocked one, -3 for one that doesn't exist
+        final String call = "SELECT * FROM ApplyApprovedAddCredits(ARRAY[-1,-2,-3]::BIGINT[], ARRAY["
+                + TEST_USER_ID + "," + NEW_USER_ID + "," + BAD_USER_ID + "]::BIGINT[], ARRAY[5,6,7]::BIGINT[]) ORDER BY 1";
+
+        try (Connection other = DriverManager.getConnection(connectString());
+             Statement otherStatement = other.createStatement();
+             Statement statement = connection.createStatement()) {
+
+            statement.execute("SET statement_timeout = '5s'");
+            statement.execute("INSERT INTO user_table (userid, user_balance) VALUES (" + NEW_USER_ID + ", 0)");
+            connection.commit();
+
+            other.setAutoCommit(false);
+            otherStatement.execute("SELECT * FROM user_table WHERE userid = " + TEST_USER_ID + " FOR UPDATE");
+            assertEquals("-3:" + STATUS_USER_DOESNT_EXIST + " -2:" + STATUS_CREDIT_ADDED + " ", creditResults(statement, call));
+
+            // Unlocked: the skipped request is applied, and the others aren't applied again
+            other.rollback();
+            assertEquals("-3:" + STATUS_USER_DOESNT_EXIST + " -2:" + STATUS_CREDIT_ADDED + " -1:" + STATUS_CREDIT_ADDED + " ",
+                    creditResults(statement, call));
+
+            try (ResultSet rs = statement.executeQuery("SELECT user_balance FROM user_table WHERE userid IN ("
+                    + TEST_USER_ID + "," + NEW_USER_ID + ") ORDER BY userid")) {
+                rs.next();
+                assertEquals(TEST_BALANCE + 5, rs.getLong(1));
+                rs.next();
+                assertEquals(6, rs.getLong(1));
+            }
+
+            connection.rollback();
+        }
+    }
+
+    private static String creditResults(Statement statement, String call) throws SQLException {
+        StringBuilder results = new StringBuilder();
+        try (ResultSet rs = statement.executeQuery(call)) {
+            while (rs.next()) {
+                results.append(rs.getLong("l_request_id")).append(':').append(rs.getInt("l_status_byte")).append(' ');
+            }
+        }
+        return results.toString();
     }
 
     @Test

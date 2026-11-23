@@ -11,6 +11,10 @@
 # MAGIC committed but before that merge, the next run sends the batch again, Postgres skips it, and
 # MAGIC the merge writes the statuses from the log.
 # MAGIC
+# MAGIC `ApplyApprovedAddCredits` doesn't wait for a user row that another transaction has locked: it
+# MAGIC skips that request, which stays pending, and this job sends it again. If the only requests left
+# MAGIC stay locked for 30 tries (about 30 seconds), the run fails, leaving them for the next run.
+# MAGIC
 # MAGIC The job only reads `approved_addcredits`: its table-update trigger watches that table, so a
 # MAGIC write there would start another run.
 # MAGIC
@@ -80,8 +84,12 @@ WHEN NOT MATCHED THEN INSERT (request_id, status_byte, status_string, applied_at
   VALUES (s.request_id, s.status_byte, s.status_string, CAST(s.applied_at AS TIMESTAMP))
 """
 
+MAX_STALLED = 30    # tries in a row that apply nothing, because every pending user is locked
+
 started = time.monotonic()
 applied = 0
+skipped = 0         # requests in the latest batch whose user was locked
+stalled = 0
 with psycopg.connect(host=pg_host, dbname=arg("database"), user=pg_user,
                      password=pg_password, sslmode="require", autocommit=True) as conn:
     while time.monotonic() - started < max_seconds:
@@ -91,6 +99,7 @@ with psycopg.connect(host=pg_host, dbname=arg("database"), user=pg_user,
             ORDER BY a.request_id LIMIT {batch_size}
         """).collect()
         if not pending:
+            skipped = 0
             break
 
         # One Postgres transaction per batch.
@@ -101,14 +110,26 @@ with psycopg.connect(host=pg_host, dbname=arg("database"), user=pg_user,
                  [r.userid for r in pending],
                  [r.add_credit_value for r in pending])).fetchall()
 
-        spark.createDataFrame(results, result_schema).createOrReplaceTempView("charglt_credit_results")
-        spark.sql(merge)
+        if results:
+            spark.createDataFrame(results, result_schema).createOrReplaceTempView("charglt_credit_results")
+            spark.sql(merge)
 
-        applied += len(pending)
+        applied += len(results)
+        skipped = len(pending) - len(results)
         failed = sum(1 for r in results if r[1] != 56)
-        print(f"{applied:,} requests processed ({failed} in this batch not added)")
-        if len(pending) < batch_size:
+        print(f"{applied:,} requests processed ({failed} in this batch not added, "
+              f"{skipped} skipped because the user is locked)")
+        if skipped:
+            stalled = 0 if results else stalled + 1
+            if stalled >= MAX_STALLED:
+                break
+            time.sleep(1)
+        elif len(pending) < batch_size:
             break
 
+if skipped:
+    # Fail rather than look finished: the trigger won't start another run for these.
+    raise RuntimeError(f"{applied:,} requests processed, but {skipped} or more are still pending "
+                       "because their users are locked: run the job again")
 print(f"Done: {applied:,} requests in {time.monotonic() - started:.0f}s")
 dbutils.notebook.exit(str(applied))

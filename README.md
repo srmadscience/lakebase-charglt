@@ -118,7 +118,10 @@ Each request gets a `request_id`. The job sends up to 1,000 unapplied requests p
 `request_id` already in the log is not applied again, so a batch resent after a failure (for example, if the job
 stops after Postgres commits but before Delta is updated) changes nothing. The job then writes each request's
 `status_byte`, `status_string` and `applied_at` to `approved_addcredit_results`: 56 means added, 50 means the user
-does not exist. Requests that fail are not retried.
+does not exist. Requests that fail are not retried. A request whose user is locked by another transaction hasn't
+failed: `ApplyApprovedAddCredits` skips it without logging it, the rest of the batch is applied, and the job sends it
+again a second later. If only locked users are left for 30 tries in a row, the job run fails and leaves those
+requests pending; use `--run` to try again, as the trigger only fires when the table changes.
 
 `AddCredit`'s own duplicate check only covers about a second (`user_recent_transactions` is aged out), which is why
 the log is needed. Don't recreate `approved_addcredits` without also clearing `approved_addcredit_log` and
@@ -232,6 +235,9 @@ that extract and draw them are in `results/`.
 
 #### Many calls for the same user at once
 
+> **Note:** these runs predate `NOWAIT`. They used a plain `SELECT ... FOR UPDATE`, so a call for a locked user
+> waited; now it fails at once and the client retries it (see *Schema notes*). They have not been rerun.
+
 `ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row (`SELECT ... FOR UPDATE`) before reading
 anything, so calls for one user run one after another. Without the lock, each statement in these functions took
 its own Read Committed snapshot with nothing held: two concurrent `ReportQuotaUsage` calls for a user with a
@@ -292,6 +298,9 @@ Example — load 100,000 users at up to 10 transactions per millisecond, each st
 
 `threadcount` (default 1) splits the load across that many threads, each with its own connection.
 
+If a user's row is locked by another session, the thread rolls back, redoes the upserts (up to 100) it hadn't
+committed, and gives up with an error after 10 retries.
+
 ### Transaction benchmark — ChargingDemoTransactions
 
 ```
@@ -306,7 +315,14 @@ Example — run against 100,000 users at 10 tpms for 120 seconds, printing globa
 The reported TPS counts only calls sent to the database. By default a user's calls always go to the same worker,
 and a user who already has a call in flight is skipped (and counted as skipped), so two calls for one user never
 overlap. Set `CHARGLT_SAME_USER_CONCURRENCY=true` to send each call to any worker without skipping, so calls for
-the same user run at the same time and wait on its row lock.
+the same user run at the same time and compete for its row lock.
+
+A call that finds its user's row locked fails at once with SQLSTATE `55P03`. The client retries it up to 10 times,
+with the same transaction ID, after a random delay of up to 5 ms, doubling to a limit of 50 ms; the reported latency
+includes the retries. If the row is still locked the call is abandoned: it changed nothing, and the next
+`ReportQuotaUsage` for that user reports the usage instead. Abandoned calls don't count towards TPS. Each run prints
+the number of attempts that found the row locked and the number of calls abandoned (counters `ROW_LOCKED` and
+`ROW_LOCKED_GAVE_UP`). Any other error still stops the worker.
 
 Results in this README before the *Many calls for the same user at once* section were measured when TPS also counted
 skipped calls (4% of them in the 15-minute run from the Mac, 3.5% in the same-region run).
@@ -333,7 +349,8 @@ hostname usercount tpms username password
 * `user_table.user_json_object` is stored as `JSONB`.
 * `user_json_cardid` is a generated column (`BIGINT`) computed from `user_json_object->>'loyaltySchemeNumber'`, automatically indexed.
 * All stored procedures are implemented as PL/pgSQL **functions** and are called with `SELECT * FROM FunctionName(...)`.
-* `ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row with `SELECT ... FOR UPDATE` first, so calls for one user run in turn.
+* `ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row with `SELECT ... FOR UPDATE NOWAIT` first, so calls for one user never overlap. If another transaction has the row, the call fails at once with SQLSTATE `55P03` (`lock_not_available`), having changed nothing, and can be retried with the same transaction ID. Outside autocommit, the caller's transaction has to be rolled back first. Each failure is also an `ERROR` in the server log.
+* The key-value functions (`GetAndLockUser`, `UpdateLockedUser`) and `DelUser` don't use `FOR UPDATE`, so they still wait for a locked row.
 * `SendToKafka` writes each transaction to `charglt_events` rather than Kafka; see *Exporting transactions to Delta* above.
 
 ## Removing the schema
