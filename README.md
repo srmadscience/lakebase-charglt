@@ -93,6 +93,32 @@ benchmark run and off afterwards. `databricks-sql.sh` runs SQL on the Serverless
 (`8682c92f3ae0c2a8`; set `DATABRICKS_WAREHOUSE_ID` to use another). To discard a backlog without exporting it, run
 `SELECT PurgeChargltEvents(INTERVAL '1 hour')`.
 
+### Querying Lakebase tables from Databricks
+
+Registering the Lakebase database in Unity Catalog makes its tables and views appear in Databricks as a read-only
+catalog, with no job and no copy to look after. This worked on Free Edition on 2026-11-25:
+
+```
+curl -X POST "https://$DATABRICKS_HOST/api/2.0/postgres/catalogs?catalog_id=charglt_lakebase" \
+  -H "Authorization: Bearer $DATABRICKS_TOKEN" -H 'Content-Type: application/json' \
+  -d '{"spec": {"postgres_database": "charglt", "branch": "projects/charglt/branches/production"}}'
+./databricks-sql.sh 'SELECT count(*), sum(user_balance) FROM charglt_lakebase.public.user_table'
+```
+
+Here `DATABRICKS_HOST` is the workspace's hostname, without `https://`. Queries need a serverless warehouse or other
+serverless compute. In testing, an insert, an update and a delete in Postgres each showed up in the next query, and a
+`DELETE` from Databricks was refused. `JSONB` columns appear as strings. New tables can take a while to appear.
+
+- It shows what is in Postgres now and keeps no history. `user_recent_transactions` keeps each user's rows for about a
+  second, so `charglt-export` is still needed to keep transactions and to stay under the storage limit.
+- Queries probably use the Lakebase endpoint's own compute, though this was not measured. Avoid them during a benchmark.
+
+To unregister it, send `DELETE` to `/api/2.0/postgres/catalogs/charglt_lakebase`. Databricks says this doesn't affect
+the Postgres database.
+
+Lakebase Change Data Feed was not used: it produces a history of changes rather than the table, and it can't write
+to a catalog on default storage, such as the one that Free Edition provides.
+
 ### Applying approved credits from Databricks
 
 Credits can also flow the other way. Rows inserted into the Delta table `workspace.charglt.approved_addcredits`
