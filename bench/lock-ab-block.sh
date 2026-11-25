@@ -118,8 +118,9 @@ for ((i = 0; i < count; i++)); do
     } > "$out/$name.log"
 
     # User and password come from PG_USER and PG_PASSWORD, so they aren't in the log.
+    # tpms is 4: the runs in results/2026-11-24-lock-ab used 2, which then meant 4 calls per ms
     CHARGLT_SAME_USER_CONCURRENCY=true java -cp "$cp" ie.rolfe.postgres.chargingdemo.ChargingDemoTransactions \
-        "$PG_HOST" "$users" 2 "$secs" 10 env env "$workers" >> "$out/$name.log" 2>&1 &
+        "$PG_HOST" "$users" 4 "$secs" 10 env env "$workers" >> "$out/$name.log" 2>&1 &
     java_pid=$!
 
     # Sample sessions once a second: waiting on any lock, transactionid, tuple, active, and

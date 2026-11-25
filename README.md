@@ -247,9 +247,10 @@ Without the 130 ms round trip, Lakebase ran at 3.3 times the rate from the Mac, 
 took 5 seconds instead of 2.5 minutes. A TCP connect to the Lakebase endpoint took under 10 ms.
 
 - **Client limit:** 3,991 TPS is the most the client would send, not the most RDS could do. With `tpms` set to 2 the
-  client sends 4 calls per millisecond rather than 2. In this run it was held up by full queues for only 2 of the 900
-  seconds and sent 4,000 calls a second the rest of the time, so the RDS latencies are for a server that was
-  not saturated. The gap between the two databases is understated here: see *100,000 users* below.
+  client then sent 4 calls per millisecond rather than 2 (since fixed: see *Running the benchmark*). In this run it
+  was held up by full queues for only 2 of the 900 seconds and sent 4,000 calls a second the rest of the time, so the
+  RDS latencies are for a server that was not saturated. The gap between the two databases is understated here: see
+  *100,000 users* below.
 - **Storage limit:** Free Edition caps a Lakebase instance at 512 MB. A first run from EC2, with the export job
   paused, failed after 14 minutes at about 2,770 TPS, when `charglt_events` reached 2.3 million rows and
   transactions began failing with `could not extend file because instance size limit (512 MB) has been exceeded`. With
@@ -381,13 +382,17 @@ trip, default `shared_buffers` of 128 MB, `max_connections` of 100):
 | 64 | 238,744 | 3,979 | 8 / 56 | 8 / 60 |
 
 With 64 workers the client was probably the limit, not the server: 3,979 TPS is close to the 4,000 calls per second
-that the client sends with `tpms` set to 2 (see *Client limit* above). The log of that run was not kept, so this was
-not checked.
+that the client then sent with `tpms` set to 2 (see *Client limit* above). The log of that run was not kept, so this
+was not checked.
 
 100 workers is not possible there: with 3 of the 100 connections reserved for superusers, the run cannot open
 enough connections.
 
 ## Running the benchmark
+
+`tpms` is the most calls the client starts per millisecond, on average. Until 2026-11-25 it started `tpms` + 2, so the
+results in this README had two more calls per millisecond available than the `tpms` they name. To offer the same load
+now, add 2: the 3,991 TPS run above, with `tpms` 2, now needs 4.
 
 ### Load data — CreateChargingDemoData
 
@@ -400,7 +405,8 @@ Example — load 100,000 users at up to 10 transactions per millisecond, each st
 10.13.1.101 100000 10 1000 postgres mypassword
 ```
 
-`threadcount` (default 1) splits the load across that many threads, each with its own connection.
+`threadcount` (default 1) splits the load across that many threads, each with its own connection. `tpms` is split too,
+but each thread gets at least 1.
 
 If a user's row is locked by another session, the thread rolls back, redoes the upserts (up to 100) it hadn't
 committed, and gives up with an error after 10 retries.

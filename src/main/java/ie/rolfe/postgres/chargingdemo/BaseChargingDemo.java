@@ -337,14 +337,14 @@ public abstract class BaseChargingDemo {
 
             for (int i = minUserId; i <= maxUserId; i++) {
 
-                if (tpThisMs++ > tpMs) {
+                if (tpThisMs++ >= tpMs) {
 
                     while (currentMs == System.currentTimeMillis()) {
                         Thread.sleep(0, 50000);
                     }
 
                     currentMs = System.currentTimeMillis();
-                    tpThisMs = 0;
+                    tpThisMs = 1; // the call we are about to make
                 }
 
 
@@ -414,14 +414,14 @@ public abstract class BaseChargingDemo {
 
                 String ourJson = getExtraUserDataAsJsonString(loblength, gson, r, userCount);
 
-                if (tpThisMs++ > tpMs) {
+                if (tpThisMs++ >= tpMs) {
 
                     while (currentMs == System.currentTimeMillis()) {
                         Thread.sleep(0, 50000);
                     }
 
                     currentMs = System.currentTimeMillis();
-                    tpThisMs = 0;
+                    tpThisMs = 1; // the call we are about to make
                 }
 
 
@@ -661,7 +661,7 @@ public abstract class BaseChargingDemo {
 
             while (endtimeMs > System.currentTimeMillis()) {
 
-                if (tpThisMs++ > tpMs) {
+                if (tpThisMs++ >= tpMs) {
 
                     while (currentMs == System.currentTimeMillis()) {
                         Thread.sleep(0, 50000);
@@ -671,7 +671,7 @@ public abstract class BaseChargingDemo {
                     sleepExtraMSIfNeeded(extraMs);
 
                     currentMs = System.currentTimeMillis();
-                    tpThisMs = 0;
+                    tpThisMs = 1; // the call we are about to make
                 }
 
 
@@ -955,7 +955,7 @@ public abstract class BaseChargingDemo {
 
             while (endtimeMs > System.currentTimeMillis()) {
 
-                if (tpThisMs++ > tpMs) {
+                if (tpThisMs++ >= tpMs) {
 
                     while (currentMs == System.currentTimeMillis()) {
                         Thread.sleep(0, 50000);
@@ -965,7 +965,7 @@ public abstract class BaseChargingDemo {
                     sleepExtraMSIfNeeded(extraMs);
 
                     currentMs = System.currentTimeMillis();
-                    tpThisMs = 0;
+                    tpThisMs = 1; // the call we are about to make
                 }
 
                 int randomuser = r.nextInt(userCount);
