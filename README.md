@@ -269,8 +269,10 @@ that extract and draw them are in `results/`.
 
 Run on 2026-11-25 from a c7g.xlarge in us-east-2c, with 100,000 users, 150 workers and 2-minute runs. `tpms` was 20, so
 that the client's rate limit didn't decide the result (see *Client limit* above). The users were loaded with a maximum
-initial credit of 100,000. The functions used `FOR UPDATE NOWAIT`, and calls for one user never overlapped, so no call
-found its row locked. Three runs on each database, in the order Lakebase, RDS, RDS, Lakebase, Lakebase, RDS:
+initial credit of 100,000. The functions used `FOR UPDATE NOWAIT`. Each of the 150 workers has its own connection, and
+all of one user's calls go to the same worker, so they can't overlap. All 2,622,533 calls succeeded at the first
+attempt. These runs therefore say nothing about row-lock contention. Three runs on each database, in the order
+Lakebase, RDS, RDS, Lakebase, Lakebase, RDS:
 
 | Database | TPS by run | Mean TPS | ReportQuotaUsage median / p95 / p99 (ms) | Time in retry loop, mean / median / p95 / p99 (ms) | Users loaded per second (32 threads) |
 |---|---|---|---|---|---|
