@@ -220,6 +220,10 @@ db.m7g.large (2 vCPU, 8 GB, gp3) in the same zone:
 Without the 130 ms round trip, Lakebase ran at 3.3 times the rate from the Mac, and opening the 150 connections
 took 5 seconds instead of 2.5 minutes. A TCP connect to the Lakebase endpoint took under 10 ms.
 
+- **Client limit:** 3,991 TPS is the most the client would send, not the most RDS could do. With `tpms` set to 2 the
+  client sends 4 calls per millisecond rather than 2. In this run it was held up by full queues for only 2 of the 900
+  seconds and sent 4,000 calls a second the rest of the time, so the RDS latencies are for a server that was
+  not saturated. The gap between the two databases is understated here: see *100,000 users* below.
 - **Storage limit:** Free Edition caps a Lakebase instance at 512 MB. A first run from EC2, with the export job
   paused, failed after 14 minutes at about 2,770 TPS, when `charglt_events` reached 2.3 million rows and
   transactions began failing with `could not extend file because instance size limit (512 MB) has been exceeded`. With
@@ -233,10 +237,37 @@ took 5 seconds instead of 2.5 minutes. A TCP connect to the Lakebase endpoint to
 The redacted logs, the per-millisecond histograms (`results/2026-11-18-latency-histograms.csv`) and the scripts
 that extract and draw them are in `results/`.
 
+#### 100,000 users
+
+> **Disclaimer:** as above, this compares two configurations that are not sized to match, not the products.
+
+Run on 2026-11-25 from a c7g.xlarge in us-east-2c, with 100,000 users, 150 workers and 2-minute runs. `tpms` was 20, so
+that the client's rate limit didn't decide the result (see *Client limit* above). The users were loaded with a maximum
+initial credit of 100,000. The functions used `FOR UPDATE NOWAIT`, and calls for one user never overlapped, so no call
+found its row locked. Three runs on each database, in the order Lakebase, RDS, RDS, Lakebase, Lakebase, RDS:
+
+| Database | TPS by run | Mean TPS | ReportQuotaUsage median / p95 / p99 (ms) | Time in retry loop, mean / median / p95 / p99 (ms) | Users loaded per second (32 threads) |
+|---|---|---|---|---|---|
+| Lakebase, 1 CU | 2,439, 2,452, 2,413 | 2,435 | 105 / 382 / 544 | 43.9 / 38 / 80 / 226 | 3,323 |
+| RDS PostgreSQL 17.11, db.m7g.large (2 vCPU) | 4,817, 4,902, 4,789 | 4,836 | 61 / 202 / 283 | 23.4 / 22 / 40 / 57 | 6,907 |
+
+![Latency histograms with 100,000 users, Lakebase and RDS side by side](results/2026-11-25-100k-users/latency-histograms.svg)
+
+Percentiles in the table are averaged over the three runs; the graph pools them. `ReportQuotaUsage` includes time in the client's queue; the retry loop
+doesn't. TPS here counts only calls that were carried out.
+
+- **RDS used all of its CPU:** up to 99% on 2 vCPUs, so about 4,800 TPS is near its limit for this workload, and
+  its latencies include waiting for CPU. There are no CPU figures for Lakebase; no sessions were seen waiting on I/O.
+- **The client may still limit throughput:** its one generator thread was held up by full queues for 98 to 109 of each 120
+  seconds, while on average 106 to 114 of the 150 workers were busy. How much this costs was not tested.
+
+Logs, session samples, client CPU samples and the per-millisecond histograms are in `results/2026-11-25-100k-users/`.
+
 #### Many calls for the same user at once
 
 > **Note:** these runs predate `NOWAIT`. They used a plain `SELECT ... FOR UPDATE`, so a call for a locked user
-> waited; now it fails at once and the client retries it (see *Schema notes*). They have not been rerun.
+> waited; now it fails at once and the client retries it (see *Schema notes*). *Ways of locking the row compared* below has newer
+> runs.
 
 `ReportQuotaUsage`, `AddCredit` and `UpsertUser` lock the user's row (`SELECT ... FOR UPDATE`) before reading
 anything, so calls for one user run one after another. Without the lock, each statement in these functions took
@@ -262,6 +293,47 @@ waiter). With 10 users, each user handled about 74 calls a second, so each call 
 queue (a median of 47 ms with 10,000 users and 141 ms with 10). Logs and lock samples are in
 `results/2026-11-18-locking/`.
 
+##### Ways of locking the row compared
+
+On 2026-11-24 `bench/lock-ab.sh` (see below) compared `FOR UPDATE`, `FOR UPDATE NOWAIT`, and `FOR UPDATE` with a
+`lock_timeout` of 100 ms and 2 retries, on Lakebase from the same kind of EC2 client. Three 2-minute runs of each, 150 workers:
+
+| Users | `FOR UPDATE` TPS | `NOWAIT` TPS (change, min to max) | `lock_timeout` TPS (change, min to max) | `NOWAIT` calls abandoned |
+|---|---|---|---|---|
+| 10,000 | 2,503 | 2,450 (-3.1% to -0.7%) | 2,482 (-2.9% to +1.0%) | 0.00% |
+| 1,000 | 2,411 | 2,210 (-10.7% to -6.8%) | 2,378 (-4.4% to +1.2%) | 0.05% |
+| 100 | 1,748 | 1,482 (-20.3% to -5.5%) | 1,753 (-11.6% to +9.3%) | 0.03% |
+| 10 | 713 | 695 (-8.1% to +6.3%) | 700 (-9.9% to +2.7%) | 6.73% |
+
+TPS is the mean of three runs; changes compare with the `FOR UPDATE` run in the same repetition.
+
+![Latency by percentile for three ways of locking the user's row](results/2026-11-24-lock-ab/latency-by-variant.svg)
+
+Time in the retry loop (ms), as in the graph:
+
+| Users | Variant | p50 | p95 | p99 | p99.9 |
+|---|---|---|---|---|---|
+| 10,000 | `FOR UPDATE` | 40 | 66 | 179 | 344 |
+| 10,000 | `NOWAIT` | 40 | 69 | 193 | 352 |
+| 10,000 | `lock_timeout` | 40 | 67 | 178 | 344 |
+| 1,000 | `FOR UPDATE` | 40 | 83 | 183 | 312 |
+| 1,000 | `NOWAIT` | 42 | 95 | 230 | 402 |
+| 1,000 | `lock_timeout` | 41 | 84 | 183 | 342 |
+| 100 | `FOR UPDATE` | 46 | 149 | 252 | 480 |
+| 100 | `NOWAIT` | 28 | 255 | 410 | 693 |
+| 100 | `lock_timeout` | 47 | 145 | 244 | 459 |
+| 10 | `FOR UPDATE` | 66 | 463 | 850 | 1,460 |
+| 10 | `NOWAIT` | 60 | 462 | 644 | 912 |
+| 10 | `lock_timeout` | 68 | 475 | 850 | 1,467 |
+
+- With 10 users, `NOWAIT`'s tail is shorter partly because it abandons calls after 11 attempts. Abandoned calls are included.
+- With 100 users, where a run came in its block seemed to matter, so the size of the `NOWAIT` change is uncertain.
+- `lock_timeout` limits each lock wait, not a call's total wait, so on a busy row calls can wait far longer than 100 ms
+  without failing: in a local test with a 100 ms limit, calls took up to 1.3 seconds and none timed out. The likely
+  reason is that the wait starts again each time the row's holder changes.
+
+Logs, `runs.csv` and lock samples are in `results/2026-11-24-lock-ab/`. `results/plot_lock_variants.py` draws the graph.
+
 ### For comparison: a local PostgreSQL server
 
 > **Disclaimer:** also a smoke test, not a benchmark. The gap below is almost all network distance (1.6 ms
@@ -279,6 +351,10 @@ trip, default `shared_buffers` of 128 MB, `max_connections` of 100):
 |---|---|---|---|---|
 | 16 | 106,095 | 1,768 | 29 / 94 | 30 / 94 |
 | 64 | 238,744 | 3,979 | 8 / 56 | 8 / 60 |
+
+With 64 workers the client was probably the limit, not the server: 3,979 TPS is close to the 4,000 calls per second
+that the client sends with `tpms` set to 2 (see *Client limit* above). The log of that run was not kept, so this was
+not checked.
 
 100 workers is not possible there: with 3 of the 100 connections reserved for superusers, the run cannot open
 enough connections.
@@ -324,8 +400,34 @@ includes the retries. If the row is still locked the call is abandoned: it chang
 the number of attempts that found the row locked and the number of calls abandoned (counters `ROW_LOCKED` and
 `ROW_LOCKED_GAVE_UP`). Any other error still stops the worker.
 
+The `REPORT_QUOTA_USAGE` and `ADD_CREDIT` latencies leave out abandoned calls. Three more histograms include them:
+`LOCK_ATTEMPTS` (attempts per call), `RETRY_LOOP` (time in the retry loop, without the client's queue) and
+`ABANDONED_CALL` (latency of abandoned calls, measured from the same point as the others).
+
+`PG_LOCK_TIMEOUT_MS` sets `lock_timeout` for the client's connections, and `CHARGLT_MAX_LOCK_RETRIES` changes the
+number of retries. Neither is set by default. `lock_timeout` has no effect on the `NOWAIT` functions; it is for the
+A/B test below.
+
 Results in this README before the *Many calls for the same user at once* section were measured when TPS also counted
 skipped calls (4% of them in the 15-minute run from the Mac, 3.5% in the same-region run).
+
+### Compare ways of locking the user's row — bench/lock-ab.sh
+
+`bench/lock-ab.sh` compares three versions of the functions that lock the user's row, with
+`CHARGLT_SAME_USER_CONCURRENCY=true`: `wait` (`FOR UPDATE`), `nowait` (`FOR UPDATE NOWAIT`, as in `create_procs.sql`) and
+`timeout` (`FOR UPDATE`, with `lock_timeout` and 2 retries). The default `lock_timeout` is 300 ms (`AB_LOCK_TIMEOUT_MS`); the
+Lakebase results above used 100 ms.
+
+```
+AB_LAKEBASE=yes AB_EXPORT=yes AB_HOST=ec2-user@<client> AB_SSH_KEY=~/.ssh/<key>.pem bench/lock-ab.sh results/<directory>
+```
+
+By default it makes three 120-second runs of each version with 10,000, 1,000, 100 and 10 users: 36 runs. Versions run
+back to back in an order that changes each repetition. It vacuums the tables before each run, and
+`AB_EXPORT=yes` runs `charglt-export` between blocks, so pause that job's schedule first. It replaces the functions
+in the database while it runs and puts those in `create_procs.sql` back after each block. The users must already be
+loaded. It prints a summary and writes `runs.csv`; rerun it with the same directory to resume. The settings are
+described at the top of the two scripts.
 
 ### Key-Value store benchmark — ChargingDemoKVStore
 

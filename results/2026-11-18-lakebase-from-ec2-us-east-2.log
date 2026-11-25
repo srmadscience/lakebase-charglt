@@ -1,0 +1,1936 @@
+stopped
+2026-11-18 12:24:39:Parameters:[<lakebase-host>, 10000, 2, 900, 10, <user>, <redacted>, 150]
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Clearing unfinished transactions from prior runs...
+2026-11-18 12:24:39:Clearing locked sessions from prior runs...
+2026-11-18 12:24:39:unlockAllRecords...done
+2026-11-18 12:24:39:clearUnfinishedTransactions...done
+2026-11-18 12:24:39:Creating 150 workers
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:39:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:40:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:41:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:42:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:43:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Logging into PostgreSQL
+2026-11-18 12:24:44:Creating Connection records for 10000 users
+2026-11-18 12:24:44:starting...
+2026-11-18 12:24:44:Transaction 1
+2026-11-18 12:24:54:
+Query :1
+2026-11-18 12:24:54:Query loyalty card #42...
+2026-11-18 12:24:54:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:24:54:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:24:54:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:04:
+Query :1
+2026-11-18 12:25:04:Query loyalty card #42...
+2026-11-18 12:25:04:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:04:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:04:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:14:
+Query :1
+2026-11-18 12:25:14:Query loyalty card #42...
+2026-11-18 12:25:14:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:14:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:14:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:21:Transaction 100001
+2026-11-18 12:25:24:
+Query :1
+2026-11-18 12:25:24:Query loyalty card #42...
+2026-11-18 12:25:24:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:24:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:24:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:34:
+Query :1
+2026-11-18 12:25:34:Query loyalty card #42...
+2026-11-18 12:25:34:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:34:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:34:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:44:
+Query :1
+2026-11-18 12:25:44:Query loyalty card #42...
+2026-11-18 12:25:44:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:44:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:44:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:54:
+Query :1
+2026-11-18 12:25:54:Query loyalty card #42...
+2026-11-18 12:25:54:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:25:54:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:25:54:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:25:57:Transaction 200001
+2026-11-18 12:26:04:
+Query :1
+2026-11-18 12:26:04:Query loyalty card #42...
+2026-11-18 12:26:04:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:04:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:04:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:26:14:
+Query :1
+2026-11-18 12:26:14:Query loyalty card #42...
+2026-11-18 12:26:14:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:14:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:14:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:26:24:
+Query :1
+2026-11-18 12:26:24:Query loyalty card #42...
+2026-11-18 12:26:24:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:24:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:24:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:26:33:Transaction 300001
+2026-11-18 12:26:34:
+Query :1
+2026-11-18 12:26:34:Query loyalty card #42...
+2026-11-18 12:26:34:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:34:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:34:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:26:44:
+Query :1
+2026-11-18 12:26:44:Query loyalty card #42...
+2026-11-18 12:26:44:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:44:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:44:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:26:54:
+Query :1
+2026-11-18 12:26:54:Query loyalty card #42...
+2026-11-18 12:26:54:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:26:54:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:26:54:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:04:
+Query :1
+2026-11-18 12:27:04:Query loyalty card #42...
+2026-11-18 12:27:04:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:04:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:04:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:10:Transaction 400001
+2026-11-18 12:27:14:
+Query :1
+2026-11-18 12:27:14:Query loyalty card #42...
+2026-11-18 12:27:14:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:14:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:14:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:24:
+Query :1
+2026-11-18 12:27:24:Query loyalty card #42...
+2026-11-18 12:27:24:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:24:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:24:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:34:
+Query :1
+2026-11-18 12:27:34:Query loyalty card #42...
+2026-11-18 12:27:34:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:34:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:34:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:44:
+Query :1
+2026-11-18 12:27:44:Query loyalty card #42...
+2026-11-18 12:27:44:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:44:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:44:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:27:45:Transaction 500001
+2026-11-18 12:27:54:
+Query :1
+2026-11-18 12:27:54:Query loyalty card #42...
+2026-11-18 12:27:54:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:27:54:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:27:54:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:04:
+Query :1
+2026-11-18 12:28:04:Query loyalty card #42...
+2026-11-18 12:28:04:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:04:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:04:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:14:
+Query :1
+2026-11-18 12:28:14:Query loyalty card #42...
+2026-11-18 12:28:14:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:14:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:14:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:21:Transaction 600001
+2026-11-18 12:28:24:
+Query :1
+2026-11-18 12:28:24:Query loyalty card #42...
+2026-11-18 12:28:24:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:24:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:24:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:34:
+Query :1
+2026-11-18 12:28:34:Query loyalty card #42...
+2026-11-18 12:28:34:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:34:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:34:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:44:
+Query :1
+2026-11-18 12:28:44:Query loyalty card #42...
+2026-11-18 12:28:44:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:44:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:44:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:54:
+Query :1
+2026-11-18 12:28:54:Query loyalty card #42...
+2026-11-18 12:28:54:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:28:54:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:28:54:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:28:58:Transaction 700001
+2026-11-18 12:29:04:
+Query :1
+2026-11-18 12:29:04:Query loyalty card #42...
+2026-11-18 12:29:04:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:04:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:04:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:29:14:
+Query :1
+2026-11-18 12:29:14:Query loyalty card #42...
+2026-11-18 12:29:14:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:14:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:14:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:29:24:
+Query :1
+2026-11-18 12:29:24:Query loyalty card #42...
+2026-11-18 12:29:24:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:24:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:24:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:29:34:Transaction 800001
+2026-11-18 12:29:34:
+Query :1
+2026-11-18 12:29:34:Query loyalty card #42...
+2026-11-18 12:29:34:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:34:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:34:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:29:44:
+Query :1
+2026-11-18 12:29:44:Query loyalty card #42...
+2026-11-18 12:29:44:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:44:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:44:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:29:55:
+Query :1
+2026-11-18 12:29:55:Query loyalty card #42...
+2026-11-18 12:29:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:29:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:29:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:05:
+Query :1
+2026-11-18 12:30:05:Query loyalty card #42...
+2026-11-18 12:30:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:11:Transaction 900001
+2026-11-18 12:30:15:
+Query :1
+2026-11-18 12:30:15:Query loyalty card #42...
+2026-11-18 12:30:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:25:
+Query :1
+2026-11-18 12:30:25:Query loyalty card #42...
+2026-11-18 12:30:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:35:
+Query :1
+2026-11-18 12:30:35:Query loyalty card #42...
+2026-11-18 12:30:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:45:
+Query :1
+2026-11-18 12:30:45:Query loyalty card #42...
+2026-11-18 12:30:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:30:47:Transaction 1000001
+2026-11-18 12:30:55:
+Query :1
+2026-11-18 12:30:55:Query loyalty card #42...
+2026-11-18 12:30:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:30:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:30:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:05:
+Query :1
+2026-11-18 12:31:05:Query loyalty card #42...
+2026-11-18 12:31:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:15:
+Query :1
+2026-11-18 12:31:15:Query loyalty card #42...
+2026-11-18 12:31:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:23:Transaction 1100001
+2026-11-18 12:31:25:
+Query :1
+2026-11-18 12:31:25:Query loyalty card #42...
+2026-11-18 12:31:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:35:
+Query :1
+2026-11-18 12:31:35:Query loyalty card #42...
+2026-11-18 12:31:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:45:
+Query :1
+2026-11-18 12:31:45:Query loyalty card #42...
+2026-11-18 12:31:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:55:
+Query :1
+2026-11-18 12:31:55:Query loyalty card #42...
+2026-11-18 12:31:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:31:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:31:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:31:59:Transaction 1200001
+2026-11-18 12:32:05:
+Query :1
+2026-11-18 12:32:05:Query loyalty card #42...
+2026-11-18 12:32:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:32:15:
+Query :1
+2026-11-18 12:32:15:Query loyalty card #42...
+2026-11-18 12:32:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:32:25:
+Query :1
+2026-11-18 12:32:25:Query loyalty card #42...
+2026-11-18 12:32:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:32:35:
+Query :1
+2026-11-18 12:32:35:Query loyalty card #42...
+2026-11-18 12:32:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:32:36:Transaction 1300001
+2026-11-18 12:32:45:
+Query :1
+2026-11-18 12:32:45:Query loyalty card #42...
+2026-11-18 12:32:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:32:55:
+Query :1
+2026-11-18 12:32:55:Query loyalty card #42...
+2026-11-18 12:32:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:32:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:32:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:05:
+Query :1
+2026-11-18 12:33:05:Query loyalty card #42...
+2026-11-18 12:33:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:12:Transaction 1400001
+2026-11-18 12:33:15:
+Query :1
+2026-11-18 12:33:15:Query loyalty card #42...
+2026-11-18 12:33:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:25:
+Query :1
+2026-11-18 12:33:25:Query loyalty card #42...
+2026-11-18 12:33:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:35:
+Query :1
+2026-11-18 12:33:35:Query loyalty card #42...
+2026-11-18 12:33:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:45:
+Query :1
+2026-11-18 12:33:45:Query loyalty card #42...
+2026-11-18 12:33:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:33:49:Transaction 1500001
+2026-11-18 12:33:55:
+Query :1
+2026-11-18 12:33:55:Query loyalty card #42...
+2026-11-18 12:33:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:33:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:33:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:05:
+Query :1
+2026-11-18 12:34:05:Query loyalty card #42...
+2026-11-18 12:34:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:15:
+Query :1
+2026-11-18 12:34:15:Query loyalty card #42...
+2026-11-18 12:34:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:25:
+Query :1
+2026-11-18 12:34:25:Query loyalty card #42...
+2026-11-18 12:34:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:25:Transaction 1600001
+2026-11-18 12:34:35:
+Query :1
+2026-11-18 12:34:35:Query loyalty card #42...
+2026-11-18 12:34:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:45:
+Query :1
+2026-11-18 12:34:45:Query loyalty card #42...
+2026-11-18 12:34:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:34:55:
+Query :1
+2026-11-18 12:34:55:Query loyalty card #42...
+2026-11-18 12:34:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:34:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:34:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:02:Transaction 1700001
+2026-11-18 12:35:05:
+Query :1
+2026-11-18 12:35:05:Query loyalty card #42...
+2026-11-18 12:35:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:15:
+Query :1
+2026-11-18 12:35:15:Query loyalty card #42...
+2026-11-18 12:35:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:25:
+Query :1
+2026-11-18 12:35:25:Query loyalty card #42...
+2026-11-18 12:35:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:35:
+Query :1
+2026-11-18 12:35:35:Query loyalty card #42...
+2026-11-18 12:35:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:37:Transaction 1800001
+2026-11-18 12:35:45:
+Query :1
+2026-11-18 12:35:45:Query loyalty card #42...
+2026-11-18 12:35:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:35:55:
+Query :1
+2026-11-18 12:35:55:Query loyalty card #42...
+2026-11-18 12:35:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:35:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:35:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:05:
+Query :1
+2026-11-18 12:36:05:Query loyalty card #42...
+2026-11-18 12:36:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:12:Transaction 1900001
+2026-11-18 12:36:15:
+Query :1
+2026-11-18 12:36:15:Query loyalty card #42...
+2026-11-18 12:36:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:25:
+Query :1
+2026-11-18 12:36:25:Query loyalty card #42...
+2026-11-18 12:36:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:35:
+Query :1
+2026-11-18 12:36:35:Query loyalty card #42...
+2026-11-18 12:36:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:45:
+Query :1
+2026-11-18 12:36:45:Query loyalty card #42...
+2026-11-18 12:36:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:36:48:Transaction 2000001
+2026-11-18 12:36:55:
+Query :1
+2026-11-18 12:36:55:Query loyalty card #42...
+2026-11-18 12:36:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:36:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:36:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:05:
+Query :1
+2026-11-18 12:37:05:Query loyalty card #42...
+2026-11-18 12:37:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:15:
+Query :1
+2026-11-18 12:37:15:Query loyalty card #42...
+2026-11-18 12:37:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:23:Transaction 2100001
+2026-11-18 12:37:25:
+Query :1
+2026-11-18 12:37:25:Query loyalty card #42...
+2026-11-18 12:37:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:35:
+Query :1
+2026-11-18 12:37:35:Query loyalty card #42...
+2026-11-18 12:37:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:45:
+Query :1
+2026-11-18 12:37:45:Query loyalty card #42...
+2026-11-18 12:37:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:55:
+Query :1
+2026-11-18 12:37:55:Query loyalty card #42...
+2026-11-18 12:37:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:37:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:37:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:37:58:Transaction 2200001
+2026-11-18 12:38:05:
+Query :1
+2026-11-18 12:38:05:Query loyalty card #42...
+2026-11-18 12:38:05:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:05:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:05:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:38:15:
+Query :1
+2026-11-18 12:38:15:Query loyalty card #42...
+2026-11-18 12:38:15:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:15:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:15:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:38:25:
+Query :1
+2026-11-18 12:38:25:Query loyalty card #42...
+2026-11-18 12:38:25:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:25:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:25:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:38:34:Transaction 2300001
+2026-11-18 12:38:35:
+Query :1
+2026-11-18 12:38:35:Query loyalty card #42...
+2026-11-18 12:38:35:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:35:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:35:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:38:45:
+Query :1
+2026-11-18 12:38:45:Query loyalty card #42...
+2026-11-18 12:38:45:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:45:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:45:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 12:38:55:
+Query :1
+2026-11-18 12:38:55:Query loyalty card #42...
+2026-11-18 12:38:55:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 12:38:55:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 12:38:55:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+Exception in thread "Thread-70" Exception in thread "Thread-39" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-46" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-63" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-2" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-61" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-86" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-94" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-124" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-133" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-40" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-79" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-135" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-119" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-117" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-146" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-22" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-111" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-18" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-12" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-44" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-80" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-82" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-90" Exception in thread "Thread-130" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-42" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-141" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-53" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+Exception in thread "Thread-6" java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: could not extend file because instance size limit (512 MB) has been exceeded
+  Hint: This limit is defined externally by the instance size limit, and internally by neon.max_cluster_size GUC
+  Where: SQL statement "INSERT INTO charglt_events
+    (userid, user_txn_id, txn_time, sessionid, approved_amount, spent_amount, purpose)
+  SELECT urt.userid, urt.user_txn_id, urt.txn_time, urt.sessionid,
+         urt.approved_amount, urt.spent_amount, urt.purpose
+  FROM user_recent_transactions urt
+  WHERE urt.userid = p_userid AND urt.user_txn_id = p_txnId"
+PL/pgSQL function sendtokafka(bigint,text) line 3 at SQL statement
+SQL statement "SELECT SendToKafka(p_userid, p_txnId)"
+PL/pgSQL function reportquotausage(bigint,bigint,bigint,bigint,text) line 58 at PERFORM
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at ie.rolfe.postgres.chargingdemo.BaseChargingDemo.doTransaction(BaseChargingDemo.java:851)
+	at ie.rolfe.postgres.chargingdemo.ChargingDemoTransactionWorker.run(ChargingDemoTransactionWorker.java:79)
+	... 1 more
+exit=143

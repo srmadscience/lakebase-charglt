@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draw the latency histograms in a CSV from extract_histograms.py as an SVG.
 
-Usage: plot_histograms.py histograms.csv [--css-vars] > histograms.svg
+Usage: plot_histograms.py histograms.csv [--css-vars] [--note "text"] > histograms.svg
 
 Two columns (Lakebase, RDS), one row per transaction type, sharing a log-scale
 latency axis and, within a row, the y scale. Buckets are 1 ms wide in the log, so
@@ -11,6 +11,7 @@ its width in tenths of a decade, so bins of different widths compare fairly.
 
 --css-vars colours the SVG with CSS custom properties (for a themed HTML page);
 without it, the SVG uses fixed light-theme colours (for the README).
+--note adds a line of text at the bottom, e.g. what was run.
 """
 import csv
 import math
@@ -54,13 +55,14 @@ def percentile(buckets, p):
 def main():
     path = sys.argv[1]
     css = "--css-vars" in sys.argv[2:]
+    note = sys.argv[sys.argv.index("--note") + 1] if "--note" in sys.argv else None
     data = defaultdict(lambda: defaultdict(int))
     for r in csv.DictReader(open(path)):
         data[(r["run"], r["transaction"])][int(r["latency_ms"])] += int(r["calls"])
 
     edges = bin_edges()
-    W, H = 920, 640
-    ml, mr, mt, mb, gap_x, gap_y = 64, 16, 64, 56, 40, 70
+    W, H = 920, 660 if note else 640
+    ml, mr, mt, mb, gap_x, gap_y = 64, 16, 64, 76 if note else 56, 40, 70
     pw = (W - ml - mr - gap_x) / 2
     ph = (H - mt - mb - gap_y) / 2
     lo, hi = math.log10(0.5), math.log10(2000)
@@ -139,6 +141,8 @@ def main():
 
     out.append(f'<text x="{ml}" y="{H - 14}" font-size="11" fill="{muted}">Latency (log scale). Bar height: share of '
                f'calls per tenth of a decade of latency, so bins of different widths compare fairly.</text>')
+    if note:
+        out.append(f'<text x="{ml}" y="{H - 30}" font-size="11" fill="{muted}">{note}</text>')
     out.append('</svg>')
     print("\n".join(out))
 

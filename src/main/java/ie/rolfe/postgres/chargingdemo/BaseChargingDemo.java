@@ -53,6 +53,20 @@ public abstract class BaseChargingDemo {
      * database handles concurrent calls for one user (row lock conflicts).
      */
     public static final String SAME_USER_CONCURRENCY = "CHARGLT_SAME_USER_CONCURRENCY";
+
+    /**
+     * Optional lock_timeout, in milliseconds, for every connection. A call that waits longer
+     * than this for a lock fails with SQLSTATE 55P03, as a NOWAIT call does at once. Not set
+     * by default.
+     */
+    public static final String PG_LOCK_TIMEOUT_MS = "PG_LOCK_TIMEOUT_MS";
+
+    /**
+     * Optional override for ReferenceData.MAX_LOCK_RETRIES.
+     */
+    public static final String MAX_LOCK_RETRIES_ENV = "CHARGLT_MAX_LOCK_RETRIES";
+    private static final int MAX_LOCK_RETRIES = getIntEnv(MAX_LOCK_RETRIES_ENV, ReferenceData.MAX_LOCK_RETRIES);
+
     public static final int BATCH_SIZE = 50;
     protected static final String QUEUE_QUEUE = "QUEUE_QUEUE";
     static final String ATTEMPTS = "ATTEMPTS";
@@ -68,6 +82,23 @@ public abstract class BaseChargingDemo {
      * Counts calls abandoned because the row was still locked after MAX_LOCK_RETRIES retries
      */
     static final String ROW_LOCKED_GAVE_UP = "ROW_LOCKED_GAVE_UP";
+
+    /**
+     * Histogram of attempts per call in executeWithLockRetry, including abandoned calls
+     */
+    static final String LOCK_ATTEMPTS = "LOCK_ATTEMPTS";
+
+    /**
+     * Histogram of the time (ms) calls spend in executeWithLockRetry: all attempts and the
+     * sleeps between them, but not the client's queue. Includes abandoned calls.
+     */
+    static final String RETRY_LOOP = "RETRY_LOOP";
+
+    /**
+     * Histogram of the latency of abandoned calls, measured from the same point as ADD_CREDIT
+     * and REPORT_QUOTA_USAGE, which leave them out.
+     */
+    static final String ABANDONED_CALL = "ABANDONED_CALL";
     public static SafeHistogramCache shc = SafeHistogramCache.getInstance();
 
     /**
@@ -153,6 +184,15 @@ public abstract class BaseChargingDemo {
             msg("Logging into PostgreSQL");
 
             Connection connection = DriverManager.getConnection(connectString, props);
+
+            // Before setAutoCommit(false), so that a rollback can't undo it
+            final int lockTimeoutMs = getIntEnv(PG_LOCK_TIMEOUT_MS, 0);
+            if (lockTimeoutMs > 0) {
+                try (Statement stmt = connection.createStatement()) {
+                    stmt.execute("SET lock_timeout = " + lockTimeoutMs);
+                }
+            }
+
             connection.setAutoCommit(autoCommit);
             return connection;
 
@@ -160,6 +200,17 @@ public abstract class BaseChargingDemo {
             e.printStackTrace();
             throw new Exception("DB connection failed.." + e.getMessage(), e);
         }
+    }
+
+    /**
+     * Read an optional integer environment variable.
+     *
+     * @param name
+     * @param defaultValue used if it isn't set or is empty
+     */
+    private static int getIntEnv(String name, int defaultValue) {
+        final String value = System.getenv(name);
+        return value == null || value.isBlank() ? defaultValue : Integer.parseInt(value.trim());
     }
 
     /**
@@ -190,7 +241,8 @@ public abstract class BaseChargingDemo {
     /**
      * Execute a statement, retrying after a short random delay if the user's row is locked
      * by another transaction. The connection must be in autocommit mode: otherwise the
-     * failed call has aborted a transaction that needs to be rolled back first.
+     * failed call has aborted a transaction that needs to be rolled back first. Reports
+     * LOCK_ATTEMPTS and RETRY_LOOP once per call, whether it succeeds or is abandoned.
      *
      * @param statement
      * @return false if the row was still locked after MAX_LOCK_RETRIES retries
@@ -198,9 +250,12 @@ public abstract class BaseChargingDemo {
      */
     static boolean executeWithLockRetry(PreparedStatement statement) throws SQLException {
 
+        final long startNanos = System.nanoTime();
+
         for (int attempt = 0; ; attempt++) {
             try {
                 statement.execute();
+                reportRetryLoop(startNanos, attempt + 1);
                 return true;
             } catch (SQLException e) {
                 if (!isRowLocked(e)) {
@@ -210,13 +265,19 @@ public abstract class BaseChargingDemo {
 
             shc.incCounter(ROW_LOCKED);
 
-            if (attempt >= ReferenceData.MAX_LOCK_RETRIES) {
+            if (attempt >= MAX_LOCK_RETRIES) {
                 shc.incCounter(ROW_LOCKED_GAVE_UP);
+                reportRetryLoop(startNanos, attempt + 1);
                 return false;
             }
 
             sleepBeforeLockRetry(attempt);
         }
+    }
+
+    private static void reportRetryLoop(long startNanos, int attempts) {
+        shc.report(LOCK_ATTEMPTS, attempts, "Attempts per call", MAX_LOCK_RETRIES + 2);
+        shc.report(RETRY_LOOP, (int) ((System.nanoTime() - startNanos) / 1_000_000), "Time in retry loop", 10000);
     }
 
     /**
@@ -441,7 +502,7 @@ public abstract class BaseChargingDemo {
                     firstToDo = 0;
                 }
 
-                if (attempt >= ReferenceData.MAX_LOCK_RETRIES) {
+                if (attempt >= MAX_LOCK_RETRIES) {
                     shc.incCounter(ROW_LOCKED_GAVE_UP);
                     throw e;
                 }
@@ -1005,6 +1066,8 @@ public abstract class BaseChargingDemo {
             if (executeWithLockRetry(addCredit)) {
                 updateUserBalance(users[randomuser], addCredit, users[randomuser].sessionId);
                 shc.reportLatency(BaseChargingDemo.ADD_CREDIT, startMs, "ADD_CREDIT", 2000);
+            } else {
+                shc.reportLatency(ABANDONED_CALL, startMs, "Latency of abandoned call", 10000);
             }
 
         } else {
@@ -1025,6 +1088,8 @@ public abstract class BaseChargingDemo {
             if (executeWithLockRetry(reportUsage)) {
                 updateUserBalance(users[randomuser], reportUsage, randomuser);
                 shc.reportLatency(BaseChargingDemo.REPORT_QUOTA_USAGE, startMs, "REPORT_QUOTA_USAGE", 2000);
+            } else {
+                shc.reportLatency(ABANDONED_CALL, startMs, "Latency of abandoned call", 10000);
             }
         }
 

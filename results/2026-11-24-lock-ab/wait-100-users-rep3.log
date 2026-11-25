@@ -1,0 +1,4360 @@
+AB variant=wait users=100 rep=3 position=2 seconds=120 workers=150 lock_timeout_ms=0 max_retries=default db_mb=275
+2026-11-24 21:13:30:Parameters:[<lakebase-host>, 100, 2, 120, 10, env, env, 150]
+2026-11-24 21:13:30:Logging into PostgreSQL
+2026-11-24 21:13:31:Clearing unfinished transactions from prior runs...
+2026-11-24 21:13:31:Clearing locked sessions from prior runs...
+2026-11-24 21:13:31:unlockAllRecords...done
+2026-11-24 21:13:31:clearUnfinishedTransactions...done
+2026-11-24 21:13:31:Creating 150 workers
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:31:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:32:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:33:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:34:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:35:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Logging into PostgreSQL
+2026-11-24 21:13:36:Creating Connection records for 100 users
+2026-11-24 21:13:36:CHARGLT_SAME_USER_CONCURRENCY is true: calls for the same user may run at the same time
+2026-11-24 21:13:36:starting...
+2026-11-24 21:13:36:Transaction 1
+2026-11-24 21:13:46:
+Query :1
+2026-11-24 21:13:46:Query loyalty card #42...
+2026-11-24 21:13:46:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:13:46:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:13:46:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:13:56:
+Query :1
+2026-11-24 21:13:56:Query loyalty card #42...
+2026-11-24 21:13:56:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:13:56:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:13:56:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:06:
+Query :1
+2026-11-24 21:14:06:Query loyalty card #42...
+2026-11-24 21:14:06:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:06:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:06:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:16:
+Query :1
+2026-11-24 21:14:16:Query loyalty card #42...
+2026-11-24 21:14:16:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:16:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:16:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:26:
+Query :1
+2026-11-24 21:14:26:Query loyalty card #42...
+2026-11-24 21:14:26:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:26:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:26:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:36:
+Query :1
+2026-11-24 21:14:36:Query loyalty card #42...
+2026-11-24 21:14:36:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:36:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:36:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:39:Transaction 100001
+2026-11-24 21:14:46:
+Query :1
+2026-11-24 21:14:46:Query loyalty card #42...
+2026-11-24 21:14:46:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:46:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:46:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:14:56:
+Query :1
+2026-11-24 21:14:56:Query loyalty card #42...
+2026-11-24 21:14:56:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:14:56:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:14:56:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:15:06:
+Query :1
+2026-11-24 21:15:06:Query loyalty card #42...
+2026-11-24 21:15:06:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:15:06:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:15:06:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:15:16:
+Query :1
+2026-11-24 21:15:16:Query loyalty card #42...
+2026-11-24 21:15:16:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:15:16:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:15:16:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:15:26:
+Query :1
+2026-11-24 21:15:26:Query loyalty card #42...
+2026-11-24 21:15:26:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-24 21:15:26:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-24 21:15:26:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-24 21:15:30:Transaction 200001
+2026-11-24 21:15:36:finished adding transactions to queue
+2026-11-24 21:15:36:Draining queue
+2026-11-24 21:15:36:0: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:1: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:2: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:3: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:4: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:5: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:6: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:7: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:8: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:9: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:10: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:11: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:12: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:13: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:14: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:15: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:16: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:17: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:18: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:19: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:20: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:21: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:22: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:23: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:24: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:25: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:26: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:27: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:28: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:29: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:30: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:31: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:32: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:33: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:34: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:35: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:36: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:37: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:38: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:39: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:40: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:41: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:42: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:43: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:44: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:45: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:46: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:47: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:48: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:49: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:50: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:51: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:52: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:53: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:54: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:55: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:56: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:57: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:58: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:59: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:60: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:61: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:62: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:63: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:64: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:65: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:66: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:67: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:68: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:69: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:70: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:71: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:72: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:73: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:74: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:75: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:76: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:77: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:78: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:79: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:80: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:81: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:82: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:83: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:84: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:85: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:86: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:87: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:88: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:89: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:90: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:91: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:92: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:93: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:94: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:95: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:96: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:97: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:98: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:99: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:100: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:101: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:102: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:103: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:104: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:105: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:106: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:107: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:108: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:109: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:110: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:111: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:112: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:113: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:114: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:36:115: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:116: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:117: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:118: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:119: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:120: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:121: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:122: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:123: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:124: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:125: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:126: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:127: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:128: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:129: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:130: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:131: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:132: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:133: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:134: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:135: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:136: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:137: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:138: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:139: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:140: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:141: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:142: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:143: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:144: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:145: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:146: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:147: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:148: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:149: KeepGoing set to false. Queue size: 0
+2026-11-24 21:15:37:Queue drained
+2026-11-24 21:15:37:Processed 210922 transactions in 120661 milliseconds (0 more skipped because the user had one in flight)
+2026-11-24 21:15:37:TPS = 1757.6833333333334
+2026-11-24 21:15:37:Add Credit calls = 6020
+2026-11-24 21:15:37:Report Usage calls = 204902
+2026-11-24 21:15:37:Skipped because transaction was in flight = 0
+2026-11-24 21:15:37:Attempts that failed because the user's row was locked = 0
+2026-11-24 21:15:37:Calls abandoned because the user's row stayed locked = 0
+2026-11-24 21:15:37:GREPABLE SUMMARY:2:1757.6833333333334:0:0:0:79:192:273:747:1.0:1:1:1:2:2:2:2:1622.0:134:78:693:1026:1421:1550:1824:1.0:195:145:767:1116:1499:1641:1919:1.0:0:0:0:0:0:0:0:0.0:0:0:0:0:0:0:0:0.0:
+2026-11-24 21:15:37:{LOCK_ATTEMPTS=LOCK_ATTEMPTS 
+ Reports=          210922 Average=               1, Total=         210,922, 50%=               1, 95%=               1, 99%=               1, 99.5%=               1, 99.95%=               1, Max=               1
+1	210922.0	Attempts per call
+, KV_GET= 
+ Reports=               0 Average=             NaN, Total=               0, 50%=               0, 95%=               0, 99%=               0, 99.5%=               0, 99.95%=               0, Max=               0
+, KV_PUT= 
+ Reports=               0 Average=             NaN, Total=               0, 50%=               0, 95%=               0, 99%=               0, 99.5%=               0, 99.95%=               0, Max=               0
+, QUEUE_LAG=QUEUE_LAG 
+ Reports=          210922 Average=             134, Total=      28,312,461, 50%=              78, 95%=             466, 99%=             693, 99.5%=             784, 99.95%=            1128, Max=            1824
+0	52966.0	Time spent in request queue
+1	584.0	Time spent in request queue
+2	511.0	Time spent in request queue
+3	478.0	Time spent in request queue
+4	543.0	Time spent in request queue
+5	525.0	Time spent in request queue
+6	550.0	Time spent in request queue
+7	598.0	Time spent in request queue
+8	579.0	Time spent in request queue
+9	558.0	Time spent in request queue
+10	654.0	Time spent in request queue
+11	642.0	Time spent in request queue
+12	629.0	Time spent in request queue
+13	638.0	Time spent in request queue
+14	684.0	Time spent in request queue
+15	730.0	Time spent in request queue
+16	707.0	Time spent in request queue
+17	724.0	Time spent in request queue
+18	729.0	Time spent in request queue
+19	716.0	Time spent in request queue
+20	750.0	Time spent in request queue
+21	766.0	Time spent in request queue
+22	763.0	Time spent in request queue
+23	782.0	Time spent in request queue
+24	768.0	Time spent in request queue
+25	802.0	Time spent in request queue
+26	786.0	Time spent in request queue
+27	785.0	Time spent in request queue
+28	787.0	Time spent in request queue
+29	827.0	Time spent in request queue
+30	799.0	Time spent in request queue
+31	825.0	Time spent in request queue
+32	791.0	Time spent in request queue
+33	837.0	Time spent in request queue
+34	773.0	Time spent in request queue
+35	803.0	Time spent in request queue
+36	766.0	Time spent in request queue
+37	743.0	Time spent in request queue
+38	731.0	Time spent in request queue
+39	736.0	Time spent in request queue
+40	677.0	Time spent in request queue
+41	723.0	Time spent in request queue
+42	719.0	Time spent in request queue
+43	703.0	Time spent in request queue
+44	676.0	Time spent in request queue
+45	695.0	Time spent in request queue
+46	728.0	Time spent in request queue
+47	713.0	Time spent in request queue
+48	663.0	Time spent in request queue
+49	677.0	Time spent in request queue
+50	671.0	Time spent in request queue
+51	633.0	Time spent in request queue
+52	700.0	Time spent in request queue
+53	653.0	Time spent in request queue
+54	666.0	Time spent in request queue
+55	631.0	Time spent in request queue
+56	667.0	Time spent in request queue
+57	614.0	Time spent in request queue
+58	636.0	Time spent in request queue
+59	617.0	Time spent in request queue
+60	626.0	Time spent in request queue
+61	671.0	Time spent in request queue
+62	683.0	Time spent in request queue
+63	668.0	Time spent in request queue
+64	637.0	Time spent in request queue
+65	624.0	Time spent in request queue
+66	664.0	Time spent in request queue
+67	647.0	Time spent in request queue
+68	635.0	Time spent in request queue
+69	625.0	Time spent in request queue
+70	602.0	Time spent in request queue
+71	632.0	Time spent in request queue
+72	584.0	Time spent in request queue
+73	602.0	Time spent in request queue
+74	623.0	Time spent in request queue
+75	597.0	Time spent in request queue
+76	604.0	Time spent in request queue
+77	557.0	Time spent in request queue
+78	570.0	Time spent in request queue
+79	615.0	Time spent in request queue
+80	557.0	Time spent in request queue
+81	573.0	Time spent in request queue
+82	545.0	Time spent in request queue
+83	534.0	Time spent in request queue
+84	594.0	Time spent in request queue
+85	532.0	Time spent in request queue
+86	569.0	Time spent in request queue
+87	571.0	Time spent in request queue
+88	548.0	Time spent in request queue
+89	535.0	Time spent in request queue
+90	532.0	Time spent in request queue
+91	490.0	Time spent in request queue
+92	546.0	Time spent in request queue
+93	520.0	Time spent in request queue
+94	525.0	Time spent in request queue
+95	529.0	Time spent in request queue
+96	533.0	Time spent in request queue
+97	560.0	Time spent in request queue
+98	510.0	Time spent in request queue
+99	560.0	Time spent in request queue
+100	549.0	Time spent in request queue
+101	526.0	Time spent in request queue
+102	501.0	Time spent in request queue
+103	501.0	Time spent in request queue
+104	483.0	Time spent in request queue
+105	484.0	Time spent in request queue
+106	524.0	Time spent in request queue
+107	465.0	Time spent in request queue
+108	463.0	Time spent in request queue
+109	524.0	Time spent in request queue
+110	444.0	Time spent in request queue
+111	521.0	Time spent in request queue
+112	492.0	Time spent in request queue
+113	466.0	Time spent in request queue
+114	481.0	Time spent in request queue
+115	469.0	Time spent in request queue
+116	431.0	Time spent in request queue
+117	465.0	Time spent in request queue
+118	494.0	Time spent in request queue
+119	499.0	Time spent in request queue
+120	498.0	Time spent in request queue
+121	414.0	Time spent in request queue
+122	470.0	Time spent in request queue
+123	469.0	Time spent in request queue
+124	451.0	Time spent in request queue
+125	418.0	Time spent in request queue
+126	430.0	Time spent in request queue
+127	461.0	Time spent in request queue
+128	439.0	Time spent in request queue
+129	442.0	Time spent in request queue
+130	457.0	Time spent in request queue
+131	446.0	Time spent in request queue
+132	420.0	Time spent in request queue
+133	433.0	Time spent in request queue
+134	418.0	Time spent in request queue
+135	388.0	Time spent in request queue
+136	441.0	Time spent in request queue
+137	442.0	Time spent in request queue
+138	477.0	Time spent in request queue
+139	424.0	Time spent in request queue
+140	406.0	Time spent in request queue
+141	372.0	Time spent in request queue
+142	402.0	Time spent in request queue
+143	375.0	Time spent in request queue
+144	419.0	Time spent in request queue
+145	406.0	Time spent in request queue
+146	413.0	Time spent in request queue
+147	416.0	Time spent in request queue
+148	389.0	Time spent in request queue
+149	353.0	Time spent in request queue
+150	392.0	Time spent in request queue
+151	411.0	Time spent in request queue
+152	429.0	Time spent in request queue
+153	372.0	Time spent in request queue
+154	385.0	Time spent in request queue
+155	380.0	Time spent in request queue
+156	401.0	Time spent in request queue
+157	396.0	Time spent in request queue
+158	410.0	Time spent in request queue
+159	420.0	Time spent in request queue
+160	403.0	Time spent in request queue
+161	353.0	Time spent in request queue
+162	390.0	Time spent in request queue
+163	381.0	Time spent in request queue
+164	358.0	Time spent in request queue
+165	337.0	Time spent in request queue
+166	364.0	Time spent in request queue
+167	360.0	Time spent in request queue
+168	353.0	Time spent in request queue
+169	340.0	Time spent in request queue
+170	362.0	Time spent in request queue
+171	370.0	Time spent in request queue
+172	370.0	Time spent in request queue
+173	350.0	Time spent in request queue
+174	366.0	Time spent in request queue
+175	358.0	Time spent in request queue
+176	345.0	Time spent in request queue
+177	369.0	Time spent in request queue
+178	341.0	Time spent in request queue
+179	318.0	Time spent in request queue
+180	331.0	Time spent in request queue
+181	315.0	Time spent in request queue
+182	316.0	Time spent in request queue
+183	299.0	Time spent in request queue
+184	321.0	Time spent in request queue
+185	303.0	Time spent in request queue
+186	322.0	Time spent in request queue
+187	309.0	Time spent in request queue
+188	324.0	Time spent in request queue
+189	322.0	Time spent in request queue
+190	292.0	Time spent in request queue
+191	324.0	Time spent in request queue
+192	330.0	Time spent in request queue
+193	331.0	Time spent in request queue
+194	294.0	Time spent in request queue
+195	308.0	Time spent in request queue
+196	312.0	Time spent in request queue
+197	284.0	Time spent in request queue
+198	315.0	Time spent in request queue
+199	312.0	Time spent in request queue
+200	336.0	Time spent in request queue
+201	293.0	Time spent in request queue
+202	322.0	Time spent in request queue
+203	324.0	Time spent in request queue
+204	318.0	Time spent in request queue
+205	280.0	Time spent in request queue
+206	296.0	Time spent in request queue
+207	307.0	Time spent in request queue
+208	276.0	Time spent in request queue
+209	287.0	Time spent in request queue
+210	302.0	Time spent in request queue
+211	282.0	Time spent in request queue
+212	294.0	Time spent in request queue
+213	270.0	Time spent in request queue
+214	273.0	Time spent in request queue
+215	305.0	Time spent in request queue
+216	274.0	Time spent in request queue
+217	266.0	Time spent in request queue
+218	282.0	Time spent in request queue
+219	294.0	Time spent in request queue
+220	274.0	Time spent in request queue
+221	256.0	Time spent in request queue
+222	286.0	Time spent in request queue
+223	270.0	Time spent in request queue
+224	273.0	Time spent in request queue
+225	274.0	Time spent in request queue
+226	271.0	Time spent in request queue
+227	253.0	Time spent in request queue
+228	259.0	Time spent in request queue
+229	244.0	Time spent in request queue
+230	247.0	Time spent in request queue
+231	249.0	Time spent in request queue
+232	277.0	Time spent in request queue
+233	257.0	Time spent in request queue
+234	278.0	Time spent in request queue
+235	243.0	Time spent in request queue
+236	258.0	Time spent in request queue
+237	257.0	Time spent in request queue
+238	236.0	Time spent in request queue
+239	261.0	Time spent in request queue
+240	250.0	Time spent in request queue
+241	245.0	Time spent in request queue
+242	246.0	Time spent in request queue
+243	233.0	Time spent in request queue
+244	220.0	Time spent in request queue
+245	250.0	Time spent in request queue
+246	278.0	Time spent in request queue
+247	214.0	Time spent in request queue
+248	238.0	Time spent in request queue
+249	228.0	Time spent in request queue
+250	205.0	Time spent in request queue
+251	219.0	Time spent in request queue
+252	215.0	Time spent in request queue
+253	234.0	Time spent in request queue
+254	240.0	Time spent in request queue
+255	235.0	Time spent in request queue
+256	219.0	Time spent in request queue
+257	208.0	Time spent in request queue
+258	204.0	Time spent in request queue
+259	220.0	Time spent in request queue
+260	233.0	Time spent in request queue
+261	231.0	Time spent in request queue
+262	226.0	Time spent in request queue
+263	233.0	Time spent in request queue
+264	208.0	Time spent in request queue
+265	201.0	Time spent in request queue
+266	199.0	Time spent in request queue
+267	217.0	Time spent in request queue
+268	198.0	Time spent in request queue
+269	210.0	Time spent in request queue
+270	200.0	Time spent in request queue
+271	197.0	Time spent in request queue
+272	209.0	Time spent in request queue
+273	212.0	Time spent in request queue
+274	201.0	Time spent in request queue
+275	208.0	Time spent in request queue
+276	192.0	Time spent in request queue
+277	209.0	Time spent in request queue
+278	216.0	Time spent in request queue
+279	193.0	Time spent in request queue
+280	196.0	Time spent in request queue
+281	213.0	Time spent in request queue
+282	202.0	Time spent in request queue
+283	204.0	Time spent in request queue
+284	175.0	Time spent in request queue
+285	194.0	Time spent in request queue
+286	208.0	Time spent in request queue
+287	198.0	Time spent in request queue
+288	184.0	Time spent in request queue
+289	168.0	Time spent in request queue
+290	184.0	Time spent in request queue
+291	183.0	Time spent in request queue
+292	188.0	Time spent in request queue
+293	188.0	Time spent in request queue
+294	152.0	Time spent in request queue
+295	188.0	Time spent in request queue
+296	203.0	Time spent in request queue
+297	176.0	Time spent in request queue
+298	191.0	Time spent in request queue
+299	170.0	Time spent in request queue
+300	194.0	Time spent in request queue
+301	176.0	Time spent in request queue
+302	203.0	Time spent in request queue
+303	165.0	Time spent in request queue
+304	185.0	Time spent in request queue
+305	169.0	Time spent in request queue
+306	164.0	Time spent in request queue
+307	179.0	Time spent in request queue
+308	159.0	Time spent in request queue
+309	179.0	Time spent in request queue
+310	150.0	Time spent in request queue
+311	180.0	Time spent in request queue
+312	181.0	Time spent in request queue
+313	171.0	Time spent in request queue
+314	167.0	Time spent in request queue
+315	172.0	Time spent in request queue
+316	155.0	Time spent in request queue
+317	173.0	Time spent in request queue
+318	162.0	Time spent in request queue
+319	190.0	Time spent in request queue
+320	213.0	Time spent in request queue
+321	168.0	Time spent in request queue
+322	169.0	Time spent in request queue
+323	146.0	Time spent in request queue
+324	159.0	Time spent in request queue
+325	166.0	Time spent in request queue
+326	134.0	Time spent in request queue
+327	144.0	Time spent in request queue
+328	148.0	Time spent in request queue
+329	166.0	Time spent in request queue
+330	159.0	Time spent in request queue
+331	150.0	Time spent in request queue
+332	147.0	Time spent in request queue
+333	156.0	Time spent in request queue
+334	141.0	Time spent in request queue
+335	164.0	Time spent in request queue
+336	156.0	Time spent in request queue
+337	147.0	Time spent in request queue
+338	156.0	Time spent in request queue
+339	154.0	Time spent in request queue
+340	138.0	Time spent in request queue
+341	148.0	Time spent in request queue
+342	145.0	Time spent in request queue
+343	143.0	Time spent in request queue
+344	144.0	Time spent in request queue
+345	157.0	Time spent in request queue
+346	155.0	Time spent in request queue
+347	156.0	Time spent in request queue
+348	127.0	Time spent in request queue
+349	122.0	Time spent in request queue
+350	144.0	Time spent in request queue
+351	134.0	Time spent in request queue
+352	142.0	Time spent in request queue
+353	135.0	Time spent in request queue
+354	123.0	Time spent in request queue
+355	141.0	Time spent in request queue
+356	132.0	Time spent in request queue
+357	143.0	Time spent in request queue
+358	147.0	Time spent in request queue
+359	130.0	Time spent in request queue
+360	126.0	Time spent in request queue
+361	121.0	Time spent in request queue
+362	126.0	Time spent in request queue
+363	106.0	Time spent in request queue
+364	127.0	Time spent in request queue
+365	111.0	Time spent in request queue
+366	121.0	Time spent in request queue
+367	122.0	Time spent in request queue
+368	122.0	Time spent in request queue
+369	101.0	Time spent in request queue
+370	101.0	Time spent in request queue
+371	140.0	Time spent in request queue
+372	123.0	Time spent in request queue
+373	124.0	Time spent in request queue
+374	134.0	Time spent in request queue
+375	117.0	Time spent in request queue
+376	114.0	Time spent in request queue
+377	116.0	Time spent in request queue
+378	118.0	Time spent in request queue
+379	121.0	Time spent in request queue
+380	127.0	Time spent in request queue
+381	123.0	Time spent in request queue
+382	104.0	Time spent in request queue
+383	103.0	Time spent in request queue
+384	109.0	Time spent in request queue
+385	99.0	Time spent in request queue
+386	91.0	Time spent in request queue
+387	98.0	Time spent in request queue
+388	122.0	Time spent in request queue
+389	100.0	Time spent in request queue
+390	109.0	Time spent in request queue
+391	99.0	Time spent in request queue
+392	118.0	Time spent in request queue
+393	98.0	Time spent in request queue
+394	109.0	Time spent in request queue
+395	98.0	Time spent in request queue
+396	92.0	Time spent in request queue
+397	104.0	Time spent in request queue
+398	101.0	Time spent in request queue
+399	101.0	Time spent in request queue
+400	106.0	Time spent in request queue
+401	84.0	Time spent in request queue
+402	99.0	Time spent in request queue
+403	98.0	Time spent in request queue
+404	113.0	Time spent in request queue
+405	88.0	Time spent in request queue
+406	101.0	Time spent in request queue
+407	92.0	Time spent in request queue
+408	101.0	Time spent in request queue
+409	108.0	Time spent in request queue
+410	101.0	Time spent in request queue
+411	99.0	Time spent in request queue
+412	87.0	Time spent in request queue
+413	108.0	Time spent in request queue
+414	88.0	Time spent in request queue
+415	77.0	Time spent in request queue
+416	88.0	Time spent in request queue
+417	87.0	Time spent in request queue
+418	82.0	Time spent in request queue
+419	105.0	Time spent in request queue
+420	89.0	Time spent in request queue
+421	104.0	Time spent in request queue
+422	96.0	Time spent in request queue
+423	93.0	Time spent in request queue
+424	85.0	Time spent in request queue
+425	88.0	Time spent in request queue
+426	94.0	Time spent in request queue
+427	86.0	Time spent in request queue
+428	89.0	Time spent in request queue
+429	82.0	Time spent in request queue
+430	80.0	Time spent in request queue
+431	86.0	Time spent in request queue
+432	90.0	Time spent in request queue
+433	96.0	Time spent in request queue
+434	88.0	Time spent in request queue
+435	76.0	Time spent in request queue
+436	76.0	Time spent in request queue
+437	80.0	Time spent in request queue
+438	76.0	Time spent in request queue
+439	95.0	Time spent in request queue
+440	91.0	Time spent in request queue
+441	83.0	Time spent in request queue
+442	72.0	Time spent in request queue
+443	92.0	Time spent in request queue
+444	80.0	Time spent in request queue
+445	71.0	Time spent in request queue
+446	75.0	Time spent in request queue
+447	83.0	Time spent in request queue
+448	68.0	Time spent in request queue
+449	76.0	Time spent in request queue
+450	69.0	Time spent in request queue
+451	90.0	Time spent in request queue
+452	68.0	Time spent in request queue
+453	80.0	Time spent in request queue
+454	82.0	Time spent in request queue
+455	91.0	Time spent in request queue
+456	53.0	Time spent in request queue
+457	77.0	Time spent in request queue
+458	77.0	Time spent in request queue
+459	61.0	Time spent in request queue
+460	65.0	Time spent in request queue
+461	67.0	Time spent in request queue
+462	63.0	Time spent in request queue
+463	59.0	Time spent in request queue
+464	68.0	Time spent in request queue
+465	75.0	Time spent in request queue
+466	68.0	Time spent in request queue
+467	71.0	Time spent in request queue
+468	69.0	Time spent in request queue
+469	72.0	Time spent in request queue
+470	59.0	Time spent in request queue
+471	60.0	Time spent in request queue
+472	72.0	Time spent in request queue
+473	52.0	Time spent in request queue
+474	64.0	Time spent in request queue
+475	55.0	Time spent in request queue
+476	77.0	Time spent in request queue
+477	73.0	Time spent in request queue
+478	57.0	Time spent in request queue
+479	59.0	Time spent in request queue
+480	80.0	Time spent in request queue
+481	64.0	Time spent in request queue
+482	52.0	Time spent in request queue
+483	62.0	Time spent in request queue
+484	61.0	Time spent in request queue
+485	63.0	Time spent in request queue
+486	62.0	Time spent in request queue
+487	73.0	Time spent in request queue
+488	54.0	Time spent in request queue
+489	65.0	Time spent in request queue
+490	65.0	Time spent in request queue
+491	68.0	Time spent in request queue
+492	55.0	Time spent in request queue
+493	51.0	Time spent in request queue
+494	47.0	Time spent in request queue
+495	70.0	Time spent in request queue
+496	47.0	Time spent in request queue
+497	52.0	Time spent in request queue
+498	64.0	Time spent in request queue
+499	49.0	Time spent in request queue
+500	61.0	Time spent in request queue
+501	55.0	Time spent in request queue
+502	59.0	Time spent in request queue
+503	57.0	Time spent in request queue
+504	43.0	Time spent in request queue
+505	60.0	Time spent in request queue
+506	49.0	Time spent in request queue
+507	54.0	Time spent in request queue
+508	69.0	Time spent in request queue
+509	47.0	Time spent in request queue
+510	47.0	Time spent in request queue
+511	45.0	Time spent in request queue
+512	51.0	Time spent in request queue
+513	43.0	Time spent in request queue
+514	55.0	Time spent in request queue
+515	58.0	Time spent in request queue
+516	59.0	Time spent in request queue
+517	48.0	Time spent in request queue
+518	46.0	Time spent in request queue
+519	54.0	Time spent in request queue
+520	50.0	Time spent in request queue
+521	57.0	Time spent in request queue
+522	70.0	Time spent in request queue
+523	54.0	Time spent in request queue
+524	48.0	Time spent in request queue
+525	42.0	Time spent in request queue
+526	55.0	Time spent in request queue
+527	38.0	Time spent in request queue
+528	46.0	Time spent in request queue
+529	44.0	Time spent in request queue
+530	39.0	Time spent in request queue
+531	47.0	Time spent in request queue
+532	36.0	Time spent in request queue
+533	42.0	Time spent in request queue
+534	53.0	Time spent in request queue
+535	36.0	Time spent in request queue
+536	49.0	Time spent in request queue
+537	47.0	Time spent in request queue
+538	48.0	Time spent in request queue
+539	50.0	Time spent in request queue
+540	48.0	Time spent in request queue
+541	41.0	Time spent in request queue
+542	43.0	Time spent in request queue
+543	44.0	Time spent in request queue
+544	47.0	Time spent in request queue
+545	46.0	Time spent in request queue
+546	48.0	Time spent in request queue
+547	50.0	Time spent in request queue
+548	42.0	Time spent in request queue
+549	52.0	Time spent in request queue
+550	39.0	Time spent in request queue
+551	34.0	Time spent in request queue
+552	40.0	Time spent in request queue
+553	32.0	Time spent in request queue
+554	46.0	Time spent in request queue
+555	28.0	Time spent in request queue
+556	38.0	Time spent in request queue
+557	39.0	Time spent in request queue
+558	33.0	Time spent in request queue
+559	45.0	Time spent in request queue
+560	38.0	Time spent in request queue
+561	41.0	Time spent in request queue
+562	39.0	Time spent in request queue
+563	40.0	Time spent in request queue
+564	36.0	Time spent in request queue
+565	32.0	Time spent in request queue
+566	46.0	Time spent in request queue
+567	37.0	Time spent in request queue
+568	46.0	Time spent in request queue
+569	45.0	Time spent in request queue
+570	33.0	Time spent in request queue
+571	35.0	Time spent in request queue
+572	47.0	Time spent in request queue
+573	44.0	Time spent in request queue
+574	32.0	Time spent in request queue
+575	45.0	Time spent in request queue
+576	25.0	Time spent in request queue
+577	32.0	Time spent in request queue
+578	33.0	Time spent in request queue
+579	31.0	Time spent in request queue
+580	27.0	Time spent in request queue
+581	35.0	Time spent in request queue
+582	28.0	Time spent in request queue
+583	26.0	Time spent in request queue
+584	40.0	Time spent in request queue
+585	36.0	Time spent in request queue
+586	36.0	Time spent in request queue
+587	37.0	Time spent in request queue
+588	26.0	Time spent in request queue
+589	23.0	Time spent in request queue
+590	27.0	Time spent in request queue
+591	38.0	Time spent in request queue
+592	37.0	Time spent in request queue
+593	35.0	Time spent in request queue
+594	33.0	Time spent in request queue
+595	44.0	Time spent in request queue
+596	32.0	Time spent in request queue
+597	37.0	Time spent in request queue
+598	32.0	Time spent in request queue
+599	32.0	Time spent in request queue
+600	31.0	Time spent in request queue
+601	25.0	Time spent in request queue
+602	26.0	Time spent in request queue
+603	34.0	Time spent in request queue
+604	19.0	Time spent in request queue
+605	26.0	Time spent in request queue
+606	25.0	Time spent in request queue
+607	31.0	Time spent in request queue
+608	34.0	Time spent in request queue
+609	34.0	Time spent in request queue
+610	22.0	Time spent in request queue
+611	35.0	Time spent in request queue
+612	27.0	Time spent in request queue
+613	40.0	Time spent in request queue
+614	27.0	Time spent in request queue
+615	25.0	Time spent in request queue
+616	30.0	Time spent in request queue
+617	25.0	Time spent in request queue
+618	20.0	Time spent in request queue
+619	28.0	Time spent in request queue
+620	25.0	Time spent in request queue
+621	36.0	Time spent in request queue
+622	24.0	Time spent in request queue
+623	26.0	Time spent in request queue
+624	22.0	Time spent in request queue
+625	19.0	Time spent in request queue
+626	27.0	Time spent in request queue
+627	28.0	Time spent in request queue
+628	23.0	Time spent in request queue
+629	18.0	Time spent in request queue
+630	17.0	Time spent in request queue
+631	36.0	Time spent in request queue
+632	25.0	Time spent in request queue
+633	19.0	Time spent in request queue
+634	23.0	Time spent in request queue
+635	29.0	Time spent in request queue
+636	22.0	Time spent in request queue
+637	27.0	Time spent in request queue
+638	15.0	Time spent in request queue
+639	25.0	Time spent in request queue
+640	18.0	Time spent in request queue
+641	25.0	Time spent in request queue
+642	27.0	Time spent in request queue
+643	26.0	Time spent in request queue
+644	25.0	Time spent in request queue
+645	28.0	Time spent in request queue
+646	21.0	Time spent in request queue
+647	18.0	Time spent in request queue
+648	27.0	Time spent in request queue
+649	24.0	Time spent in request queue
+650	15.0	Time spent in request queue
+651	19.0	Time spent in request queue
+652	26.0	Time spent in request queue
+653	16.0	Time spent in request queue
+654	30.0	Time spent in request queue
+655	24.0	Time spent in request queue
+656	15.0	Time spent in request queue
+657	19.0	Time spent in request queue
+658	22.0	Time spent in request queue
+659	17.0	Time spent in request queue
+660	20.0	Time spent in request queue
+661	19.0	Time spent in request queue
+662	17.0	Time spent in request queue
+663	20.0	Time spent in request queue
+664	19.0	Time spent in request queue
+665	14.0	Time spent in request queue
+666	16.0	Time spent in request queue
+667	23.0	Time spent in request queue
+668	23.0	Time spent in request queue
+669	19.0	Time spent in request queue
+670	24.0	Time spent in request queue
+671	17.0	Time spent in request queue
+672	17.0	Time spent in request queue
+673	17.0	Time spent in request queue
+674	12.0	Time spent in request queue
+675	12.0	Time spent in request queue
+676	23.0	Time spent in request queue
+677	24.0	Time spent in request queue
+678	19.0	Time spent in request queue
+679	10.0	Time spent in request queue
+680	19.0	Time spent in request queue
+681	22.0	Time spent in request queue
+682	13.0	Time spent in request queue
+683	18.0	Time spent in request queue
+684	16.0	Time spent in request queue
+685	20.0	Time spent in request queue
+686	18.0	Time spent in request queue
+687	14.0	Time spent in request queue
+688	8.0	Time spent in request queue
+689	20.0	Time spent in request queue
+690	22.0	Time spent in request queue
+691	17.0	Time spent in request queue
+692	18.0	Time spent in request queue
+693	13.0	Time spent in request queue
+694	16.0	Time spent in request queue
+695	20.0	Time spent in request queue
+696	10.0	Time spent in request queue
+697	21.0	Time spent in request queue
+698	18.0	Time spent in request queue
+699	13.0	Time spent in request queue
+700	18.0	Time spent in request queue
+701	14.0	Time spent in request queue
+702	15.0	Time spent in request queue
+703	19.0	Time spent in request queue
+704	11.0	Time spent in request queue
+705	13.0	Time spent in request queue
+706	12.0	Time spent in request queue
+707	21.0	Time spent in request queue
+708	17.0	Time spent in request queue
+709	15.0	Time spent in request queue
+710	15.0	Time spent in request queue
+711	14.0	Time spent in request queue
+712	16.0	Time spent in request queue
+713	17.0	Time spent in request queue
+714	16.0	Time spent in request queue
+715	17.0	Time spent in request queue
+716	10.0	Time spent in request queue
+717	12.0	Time spent in request queue
+718	19.0	Time spent in request queue
+719	14.0	Time spent in request queue
+720	10.0	Time spent in request queue
+721	7.0	Time spent in request queue
+722	18.0	Time spent in request queue
+723	16.0	Time spent in request queue
+724	10.0	Time spent in request queue
+725	10.0	Time spent in request queue
+726	14.0	Time spent in request queue
+727	12.0	Time spent in request queue
+728	13.0	Time spent in request queue
+729	12.0	Time spent in request queue
+730	10.0	Time spent in request queue
+731	7.0	Time spent in request queue
+732	15.0	Time spent in request queue
+733	15.0	Time spent in request queue
+734	13.0	Time spent in request queue
+735	11.0	Time spent in request queue
+736	10.0	Time spent in request queue
+737	10.0	Time spent in request queue
+738	8.0	Time spent in request queue
+739	13.0	Time spent in request queue
+740	10.0	Time spent in request queue
+741	9.0	Time spent in request queue
+742	9.0	Time spent in request queue
+743	16.0	Time spent in request queue
+744	15.0	Time spent in request queue
+745	10.0	Time spent in request queue
+746	11.0	Time spent in request queue
+747	5.0	Time spent in request queue
+748	11.0	Time spent in request queue
+749	6.0	Time spent in request queue
+750	11.0	Time spent in request queue
+751	12.0	Time spent in request queue
+752	9.0	Time spent in request queue
+753	10.0	Time spent in request queue
+754	14.0	Time spent in request queue
+755	11.0	Time spent in request queue
+756	4.0	Time spent in request queue
+757	7.0	Time spent in request queue
+758	12.0	Time spent in request queue
+759	16.0	Time spent in request queue
+760	5.0	Time spent in request queue
+761	9.0	Time spent in request queue
+762	16.0	Time spent in request queue
+763	9.0	Time spent in request queue
+764	11.0	Time spent in request queue
+765	10.0	Time spent in request queue
+766	8.0	Time spent in request queue
+767	6.0	Time spent in request queue
+768	10.0	Time spent in request queue
+769	10.0	Time spent in request queue
+770	7.0	Time spent in request queue
+771	5.0	Time spent in request queue
+772	10.0	Time spent in request queue
+773	10.0	Time spent in request queue
+774	7.0	Time spent in request queue
+775	8.0	Time spent in request queue
+776	7.0	Time spent in request queue
+777	11.0	Time spent in request queue
+778	8.0	Time spent in request queue
+779	4.0	Time spent in request queue
+780	8.0	Time spent in request queue
+781	4.0	Time spent in request queue
+782	4.0	Time spent in request queue
+783	4.0	Time spent in request queue
+784	14.0	Time spent in request queue
+785	9.0	Time spent in request queue
+786	7.0	Time spent in request queue
+787	6.0	Time spent in request queue
+788	11.0	Time spent in request queue
+789	8.0	Time spent in request queue
+790	6.0	Time spent in request queue
+791	4.0	Time spent in request queue
+792	9.0	Time spent in request queue
+793	12.0	Time spent in request queue
+794	7.0	Time spent in request queue
+795	1.0	Time spent in request queue
+796	15.0	Time spent in request queue
+797	8.0	Time spent in request queue
+798	7.0	Time spent in request queue
+799	9.0	Time spent in request queue
+800	7.0	Time spent in request queue
+801	3.0	Time spent in request queue
+802	4.0	Time spent in request queue
+803	6.0	Time spent in request queue
+804	6.0	Time spent in request queue
+805	6.0	Time spent in request queue
+806	7.0	Time spent in request queue
+807	4.0	Time spent in request queue
+808	10.0	Time spent in request queue
+809	8.0	Time spent in request queue
+810	10.0	Time spent in request queue
+811	9.0	Time spent in request queue
+812	4.0	Time spent in request queue
+813	7.0	Time spent in request queue
+814	8.0	Time spent in request queue
+815	6.0	Time spent in request queue
+816	1.0	Time spent in request queue
+817	4.0	Time spent in request queue
+818	11.0	Time spent in request queue
+819	10.0	Time spent in request queue
+820	5.0	Time spent in request queue
+821	6.0	Time spent in request queue
+822	6.0	Time spent in request queue
+823	2.0	Time spent in request queue
+824	4.0	Time spent in request queue
+825	6.0	Time spent in request queue
+826	7.0	Time spent in request queue
+827	5.0	Time spent in request queue
+828	2.0	Time spent in request queue
+829	4.0	Time spent in request queue
+830	3.0	Time spent in request queue
+831	9.0	Time spent in request queue
+832	8.0	Time spent in request queue
+833	5.0	Time spent in request queue
+834	5.0	Time spent in request queue
+835	5.0	Time spent in request queue
+836	4.0	Time spent in request queue
+837	5.0	Time spent in request queue
+838	5.0	Time spent in request queue
+839	2.0	Time spent in request queue
+840	6.0	Time spent in request queue
+841	3.0	Time spent in request queue
+842	5.0	Time spent in request queue
+843	2.0	Time spent in request queue
+844	2.0	Time spent in request queue
+845	3.0	Time spent in request queue
+847	5.0	Time spent in request queue
+848	3.0	Time spent in request queue
+849	4.0	Time spent in request queue
+850	7.0	Time spent in request queue
+851	1.0	Time spent in request queue
+852	2.0	Time spent in request queue
+853	6.0	Time spent in request queue
+854	3.0	Time spent in request queue
+855	3.0	Time spent in request queue
+856	4.0	Time spent in request queue
+857	5.0	Time spent in request queue
+858	1.0	Time spent in request queue
+859	4.0	Time spent in request queue
+860	4.0	Time spent in request queue
+861	5.0	Time spent in request queue
+862	3.0	Time spent in request queue
+863	8.0	Time spent in request queue
+864	6.0	Time spent in request queue
+865	3.0	Time spent in request queue
+866	6.0	Time spent in request queue
+867	3.0	Time spent in request queue
+868	2.0	Time spent in request queue
+869	4.0	Time spent in request queue
+870	4.0	Time spent in request queue
+871	2.0	Time spent in request queue
+872	5.0	Time spent in request queue
+873	2.0	Time spent in request queue
+874	7.0	Time spent in request queue
+875	6.0	Time spent in request queue
+877	5.0	Time spent in request queue
+878	6.0	Time spent in request queue
+879	3.0	Time spent in request queue
+880	3.0	Time spent in request queue
+881	1.0	Time spent in request queue
+882	1.0	Time spent in request queue
+883	5.0	Time spent in request queue
+884	3.0	Time spent in request queue
+885	4.0	Time spent in request queue
+886	6.0	Time spent in request queue
+888	6.0	Time spent in request queue
+889	2.0	Time spent in request queue
+890	1.0	Time spent in request queue
+891	3.0	Time spent in request queue
+892	1.0	Time spent in request queue
+893	7.0	Time spent in request queue
+894	3.0	Time spent in request queue
+895	5.0	Time spent in request queue
+896	1.0	Time spent in request queue
+897	3.0	Time spent in request queue
+898	2.0	Time spent in request queue
+899	2.0	Time spent in request queue
+900	4.0	Time spent in request queue
+901	7.0	Time spent in request queue
+902	1.0	Time spent in request queue
+903	4.0	Time spent in request queue
+904	7.0	Time spent in request queue
+905	3.0	Time spent in request queue
+906	4.0	Time spent in request queue
+907	1.0	Time spent in request queue
+908	3.0	Time spent in request queue
+909	8.0	Time spent in request queue
+910	1.0	Time spent in request queue
+911	1.0	Time spent in request queue
+912	6.0	Time spent in request queue
+913	5.0	Time spent in request queue
+914	2.0	Time spent in request queue
+916	3.0	Time spent in request queue
+917	4.0	Time spent in request queue
+918	2.0	Time spent in request queue
+919	2.0	Time spent in request queue
+920	5.0	Time spent in request queue
+921	4.0	Time spent in request queue
+922	1.0	Time spent in request queue
+923	1.0	Time spent in request queue
+924	4.0	Time spent in request queue
+925	3.0	Time spent in request queue
+926	3.0	Time spent in request queue
+927	2.0	Time spent in request queue
+928	5.0	Time spent in request queue
+929	1.0	Time spent in request queue
+930	6.0	Time spent in request queue
+931	2.0	Time spent in request queue
+932	2.0	Time spent in request queue
+933	6.0	Time spent in request queue
+934	3.0	Time spent in request queue
+935	4.0	Time spent in request queue
+936	3.0	Time spent in request queue
+937	1.0	Time spent in request queue
+938	2.0	Time spent in request queue
+939	2.0	Time spent in request queue
+940	2.0	Time spent in request queue
+941	3.0	Time spent in request queue
+942	4.0	Time spent in request queue
+943	4.0	Time spent in request queue
+944	1.0	Time spent in request queue
+945	1.0	Time spent in request queue
+946	1.0	Time spent in request queue
+947	1.0	Time spent in request queue
+949	5.0	Time spent in request queue
+950	3.0	Time spent in request queue
+951	2.0	Time spent in request queue
+953	2.0	Time spent in request queue
+954	2.0	Time spent in request queue
+955	3.0	Time spent in request queue
+956	4.0	Time spent in request queue
+957	1.0	Time spent in request queue
+958	2.0	Time spent in request queue
+959	1.0	Time spent in request queue
+960	2.0	Time spent in request queue
+961	1.0	Time spent in request queue
+962	2.0	Time spent in request queue
+963	4.0	Time spent in request queue
+964	4.0	Time spent in request queue
+965	3.0	Time spent in request queue
+966	1.0	Time spent in request queue
+968	1.0	Time spent in request queue
+969	2.0	Time spent in request queue
+970	1.0	Time spent in request queue
+971	3.0	Time spent in request queue
+973	3.0	Time spent in request queue
+974	1.0	Time spent in request queue
+975	2.0	Time spent in request queue
+976	1.0	Time spent in request queue
+977	1.0	Time spent in request queue
+979	1.0	Time spent in request queue
+980	1.0	Time spent in request queue
+981	3.0	Time spent in request queue
+982	4.0	Time spent in request queue
+984	1.0	Time spent in request queue
+985	1.0	Time spent in request queue
+986	1.0	Time spent in request queue
+987	1.0	Time spent in request queue
+988	1.0	Time spent in request queue
+989	2.0	Time spent in request queue
+990	1.0	Time spent in request queue
+991	5.0	Time spent in request queue
+992	1.0	Time spent in request queue
+993	1.0	Time spent in request queue
+994	1.0	Time spent in request queue
+995	2.0	Time spent in request queue
+996	3.0	Time spent in request queue
+997	1.0	Time spent in request queue
+998	2.0	Time spent in request queue
+999	2.0	Time spent in request queue
+1001	2.0	Time spent in request queue
+1002	1.0	Time spent in request queue
+1004	4.0	Time spent in request queue
+1005	2.0	Time spent in request queue
+1006	2.0	Time spent in request queue
+1008	1.0	Time spent in request queue
+1009	4.0	Time spent in request queue
+1010	1.0	Time spent in request queue
+1012	1.0	Time spent in request queue
+1013	2.0	Time spent in request queue
+1014	1.0	Time spent in request queue
+1015	2.0	Time spent in request queue
+1017	2.0	Time spent in request queue
+1018	3.0	Time spent in request queue
+1020	1.0	Time spent in request queue
+1022	2.0	Time spent in request queue
+1023	2.0	Time spent in request queue
+1024	1.0	Time spent in request queue
+1025	3.0	Time spent in request queue
+1026	3.0	Time spent in request queue
+1027	1.0	Time spent in request queue
+1028	4.0	Time spent in request queue
+1030	1.0	Time spent in request queue
+1031	1.0	Time spent in request queue
+1032	2.0	Time spent in request queue
+1033	1.0	Time spent in request queue
+1036	1.0	Time spent in request queue
+1037	1.0	Time spent in request queue
+1038	3.0	Time spent in request queue
+1039	1.0	Time spent in request queue
+1041	2.0	Time spent in request queue
+1043	1.0	Time spent in request queue
+1044	2.0	Time spent in request queue
+1045	4.0	Time spent in request queue
+1046	3.0	Time spent in request queue
+1047	1.0	Time spent in request queue
+1048	1.0	Time spent in request queue
+1049	2.0	Time spent in request queue
+1050	4.0	Time spent in request queue
+1052	1.0	Time spent in request queue
+1053	1.0	Time spent in request queue
+1054	2.0	Time spent in request queue
+1057	2.0	Time spent in request queue
+1058	2.0	Time spent in request queue
+1059	1.0	Time spent in request queue
+1061	1.0	Time spent in request queue
+1063	1.0	Time spent in request queue
+1064	1.0	Time spent in request queue
+1065	2.0	Time spent in request queue
+1066	1.0	Time spent in request queue
+1067	1.0	Time spent in request queue
+1068	2.0	Time spent in request queue
+1069	3.0	Time spent in request queue
+1070	1.0	Time spent in request queue
+1071	2.0	Time spent in request queue
+1072	1.0	Time spent in request queue
+1073	1.0	Time spent in request queue
+1074	1.0	Time spent in request queue
+1075	1.0	Time spent in request queue
+1076	1.0	Time spent in request queue
+1077	2.0	Time spent in request queue
+1079	1.0	Time spent in request queue
+1080	1.0	Time spent in request queue
+1081	1.0	Time spent in request queue
+1082	1.0	Time spent in request queue
+1083	1.0	Time spent in request queue
+1087	2.0	Time spent in request queue
+1089	1.0	Time spent in request queue
+1090	1.0	Time spent in request queue
+1091	2.0	Time spent in request queue
+1092	1.0	Time spent in request queue
+1093	2.0	Time spent in request queue
+1094	1.0	Time spent in request queue
+1095	1.0	Time spent in request queue
+1096	2.0	Time spent in request queue
+1097	2.0	Time spent in request queue
+1098	2.0	Time spent in request queue
+1100	2.0	Time spent in request queue
+1101	1.0	Time spent in request queue
+1106	2.0	Time spent in request queue
+1107	2.0	Time spent in request queue
+1110	1.0	Time spent in request queue
+1112	1.0	Time spent in request queue
+1113	2.0	Time spent in request queue
+1118	1.0	Time spent in request queue
+1122	1.0	Time spent in request queue
+1123	1.0	Time spent in request queue
+1125	1.0	Time spent in request queue
+1128	2.0	Time spent in request queue
+1129	1.0	Time spent in request queue
+1131	2.0	Time spent in request queue
+1133	1.0	Time spent in request queue
+1134	1.0	Time spent in request queue
+1136	2.0	Time spent in request queue
+1137	1.0	Time spent in request queue
+1138	1.0	Time spent in request queue
+1142	2.0	Time spent in request queue
+1143	1.0	Time spent in request queue
+1147	1.0	Time spent in request queue
+1148	1.0	Time spent in request queue
+1150	3.0	Time spent in request queue
+1151	1.0	Time spent in request queue
+1152	1.0	Time spent in request queue
+1153	4.0	Time spent in request queue
+1157	3.0	Time spent in request queue
+1160	2.0	Time spent in request queue
+1165	1.0	Time spent in request queue
+1167	1.0	Time spent in request queue
+1170	2.0	Time spent in request queue
+1171	2.0	Time spent in request queue
+1174	2.0	Time spent in request queue
+1181	1.0	Time spent in request queue
+1192	1.0	Time spent in request queue
+1196	1.0	Time spent in request queue
+1198	1.0	Time spent in request queue
+1204	1.0	Time spent in request queue
+1209	1.0	Time spent in request queue
+1211	1.0	Time spent in request queue
+1213	1.0	Time spent in request queue
+1214	1.0	Time spent in request queue
+1215	1.0	Time spent in request queue
+1216	1.0	Time spent in request queue
+1222	1.0	Time spent in request queue
+1225	2.0	Time spent in request queue
+1229	2.0	Time spent in request queue
+1236	2.0	Time spent in request queue
+1238	1.0	Time spent in request queue
+1241	1.0	Time spent in request queue
+1245	2.0	Time spent in request queue
+1246	1.0	Time spent in request queue
+1253	1.0	Time spent in request queue
+1261	1.0	Time spent in request queue
+1272	1.0	Time spent in request queue
+1274	1.0	Time spent in request queue
+1279	1.0	Time spent in request queue
+1285	1.0	Time spent in request queue
+1286	1.0	Time spent in request queue
+1309	2.0	Time spent in request queue
+1315	1.0	Time spent in request queue
+1330	1.0	Time spent in request queue
+1346	1.0	Time spent in request queue
+1350	2.0	Time spent in request queue
+1356	1.0	Time spent in request queue
+1363	1.0	Time spent in request queue
+1364	1.0	Time spent in request queue
+1370	1.0	Time spent in request queue
+1376	1.0	Time spent in request queue
+1383	1.0	Time spent in request queue
+1403	1.0	Time spent in request queue
+1406	1.0	Time spent in request queue
+1409	1.0	Time spent in request queue
+1421	1.0	Time spent in request queue
+1426	1.0	Time spent in request queue
+1429	1.0	Time spent in request queue
+1434	1.0	Time spent in request queue
+1436	1.0	Time spent in request queue
+1439	1.0	Time spent in request queue
+1443	1.0	Time spent in request queue
+1451	1.0	Time spent in request queue
+1453	1.0	Time spent in request queue
+1470	1.0	Time spent in request queue
+1485	1.0	Time spent in request queue
+1486	1.0	Time spent in request queue
+1494	1.0	Time spent in request queue
+1501	1.0	Time spent in request queue
+1503	1.0	Time spent in request queue
+1505	1.0	Time spent in request queue
+1521	1.0	Time spent in request queue
+1523	1.0	Time spent in request queue
+1548	1.0	Time spent in request queue
+1550	1.0	Time spent in request queue
+1573	1.0	Time spent in request queue
+1824	1.0	Time spent in request queue
+, ATTEMPTS=ATTEMPTS 
+ Reports=          210922 Average=               1, Total=         212,544, 50%=               1, 95%=               1, 99%=               1, 99.5%=               2, 99.95%=               2, Max=               2
+1	209300.0	Attempts needed to get into queue
+2	1622.0	Attempts needed to get into queue
+, RETRY_LOOP=RETRY_LOOP 
+ Reports=          210922 Average=              61, Total=      12,880,851, 50%=              46, 95%=             149, 99%=             248, 99.5%=             301, 99.95%=             631, Max=            1256
+6	1.0	Time in retry loop
+7	13.0	Time in retry loop
+8	60.0	Time in retry loop
+9	133.0	Time in retry loop
+10	228.0	Time in retry loop
+11	401.0	Time in retry loop
+12	587.0	Time in retry loop
+13	748.0	Time in retry loop
+14	1047.0	Time in retry loop
+15	1167.0	Time in retry loop
+16	1431.0	Time in retry loop
+17	1642.0	Time in retry loop
+18	1765.0	Time in retry loop
+19	2039.0	Time in retry loop
+20	2338.0	Time in retry loop
+21	2447.0	Time in retry loop
+22	2625.0	Time in retry loop
+23	2819.0	Time in retry loop
+24	3205.0	Time in retry loop
+25	3393.0	Time in retry loop
+26	3543.0	Time in retry loop
+27	3873.0	Time in retry loop
+28	3869.0	Time in retry loop
+29	4057.0	Time in retry loop
+30	4072.0	Time in retry loop
+31	4246.0	Time in retry loop
+32	4305.0	Time in retry loop
+33	4325.0	Time in retry loop
+34	4259.0	Time in retry loop
+35	4077.0	Time in retry loop
+36	4065.0	Time in retry loop
+37	3886.0	Time in retry loop
+38	3848.0	Time in retry loop
+39	3782.0	Time in retry loop
+40	3523.0	Time in retry loop
+41	3356.0	Time in retry loop
+42	3345.0	Time in retry loop
+43	3090.0	Time in retry loop
+44	3041.0	Time in retry loop
+45	2888.0	Time in retry loop
+46	2719.0	Time in retry loop
+47	2575.0	Time in retry loop
+48	2510.0	Time in retry loop
+49	2452.0	Time in retry loop
+50	2247.0	Time in retry loop
+51	2297.0	Time in retry loop
+52	2228.0	Time in retry loop
+53	2112.0	Time in retry loop
+54	2159.0	Time in retry loop
+55	2090.0	Time in retry loop
+56	2078.0	Time in retry loop
+57	1997.0	Time in retry loop
+58	1998.0	Time in retry loop
+59	1856.0	Time in retry loop
+60	1881.0	Time in retry loop
+61	1759.0	Time in retry loop
+62	1743.0	Time in retry loop
+63	1714.0	Time in retry loop
+64	1689.0	Time in retry loop
+65	1556.0	Time in retry loop
+66	1615.0	Time in retry loop
+67	1545.0	Time in retry loop
+68	1502.0	Time in retry loop
+69	1478.0	Time in retry loop
+70	1443.0	Time in retry loop
+71	1421.0	Time in retry loop
+72	1405.0	Time in retry loop
+73	1411.0	Time in retry loop
+74	1381.0	Time in retry loop
+75	1262.0	Time in retry loop
+76	1304.0	Time in retry loop
+77	1223.0	Time in retry loop
+78	1217.0	Time in retry loop
+79	1162.0	Time in retry loop
+80	1191.0	Time in retry loop
+81	1106.0	Time in retry loop
+82	1054.0	Time in retry loop
+83	1014.0	Time in retry loop
+84	999.0	Time in retry loop
+85	1070.0	Time in retry loop
+86	963.0	Time in retry loop
+87	896.0	Time in retry loop
+88	896.0	Time in retry loop
+89	921.0	Time in retry loop
+90	908.0	Time in retry loop
+91	800.0	Time in retry loop
+92	821.0	Time in retry loop
+93	804.0	Time in retry loop
+94	798.0	Time in retry loop
+95	753.0	Time in retry loop
+96	709.0	Time in retry loop
+97	691.0	Time in retry loop
+98	694.0	Time in retry loop
+99	667.0	Time in retry loop
+100	639.0	Time in retry loop
+101	627.0	Time in retry loop
+102	609.0	Time in retry loop
+103	578.0	Time in retry loop
+104	542.0	Time in retry loop
+105	587.0	Time in retry loop
+106	543.0	Time in retry loop
+107	554.0	Time in retry loop
+108	559.0	Time in retry loop
+109	511.0	Time in retry loop
+110	492.0	Time in retry loop
+111	458.0	Time in retry loop
+112	504.0	Time in retry loop
+113	468.0	Time in retry loop
+114	396.0	Time in retry loop
+115	438.0	Time in retry loop
+116	390.0	Time in retry loop
+117	418.0	Time in retry loop
+118	416.0	Time in retry loop
+119	359.0	Time in retry loop
+120	367.0	Time in retry loop
+121	358.0	Time in retry loop
+122	368.0	Time in retry loop
+123	350.0	Time in retry loop
+124	349.0	Time in retry loop
+125	346.0	Time in retry loop
+126	341.0	Time in retry loop
+127	273.0	Time in retry loop
+128	325.0	Time in retry loop
+129	293.0	Time in retry loop
+130	313.0	Time in retry loop
+131	290.0	Time in retry loop
+132	259.0	Time in retry loop
+133	286.0	Time in retry loop
+134	281.0	Time in retry loop
+135	234.0	Time in retry loop
+136	270.0	Time in retry loop
+137	215.0	Time in retry loop
+138	232.0	Time in retry loop
+139	229.0	Time in retry loop
+140	240.0	Time in retry loop
+141	225.0	Time in retry loop
+142	225.0	Time in retry loop
+143	221.0	Time in retry loop
+144	204.0	Time in retry loop
+145	228.0	Time in retry loop
+146	205.0	Time in retry loop
+147	194.0	Time in retry loop
+148	219.0	Time in retry loop
+149	183.0	Time in retry loop
+150	166.0	Time in retry loop
+151	193.0	Time in retry loop
+152	180.0	Time in retry loop
+153	159.0	Time in retry loop
+154	191.0	Time in retry loop
+155	174.0	Time in retry loop
+156	173.0	Time in retry loop
+157	140.0	Time in retry loop
+158	150.0	Time in retry loop
+159	163.0	Time in retry loop
+160	139.0	Time in retry loop
+161	154.0	Time in retry loop
+162	159.0	Time in retry loop
+163	133.0	Time in retry loop
+164	156.0	Time in retry loop
+165	130.0	Time in retry loop
+166	143.0	Time in retry loop
+167	142.0	Time in retry loop
+168	134.0	Time in retry loop
+169	168.0	Time in retry loop
+170	141.0	Time in retry loop
+171	119.0	Time in retry loop
+172	110.0	Time in retry loop
+173	119.0	Time in retry loop
+174	107.0	Time in retry loop
+175	100.0	Time in retry loop
+176	107.0	Time in retry loop
+177	116.0	Time in retry loop
+178	109.0	Time in retry loop
+179	100.0	Time in retry loop
+180	109.0	Time in retry loop
+181	105.0	Time in retry loop
+182	85.0	Time in retry loop
+183	102.0	Time in retry loop
+184	110.0	Time in retry loop
+185	106.0	Time in retry loop
+186	91.0	Time in retry loop
+187	89.0	Time in retry loop
+188	84.0	Time in retry loop
+189	64.0	Time in retry loop
+190	91.0	Time in retry loop
+191	74.0	Time in retry loop
+192	101.0	Time in retry loop
+193	63.0	Time in retry loop
+194	86.0	Time in retry loop
+195	87.0	Time in retry loop
+196	64.0	Time in retry loop
+197	81.0	Time in retry loop
+198	69.0	Time in retry loop
+199	62.0	Time in retry loop
+200	80.0	Time in retry loop
+201	65.0	Time in retry loop
+202	62.0	Time in retry loop
+203	67.0	Time in retry loop
+204	63.0	Time in retry loop
+205	60.0	Time in retry loop
+206	46.0	Time in retry loop
+207	65.0	Time in retry loop
+208	61.0	Time in retry loop
+209	64.0	Time in retry loop
+210	63.0	Time in retry loop
+211	65.0	Time in retry loop
+212	43.0	Time in retry loop
+213	63.0	Time in retry loop
+214	53.0	Time in retry loop
+215	59.0	Time in retry loop
+216	46.0	Time in retry loop
+217	49.0	Time in retry loop
+218	49.0	Time in retry loop
+219	44.0	Time in retry loop
+220	53.0	Time in retry loop
+221	45.0	Time in retry loop
+222	39.0	Time in retry loop
+223	53.0	Time in retry loop
+224	38.0	Time in retry loop
+225	46.0	Time in retry loop
+226	41.0	Time in retry loop
+227	49.0	Time in retry loop
+228	49.0	Time in retry loop
+229	37.0	Time in retry loop
+230	46.0	Time in retry loop
+231	34.0	Time in retry loop
+232	40.0	Time in retry loop
+233	31.0	Time in retry loop
+234	26.0	Time in retry loop
+235	34.0	Time in retry loop
+236	38.0	Time in retry loop
+237	44.0	Time in retry loop
+238	41.0	Time in retry loop
+239	31.0	Time in retry loop
+240	35.0	Time in retry loop
+241	42.0	Time in retry loop
+242	41.0	Time in retry loop
+243	25.0	Time in retry loop
+244	31.0	Time in retry loop
+245	33.0	Time in retry loop
+246	31.0	Time in retry loop
+247	30.0	Time in retry loop
+248	34.0	Time in retry loop
+249	33.0	Time in retry loop
+250	22.0	Time in retry loop
+251	32.0	Time in retry loop
+252	18.0	Time in retry loop
+253	39.0	Time in retry loop
+254	29.0	Time in retry loop
+255	22.0	Time in retry loop
+256	32.0	Time in retry loop
+257	24.0	Time in retry loop
+258	20.0	Time in retry loop
+259	21.0	Time in retry loop
+260	26.0	Time in retry loop
+261	21.0	Time in retry loop
+262	27.0	Time in retry loop
+263	21.0	Time in retry loop
+264	18.0	Time in retry loop
+265	21.0	Time in retry loop
+266	25.0	Time in retry loop
+267	26.0	Time in retry loop
+268	32.0	Time in retry loop
+269	33.0	Time in retry loop
+270	15.0	Time in retry loop
+271	19.0	Time in retry loop
+272	16.0	Time in retry loop
+273	9.0	Time in retry loop
+274	24.0	Time in retry loop
+275	17.0	Time in retry loop
+276	19.0	Time in retry loop
+277	21.0	Time in retry loop
+278	19.0	Time in retry loop
+279	17.0	Time in retry loop
+280	22.0	Time in retry loop
+281	20.0	Time in retry loop
+282	21.0	Time in retry loop
+283	17.0	Time in retry loop
+284	18.0	Time in retry loop
+285	16.0	Time in retry loop
+286	22.0	Time in retry loop
+287	13.0	Time in retry loop
+288	9.0	Time in retry loop
+289	17.0	Time in retry loop
+290	19.0	Time in retry loop
+291	12.0	Time in retry loop
+292	15.0	Time in retry loop
+293	17.0	Time in retry loop
+294	14.0	Time in retry loop
+295	17.0	Time in retry loop
+296	15.0	Time in retry loop
+297	13.0	Time in retry loop
+298	13.0	Time in retry loop
+299	8.0	Time in retry loop
+300	9.0	Time in retry loop
+301	9.0	Time in retry loop
+302	7.0	Time in retry loop
+303	14.0	Time in retry loop
+304	16.0	Time in retry loop
+305	17.0	Time in retry loop
+306	13.0	Time in retry loop
+307	12.0	Time in retry loop
+308	10.0	Time in retry loop
+309	17.0	Time in retry loop
+310	10.0	Time in retry loop
+311	14.0	Time in retry loop
+312	15.0	Time in retry loop
+313	8.0	Time in retry loop
+314	12.0	Time in retry loop
+315	13.0	Time in retry loop
+316	10.0	Time in retry loop
+317	7.0	Time in retry loop
+318	8.0	Time in retry loop
+319	14.0	Time in retry loop
+320	11.0	Time in retry loop
+321	12.0	Time in retry loop
+322	11.0	Time in retry loop
+323	6.0	Time in retry loop
+324	10.0	Time in retry loop
+325	17.0	Time in retry loop
+326	9.0	Time in retry loop
+327	8.0	Time in retry loop
+328	8.0	Time in retry loop
+329	13.0	Time in retry loop
+330	3.0	Time in retry loop
+331	7.0	Time in retry loop
+332	6.0	Time in retry loop
+333	9.0	Time in retry loop
+334	7.0	Time in retry loop
+335	5.0	Time in retry loop
+336	8.0	Time in retry loop
+337	6.0	Time in retry loop
+338	7.0	Time in retry loop
+339	6.0	Time in retry loop
+340	4.0	Time in retry loop
+341	9.0	Time in retry loop
+342	7.0	Time in retry loop
+343	10.0	Time in retry loop
+344	8.0	Time in retry loop
+345	4.0	Time in retry loop
+346	8.0	Time in retry loop
+347	4.0	Time in retry loop
+348	3.0	Time in retry loop
+349	8.0	Time in retry loop
+350	6.0	Time in retry loop
+351	8.0	Time in retry loop
+352	9.0	Time in retry loop
+353	7.0	Time in retry loop
+354	7.0	Time in retry loop
+355	5.0	Time in retry loop
+356	13.0	Time in retry loop
+357	5.0	Time in retry loop
+358	6.0	Time in retry loop
+359	4.0	Time in retry loop
+360	2.0	Time in retry loop
+361	6.0	Time in retry loop
+362	1.0	Time in retry loop
+363	4.0	Time in retry loop
+364	11.0	Time in retry loop
+365	1.0	Time in retry loop
+366	5.0	Time in retry loop
+367	4.0	Time in retry loop
+368	8.0	Time in retry loop
+369	7.0	Time in retry loop
+370	4.0	Time in retry loop
+371	5.0	Time in retry loop
+372	2.0	Time in retry loop
+373	3.0	Time in retry loop
+374	3.0	Time in retry loop
+375	3.0	Time in retry loop
+376	1.0	Time in retry loop
+377	6.0	Time in retry loop
+378	3.0	Time in retry loop
+379	7.0	Time in retry loop
+380	3.0	Time in retry loop
+381	5.0	Time in retry loop
+382	3.0	Time in retry loop
+383	7.0	Time in retry loop
+385	3.0	Time in retry loop
+386	4.0	Time in retry loop
+387	1.0	Time in retry loop
+388	5.0	Time in retry loop
+389	2.0	Time in retry loop
+390	3.0	Time in retry loop
+391	4.0	Time in retry loop
+392	4.0	Time in retry loop
+394	2.0	Time in retry loop
+395	5.0	Time in retry loop
+396	4.0	Time in retry loop
+397	1.0	Time in retry loop
+398	4.0	Time in retry loop
+399	4.0	Time in retry loop
+400	4.0	Time in retry loop
+402	7.0	Time in retry loop
+403	4.0	Time in retry loop
+404	7.0	Time in retry loop
+405	2.0	Time in retry loop
+407	3.0	Time in retry loop
+408	3.0	Time in retry loop
+409	3.0	Time in retry loop
+410	1.0	Time in retry loop
+411	4.0	Time in retry loop
+412	1.0	Time in retry loop
+413	5.0	Time in retry loop
+414	2.0	Time in retry loop
+416	2.0	Time in retry loop
+417	5.0	Time in retry loop
+418	2.0	Time in retry loop
+419	6.0	Time in retry loop
+420	2.0	Time in retry loop
+421	1.0	Time in retry loop
+422	2.0	Time in retry loop
+423	1.0	Time in retry loop
+424	3.0	Time in retry loop
+425	2.0	Time in retry loop
+426	4.0	Time in retry loop
+427	1.0	Time in retry loop
+428	2.0	Time in retry loop
+429	4.0	Time in retry loop
+430	5.0	Time in retry loop
+431	2.0	Time in retry loop
+432	2.0	Time in retry loop
+433	1.0	Time in retry loop
+434	1.0	Time in retry loop
+436	5.0	Time in retry loop
+437	1.0	Time in retry loop
+438	2.0	Time in retry loop
+439	3.0	Time in retry loop
+441	1.0	Time in retry loop
+442	5.0	Time in retry loop
+443	2.0	Time in retry loop
+444	3.0	Time in retry loop
+445	3.0	Time in retry loop
+447	1.0	Time in retry loop
+448	1.0	Time in retry loop
+449	5.0	Time in retry loop
+451	1.0	Time in retry loop
+453	1.0	Time in retry loop
+454	2.0	Time in retry loop
+455	2.0	Time in retry loop
+457	2.0	Time in retry loop
+459	1.0	Time in retry loop
+460	1.0	Time in retry loop
+461	2.0	Time in retry loop
+462	2.0	Time in retry loop
+463	5.0	Time in retry loop
+464	1.0	Time in retry loop
+466	2.0	Time in retry loop
+467	1.0	Time in retry loop
+468	3.0	Time in retry loop
+469	3.0	Time in retry loop
+470	1.0	Time in retry loop
+471	3.0	Time in retry loop
+472	1.0	Time in retry loop
+473	2.0	Time in retry loop
+474	1.0	Time in retry loop
+475	1.0	Time in retry loop
+476	1.0	Time in retry loop
+477	2.0	Time in retry loop
+478	2.0	Time in retry loop
+479	2.0	Time in retry loop
+481	3.0	Time in retry loop
+482	2.0	Time in retry loop
+483	1.0	Time in retry loop
+485	1.0	Time in retry loop
+488	1.0	Time in retry loop
+491	1.0	Time in retry loop
+492	2.0	Time in retry loop
+493	3.0	Time in retry loop
+494	2.0	Time in retry loop
+495	3.0	Time in retry loop
+497	1.0	Time in retry loop
+499	1.0	Time in retry loop
+500	4.0	Time in retry loop
+501	2.0	Time in retry loop
+503	1.0	Time in retry loop
+505	1.0	Time in retry loop
+506	3.0	Time in retry loop
+507	1.0	Time in retry loop
+508	1.0	Time in retry loop
+512	1.0	Time in retry loop
+513	1.0	Time in retry loop
+514	1.0	Time in retry loop
+515	2.0	Time in retry loop
+516	2.0	Time in retry loop
+520	1.0	Time in retry loop
+521	4.0	Time in retry loop
+523	2.0	Time in retry loop
+526	1.0	Time in retry loop
+529	1.0	Time in retry loop
+530	1.0	Time in retry loop
+533	1.0	Time in retry loop
+534	1.0	Time in retry loop
+535	1.0	Time in retry loop
+536	1.0	Time in retry loop
+538	2.0	Time in retry loop
+539	1.0	Time in retry loop
+540	1.0	Time in retry loop
+542	1.0	Time in retry loop
+544	1.0	Time in retry loop
+546	2.0	Time in retry loop
+547	1.0	Time in retry loop
+548	2.0	Time in retry loop
+549	2.0	Time in retry loop
+556	1.0	Time in retry loop
+559	2.0	Time in retry loop
+562	1.0	Time in retry loop
+569	2.0	Time in retry loop
+570	1.0	Time in retry loop
+571	1.0	Time in retry loop
+572	1.0	Time in retry loop
+573	1.0	Time in retry loop
+576	1.0	Time in retry loop
+577	1.0	Time in retry loop
+578	2.0	Time in retry loop
+579	1.0	Time in retry loop
+586	3.0	Time in retry loop
+587	1.0	Time in retry loop
+589	1.0	Time in retry loop
+594	1.0	Time in retry loop
+597	1.0	Time in retry loop
+598	1.0	Time in retry loop
+601	2.0	Time in retry loop
+608	2.0	Time in retry loop
+612	2.0	Time in retry loop
+613	1.0	Time in retry loop
+614	1.0	Time in retry loop
+615	1.0	Time in retry loop
+617	1.0	Time in retry loop
+620	1.0	Time in retry loop
+626	1.0	Time in retry loop
+627	1.0	Time in retry loop
+631	1.0	Time in retry loop
+632	1.0	Time in retry loop
+634	1.0	Time in retry loop
+636	1.0	Time in retry loop
+637	1.0	Time in retry loop
+640	1.0	Time in retry loop
+643	2.0	Time in retry loop
+644	1.0	Time in retry loop
+645	1.0	Time in retry loop
+646	1.0	Time in retry loop
+649	1.0	Time in retry loop
+651	1.0	Time in retry loop
+655	1.0	Time in retry loop
+658	1.0	Time in retry loop
+660	1.0	Time in retry loop
+664	1.0	Time in retry loop
+669	1.0	Time in retry loop
+672	3.0	Time in retry loop
+675	2.0	Time in retry loop
+678	1.0	Time in retry loop
+680	1.0	Time in retry loop
+682	2.0	Time in retry loop
+685	1.0	Time in retry loop
+686	1.0	Time in retry loop
+691	1.0	Time in retry loop
+694	2.0	Time in retry loop
+696	1.0	Time in retry loop
+698	1.0	Time in retry loop
+703	1.0	Time in retry loop
+709	1.0	Time in retry loop
+713	1.0	Time in retry loop
+722	1.0	Time in retry loop
+726	1.0	Time in retry loop
+727	1.0	Time in retry loop
+728	1.0	Time in retry loop
+731	1.0	Time in retry loop
+735	1.0	Time in retry loop
+737	1.0	Time in retry loop
+739	1.0	Time in retry loop
+740	1.0	Time in retry loop
+753	2.0	Time in retry loop
+761	1.0	Time in retry loop
+763	2.0	Time in retry loop
+765	1.0	Time in retry loop
+769	1.0	Time in retry loop
+770	1.0	Time in retry loop
+772	1.0	Time in retry loop
+777	1.0	Time in retry loop
+784	1.0	Time in retry loop
+790	1.0	Time in retry loop
+805	1.0	Time in retry loop
+808	2.0	Time in retry loop
+810	1.0	Time in retry loop
+816	1.0	Time in retry loop
+819	1.0	Time in retry loop
+822	1.0	Time in retry loop
+836	1.0	Time in retry loop
+846	1.0	Time in retry loop
+847	1.0	Time in retry loop
+849	1.0	Time in retry loop
+852	1.0	Time in retry loop
+882	1.0	Time in retry loop
+896	1.0	Time in retry loop
+908	1.0	Time in retry loop
+909	1.0	Time in retry loop
+912	1.0	Time in retry loop
+916	1.0	Time in retry loop
+923	1.0	Time in retry loop
+924	1.0	Time in retry loop
+932	1.0	Time in retry loop
+935	1.0	Time in retry loop
+938	1.0	Time in retry loop
+944	1.0	Time in retry loop
+947	1.0	Time in retry loop
+952	1.0	Time in retry loop
+954	1.0	Time in retry loop
+957	1.0	Time in retry loop
+960	1.0	Time in retry loop
+975	1.0	Time in retry loop
+995	1.0	Time in retry loop
+1007	1.0	Time in retry loop
+1014	2.0	Time in retry loop
+1016	1.0	Time in retry loop
+1019	1.0	Time in retry loop
+1025	1.0	Time in retry loop
+1030	1.0	Time in retry loop
+1034	1.0	Time in retry loop
+1044	1.0	Time in retry loop
+1083	1.0	Time in retry loop
+1087	1.0	Time in retry loop
+1089	1.0	Time in retry loop
+1134	1.0	Time in retry loop
+1163	1.0	Time in retry loop
+1168	1.0	Time in retry loop
+1175	1.0	Time in retry loop
+1256	1.0	Time in retry loop
+, ReportQuotaUsage=ReportQuotaUsage 
+ Reports=          204902 Average=             196, Total=      40,076,511, 50%=             145, 95%=             535, 99%=             767, 99.5%=             867, 99.95%=            1200, Max=            1919
+8	5.0	REPORT_QUOTA_USAGE
+9	13.0	REPORT_QUOTA_USAGE
+10	37.0	REPORT_QUOTA_USAGE
+11	49.0	REPORT_QUOTA_USAGE
+12	93.0	REPORT_QUOTA_USAGE
+13	128.0	REPORT_QUOTA_USAGE
+14	181.0	REPORT_QUOTA_USAGE
+15	222.0	REPORT_QUOTA_USAGE
+16	269.0	REPORT_QUOTA_USAGE
+17	359.0	REPORT_QUOTA_USAGE
+18	360.0	REPORT_QUOTA_USAGE
+19	426.0	REPORT_QUOTA_USAGE
+20	518.0	REPORT_QUOTA_USAGE
+21	523.0	REPORT_QUOTA_USAGE
+22	589.0	REPORT_QUOTA_USAGE
+23	666.0	REPORT_QUOTA_USAGE
+24	732.0	REPORT_QUOTA_USAGE
+25	735.0	REPORT_QUOTA_USAGE
+26	826.0	REPORT_QUOTA_USAGE
+27	978.0	REPORT_QUOTA_USAGE
+28	1005.0	REPORT_QUOTA_USAGE
+29	1031.0	REPORT_QUOTA_USAGE
+30	1095.0	REPORT_QUOTA_USAGE
+31	1168.0	REPORT_QUOTA_USAGE
+32	1210.0	REPORT_QUOTA_USAGE
+33	1188.0	REPORT_QUOTA_USAGE
+34	1183.0	REPORT_QUOTA_USAGE
+35	1170.0	REPORT_QUOTA_USAGE
+36	1139.0	REPORT_QUOTA_USAGE
+37	1151.0	REPORT_QUOTA_USAGE
+38	1180.0	REPORT_QUOTA_USAGE
+39	1183.0	REPORT_QUOTA_USAGE
+40	1114.0	REPORT_QUOTA_USAGE
+41	1071.0	REPORT_QUOTA_USAGE
+42	1127.0	REPORT_QUOTA_USAGE
+43	1053.0	REPORT_QUOTA_USAGE
+44	1008.0	REPORT_QUOTA_USAGE
+45	1009.0	REPORT_QUOTA_USAGE
+46	1003.0	REPORT_QUOTA_USAGE
+47	950.0	REPORT_QUOTA_USAGE
+48	961.0	REPORT_QUOTA_USAGE
+49	997.0	REPORT_QUOTA_USAGE
+50	903.0	REPORT_QUOTA_USAGE
+51	959.0	REPORT_QUOTA_USAGE
+52	991.0	REPORT_QUOTA_USAGE
+53	953.0	REPORT_QUOTA_USAGE
+54	972.0	REPORT_QUOTA_USAGE
+55	905.0	REPORT_QUOTA_USAGE
+56	892.0	REPORT_QUOTA_USAGE
+57	920.0	REPORT_QUOTA_USAGE
+58	907.0	REPORT_QUOTA_USAGE
+59	903.0	REPORT_QUOTA_USAGE
+60	852.0	REPORT_QUOTA_USAGE
+61	895.0	REPORT_QUOTA_USAGE
+62	925.0	REPORT_QUOTA_USAGE
+63	845.0	REPORT_QUOTA_USAGE
+64	913.0	REPORT_QUOTA_USAGE
+65	847.0	REPORT_QUOTA_USAGE
+66	894.0	REPORT_QUOTA_USAGE
+67	886.0	REPORT_QUOTA_USAGE
+68	870.0	REPORT_QUOTA_USAGE
+69	847.0	REPORT_QUOTA_USAGE
+70	894.0	REPORT_QUOTA_USAGE
+71	893.0	REPORT_QUOTA_USAGE
+72	839.0	REPORT_QUOTA_USAGE
+73	911.0	REPORT_QUOTA_USAGE
+74	808.0	REPORT_QUOTA_USAGE
+75	841.0	REPORT_QUOTA_USAGE
+76	849.0	REPORT_QUOTA_USAGE
+77	846.0	REPORT_QUOTA_USAGE
+78	807.0	REPORT_QUOTA_USAGE
+79	760.0	REPORT_QUOTA_USAGE
+80	840.0	REPORT_QUOTA_USAGE
+81	859.0	REPORT_QUOTA_USAGE
+82	799.0	REPORT_QUOTA_USAGE
+83	779.0	REPORT_QUOTA_USAGE
+84	796.0	REPORT_QUOTA_USAGE
+85	805.0	REPORT_QUOTA_USAGE
+86	785.0	REPORT_QUOTA_USAGE
+87	767.0	REPORT_QUOTA_USAGE
+88	740.0	REPORT_QUOTA_USAGE
+89	748.0	REPORT_QUOTA_USAGE
+90	822.0	REPORT_QUOTA_USAGE
+91	794.0	REPORT_QUOTA_USAGE
+92	729.0	REPORT_QUOTA_USAGE
+93	787.0	REPORT_QUOTA_USAGE
+94	728.0	REPORT_QUOTA_USAGE
+95	732.0	REPORT_QUOTA_USAGE
+96	733.0	REPORT_QUOTA_USAGE
+97	743.0	REPORT_QUOTA_USAGE
+98	751.0	REPORT_QUOTA_USAGE
+99	728.0	REPORT_QUOTA_USAGE
+100	717.0	REPORT_QUOTA_USAGE
+101	694.0	REPORT_QUOTA_USAGE
+102	685.0	REPORT_QUOTA_USAGE
+103	702.0	REPORT_QUOTA_USAGE
+104	740.0	REPORT_QUOTA_USAGE
+105	713.0	REPORT_QUOTA_USAGE
+106	684.0	REPORT_QUOTA_USAGE
+107	706.0	REPORT_QUOTA_USAGE
+108	659.0	REPORT_QUOTA_USAGE
+109	678.0	REPORT_QUOTA_USAGE
+110	665.0	REPORT_QUOTA_USAGE
+111	662.0	REPORT_QUOTA_USAGE
+112	633.0	REPORT_QUOTA_USAGE
+113	640.0	REPORT_QUOTA_USAGE
+114	667.0	REPORT_QUOTA_USAGE
+115	642.0	REPORT_QUOTA_USAGE
+116	671.0	REPORT_QUOTA_USAGE
+117	622.0	REPORT_QUOTA_USAGE
+118	692.0	REPORT_QUOTA_USAGE
+119	682.0	REPORT_QUOTA_USAGE
+120	644.0	REPORT_QUOTA_USAGE
+121	650.0	REPORT_QUOTA_USAGE
+122	609.0	REPORT_QUOTA_USAGE
+123	632.0	REPORT_QUOTA_USAGE
+124	625.0	REPORT_QUOTA_USAGE
+125	676.0	REPORT_QUOTA_USAGE
+126	637.0	REPORT_QUOTA_USAGE
+127	574.0	REPORT_QUOTA_USAGE
+128	652.0	REPORT_QUOTA_USAGE
+129	619.0	REPORT_QUOTA_USAGE
+130	638.0	REPORT_QUOTA_USAGE
+131	607.0	REPORT_QUOTA_USAGE
+132	596.0	REPORT_QUOTA_USAGE
+133	572.0	REPORT_QUOTA_USAGE
+134	567.0	REPORT_QUOTA_USAGE
+135	571.0	REPORT_QUOTA_USAGE
+136	592.0	REPORT_QUOTA_USAGE
+137	536.0	REPORT_QUOTA_USAGE
+138	566.0	REPORT_QUOTA_USAGE
+139	579.0	REPORT_QUOTA_USAGE
+140	583.0	REPORT_QUOTA_USAGE
+141	548.0	REPORT_QUOTA_USAGE
+142	509.0	REPORT_QUOTA_USAGE
+143	561.0	REPORT_QUOTA_USAGE
+144	512.0	REPORT_QUOTA_USAGE
+145	582.0	REPORT_QUOTA_USAGE
+146	554.0	REPORT_QUOTA_USAGE
+147	581.0	REPORT_QUOTA_USAGE
+148	573.0	REPORT_QUOTA_USAGE
+149	552.0	REPORT_QUOTA_USAGE
+150	522.0	REPORT_QUOTA_USAGE
+151	543.0	REPORT_QUOTA_USAGE
+152	556.0	REPORT_QUOTA_USAGE
+153	525.0	REPORT_QUOTA_USAGE
+154	556.0	REPORT_QUOTA_USAGE
+155	532.0	REPORT_QUOTA_USAGE
+156	510.0	REPORT_QUOTA_USAGE
+157	496.0	REPORT_QUOTA_USAGE
+158	557.0	REPORT_QUOTA_USAGE
+159	561.0	REPORT_QUOTA_USAGE
+160	489.0	REPORT_QUOTA_USAGE
+161	561.0	REPORT_QUOTA_USAGE
+162	523.0	REPORT_QUOTA_USAGE
+163	527.0	REPORT_QUOTA_USAGE
+164	495.0	REPORT_QUOTA_USAGE
+165	499.0	REPORT_QUOTA_USAGE
+166	506.0	REPORT_QUOTA_USAGE
+167	476.0	REPORT_QUOTA_USAGE
+168	481.0	REPORT_QUOTA_USAGE
+169	517.0	REPORT_QUOTA_USAGE
+170	511.0	REPORT_QUOTA_USAGE
+171	499.0	REPORT_QUOTA_USAGE
+172	473.0	REPORT_QUOTA_USAGE
+173	512.0	REPORT_QUOTA_USAGE
+174	502.0	REPORT_QUOTA_USAGE
+175	458.0	REPORT_QUOTA_USAGE
+176	508.0	REPORT_QUOTA_USAGE
+177	486.0	REPORT_QUOTA_USAGE
+178	481.0	REPORT_QUOTA_USAGE
+179	496.0	REPORT_QUOTA_USAGE
+180	437.0	REPORT_QUOTA_USAGE
+181	470.0	REPORT_QUOTA_USAGE
+182	518.0	REPORT_QUOTA_USAGE
+183	479.0	REPORT_QUOTA_USAGE
+184	438.0	REPORT_QUOTA_USAGE
+185	458.0	REPORT_QUOTA_USAGE
+186	445.0	REPORT_QUOTA_USAGE
+187	442.0	REPORT_QUOTA_USAGE
+188	452.0	REPORT_QUOTA_USAGE
+189	439.0	REPORT_QUOTA_USAGE
+190	448.0	REPORT_QUOTA_USAGE
+191	431.0	REPORT_QUOTA_USAGE
+192	452.0	REPORT_QUOTA_USAGE
+193	430.0	REPORT_QUOTA_USAGE
+194	380.0	REPORT_QUOTA_USAGE
+195	394.0	REPORT_QUOTA_USAGE
+196	421.0	REPORT_QUOTA_USAGE
+197	414.0	REPORT_QUOTA_USAGE
+198	418.0	REPORT_QUOTA_USAGE
+199	412.0	REPORT_QUOTA_USAGE
+200	464.0	REPORT_QUOTA_USAGE
+201	432.0	REPORT_QUOTA_USAGE
+202	410.0	REPORT_QUOTA_USAGE
+203	387.0	REPORT_QUOTA_USAGE
+204	409.0	REPORT_QUOTA_USAGE
+205	418.0	REPORT_QUOTA_USAGE
+206	393.0	REPORT_QUOTA_USAGE
+207	422.0	REPORT_QUOTA_USAGE
+208	415.0	REPORT_QUOTA_USAGE
+209	392.0	REPORT_QUOTA_USAGE
+210	405.0	REPORT_QUOTA_USAGE
+211	387.0	REPORT_QUOTA_USAGE
+212	396.0	REPORT_QUOTA_USAGE
+213	354.0	REPORT_QUOTA_USAGE
+214	387.0	REPORT_QUOTA_USAGE
+215	384.0	REPORT_QUOTA_USAGE
+216	392.0	REPORT_QUOTA_USAGE
+217	352.0	REPORT_QUOTA_USAGE
+218	397.0	REPORT_QUOTA_USAGE
+219	377.0	REPORT_QUOTA_USAGE
+220	392.0	REPORT_QUOTA_USAGE
+221	368.0	REPORT_QUOTA_USAGE
+222	379.0	REPORT_QUOTA_USAGE
+223	365.0	REPORT_QUOTA_USAGE
+224	395.0	REPORT_QUOTA_USAGE
+225	354.0	REPORT_QUOTA_USAGE
+226	382.0	REPORT_QUOTA_USAGE
+227	365.0	REPORT_QUOTA_USAGE
+228	407.0	REPORT_QUOTA_USAGE
+229	338.0	REPORT_QUOTA_USAGE
+230	363.0	REPORT_QUOTA_USAGE
+231	343.0	REPORT_QUOTA_USAGE
+232	373.0	REPORT_QUOTA_USAGE
+233	318.0	REPORT_QUOTA_USAGE
+234	350.0	REPORT_QUOTA_USAGE
+235	330.0	REPORT_QUOTA_USAGE
+236	362.0	REPORT_QUOTA_USAGE
+237	361.0	REPORT_QUOTA_USAGE
+238	360.0	REPORT_QUOTA_USAGE
+239	345.0	REPORT_QUOTA_USAGE
+240	345.0	REPORT_QUOTA_USAGE
+241	355.0	REPORT_QUOTA_USAGE
+242	355.0	REPORT_QUOTA_USAGE
+243	340.0	REPORT_QUOTA_USAGE
+244	359.0	REPORT_QUOTA_USAGE
+245	327.0	REPORT_QUOTA_USAGE
+246	350.0	REPORT_QUOTA_USAGE
+247	348.0	REPORT_QUOTA_USAGE
+248	303.0	REPORT_QUOTA_USAGE
+249	304.0	REPORT_QUOTA_USAGE
+250	303.0	REPORT_QUOTA_USAGE
+251	341.0	REPORT_QUOTA_USAGE
+252	296.0	REPORT_QUOTA_USAGE
+253	351.0	REPORT_QUOTA_USAGE
+254	300.0	REPORT_QUOTA_USAGE
+255	324.0	REPORT_QUOTA_USAGE
+256	304.0	REPORT_QUOTA_USAGE
+257	294.0	REPORT_QUOTA_USAGE
+258	349.0	REPORT_QUOTA_USAGE
+259	299.0	REPORT_QUOTA_USAGE
+260	319.0	REPORT_QUOTA_USAGE
+261	290.0	REPORT_QUOTA_USAGE
+262	285.0	REPORT_QUOTA_USAGE
+263	311.0	REPORT_QUOTA_USAGE
+264	305.0	REPORT_QUOTA_USAGE
+265	304.0	REPORT_QUOTA_USAGE
+266	288.0	REPORT_QUOTA_USAGE
+267	260.0	REPORT_QUOTA_USAGE
+268	296.0	REPORT_QUOTA_USAGE
+269	300.0	REPORT_QUOTA_USAGE
+270	296.0	REPORT_QUOTA_USAGE
+271	275.0	REPORT_QUOTA_USAGE
+272	265.0	REPORT_QUOTA_USAGE
+273	270.0	REPORT_QUOTA_USAGE
+274	288.0	REPORT_QUOTA_USAGE
+275	280.0	REPORT_QUOTA_USAGE
+276	262.0	REPORT_QUOTA_USAGE
+277	290.0	REPORT_QUOTA_USAGE
+278	282.0	REPORT_QUOTA_USAGE
+279	270.0	REPORT_QUOTA_USAGE
+280	267.0	REPORT_QUOTA_USAGE
+281	242.0	REPORT_QUOTA_USAGE
+282	273.0	REPORT_QUOTA_USAGE
+283	265.0	REPORT_QUOTA_USAGE
+284	256.0	REPORT_QUOTA_USAGE
+285	254.0	REPORT_QUOTA_USAGE
+286	260.0	REPORT_QUOTA_USAGE
+287	261.0	REPORT_QUOTA_USAGE
+288	280.0	REPORT_QUOTA_USAGE
+289	267.0	REPORT_QUOTA_USAGE
+290	272.0	REPORT_QUOTA_USAGE
+291	272.0	REPORT_QUOTA_USAGE
+292	241.0	REPORT_QUOTA_USAGE
+293	270.0	REPORT_QUOTA_USAGE
+294	253.0	REPORT_QUOTA_USAGE
+295	261.0	REPORT_QUOTA_USAGE
+296	253.0	REPORT_QUOTA_USAGE
+297	277.0	REPORT_QUOTA_USAGE
+298	263.0	REPORT_QUOTA_USAGE
+299	267.0	REPORT_QUOTA_USAGE
+300	242.0	REPORT_QUOTA_USAGE
+301	245.0	REPORT_QUOTA_USAGE
+302	267.0	REPORT_QUOTA_USAGE
+303	262.0	REPORT_QUOTA_USAGE
+304	248.0	REPORT_QUOTA_USAGE
+305	218.0	REPORT_QUOTA_USAGE
+306	239.0	REPORT_QUOTA_USAGE
+307	226.0	REPORT_QUOTA_USAGE
+308	247.0	REPORT_QUOTA_USAGE
+309	246.0	REPORT_QUOTA_USAGE
+310	249.0	REPORT_QUOTA_USAGE
+311	246.0	REPORT_QUOTA_USAGE
+312	220.0	REPORT_QUOTA_USAGE
+313	207.0	REPORT_QUOTA_USAGE
+314	211.0	REPORT_QUOTA_USAGE
+315	237.0	REPORT_QUOTA_USAGE
+316	242.0	REPORT_QUOTA_USAGE
+317	241.0	REPORT_QUOTA_USAGE
+318	211.0	REPORT_QUOTA_USAGE
+319	248.0	REPORT_QUOTA_USAGE
+320	232.0	REPORT_QUOTA_USAGE
+321	200.0	REPORT_QUOTA_USAGE
+322	222.0	REPORT_QUOTA_USAGE
+323	231.0	REPORT_QUOTA_USAGE
+324	222.0	REPORT_QUOTA_USAGE
+325	211.0	REPORT_QUOTA_USAGE
+326	221.0	REPORT_QUOTA_USAGE
+327	203.0	REPORT_QUOTA_USAGE
+328	190.0	REPORT_QUOTA_USAGE
+329	209.0	REPORT_QUOTA_USAGE
+330	195.0	REPORT_QUOTA_USAGE
+331	229.0	REPORT_QUOTA_USAGE
+332	212.0	REPORT_QUOTA_USAGE
+333	223.0	REPORT_QUOTA_USAGE
+334	219.0	REPORT_QUOTA_USAGE
+335	177.0	REPORT_QUOTA_USAGE
+336	202.0	REPORT_QUOTA_USAGE
+337	192.0	REPORT_QUOTA_USAGE
+338	198.0	REPORT_QUOTA_USAGE
+339	187.0	REPORT_QUOTA_USAGE
+340	200.0	REPORT_QUOTA_USAGE
+341	196.0	REPORT_QUOTA_USAGE
+342	202.0	REPORT_QUOTA_USAGE
+343	201.0	REPORT_QUOTA_USAGE
+344	223.0	REPORT_QUOTA_USAGE
+345	200.0	REPORT_QUOTA_USAGE
+346	203.0	REPORT_QUOTA_USAGE
+347	168.0	REPORT_QUOTA_USAGE
+348	177.0	REPORT_QUOTA_USAGE
+349	167.0	REPORT_QUOTA_USAGE
+350	186.0	REPORT_QUOTA_USAGE
+351	218.0	REPORT_QUOTA_USAGE
+352	205.0	REPORT_QUOTA_USAGE
+353	196.0	REPORT_QUOTA_USAGE
+354	201.0	REPORT_QUOTA_USAGE
+355	201.0	REPORT_QUOTA_USAGE
+356	207.0	REPORT_QUOTA_USAGE
+357	202.0	REPORT_QUOTA_USAGE
+358	198.0	REPORT_QUOTA_USAGE
+359	204.0	REPORT_QUOTA_USAGE
+360	152.0	REPORT_QUOTA_USAGE
+361	199.0	REPORT_QUOTA_USAGE
+362	213.0	REPORT_QUOTA_USAGE
+363	166.0	REPORT_QUOTA_USAGE
+364	179.0	REPORT_QUOTA_USAGE
+365	181.0	REPORT_QUOTA_USAGE
+366	174.0	REPORT_QUOTA_USAGE
+367	169.0	REPORT_QUOTA_USAGE
+368	169.0	REPORT_QUOTA_USAGE
+369	178.0	REPORT_QUOTA_USAGE
+370	174.0	REPORT_QUOTA_USAGE
+371	160.0	REPORT_QUOTA_USAGE
+372	170.0	REPORT_QUOTA_USAGE
+373	168.0	REPORT_QUOTA_USAGE
+374	172.0	REPORT_QUOTA_USAGE
+375	179.0	REPORT_QUOTA_USAGE
+376	167.0	REPORT_QUOTA_USAGE
+377	175.0	REPORT_QUOTA_USAGE
+378	165.0	REPORT_QUOTA_USAGE
+379	150.0	REPORT_QUOTA_USAGE
+380	168.0	REPORT_QUOTA_USAGE
+381	156.0	REPORT_QUOTA_USAGE
+382	164.0	REPORT_QUOTA_USAGE
+383	182.0	REPORT_QUOTA_USAGE
+384	151.0	REPORT_QUOTA_USAGE
+385	153.0	REPORT_QUOTA_USAGE
+386	145.0	REPORT_QUOTA_USAGE
+387	149.0	REPORT_QUOTA_USAGE
+388	165.0	REPORT_QUOTA_USAGE
+389	145.0	REPORT_QUOTA_USAGE
+390	141.0	REPORT_QUOTA_USAGE
+391	125.0	REPORT_QUOTA_USAGE
+392	122.0	REPORT_QUOTA_USAGE
+393	139.0	REPORT_QUOTA_USAGE
+394	155.0	REPORT_QUOTA_USAGE
+395	153.0	REPORT_QUOTA_USAGE
+396	141.0	REPORT_QUOTA_USAGE
+397	149.0	REPORT_QUOTA_USAGE
+398	138.0	REPORT_QUOTA_USAGE
+399	124.0	REPORT_QUOTA_USAGE
+400	138.0	REPORT_QUOTA_USAGE
+401	151.0	REPORT_QUOTA_USAGE
+402	155.0	REPORT_QUOTA_USAGE
+403	146.0	REPORT_QUOTA_USAGE
+404	154.0	REPORT_QUOTA_USAGE
+405	137.0	REPORT_QUOTA_USAGE
+406	128.0	REPORT_QUOTA_USAGE
+407	135.0	REPORT_QUOTA_USAGE
+408	143.0	REPORT_QUOTA_USAGE
+409	120.0	REPORT_QUOTA_USAGE
+410	151.0	REPORT_QUOTA_USAGE
+411	144.0	REPORT_QUOTA_USAGE
+412	143.0	REPORT_QUOTA_USAGE
+413	121.0	REPORT_QUOTA_USAGE
+414	123.0	REPORT_QUOTA_USAGE
+415	128.0	REPORT_QUOTA_USAGE
+416	118.0	REPORT_QUOTA_USAGE
+417	127.0	REPORT_QUOTA_USAGE
+418	118.0	REPORT_QUOTA_USAGE
+419	112.0	REPORT_QUOTA_USAGE
+420	134.0	REPORT_QUOTA_USAGE
+421	134.0	REPORT_QUOTA_USAGE
+422	126.0	REPORT_QUOTA_USAGE
+423	122.0	REPORT_QUOTA_USAGE
+424	115.0	REPORT_QUOTA_USAGE
+425	134.0	REPORT_QUOTA_USAGE
+426	118.0	REPORT_QUOTA_USAGE
+427	110.0	REPORT_QUOTA_USAGE
+428	137.0	REPORT_QUOTA_USAGE
+429	135.0	REPORT_QUOTA_USAGE
+430	129.0	REPORT_QUOTA_USAGE
+431	126.0	REPORT_QUOTA_USAGE
+432	100.0	REPORT_QUOTA_USAGE
+433	114.0	REPORT_QUOTA_USAGE
+434	100.0	REPORT_QUOTA_USAGE
+435	116.0	REPORT_QUOTA_USAGE
+436	121.0	REPORT_QUOTA_USAGE
+437	106.0	REPORT_QUOTA_USAGE
+438	110.0	REPORT_QUOTA_USAGE
+439	90.0	REPORT_QUOTA_USAGE
+440	112.0	REPORT_QUOTA_USAGE
+441	113.0	REPORT_QUOTA_USAGE
+442	101.0	REPORT_QUOTA_USAGE
+443	110.0	REPORT_QUOTA_USAGE
+444	96.0	REPORT_QUOTA_USAGE
+445	117.0	REPORT_QUOTA_USAGE
+446	110.0	REPORT_QUOTA_USAGE
+447	120.0	REPORT_QUOTA_USAGE
+448	96.0	REPORT_QUOTA_USAGE
+449	114.0	REPORT_QUOTA_USAGE
+450	111.0	REPORT_QUOTA_USAGE
+451	123.0	REPORT_QUOTA_USAGE
+452	106.0	REPORT_QUOTA_USAGE
+453	120.0	REPORT_QUOTA_USAGE
+454	111.0	REPORT_QUOTA_USAGE
+455	114.0	REPORT_QUOTA_USAGE
+456	106.0	REPORT_QUOTA_USAGE
+457	104.0	REPORT_QUOTA_USAGE
+458	98.0	REPORT_QUOTA_USAGE
+459	98.0	REPORT_QUOTA_USAGE
+460	103.0	REPORT_QUOTA_USAGE
+461	114.0	REPORT_QUOTA_USAGE
+462	97.0	REPORT_QUOTA_USAGE
+463	103.0	REPORT_QUOTA_USAGE
+464	89.0	REPORT_QUOTA_USAGE
+465	111.0	REPORT_QUOTA_USAGE
+466	90.0	REPORT_QUOTA_USAGE
+467	98.0	REPORT_QUOTA_USAGE
+468	83.0	REPORT_QUOTA_USAGE
+469	104.0	REPORT_QUOTA_USAGE
+470	106.0	REPORT_QUOTA_USAGE
+471	97.0	REPORT_QUOTA_USAGE
+472	87.0	REPORT_QUOTA_USAGE
+473	95.0	REPORT_QUOTA_USAGE
+474	96.0	REPORT_QUOTA_USAGE
+475	94.0	REPORT_QUOTA_USAGE
+476	105.0	REPORT_QUOTA_USAGE
+477	106.0	REPORT_QUOTA_USAGE
+478	103.0	REPORT_QUOTA_USAGE
+479	83.0	REPORT_QUOTA_USAGE
+480	94.0	REPORT_QUOTA_USAGE
+481	86.0	REPORT_QUOTA_USAGE
+482	83.0	REPORT_QUOTA_USAGE
+483	81.0	REPORT_QUOTA_USAGE
+484	86.0	REPORT_QUOTA_USAGE
+485	82.0	REPORT_QUOTA_USAGE
+486	73.0	REPORT_QUOTA_USAGE
+487	84.0	REPORT_QUOTA_USAGE
+488	85.0	REPORT_QUOTA_USAGE
+489	74.0	REPORT_QUOTA_USAGE
+490	93.0	REPORT_QUOTA_USAGE
+491	92.0	REPORT_QUOTA_USAGE
+492	78.0	REPORT_QUOTA_USAGE
+493	85.0	REPORT_QUOTA_USAGE
+494	81.0	REPORT_QUOTA_USAGE
+495	89.0	REPORT_QUOTA_USAGE
+496	81.0	REPORT_QUOTA_USAGE
+497	78.0	REPORT_QUOTA_USAGE
+498	105.0	REPORT_QUOTA_USAGE
+499	88.0	REPORT_QUOTA_USAGE
+500	80.0	REPORT_QUOTA_USAGE
+501	83.0	REPORT_QUOTA_USAGE
+502	80.0	REPORT_QUOTA_USAGE
+503	78.0	REPORT_QUOTA_USAGE
+504	81.0	REPORT_QUOTA_USAGE
+505	75.0	REPORT_QUOTA_USAGE
+506	90.0	REPORT_QUOTA_USAGE
+507	94.0	REPORT_QUOTA_USAGE
+508	61.0	REPORT_QUOTA_USAGE
+509	81.0	REPORT_QUOTA_USAGE
+510	84.0	REPORT_QUOTA_USAGE
+511	72.0	REPORT_QUOTA_USAGE
+512	77.0	REPORT_QUOTA_USAGE
+513	71.0	REPORT_QUOTA_USAGE
+514	74.0	REPORT_QUOTA_USAGE
+515	74.0	REPORT_QUOTA_USAGE
+516	68.0	REPORT_QUOTA_USAGE
+517	76.0	REPORT_QUOTA_USAGE
+518	64.0	REPORT_QUOTA_USAGE
+519	64.0	REPORT_QUOTA_USAGE
+520	73.0	REPORT_QUOTA_USAGE
+521	80.0	REPORT_QUOTA_USAGE
+522	67.0	REPORT_QUOTA_USAGE
+523	75.0	REPORT_QUOTA_USAGE
+524	67.0	REPORT_QUOTA_USAGE
+525	71.0	REPORT_QUOTA_USAGE
+526	82.0	REPORT_QUOTA_USAGE
+527	63.0	REPORT_QUOTA_USAGE
+528	58.0	REPORT_QUOTA_USAGE
+529	62.0	REPORT_QUOTA_USAGE
+530	72.0	REPORT_QUOTA_USAGE
+531	63.0	REPORT_QUOTA_USAGE
+532	75.0	REPORT_QUOTA_USAGE
+533	61.0	REPORT_QUOTA_USAGE
+534	65.0	REPORT_QUOTA_USAGE
+535	82.0	REPORT_QUOTA_USAGE
+536	80.0	REPORT_QUOTA_USAGE
+537	53.0	REPORT_QUOTA_USAGE
+538	52.0	REPORT_QUOTA_USAGE
+539	66.0	REPORT_QUOTA_USAGE
+540	76.0	REPORT_QUOTA_USAGE
+541	60.0	REPORT_QUOTA_USAGE
+542	53.0	REPORT_QUOTA_USAGE
+543	66.0	REPORT_QUOTA_USAGE
+544	82.0	REPORT_QUOTA_USAGE
+545	65.0	REPORT_QUOTA_USAGE
+546	67.0	REPORT_QUOTA_USAGE
+547	67.0	REPORT_QUOTA_USAGE
+548	66.0	REPORT_QUOTA_USAGE
+549	67.0	REPORT_QUOTA_USAGE
+550	63.0	REPORT_QUOTA_USAGE
+551	61.0	REPORT_QUOTA_USAGE
+552	58.0	REPORT_QUOTA_USAGE
+553	47.0	REPORT_QUOTA_USAGE
+554	67.0	REPORT_QUOTA_USAGE
+555	59.0	REPORT_QUOTA_USAGE
+556	49.0	REPORT_QUOTA_USAGE
+557	53.0	REPORT_QUOTA_USAGE
+558	57.0	REPORT_QUOTA_USAGE
+559	58.0	REPORT_QUOTA_USAGE
+560	55.0	REPORT_QUOTA_USAGE
+561	46.0	REPORT_QUOTA_USAGE
+562	53.0	REPORT_QUOTA_USAGE
+563	60.0	REPORT_QUOTA_USAGE
+564	49.0	REPORT_QUOTA_USAGE
+565	58.0	REPORT_QUOTA_USAGE
+566	54.0	REPORT_QUOTA_USAGE
+567	53.0	REPORT_QUOTA_USAGE
+568	51.0	REPORT_QUOTA_USAGE
+569	60.0	REPORT_QUOTA_USAGE
+570	48.0	REPORT_QUOTA_USAGE
+571	45.0	REPORT_QUOTA_USAGE
+572	48.0	REPORT_QUOTA_USAGE
+573	49.0	REPORT_QUOTA_USAGE
+574	51.0	REPORT_QUOTA_USAGE
+575	61.0	REPORT_QUOTA_USAGE
+576	47.0	REPORT_QUOTA_USAGE
+577	52.0	REPORT_QUOTA_USAGE
+578	55.0	REPORT_QUOTA_USAGE
+579	52.0	REPORT_QUOTA_USAGE
+580	43.0	REPORT_QUOTA_USAGE
+581	41.0	REPORT_QUOTA_USAGE
+582	42.0	REPORT_QUOTA_USAGE
+583	45.0	REPORT_QUOTA_USAGE
+584	45.0	REPORT_QUOTA_USAGE
+585	55.0	REPORT_QUOTA_USAGE
+586	43.0	REPORT_QUOTA_USAGE
+587	38.0	REPORT_QUOTA_USAGE
+588	61.0	REPORT_QUOTA_USAGE
+589	55.0	REPORT_QUOTA_USAGE
+590	47.0	REPORT_QUOTA_USAGE
+591	46.0	REPORT_QUOTA_USAGE
+592	43.0	REPORT_QUOTA_USAGE
+593	44.0	REPORT_QUOTA_USAGE
+594	47.0	REPORT_QUOTA_USAGE
+595	45.0	REPORT_QUOTA_USAGE
+596	45.0	REPORT_QUOTA_USAGE
+597	34.0	REPORT_QUOTA_USAGE
+598	47.0	REPORT_QUOTA_USAGE
+599	47.0	REPORT_QUOTA_USAGE
+600	44.0	REPORT_QUOTA_USAGE
+601	30.0	REPORT_QUOTA_USAGE
+602	37.0	REPORT_QUOTA_USAGE
+603	50.0	REPORT_QUOTA_USAGE
+604	39.0	REPORT_QUOTA_USAGE
+605	51.0	REPORT_QUOTA_USAGE
+606	38.0	REPORT_QUOTA_USAGE
+607	42.0	REPORT_QUOTA_USAGE
+608	35.0	REPORT_QUOTA_USAGE
+609	41.0	REPORT_QUOTA_USAGE
+610	46.0	REPORT_QUOTA_USAGE
+611	46.0	REPORT_QUOTA_USAGE
+612	54.0	REPORT_QUOTA_USAGE
+613	46.0	REPORT_QUOTA_USAGE
+614	45.0	REPORT_QUOTA_USAGE
+615	48.0	REPORT_QUOTA_USAGE
+616	35.0	REPORT_QUOTA_USAGE
+617	41.0	REPORT_QUOTA_USAGE
+618	30.0	REPORT_QUOTA_USAGE
+619	33.0	REPORT_QUOTA_USAGE
+620	36.0	REPORT_QUOTA_USAGE
+621	46.0	REPORT_QUOTA_USAGE
+622	28.0	REPORT_QUOTA_USAGE
+623	49.0	REPORT_QUOTA_USAGE
+624	46.0	REPORT_QUOTA_USAGE
+625	43.0	REPORT_QUOTA_USAGE
+626	42.0	REPORT_QUOTA_USAGE
+627	40.0	REPORT_QUOTA_USAGE
+628	33.0	REPORT_QUOTA_USAGE
+629	50.0	REPORT_QUOTA_USAGE
+630	48.0	REPORT_QUOTA_USAGE
+631	35.0	REPORT_QUOTA_USAGE
+632	44.0	REPORT_QUOTA_USAGE
+633	27.0	REPORT_QUOTA_USAGE
+634	31.0	REPORT_QUOTA_USAGE
+635	29.0	REPORT_QUOTA_USAGE
+636	35.0	REPORT_QUOTA_USAGE
+637	48.0	REPORT_QUOTA_USAGE
+638	50.0	REPORT_QUOTA_USAGE
+639	37.0	REPORT_QUOTA_USAGE
+640	37.0	REPORT_QUOTA_USAGE
+641	37.0	REPORT_QUOTA_USAGE
+642	24.0	REPORT_QUOTA_USAGE
+643	35.0	REPORT_QUOTA_USAGE
+644	30.0	REPORT_QUOTA_USAGE
+645	40.0	REPORT_QUOTA_USAGE
+646	43.0	REPORT_QUOTA_USAGE
+647	37.0	REPORT_QUOTA_USAGE
+648	31.0	REPORT_QUOTA_USAGE
+649	40.0	REPORT_QUOTA_USAGE
+650	30.0	REPORT_QUOTA_USAGE
+651	33.0	REPORT_QUOTA_USAGE
+652	30.0	REPORT_QUOTA_USAGE
+653	36.0	REPORT_QUOTA_USAGE
+654	26.0	REPORT_QUOTA_USAGE
+655	30.0	REPORT_QUOTA_USAGE
+656	28.0	REPORT_QUOTA_USAGE
+657	28.0	REPORT_QUOTA_USAGE
+658	25.0	REPORT_QUOTA_USAGE
+659	29.0	REPORT_QUOTA_USAGE
+660	33.0	REPORT_QUOTA_USAGE
+661	30.0	REPORT_QUOTA_USAGE
+662	30.0	REPORT_QUOTA_USAGE
+663	33.0	REPORT_QUOTA_USAGE
+664	44.0	REPORT_QUOTA_USAGE
+665	34.0	REPORT_QUOTA_USAGE
+666	19.0	REPORT_QUOTA_USAGE
+667	42.0	REPORT_QUOTA_USAGE
+668	22.0	REPORT_QUOTA_USAGE
+669	42.0	REPORT_QUOTA_USAGE
+670	19.0	REPORT_QUOTA_USAGE
+671	26.0	REPORT_QUOTA_USAGE
+672	22.0	REPORT_QUOTA_USAGE
+673	17.0	REPORT_QUOTA_USAGE
+674	27.0	REPORT_QUOTA_USAGE
+675	34.0	REPORT_QUOTA_USAGE
+676	22.0	REPORT_QUOTA_USAGE
+677	25.0	REPORT_QUOTA_USAGE
+678	28.0	REPORT_QUOTA_USAGE
+679	19.0	REPORT_QUOTA_USAGE
+680	37.0	REPORT_QUOTA_USAGE
+681	24.0	REPORT_QUOTA_USAGE
+682	32.0	REPORT_QUOTA_USAGE
+683	27.0	REPORT_QUOTA_USAGE
+684	24.0	REPORT_QUOTA_USAGE
+685	27.0	REPORT_QUOTA_USAGE
+686	31.0	REPORT_QUOTA_USAGE
+687	23.0	REPORT_QUOTA_USAGE
+688	31.0	REPORT_QUOTA_USAGE
+689	24.0	REPORT_QUOTA_USAGE
+690	25.0	REPORT_QUOTA_USAGE
+691	25.0	REPORT_QUOTA_USAGE
+692	27.0	REPORT_QUOTA_USAGE
+693	20.0	REPORT_QUOTA_USAGE
+694	27.0	REPORT_QUOTA_USAGE
+695	24.0	REPORT_QUOTA_USAGE
+696	22.0	REPORT_QUOTA_USAGE
+697	25.0	REPORT_QUOTA_USAGE
+698	22.0	REPORT_QUOTA_USAGE
+699	17.0	REPORT_QUOTA_USAGE
+700	22.0	REPORT_QUOTA_USAGE
+701	20.0	REPORT_QUOTA_USAGE
+702	29.0	REPORT_QUOTA_USAGE
+703	30.0	REPORT_QUOTA_USAGE
+704	26.0	REPORT_QUOTA_USAGE
+705	23.0	REPORT_QUOTA_USAGE
+706	21.0	REPORT_QUOTA_USAGE
+707	26.0	REPORT_QUOTA_USAGE
+708	23.0	REPORT_QUOTA_USAGE
+709	22.0	REPORT_QUOTA_USAGE
+710	27.0	REPORT_QUOTA_USAGE
+711	23.0	REPORT_QUOTA_USAGE
+712	17.0	REPORT_QUOTA_USAGE
+713	27.0	REPORT_QUOTA_USAGE
+714	19.0	REPORT_QUOTA_USAGE
+715	18.0	REPORT_QUOTA_USAGE
+716	34.0	REPORT_QUOTA_USAGE
+717	16.0	REPORT_QUOTA_USAGE
+718	25.0	REPORT_QUOTA_USAGE
+719	17.0	REPORT_QUOTA_USAGE
+720	20.0	REPORT_QUOTA_USAGE
+721	21.0	REPORT_QUOTA_USAGE
+722	16.0	REPORT_QUOTA_USAGE
+723	21.0	REPORT_QUOTA_USAGE
+724	26.0	REPORT_QUOTA_USAGE
+725	16.0	REPORT_QUOTA_USAGE
+726	34.0	REPORT_QUOTA_USAGE
+727	25.0	REPORT_QUOTA_USAGE
+728	21.0	REPORT_QUOTA_USAGE
+729	22.0	REPORT_QUOTA_USAGE
+730	16.0	REPORT_QUOTA_USAGE
+731	16.0	REPORT_QUOTA_USAGE
+732	16.0	REPORT_QUOTA_USAGE
+733	20.0	REPORT_QUOTA_USAGE
+734	23.0	REPORT_QUOTA_USAGE
+735	20.0	REPORT_QUOTA_USAGE
+736	22.0	REPORT_QUOTA_USAGE
+737	17.0	REPORT_QUOTA_USAGE
+738	17.0	REPORT_QUOTA_USAGE
+739	22.0	REPORT_QUOTA_USAGE
+740	17.0	REPORT_QUOTA_USAGE
+741	20.0	REPORT_QUOTA_USAGE
+742	15.0	REPORT_QUOTA_USAGE
+743	15.0	REPORT_QUOTA_USAGE
+744	22.0	REPORT_QUOTA_USAGE
+745	9.0	REPORT_QUOTA_USAGE
+746	24.0	REPORT_QUOTA_USAGE
+747	19.0	REPORT_QUOTA_USAGE
+748	14.0	REPORT_QUOTA_USAGE
+749	14.0	REPORT_QUOTA_USAGE
+750	15.0	REPORT_QUOTA_USAGE
+751	12.0	REPORT_QUOTA_USAGE
+752	22.0	REPORT_QUOTA_USAGE
+753	19.0	REPORT_QUOTA_USAGE
+754	22.0	REPORT_QUOTA_USAGE
+755	16.0	REPORT_QUOTA_USAGE
+756	12.0	REPORT_QUOTA_USAGE
+757	21.0	REPORT_QUOTA_USAGE
+758	15.0	REPORT_QUOTA_USAGE
+759	11.0	REPORT_QUOTA_USAGE
+760	16.0	REPORT_QUOTA_USAGE
+761	11.0	REPORT_QUOTA_USAGE
+762	17.0	REPORT_QUOTA_USAGE
+763	25.0	REPORT_QUOTA_USAGE
+764	21.0	REPORT_QUOTA_USAGE
+765	10.0	REPORT_QUOTA_USAGE
+766	19.0	REPORT_QUOTA_USAGE
+767	13.0	REPORT_QUOTA_USAGE
+768	16.0	REPORT_QUOTA_USAGE
+769	14.0	REPORT_QUOTA_USAGE
+770	12.0	REPORT_QUOTA_USAGE
+771	8.0	REPORT_QUOTA_USAGE
+772	17.0	REPORT_QUOTA_USAGE
+773	21.0	REPORT_QUOTA_USAGE
+774	14.0	REPORT_QUOTA_USAGE
+775	11.0	REPORT_QUOTA_USAGE
+776	8.0	REPORT_QUOTA_USAGE
+777	18.0	REPORT_QUOTA_USAGE
+778	9.0	REPORT_QUOTA_USAGE
+779	10.0	REPORT_QUOTA_USAGE
+780	14.0	REPORT_QUOTA_USAGE
+781	10.0	REPORT_QUOTA_USAGE
+782	13.0	REPORT_QUOTA_USAGE
+783	13.0	REPORT_QUOTA_USAGE
+784	8.0	REPORT_QUOTA_USAGE
+785	14.0	REPORT_QUOTA_USAGE
+786	12.0	REPORT_QUOTA_USAGE
+787	13.0	REPORT_QUOTA_USAGE
+788	11.0	REPORT_QUOTA_USAGE
+789	13.0	REPORT_QUOTA_USAGE
+790	8.0	REPORT_QUOTA_USAGE
+791	18.0	REPORT_QUOTA_USAGE
+792	12.0	REPORT_QUOTA_USAGE
+793	15.0	REPORT_QUOTA_USAGE
+794	8.0	REPORT_QUOTA_USAGE
+795	13.0	REPORT_QUOTA_USAGE
+796	14.0	REPORT_QUOTA_USAGE
+797	11.0	REPORT_QUOTA_USAGE
+798	19.0	REPORT_QUOTA_USAGE
+799	13.0	REPORT_QUOTA_USAGE
+800	12.0	REPORT_QUOTA_USAGE
+801	15.0	REPORT_QUOTA_USAGE
+802	10.0	REPORT_QUOTA_USAGE
+803	14.0	REPORT_QUOTA_USAGE
+804	12.0	REPORT_QUOTA_USAGE
+805	13.0	REPORT_QUOTA_USAGE
+806	15.0	REPORT_QUOTA_USAGE
+807	11.0	REPORT_QUOTA_USAGE
+808	14.0	REPORT_QUOTA_USAGE
+809	13.0	REPORT_QUOTA_USAGE
+810	9.0	REPORT_QUOTA_USAGE
+811	10.0	REPORT_QUOTA_USAGE
+812	2.0	REPORT_QUOTA_USAGE
+813	8.0	REPORT_QUOTA_USAGE
+814	8.0	REPORT_QUOTA_USAGE
+815	11.0	REPORT_QUOTA_USAGE
+816	8.0	REPORT_QUOTA_USAGE
+817	10.0	REPORT_QUOTA_USAGE
+818	9.0	REPORT_QUOTA_USAGE
+819	11.0	REPORT_QUOTA_USAGE
+820	8.0	REPORT_QUOTA_USAGE
+821	13.0	REPORT_QUOTA_USAGE
+822	10.0	REPORT_QUOTA_USAGE
+823	7.0	REPORT_QUOTA_USAGE
+824	7.0	REPORT_QUOTA_USAGE
+825	9.0	REPORT_QUOTA_USAGE
+826	13.0	REPORT_QUOTA_USAGE
+827	10.0	REPORT_QUOTA_USAGE
+828	10.0	REPORT_QUOTA_USAGE
+829	9.0	REPORT_QUOTA_USAGE
+830	11.0	REPORT_QUOTA_USAGE
+831	12.0	REPORT_QUOTA_USAGE
+832	10.0	REPORT_QUOTA_USAGE
+833	7.0	REPORT_QUOTA_USAGE
+834	2.0	REPORT_QUOTA_USAGE
+835	10.0	REPORT_QUOTA_USAGE
+836	12.0	REPORT_QUOTA_USAGE
+837	11.0	REPORT_QUOTA_USAGE
+838	10.0	REPORT_QUOTA_USAGE
+839	7.0	REPORT_QUOTA_USAGE
+840	8.0	REPORT_QUOTA_USAGE
+841	8.0	REPORT_QUOTA_USAGE
+842	7.0	REPORT_QUOTA_USAGE
+843	10.0	REPORT_QUOTA_USAGE
+844	9.0	REPORT_QUOTA_USAGE
+845	12.0	REPORT_QUOTA_USAGE
+846	10.0	REPORT_QUOTA_USAGE
+847	8.0	REPORT_QUOTA_USAGE
+848	9.0	REPORT_QUOTA_USAGE
+849	7.0	REPORT_QUOTA_USAGE
+850	3.0	REPORT_QUOTA_USAGE
+851	9.0	REPORT_QUOTA_USAGE
+852	6.0	REPORT_QUOTA_USAGE
+853	8.0	REPORT_QUOTA_USAGE
+854	7.0	REPORT_QUOTA_USAGE
+855	5.0	REPORT_QUOTA_USAGE
+856	10.0	REPORT_QUOTA_USAGE
+857	6.0	REPORT_QUOTA_USAGE
+858	8.0	REPORT_QUOTA_USAGE
+859	7.0	REPORT_QUOTA_USAGE
+860	10.0	REPORT_QUOTA_USAGE
+861	6.0	REPORT_QUOTA_USAGE
+862	8.0	REPORT_QUOTA_USAGE
+863	7.0	REPORT_QUOTA_USAGE
+864	5.0	REPORT_QUOTA_USAGE
+865	8.0	REPORT_QUOTA_USAGE
+866	5.0	REPORT_QUOTA_USAGE
+867	6.0	REPORT_QUOTA_USAGE
+868	8.0	REPORT_QUOTA_USAGE
+869	6.0	REPORT_QUOTA_USAGE
+870	4.0	REPORT_QUOTA_USAGE
+871	7.0	REPORT_QUOTA_USAGE
+872	5.0	REPORT_QUOTA_USAGE
+873	7.0	REPORT_QUOTA_USAGE
+874	7.0	REPORT_QUOTA_USAGE
+875	13.0	REPORT_QUOTA_USAGE
+876	2.0	REPORT_QUOTA_USAGE
+877	7.0	REPORT_QUOTA_USAGE
+878	3.0	REPORT_QUOTA_USAGE
+879	4.0	REPORT_QUOTA_USAGE
+880	9.0	REPORT_QUOTA_USAGE
+881	4.0	REPORT_QUOTA_USAGE
+882	9.0	REPORT_QUOTA_USAGE
+883	4.0	REPORT_QUOTA_USAGE
+884	4.0	REPORT_QUOTA_USAGE
+885	2.0	REPORT_QUOTA_USAGE
+886	5.0	REPORT_QUOTA_USAGE
+887	4.0	REPORT_QUOTA_USAGE
+889	4.0	REPORT_QUOTA_USAGE
+890	7.0	REPORT_QUOTA_USAGE
+891	3.0	REPORT_QUOTA_USAGE
+892	8.0	REPORT_QUOTA_USAGE
+893	7.0	REPORT_QUOTA_USAGE
+894	9.0	REPORT_QUOTA_USAGE
+895	3.0	REPORT_QUOTA_USAGE
+896	9.0	REPORT_QUOTA_USAGE
+897	5.0	REPORT_QUOTA_USAGE
+898	4.0	REPORT_QUOTA_USAGE
+899	4.0	REPORT_QUOTA_USAGE
+900	3.0	REPORT_QUOTA_USAGE
+901	6.0	REPORT_QUOTA_USAGE
+902	2.0	REPORT_QUOTA_USAGE
+903	3.0	REPORT_QUOTA_USAGE
+904	4.0	REPORT_QUOTA_USAGE
+905	4.0	REPORT_QUOTA_USAGE
+906	4.0	REPORT_QUOTA_USAGE
+907	7.0	REPORT_QUOTA_USAGE
+908	10.0	REPORT_QUOTA_USAGE
+909	8.0	REPORT_QUOTA_USAGE
+910	4.0	REPORT_QUOTA_USAGE
+911	9.0	REPORT_QUOTA_USAGE
+912	6.0	REPORT_QUOTA_USAGE
+913	6.0	REPORT_QUOTA_USAGE
+914	4.0	REPORT_QUOTA_USAGE
+915	5.0	REPORT_QUOTA_USAGE
+916	2.0	REPORT_QUOTA_USAGE
+917	9.0	REPORT_QUOTA_USAGE
+918	7.0	REPORT_QUOTA_USAGE
+919	4.0	REPORT_QUOTA_USAGE
+920	3.0	REPORT_QUOTA_USAGE
+921	5.0	REPORT_QUOTA_USAGE
+922	10.0	REPORT_QUOTA_USAGE
+923	4.0	REPORT_QUOTA_USAGE
+924	9.0	REPORT_QUOTA_USAGE
+925	7.0	REPORT_QUOTA_USAGE
+926	6.0	REPORT_QUOTA_USAGE
+927	5.0	REPORT_QUOTA_USAGE
+928	6.0	REPORT_QUOTA_USAGE
+929	4.0	REPORT_QUOTA_USAGE
+930	5.0	REPORT_QUOTA_USAGE
+931	3.0	REPORT_QUOTA_USAGE
+932	2.0	REPORT_QUOTA_USAGE
+933	4.0	REPORT_QUOTA_USAGE
+934	4.0	REPORT_QUOTA_USAGE
+935	5.0	REPORT_QUOTA_USAGE
+936	3.0	REPORT_QUOTA_USAGE
+937	5.0	REPORT_QUOTA_USAGE
+938	3.0	REPORT_QUOTA_USAGE
+939	3.0	REPORT_QUOTA_USAGE
+940	2.0	REPORT_QUOTA_USAGE
+941	3.0	REPORT_QUOTA_USAGE
+942	4.0	REPORT_QUOTA_USAGE
+943	3.0	REPORT_QUOTA_USAGE
+944	6.0	REPORT_QUOTA_USAGE
+945	2.0	REPORT_QUOTA_USAGE
+946	5.0	REPORT_QUOTA_USAGE
+947	5.0	REPORT_QUOTA_USAGE
+948	5.0	REPORT_QUOTA_USAGE
+949	3.0	REPORT_QUOTA_USAGE
+950	9.0	REPORT_QUOTA_USAGE
+951	4.0	REPORT_QUOTA_USAGE
+952	4.0	REPORT_QUOTA_USAGE
+953	5.0	REPORT_QUOTA_USAGE
+954	5.0	REPORT_QUOTA_USAGE
+955	2.0	REPORT_QUOTA_USAGE
+957	1.0	REPORT_QUOTA_USAGE
+958	7.0	REPORT_QUOTA_USAGE
+959	4.0	REPORT_QUOTA_USAGE
+960	5.0	REPORT_QUOTA_USAGE
+961	7.0	REPORT_QUOTA_USAGE
+962	8.0	REPORT_QUOTA_USAGE
+963	3.0	REPORT_QUOTA_USAGE
+964	4.0	REPORT_QUOTA_USAGE
+965	2.0	REPORT_QUOTA_USAGE
+966	4.0	REPORT_QUOTA_USAGE
+967	4.0	REPORT_QUOTA_USAGE
+968	3.0	REPORT_QUOTA_USAGE
+969	5.0	REPORT_QUOTA_USAGE
+970	5.0	REPORT_QUOTA_USAGE
+971	4.0	REPORT_QUOTA_USAGE
+972	1.0	REPORT_QUOTA_USAGE
+973	6.0	REPORT_QUOTA_USAGE
+975	4.0	REPORT_QUOTA_USAGE
+976	4.0	REPORT_QUOTA_USAGE
+977	1.0	REPORT_QUOTA_USAGE
+978	2.0	REPORT_QUOTA_USAGE
+979	5.0	REPORT_QUOTA_USAGE
+980	3.0	REPORT_QUOTA_USAGE
+981	3.0	REPORT_QUOTA_USAGE
+982	4.0	REPORT_QUOTA_USAGE
+983	2.0	REPORT_QUOTA_USAGE
+984	4.0	REPORT_QUOTA_USAGE
+985	5.0	REPORT_QUOTA_USAGE
+986	3.0	REPORT_QUOTA_USAGE
+987	3.0	REPORT_QUOTA_USAGE
+988	1.0	REPORT_QUOTA_USAGE
+989	4.0	REPORT_QUOTA_USAGE
+990	3.0	REPORT_QUOTA_USAGE
+991	2.0	REPORT_QUOTA_USAGE
+992	4.0	REPORT_QUOTA_USAGE
+993	2.0	REPORT_QUOTA_USAGE
+994	1.0	REPORT_QUOTA_USAGE
+995	3.0	REPORT_QUOTA_USAGE
+996	2.0	REPORT_QUOTA_USAGE
+997	4.0	REPORT_QUOTA_USAGE
+998	4.0	REPORT_QUOTA_USAGE
+999	4.0	REPORT_QUOTA_USAGE
+1000	2.0	REPORT_QUOTA_USAGE
+1001	5.0	REPORT_QUOTA_USAGE
+1002	4.0	REPORT_QUOTA_USAGE
+1004	1.0	REPORT_QUOTA_USAGE
+1006	2.0	REPORT_QUOTA_USAGE
+1007	6.0	REPORT_QUOTA_USAGE
+1008	2.0	REPORT_QUOTA_USAGE
+1009	6.0	REPORT_QUOTA_USAGE
+1010	3.0	REPORT_QUOTA_USAGE
+1011	6.0	REPORT_QUOTA_USAGE
+1012	1.0	REPORT_QUOTA_USAGE
+1013	2.0	REPORT_QUOTA_USAGE
+1014	4.0	REPORT_QUOTA_USAGE
+1015	4.0	REPORT_QUOTA_USAGE
+1016	3.0	REPORT_QUOTA_USAGE
+1017	3.0	REPORT_QUOTA_USAGE
+1018	2.0	REPORT_QUOTA_USAGE
+1019	4.0	REPORT_QUOTA_USAGE
+1020	1.0	REPORT_QUOTA_USAGE
+1021	4.0	REPORT_QUOTA_USAGE
+1023	5.0	REPORT_QUOTA_USAGE
+1024	2.0	REPORT_QUOTA_USAGE
+1025	2.0	REPORT_QUOTA_USAGE
+1028	4.0	REPORT_QUOTA_USAGE
+1029	3.0	REPORT_QUOTA_USAGE
+1030	3.0	REPORT_QUOTA_USAGE
+1031	1.0	REPORT_QUOTA_USAGE
+1032	4.0	REPORT_QUOTA_USAGE
+1033	1.0	REPORT_QUOTA_USAGE
+1034	2.0	REPORT_QUOTA_USAGE
+1036	2.0	REPORT_QUOTA_USAGE
+1037	2.0	REPORT_QUOTA_USAGE
+1039	1.0	REPORT_QUOTA_USAGE
+1042	2.0	REPORT_QUOTA_USAGE
+1043	2.0	REPORT_QUOTA_USAGE
+1044	3.0	REPORT_QUOTA_USAGE
+1045	3.0	REPORT_QUOTA_USAGE
+1046	2.0	REPORT_QUOTA_USAGE
+1048	2.0	REPORT_QUOTA_USAGE
+1049	3.0	REPORT_QUOTA_USAGE
+1050	3.0	REPORT_QUOTA_USAGE
+1051	7.0	REPORT_QUOTA_USAGE
+1053	4.0	REPORT_QUOTA_USAGE
+1055	1.0	REPORT_QUOTA_USAGE
+1056	2.0	REPORT_QUOTA_USAGE
+1057	1.0	REPORT_QUOTA_USAGE
+1058	2.0	REPORT_QUOTA_USAGE
+1059	1.0	REPORT_QUOTA_USAGE
+1060	2.0	REPORT_QUOTA_USAGE
+1061	1.0	REPORT_QUOTA_USAGE
+1062	1.0	REPORT_QUOTA_USAGE
+1063	1.0	REPORT_QUOTA_USAGE
+1064	1.0	REPORT_QUOTA_USAGE
+1065	2.0	REPORT_QUOTA_USAGE
+1066	1.0	REPORT_QUOTA_USAGE
+1067	2.0	REPORT_QUOTA_USAGE
+1068	3.0	REPORT_QUOTA_USAGE
+1069	2.0	REPORT_QUOTA_USAGE
+1071	2.0	REPORT_QUOTA_USAGE
+1072	3.0	REPORT_QUOTA_USAGE
+1073	4.0	REPORT_QUOTA_USAGE
+1074	3.0	REPORT_QUOTA_USAGE
+1075	1.0	REPORT_QUOTA_USAGE
+1076	1.0	REPORT_QUOTA_USAGE
+1077	3.0	REPORT_QUOTA_USAGE
+1079	4.0	REPORT_QUOTA_USAGE
+1082	1.0	REPORT_QUOTA_USAGE
+1083	4.0	REPORT_QUOTA_USAGE
+1084	1.0	REPORT_QUOTA_USAGE
+1086	2.0	REPORT_QUOTA_USAGE
+1087	2.0	REPORT_QUOTA_USAGE
+1088	3.0	REPORT_QUOTA_USAGE
+1090	1.0	REPORT_QUOTA_USAGE
+1091	2.0	REPORT_QUOTA_USAGE
+1092	4.0	REPORT_QUOTA_USAGE
+1093	1.0	REPORT_QUOTA_USAGE
+1095	2.0	REPORT_QUOTA_USAGE
+1096	1.0	REPORT_QUOTA_USAGE
+1097	2.0	REPORT_QUOTA_USAGE
+1098	1.0	REPORT_QUOTA_USAGE
+1099	1.0	REPORT_QUOTA_USAGE
+1102	3.0	REPORT_QUOTA_USAGE
+1105	1.0	REPORT_QUOTA_USAGE
+1106	1.0	REPORT_QUOTA_USAGE
+1108	2.0	REPORT_QUOTA_USAGE
+1109	3.0	REPORT_QUOTA_USAGE
+1111	1.0	REPORT_QUOTA_USAGE
+1112	2.0	REPORT_QUOTA_USAGE
+1113	2.0	REPORT_QUOTA_USAGE
+1114	1.0	REPORT_QUOTA_USAGE
+1115	1.0	REPORT_QUOTA_USAGE
+1116	2.0	REPORT_QUOTA_USAGE
+1119	1.0	REPORT_QUOTA_USAGE
+1120	1.0	REPORT_QUOTA_USAGE
+1122	1.0	REPORT_QUOTA_USAGE
+1123	1.0	REPORT_QUOTA_USAGE
+1124	3.0	REPORT_QUOTA_USAGE
+1125	1.0	REPORT_QUOTA_USAGE
+1126	1.0	REPORT_QUOTA_USAGE
+1127	1.0	REPORT_QUOTA_USAGE
+1128	2.0	REPORT_QUOTA_USAGE
+1129	2.0	REPORT_QUOTA_USAGE
+1130	2.0	REPORT_QUOTA_USAGE
+1131	1.0	REPORT_QUOTA_USAGE
+1132	1.0	REPORT_QUOTA_USAGE
+1133	2.0	REPORT_QUOTA_USAGE
+1134	1.0	REPORT_QUOTA_USAGE
+1135	4.0	REPORT_QUOTA_USAGE
+1136	1.0	REPORT_QUOTA_USAGE
+1137	2.0	REPORT_QUOTA_USAGE
+1138	4.0	REPORT_QUOTA_USAGE
+1139	2.0	REPORT_QUOTA_USAGE
+1140	3.0	REPORT_QUOTA_USAGE
+1141	1.0	REPORT_QUOTA_USAGE
+1144	1.0	REPORT_QUOTA_USAGE
+1145	1.0	REPORT_QUOTA_USAGE
+1146	2.0	REPORT_QUOTA_USAGE
+1147	1.0	REPORT_QUOTA_USAGE
+1148	4.0	REPORT_QUOTA_USAGE
+1149	2.0	REPORT_QUOTA_USAGE
+1151	2.0	REPORT_QUOTA_USAGE
+1152	1.0	REPORT_QUOTA_USAGE
+1153	2.0	REPORT_QUOTA_USAGE
+1154	1.0	REPORT_QUOTA_USAGE
+1155	4.0	REPORT_QUOTA_USAGE
+1156	1.0	REPORT_QUOTA_USAGE
+1157	2.0	REPORT_QUOTA_USAGE
+1158	1.0	REPORT_QUOTA_USAGE
+1159	2.0	REPORT_QUOTA_USAGE
+1160	1.0	REPORT_QUOTA_USAGE
+1161	1.0	REPORT_QUOTA_USAGE
+1162	3.0	REPORT_QUOTA_USAGE
+1163	1.0	REPORT_QUOTA_USAGE
+1164	2.0	REPORT_QUOTA_USAGE
+1165	1.0	REPORT_QUOTA_USAGE
+1167	2.0	REPORT_QUOTA_USAGE
+1168	1.0	REPORT_QUOTA_USAGE
+1169	1.0	REPORT_QUOTA_USAGE
+1171	2.0	REPORT_QUOTA_USAGE
+1176	3.0	REPORT_QUOTA_USAGE
+1177	1.0	REPORT_QUOTA_USAGE
+1180	2.0	REPORT_QUOTA_USAGE
+1181	1.0	REPORT_QUOTA_USAGE
+1182	1.0	REPORT_QUOTA_USAGE
+1183	1.0	REPORT_QUOTA_USAGE
+1184	1.0	REPORT_QUOTA_USAGE
+1185	1.0	REPORT_QUOTA_USAGE
+1187	1.0	REPORT_QUOTA_USAGE
+1188	2.0	REPORT_QUOTA_USAGE
+1191	2.0	REPORT_QUOTA_USAGE
+1193	1.0	REPORT_QUOTA_USAGE
+1194	1.0	REPORT_QUOTA_USAGE
+1195	1.0	REPORT_QUOTA_USAGE
+1199	1.0	REPORT_QUOTA_USAGE
+1200	1.0	REPORT_QUOTA_USAGE
+1207	2.0	REPORT_QUOTA_USAGE
+1208	1.0	REPORT_QUOTA_USAGE
+1211	1.0	REPORT_QUOTA_USAGE
+1213	1.0	REPORT_QUOTA_USAGE
+1217	1.0	REPORT_QUOTA_USAGE
+1218	1.0	REPORT_QUOTA_USAGE
+1219	1.0	REPORT_QUOTA_USAGE
+1221	1.0	REPORT_QUOTA_USAGE
+1223	1.0	REPORT_QUOTA_USAGE
+1227	1.0	REPORT_QUOTA_USAGE
+1228	1.0	REPORT_QUOTA_USAGE
+1229	1.0	REPORT_QUOTA_USAGE
+1232	2.0	REPORT_QUOTA_USAGE
+1233	1.0	REPORT_QUOTA_USAGE
+1238	1.0	REPORT_QUOTA_USAGE
+1240	1.0	REPORT_QUOTA_USAGE
+1243	1.0	REPORT_QUOTA_USAGE
+1247	1.0	REPORT_QUOTA_USAGE
+1248	3.0	REPORT_QUOTA_USAGE
+1249	1.0	REPORT_QUOTA_USAGE
+1250	1.0	REPORT_QUOTA_USAGE
+1251	2.0	REPORT_QUOTA_USAGE
+1256	1.0	REPORT_QUOTA_USAGE
+1261	2.0	REPORT_QUOTA_USAGE
+1262	1.0	REPORT_QUOTA_USAGE
+1263	1.0	REPORT_QUOTA_USAGE
+1267	1.0	REPORT_QUOTA_USAGE
+1271	2.0	REPORT_QUOTA_USAGE
+1273	2.0	REPORT_QUOTA_USAGE
+1274	1.0	REPORT_QUOTA_USAGE
+1277	1.0	REPORT_QUOTA_USAGE
+1279	1.0	REPORT_QUOTA_USAGE
+1282	1.0	REPORT_QUOTA_USAGE
+1286	1.0	REPORT_QUOTA_USAGE
+1287	1.0	REPORT_QUOTA_USAGE
+1294	2.0	REPORT_QUOTA_USAGE
+1296	1.0	REPORT_QUOTA_USAGE
+1298	1.0	REPORT_QUOTA_USAGE
+1303	1.0	REPORT_QUOTA_USAGE
+1312	1.0	REPORT_QUOTA_USAGE
+1316	1.0	REPORT_QUOTA_USAGE
+1343	1.0	REPORT_QUOTA_USAGE
+1348	1.0	REPORT_QUOTA_USAGE
+1363	1.0	REPORT_QUOTA_USAGE
+1368	2.0	REPORT_QUOTA_USAGE
+1374	1.0	REPORT_QUOTA_USAGE
+1375	1.0	REPORT_QUOTA_USAGE
+1377	1.0	REPORT_QUOTA_USAGE
+1379	1.0	REPORT_QUOTA_USAGE
+1387	1.0	REPORT_QUOTA_USAGE
+1405	1.0	REPORT_QUOTA_USAGE
+1406	1.0	REPORT_QUOTA_USAGE
+1410	2.0	REPORT_QUOTA_USAGE
+1412	1.0	REPORT_QUOTA_USAGE
+1414	1.0	REPORT_QUOTA_USAGE
+1423	2.0	REPORT_QUOTA_USAGE
+1438	1.0	REPORT_QUOTA_USAGE
+1440	1.0	REPORT_QUOTA_USAGE
+1443	1.0	REPORT_QUOTA_USAGE
+1456	1.0	REPORT_QUOTA_USAGE
+1461	1.0	REPORT_QUOTA_USAGE
+1464	1.0	REPORT_QUOTA_USAGE
+1466	1.0	REPORT_QUOTA_USAGE
+1468	1.0	REPORT_QUOTA_USAGE
+1469	1.0	REPORT_QUOTA_USAGE
+1474	1.0	REPORT_QUOTA_USAGE
+1479	1.0	REPORT_QUOTA_USAGE
+1489	1.0	REPORT_QUOTA_USAGE
+1498	1.0	REPORT_QUOTA_USAGE
+1499	1.0	REPORT_QUOTA_USAGE
+1503	2.0	REPORT_QUOTA_USAGE
+1511	1.0	REPORT_QUOTA_USAGE
+1523	1.0	REPORT_QUOTA_USAGE
+1529	1.0	REPORT_QUOTA_USAGE
+1535	1.0	REPORT_QUOTA_USAGE
+1542	1.0	REPORT_QUOTA_USAGE
+1544	1.0	REPORT_QUOTA_USAGE
+1547	1.0	REPORT_QUOTA_USAGE
+1555	1.0	REPORT_QUOTA_USAGE
+1556	1.0	REPORT_QUOTA_USAGE
+1570	1.0	REPORT_QUOTA_USAGE
+1571	1.0	REPORT_QUOTA_USAGE
+1600	1.0	REPORT_QUOTA_USAGE
+1606	1.0	REPORT_QUOTA_USAGE
+1614	1.0	REPORT_QUOTA_USAGE
+1617	1.0	REPORT_QUOTA_USAGE
+1641	1.0	REPORT_QUOTA_USAGE
+1858	1.0	REPORT_QUOTA_USAGE
+1919	1.0	REPORT_QUOTA_USAGE
+, ADD_CREDIT=ADD_CREDIT 
+ Reports=            6020 Average=             200, Total=       1,201,422, 50%=             147, 95%=             540, 99%=             769, 99.5%=             877, 99.95%=            1234, Max=            1460
+11	2.0	ADD_CREDIT
+12	1.0	ADD_CREDIT
+13	4.0	ADD_CREDIT
+14	4.0	ADD_CREDIT
+15	4.0	ADD_CREDIT
+16	7.0	ADD_CREDIT
+17	8.0	ADD_CREDIT
+18	2.0	ADD_CREDIT
+19	12.0	ADD_CREDIT
+20	7.0	ADD_CREDIT
+21	15.0	ADD_CREDIT
+22	13.0	ADD_CREDIT
+23	12.0	ADD_CREDIT
+24	20.0	ADD_CREDIT
+25	16.0	ADD_CREDIT
+26	27.0	ADD_CREDIT
+27	18.0	ADD_CREDIT
+28	25.0	ADD_CREDIT
+29	26.0	ADD_CREDIT
+30	26.0	ADD_CREDIT
+31	37.0	ADD_CREDIT
+32	25.0	ADD_CREDIT
+33	35.0	ADD_CREDIT
+34	28.0	ADD_CREDIT
+35	24.0	ADD_CREDIT
+36	27.0	ADD_CREDIT
+37	39.0	ADD_CREDIT
+38	39.0	ADD_CREDIT
+39	40.0	ADD_CREDIT
+40	31.0	ADD_CREDIT
+41	30.0	ADD_CREDIT
+42	25.0	ADD_CREDIT
+43	31.0	ADD_CREDIT
+44	33.0	ADD_CREDIT
+45	22.0	ADD_CREDIT
+46	26.0	ADD_CREDIT
+47	21.0	ADD_CREDIT
+48	34.0	ADD_CREDIT
+49	23.0	ADD_CREDIT
+50	26.0	ADD_CREDIT
+51	32.0	ADD_CREDIT
+52	31.0	ADD_CREDIT
+53	27.0	ADD_CREDIT
+54	29.0	ADD_CREDIT
+55	30.0	ADD_CREDIT
+56	22.0	ADD_CREDIT
+57	36.0	ADD_CREDIT
+58	27.0	ADD_CREDIT
+59	33.0	ADD_CREDIT
+60	26.0	ADD_CREDIT
+61	27.0	ADD_CREDIT
+62	19.0	ADD_CREDIT
+63	24.0	ADD_CREDIT
+64	22.0	ADD_CREDIT
+65	29.0	ADD_CREDIT
+66	28.0	ADD_CREDIT
+67	17.0	ADD_CREDIT
+68	23.0	ADD_CREDIT
+69	23.0	ADD_CREDIT
+70	23.0	ADD_CREDIT
+71	28.0	ADD_CREDIT
+72	28.0	ADD_CREDIT
+73	22.0	ADD_CREDIT
+74	29.0	ADD_CREDIT
+75	30.0	ADD_CREDIT
+76	18.0	ADD_CREDIT
+77	24.0	ADD_CREDIT
+78	23.0	ADD_CREDIT
+79	29.0	ADD_CREDIT
+80	19.0	ADD_CREDIT
+81	20.0	ADD_CREDIT
+82	19.0	ADD_CREDIT
+83	20.0	ADD_CREDIT
+84	19.0	ADD_CREDIT
+85	38.0	ADD_CREDIT
+86	29.0	ADD_CREDIT
+87	21.0	ADD_CREDIT
+88	28.0	ADD_CREDIT
+89	18.0	ADD_CREDIT
+90	22.0	ADD_CREDIT
+91	20.0	ADD_CREDIT
+92	31.0	ADD_CREDIT
+93	25.0	ADD_CREDIT
+94	18.0	ADD_CREDIT
+95	21.0	ADD_CREDIT
+96	24.0	ADD_CREDIT
+97	21.0	ADD_CREDIT
+98	24.0	ADD_CREDIT
+99	21.0	ADD_CREDIT
+100	18.0	ADD_CREDIT
+101	22.0	ADD_CREDIT
+102	11.0	ADD_CREDIT
+103	16.0	ADD_CREDIT
+104	18.0	ADD_CREDIT
+105	18.0	ADD_CREDIT
+106	21.0	ADD_CREDIT
+107	26.0	ADD_CREDIT
+108	37.0	ADD_CREDIT
+109	29.0	ADD_CREDIT
+110	17.0	ADD_CREDIT
+111	20.0	ADD_CREDIT
+112	28.0	ADD_CREDIT
+113	24.0	ADD_CREDIT
+114	25.0	ADD_CREDIT
+115	21.0	ADD_CREDIT
+116	9.0	ADD_CREDIT
+117	26.0	ADD_CREDIT
+118	18.0	ADD_CREDIT
+119	24.0	ADD_CREDIT
+120	18.0	ADD_CREDIT
+121	20.0	ADD_CREDIT
+122	31.0	ADD_CREDIT
+123	14.0	ADD_CREDIT
+124	14.0	ADD_CREDIT
+125	23.0	ADD_CREDIT
+126	16.0	ADD_CREDIT
+127	15.0	ADD_CREDIT
+128	16.0	ADD_CREDIT
+129	15.0	ADD_CREDIT
+130	22.0	ADD_CREDIT
+131	14.0	ADD_CREDIT
+132	26.0	ADD_CREDIT
+133	22.0	ADD_CREDIT
+134	30.0	ADD_CREDIT
+135	14.0	ADD_CREDIT
+136	22.0	ADD_CREDIT
+137	18.0	ADD_CREDIT
+138	25.0	ADD_CREDIT
+139	15.0	ADD_CREDIT
+140	21.0	ADD_CREDIT
+141	22.0	ADD_CREDIT
+142	21.0	ADD_CREDIT
+143	19.0	ADD_CREDIT
+144	13.0	ADD_CREDIT
+145	17.0	ADD_CREDIT
+146	10.0	ADD_CREDIT
+147	14.0	ADD_CREDIT
+148	14.0	ADD_CREDIT
+149	19.0	ADD_CREDIT
+150	17.0	ADD_CREDIT
+151	13.0	ADD_CREDIT
+152	20.0	ADD_CREDIT
+153	9.0	ADD_CREDIT
+154	11.0	ADD_CREDIT
+155	20.0	ADD_CREDIT
+156	11.0	ADD_CREDIT
+157	19.0	ADD_CREDIT
+158	13.0	ADD_CREDIT
+159	23.0	ADD_CREDIT
+160	10.0	ADD_CREDIT
+161	14.0	ADD_CREDIT
+162	12.0	ADD_CREDIT
+163	24.0	ADD_CREDIT
+164	14.0	ADD_CREDIT
+165	18.0	ADD_CREDIT
+166	17.0	ADD_CREDIT
+167	12.0	ADD_CREDIT
+168	19.0	ADD_CREDIT
+169	10.0	ADD_CREDIT
+170	17.0	ADD_CREDIT
+171	9.0	ADD_CREDIT
+172	19.0	ADD_CREDIT
+173	12.0	ADD_CREDIT
+174	13.0	ADD_CREDIT
+175	10.0	ADD_CREDIT
+176	18.0	ADD_CREDIT
+177	20.0	ADD_CREDIT
+178	12.0	ADD_CREDIT
+179	6.0	ADD_CREDIT
+180	13.0	ADD_CREDIT
+181	17.0	ADD_CREDIT
+182	11.0	ADD_CREDIT
+183	8.0	ADD_CREDIT
+184	16.0	ADD_CREDIT
+185	12.0	ADD_CREDIT
+186	10.0	ADD_CREDIT
+187	11.0	ADD_CREDIT
+188	11.0	ADD_CREDIT
+189	14.0	ADD_CREDIT
+190	12.0	ADD_CREDIT
+191	14.0	ADD_CREDIT
+192	14.0	ADD_CREDIT
+193	18.0	ADD_CREDIT
+194	11.0	ADD_CREDIT
+195	7.0	ADD_CREDIT
+196	10.0	ADD_CREDIT
+197	12.0	ADD_CREDIT
+198	18.0	ADD_CREDIT
+199	9.0	ADD_CREDIT
+200	16.0	ADD_CREDIT
+201	7.0	ADD_CREDIT
+202	18.0	ADD_CREDIT
+203	15.0	ADD_CREDIT
+204	8.0	ADD_CREDIT
+205	19.0	ADD_CREDIT
+206	10.0	ADD_CREDIT
+207	15.0	ADD_CREDIT
+208	13.0	ADD_CREDIT
+209	15.0	ADD_CREDIT
+210	14.0	ADD_CREDIT
+211	16.0	ADD_CREDIT
+212	12.0	ADD_CREDIT
+213	13.0	ADD_CREDIT
+214	10.0	ADD_CREDIT
+215	5.0	ADD_CREDIT
+216	13.0	ADD_CREDIT
+217	8.0	ADD_CREDIT
+218	6.0	ADD_CREDIT
+219	8.0	ADD_CREDIT
+220	9.0	ADD_CREDIT
+221	15.0	ADD_CREDIT
+222	11.0	ADD_CREDIT
+223	19.0	ADD_CREDIT
+224	4.0	ADD_CREDIT
+225	12.0	ADD_CREDIT
+226	15.0	ADD_CREDIT
+227	10.0	ADD_CREDIT
+228	7.0	ADD_CREDIT
+229	9.0	ADD_CREDIT
+230	6.0	ADD_CREDIT
+231	12.0	ADD_CREDIT
+232	11.0	ADD_CREDIT
+233	15.0	ADD_CREDIT
+234	11.0	ADD_CREDIT
+235	6.0	ADD_CREDIT
+236	13.0	ADD_CREDIT
+237	11.0	ADD_CREDIT
+238	10.0	ADD_CREDIT
+239	6.0	ADD_CREDIT
+240	9.0	ADD_CREDIT
+241	6.0	ADD_CREDIT
+242	10.0	ADD_CREDIT
+243	12.0	ADD_CREDIT
+244	10.0	ADD_CREDIT
+245	9.0	ADD_CREDIT
+246	11.0	ADD_CREDIT
+247	8.0	ADD_CREDIT
+248	12.0	ADD_CREDIT
+249	14.0	ADD_CREDIT
+250	10.0	ADD_CREDIT
+251	6.0	ADD_CREDIT
+252	11.0	ADD_CREDIT
+253	10.0	ADD_CREDIT
+254	13.0	ADD_CREDIT
+255	10.0	ADD_CREDIT
+256	7.0	ADD_CREDIT
+257	5.0	ADD_CREDIT
+258	7.0	ADD_CREDIT
+259	4.0	ADD_CREDIT
+260	8.0	ADD_CREDIT
+261	6.0	ADD_CREDIT
+262	11.0	ADD_CREDIT
+263	9.0	ADD_CREDIT
+264	7.0	ADD_CREDIT
+265	7.0	ADD_CREDIT
+266	4.0	ADD_CREDIT
+267	8.0	ADD_CREDIT
+268	7.0	ADD_CREDIT
+269	11.0	ADD_CREDIT
+270	8.0	ADD_CREDIT
+271	5.0	ADD_CREDIT
+272	6.0	ADD_CREDIT
+273	12.0	ADD_CREDIT
+274	9.0	ADD_CREDIT
+275	10.0	ADD_CREDIT
+276	6.0	ADD_CREDIT
+277	7.0	ADD_CREDIT
+278	5.0	ADD_CREDIT
+279	7.0	ADD_CREDIT
+280	10.0	ADD_CREDIT
+281	4.0	ADD_CREDIT
+282	7.0	ADD_CREDIT
+283	11.0	ADD_CREDIT
+284	7.0	ADD_CREDIT
+285	9.0	ADD_CREDIT
+286	6.0	ADD_CREDIT
+287	8.0	ADD_CREDIT
+288	11.0	ADD_CREDIT
+289	11.0	ADD_CREDIT
+290	10.0	ADD_CREDIT
+291	6.0	ADD_CREDIT
+292	12.0	ADD_CREDIT
+293	5.0	ADD_CREDIT
+294	5.0	ADD_CREDIT
+295	7.0	ADD_CREDIT
+296	12.0	ADD_CREDIT
+297	9.0	ADD_CREDIT
+298	10.0	ADD_CREDIT
+299	10.0	ADD_CREDIT
+300	6.0	ADD_CREDIT
+301	8.0	ADD_CREDIT
+302	8.0	ADD_CREDIT
+303	4.0	ADD_CREDIT
+304	5.0	ADD_CREDIT
+305	6.0	ADD_CREDIT
+306	12.0	ADD_CREDIT
+307	4.0	ADD_CREDIT
+308	6.0	ADD_CREDIT
+309	4.0	ADD_CREDIT
+310	9.0	ADD_CREDIT
+311	6.0	ADD_CREDIT
+312	6.0	ADD_CREDIT
+313	3.0	ADD_CREDIT
+314	8.0	ADD_CREDIT
+315	6.0	ADD_CREDIT
+316	5.0	ADD_CREDIT
+317	12.0	ADD_CREDIT
+318	9.0	ADD_CREDIT
+319	18.0	ADD_CREDIT
+320	8.0	ADD_CREDIT
+321	6.0	ADD_CREDIT
+322	8.0	ADD_CREDIT
+323	8.0	ADD_CREDIT
+324	4.0	ADD_CREDIT
+325	6.0	ADD_CREDIT
+326	9.0	ADD_CREDIT
+327	9.0	ADD_CREDIT
+328	8.0	ADD_CREDIT
+329	3.0	ADD_CREDIT
+330	11.0	ADD_CREDIT
+331	8.0	ADD_CREDIT
+332	6.0	ADD_CREDIT
+333	4.0	ADD_CREDIT
+334	8.0	ADD_CREDIT
+335	7.0	ADD_CREDIT
+336	9.0	ADD_CREDIT
+337	5.0	ADD_CREDIT
+338	7.0	ADD_CREDIT
+339	6.0	ADD_CREDIT
+340	7.0	ADD_CREDIT
+341	5.0	ADD_CREDIT
+342	3.0	ADD_CREDIT
+343	7.0	ADD_CREDIT
+344	3.0	ADD_CREDIT
+345	7.0	ADD_CREDIT
+346	9.0	ADD_CREDIT
+347	6.0	ADD_CREDIT
+348	5.0	ADD_CREDIT
+349	6.0	ADD_CREDIT
+350	8.0	ADD_CREDIT
+351	8.0	ADD_CREDIT
+352	2.0	ADD_CREDIT
+353	3.0	ADD_CREDIT
+354	7.0	ADD_CREDIT
+355	3.0	ADD_CREDIT
+356	4.0	ADD_CREDIT
+357	4.0	ADD_CREDIT
+358	5.0	ADD_CREDIT
+359	7.0	ADD_CREDIT
+360	5.0	ADD_CREDIT
+361	10.0	ADD_CREDIT
+362	8.0	ADD_CREDIT
+363	3.0	ADD_CREDIT
+364	8.0	ADD_CREDIT
+365	5.0	ADD_CREDIT
+366	5.0	ADD_CREDIT
+367	6.0	ADD_CREDIT
+368	4.0	ADD_CREDIT
+369	5.0	ADD_CREDIT
+370	6.0	ADD_CREDIT
+371	7.0	ADD_CREDIT
+372	1.0	ADD_CREDIT
+373	4.0	ADD_CREDIT
+374	5.0	ADD_CREDIT
+375	9.0	ADD_CREDIT
+376	3.0	ADD_CREDIT
+377	5.0	ADD_CREDIT
+378	3.0	ADD_CREDIT
+379	5.0	ADD_CREDIT
+380	5.0	ADD_CREDIT
+381	3.0	ADD_CREDIT
+382	6.0	ADD_CREDIT
+383	6.0	ADD_CREDIT
+384	4.0	ADD_CREDIT
+385	5.0	ADD_CREDIT
+386	4.0	ADD_CREDIT
+387	8.0	ADD_CREDIT
+388	5.0	ADD_CREDIT
+389	5.0	ADD_CREDIT
+390	3.0	ADD_CREDIT
+391	9.0	ADD_CREDIT
+392	2.0	ADD_CREDIT
+393	2.0	ADD_CREDIT
+394	3.0	ADD_CREDIT
+395	4.0	ADD_CREDIT
+396	3.0	ADD_CREDIT
+397	6.0	ADD_CREDIT
+398	5.0	ADD_CREDIT
+399	10.0	ADD_CREDIT
+400	3.0	ADD_CREDIT
+401	4.0	ADD_CREDIT
+402	2.0	ADD_CREDIT
+403	5.0	ADD_CREDIT
+404	6.0	ADD_CREDIT
+405	5.0	ADD_CREDIT
+407	5.0	ADD_CREDIT
+408	5.0	ADD_CREDIT
+409	8.0	ADD_CREDIT
+410	2.0	ADD_CREDIT
+411	3.0	ADD_CREDIT
+412	3.0	ADD_CREDIT
+413	5.0	ADD_CREDIT
+414	4.0	ADD_CREDIT
+415	5.0	ADD_CREDIT
+416	4.0	ADD_CREDIT
+417	2.0	ADD_CREDIT
+418	2.0	ADD_CREDIT
+419	4.0	ADD_CREDIT
+420	5.0	ADD_CREDIT
+421	8.0	ADD_CREDIT
+422	4.0	ADD_CREDIT
+423	3.0	ADD_CREDIT
+424	2.0	ADD_CREDIT
+425	3.0	ADD_CREDIT
+426	3.0	ADD_CREDIT
+427	4.0	ADD_CREDIT
+428	3.0	ADD_CREDIT
+429	4.0	ADD_CREDIT
+430	2.0	ADD_CREDIT
+431	4.0	ADD_CREDIT
+432	4.0	ADD_CREDIT
+433	2.0	ADD_CREDIT
+434	6.0	ADD_CREDIT
+435	4.0	ADD_CREDIT
+436	1.0	ADD_CREDIT
+437	4.0	ADD_CREDIT
+438	6.0	ADD_CREDIT
+439	5.0	ADD_CREDIT
+440	3.0	ADD_CREDIT
+441	2.0	ADD_CREDIT
+442	4.0	ADD_CREDIT
+444	3.0	ADD_CREDIT
+445	2.0	ADD_CREDIT
+446	2.0	ADD_CREDIT
+447	6.0	ADD_CREDIT
+448	3.0	ADD_CREDIT
+449	3.0	ADD_CREDIT
+450	2.0	ADD_CREDIT
+451	3.0	ADD_CREDIT
+452	6.0	ADD_CREDIT
+453	3.0	ADD_CREDIT
+454	1.0	ADD_CREDIT
+456	3.0	ADD_CREDIT
+457	5.0	ADD_CREDIT
+458	4.0	ADD_CREDIT
+459	6.0	ADD_CREDIT
+460	4.0	ADD_CREDIT
+461	2.0	ADD_CREDIT
+462	3.0	ADD_CREDIT
+463	6.0	ADD_CREDIT
+464	1.0	ADD_CREDIT
+465	3.0	ADD_CREDIT
+466	2.0	ADD_CREDIT
+467	2.0	ADD_CREDIT
+468	5.0	ADD_CREDIT
+469	2.0	ADD_CREDIT
+470	3.0	ADD_CREDIT
+471	3.0	ADD_CREDIT
+472	4.0	ADD_CREDIT
+473	4.0	ADD_CREDIT
+474	2.0	ADD_CREDIT
+475	4.0	ADD_CREDIT
+476	6.0	ADD_CREDIT
+477	5.0	ADD_CREDIT
+478	1.0	ADD_CREDIT
+479	2.0	ADD_CREDIT
+480	1.0	ADD_CREDIT
+481	3.0	ADD_CREDIT
+482	4.0	ADD_CREDIT
+483	7.0	ADD_CREDIT
+484	3.0	ADD_CREDIT
+485	6.0	ADD_CREDIT
+486	4.0	ADD_CREDIT
+488	1.0	ADD_CREDIT
+489	4.0	ADD_CREDIT
+490	1.0	ADD_CREDIT
+491	2.0	ADD_CREDIT
+492	3.0	ADD_CREDIT
+493	1.0	ADD_CREDIT
+494	3.0	ADD_CREDIT
+496	1.0	ADD_CREDIT
+497	4.0	ADD_CREDIT
+498	6.0	ADD_CREDIT
+499	1.0	ADD_CREDIT
+500	2.0	ADD_CREDIT
+502	5.0	ADD_CREDIT
+503	1.0	ADD_CREDIT
+504	3.0	ADD_CREDIT
+505	1.0	ADD_CREDIT
+506	4.0	ADD_CREDIT
+507	1.0	ADD_CREDIT
+508	2.0	ADD_CREDIT
+509	2.0	ADD_CREDIT
+512	1.0	ADD_CREDIT
+514	3.0	ADD_CREDIT
+515	1.0	ADD_CREDIT
+516	3.0	ADD_CREDIT
+517	3.0	ADD_CREDIT
+518	3.0	ADD_CREDIT
+519	4.0	ADD_CREDIT
+520	2.0	ADD_CREDIT
+521	1.0	ADD_CREDIT
+522	1.0	ADD_CREDIT
+523	4.0	ADD_CREDIT
+524	4.0	ADD_CREDIT
+525	2.0	ADD_CREDIT
+526	2.0	ADD_CREDIT
+527	4.0	ADD_CREDIT
+528	1.0	ADD_CREDIT
+529	2.0	ADD_CREDIT
+530	3.0	ADD_CREDIT
+532	2.0	ADD_CREDIT
+533	4.0	ADD_CREDIT
+534	1.0	ADD_CREDIT
+535	1.0	ADD_CREDIT
+536	1.0	ADD_CREDIT
+537	4.0	ADD_CREDIT
+538	3.0	ADD_CREDIT
+539	4.0	ADD_CREDIT
+540	5.0	ADD_CREDIT
+541	4.0	ADD_CREDIT
+543	3.0	ADD_CREDIT
+544	1.0	ADD_CREDIT
+545	1.0	ADD_CREDIT
+547	2.0	ADD_CREDIT
+548	3.0	ADD_CREDIT
+549	4.0	ADD_CREDIT
+551	3.0	ADD_CREDIT
+552	3.0	ADD_CREDIT
+553	5.0	ADD_CREDIT
+554	2.0	ADD_CREDIT
+555	2.0	ADD_CREDIT
+557	3.0	ADD_CREDIT
+558	2.0	ADD_CREDIT
+559	2.0	ADD_CREDIT
+560	1.0	ADD_CREDIT
+561	2.0	ADD_CREDIT
+562	2.0	ADD_CREDIT
+563	2.0	ADD_CREDIT
+564	3.0	ADD_CREDIT
+565	1.0	ADD_CREDIT
+566	2.0	ADD_CREDIT
+567	2.0	ADD_CREDIT
+568	1.0	ADD_CREDIT
+569	2.0	ADD_CREDIT
+570	3.0	ADD_CREDIT
+571	1.0	ADD_CREDIT
+572	4.0	ADD_CREDIT
+573	4.0	ADD_CREDIT
+574	4.0	ADD_CREDIT
+575	3.0	ADD_CREDIT
+576	3.0	ADD_CREDIT
+577	2.0	ADD_CREDIT
+579	2.0	ADD_CREDIT
+580	1.0	ADD_CREDIT
+581	1.0	ADD_CREDIT
+582	4.0	ADD_CREDIT
+583	3.0	ADD_CREDIT
+584	1.0	ADD_CREDIT
+585	1.0	ADD_CREDIT
+588	1.0	ADD_CREDIT
+589	1.0	ADD_CREDIT
+590	5.0	ADD_CREDIT
+591	1.0	ADD_CREDIT
+592	3.0	ADD_CREDIT
+593	1.0	ADD_CREDIT
+596	1.0	ADD_CREDIT
+599	2.0	ADD_CREDIT
+600	4.0	ADD_CREDIT
+601	1.0	ADD_CREDIT
+602	2.0	ADD_CREDIT
+603	4.0	ADD_CREDIT
+604	1.0	ADD_CREDIT
+605	1.0	ADD_CREDIT
+606	1.0	ADD_CREDIT
+609	1.0	ADD_CREDIT
+610	1.0	ADD_CREDIT
+612	3.0	ADD_CREDIT
+614	3.0	ADD_CREDIT
+617	2.0	ADD_CREDIT
+618	2.0	ADD_CREDIT
+619	2.0	ADD_CREDIT
+620	1.0	ADD_CREDIT
+621	3.0	ADD_CREDIT
+622	1.0	ADD_CREDIT
+623	1.0	ADD_CREDIT
+624	2.0	ADD_CREDIT
+626	1.0	ADD_CREDIT
+627	3.0	ADD_CREDIT
+628	1.0	ADD_CREDIT
+630	2.0	ADD_CREDIT
+632	1.0	ADD_CREDIT
+633	1.0	ADD_CREDIT
+634	3.0	ADD_CREDIT
+635	1.0	ADD_CREDIT
+636	1.0	ADD_CREDIT
+639	1.0	ADD_CREDIT
+640	1.0	ADD_CREDIT
+641	1.0	ADD_CREDIT
+642	2.0	ADD_CREDIT
+643	1.0	ADD_CREDIT
+646	2.0	ADD_CREDIT
+648	2.0	ADD_CREDIT
+652	1.0	ADD_CREDIT
+653	2.0	ADD_CREDIT
+654	1.0	ADD_CREDIT
+656	1.0	ADD_CREDIT
+657	1.0	ADD_CREDIT
+659	2.0	ADD_CREDIT
+660	1.0	ADD_CREDIT
+661	1.0	ADD_CREDIT
+662	1.0	ADD_CREDIT
+664	1.0	ADD_CREDIT
+667	1.0	ADD_CREDIT
+669	2.0	ADD_CREDIT
+671	2.0	ADD_CREDIT
+675	1.0	ADD_CREDIT
+676	1.0	ADD_CREDIT
+680	2.0	ADD_CREDIT
+681	1.0	ADD_CREDIT
+683	2.0	ADD_CREDIT
+684	2.0	ADD_CREDIT
+691	2.0	ADD_CREDIT
+694	3.0	ADD_CREDIT
+695	3.0	ADD_CREDIT
+697	1.0	ADD_CREDIT
+698	2.0	ADD_CREDIT
+700	1.0	ADD_CREDIT
+702	2.0	ADD_CREDIT
+703	1.0	ADD_CREDIT
+706	1.0	ADD_CREDIT
+708	1.0	ADD_CREDIT
+712	1.0	ADD_CREDIT
+722	1.0	ADD_CREDIT
+724	1.0	ADD_CREDIT
+727	1.0	ADD_CREDIT
+728	1.0	ADD_CREDIT
+729	1.0	ADD_CREDIT
+733	1.0	ADD_CREDIT
+735	2.0	ADD_CREDIT
+737	1.0	ADD_CREDIT
+738	2.0	ADD_CREDIT
+742	1.0	ADD_CREDIT
+745	1.0	ADD_CREDIT
+748	1.0	ADD_CREDIT
+753	2.0	ADD_CREDIT
+754	1.0	ADD_CREDIT
+761	1.0	ADD_CREDIT
+763	2.0	ADD_CREDIT
+765	1.0	ADD_CREDIT
+768	1.0	ADD_CREDIT
+769	2.0	ADD_CREDIT
+772	1.0	ADD_CREDIT
+773	1.0	ADD_CREDIT
+774	1.0	ADD_CREDIT
+775	1.0	ADD_CREDIT
+777	1.0	ADD_CREDIT
+782	1.0	ADD_CREDIT
+784	1.0	ADD_CREDIT
+785	1.0	ADD_CREDIT
+793	1.0	ADD_CREDIT
+801	1.0	ADD_CREDIT
+806	1.0	ADD_CREDIT
+808	1.0	ADD_CREDIT
+810	1.0	ADD_CREDIT
+822	1.0	ADD_CREDIT
+824	2.0	ADD_CREDIT
+830	1.0	ADD_CREDIT
+836	1.0	ADD_CREDIT
+844	1.0	ADD_CREDIT
+845	1.0	ADD_CREDIT
+850	1.0	ADD_CREDIT
+855	1.0	ADD_CREDIT
+863	1.0	ADD_CREDIT
+865	3.0	ADD_CREDIT
+870	1.0	ADD_CREDIT
+873	1.0	ADD_CREDIT
+877	1.0	ADD_CREDIT
+884	1.0	ADD_CREDIT
+886	1.0	ADD_CREDIT
+888	1.0	ADD_CREDIT
+889	1.0	ADD_CREDIT
+900	1.0	ADD_CREDIT
+905	1.0	ADD_CREDIT
+907	1.0	ADD_CREDIT
+908	1.0	ADD_CREDIT
+910	1.0	ADD_CREDIT
+913	1.0	ADD_CREDIT
+919	1.0	ADD_CREDIT
+932	1.0	ADD_CREDIT
+934	1.0	ADD_CREDIT
+982	1.0	ADD_CREDIT
+999	1.0	ADD_CREDIT
+1000	1.0	ADD_CREDIT
+1003	1.0	ADD_CREDIT
+1006	1.0	ADD_CREDIT
+1016	1.0	ADD_CREDIT
+1017	1.0	ADD_CREDIT
+1054	1.0	ADD_CREDIT
+1080	1.0	ADD_CREDIT
+1098	1.0	ADD_CREDIT
+1118	1.0	ADD_CREDIT
+1167	1.0	ADD_CREDIT
+1221	1.0	ADD_CREDIT
+1234	1.0	ADD_CREDIT
+1250	1.0	ADD_CREDIT
+1298	1.0	ADD_CREDIT
+1460	1.0	ADD_CREDIT
+, QUEUE_QUEUE=QUEUE_QUEUE 
+ Reports=          210922 Average=               0, Total=          68,593, 50%=               0, 95%=               0, 99%=               0, 99.5%=              22, 99.95%=             108, Max=             747
+0	209307.0	Time spent waiting to join request queue
+1	35.0	Time spent waiting to join request queue
+2	15.0	Time spent waiting to join request queue
+3	14.0	Time spent waiting to join request queue
+4	25.0	Time spent waiting to join request queue
+5	27.0	Time spent waiting to join request queue
+6	27.0	Time spent waiting to join request queue
+7	22.0	Time spent waiting to join request queue
+8	25.0	Time spent waiting to join request queue
+9	22.0	Time spent waiting to join request queue
+10	26.0	Time spent waiting to join request queue
+11	30.0	Time spent waiting to join request queue
+12	30.0	Time spent waiting to join request queue
+13	32.0	Time spent waiting to join request queue
+14	17.0	Time spent waiting to join request queue
+15	28.0	Time spent waiting to join request queue
+16	31.0	Time spent waiting to join request queue
+17	29.0	Time spent waiting to join request queue
+18	34.0	Time spent waiting to join request queue
+19	25.0	Time spent waiting to join request queue
+20	31.0	Time spent waiting to join request queue
+21	34.0	Time spent waiting to join request queue
+22	31.0	Time spent waiting to join request queue
+23	18.0	Time spent waiting to join request queue
+24	35.0	Time spent waiting to join request queue
+25	34.0	Time spent waiting to join request queue
+26	23.0	Time spent waiting to join request queue
+27	24.0	Time spent waiting to join request queue
+28	30.0	Time spent waiting to join request queue
+29	28.0	Time spent waiting to join request queue
+30	20.0	Time spent waiting to join request queue
+31	27.0	Time spent waiting to join request queue
+32	26.0	Time spent waiting to join request queue
+33	26.0	Time spent waiting to join request queue
+34	33.0	Time spent waiting to join request queue
+35	21.0	Time spent waiting to join request queue
+36	20.0	Time spent waiting to join request queue
+37	22.0	Time spent waiting to join request queue
+38	13.0	Time spent waiting to join request queue
+39	9.0	Time spent waiting to join request queue
+40	17.0	Time spent waiting to join request queue
+41	20.0	Time spent waiting to join request queue
+42	18.0	Time spent waiting to join request queue
+43	16.0	Time spent waiting to join request queue
+44	14.0	Time spent waiting to join request queue
+45	15.0	Time spent waiting to join request queue
+46	15.0	Time spent waiting to join request queue
+47	12.0	Time spent waiting to join request queue
+48	14.0	Time spent waiting to join request queue
+49	17.0	Time spent waiting to join request queue
+50	9.0	Time spent waiting to join request queue
+51	19.0	Time spent waiting to join request queue
+52	13.0	Time spent waiting to join request queue
+53	11.0	Time spent waiting to join request queue
+54	8.0	Time spent waiting to join request queue
+55	8.0	Time spent waiting to join request queue
+56	7.0	Time spent waiting to join request queue
+57	12.0	Time spent waiting to join request queue
+58	10.0	Time spent waiting to join request queue
+59	3.0	Time spent waiting to join request queue
+60	10.0	Time spent waiting to join request queue
+61	12.0	Time spent waiting to join request queue
+62	8.0	Time spent waiting to join request queue
+63	7.0	Time spent waiting to join request queue
+64	4.0	Time spent waiting to join request queue
+65	15.0	Time spent waiting to join request queue
+66	9.0	Time spent waiting to join request queue
+67	9.0	Time spent waiting to join request queue
+68	7.0	Time spent waiting to join request queue
+69	3.0	Time spent waiting to join request queue
+70	3.0	Time spent waiting to join request queue
+71	8.0	Time spent waiting to join request queue
+72	8.0	Time spent waiting to join request queue
+73	12.0	Time spent waiting to join request queue
+74	3.0	Time spent waiting to join request queue
+75	6.0	Time spent waiting to join request queue
+76	5.0	Time spent waiting to join request queue
+77	12.0	Time spent waiting to join request queue
+78	6.0	Time spent waiting to join request queue
+79	2.0	Time spent waiting to join request queue
+80	8.0	Time spent waiting to join request queue
+81	4.0	Time spent waiting to join request queue
+82	7.0	Time spent waiting to join request queue
+83	6.0	Time spent waiting to join request queue
+84	2.0	Time spent waiting to join request queue
+85	2.0	Time spent waiting to join request queue
+86	4.0	Time spent waiting to join request queue
+87	1.0	Time spent waiting to join request queue
+88	8.0	Time spent waiting to join request queue
+89	1.0	Time spent waiting to join request queue
+90	5.0	Time spent waiting to join request queue
+91	2.0	Time spent waiting to join request queue
+92	5.0	Time spent waiting to join request queue
+93	1.0	Time spent waiting to join request queue
+94	2.0	Time spent waiting to join request queue
+95	4.0	Time spent waiting to join request queue
+96	6.0	Time spent waiting to join request queue
+97	4.0	Time spent waiting to join request queue
+98	2.0	Time spent waiting to join request queue
+99	5.0	Time spent waiting to join request queue
+100	2.0	Time spent waiting to join request queue
+101	1.0	Time spent waiting to join request queue
+102	3.0	Time spent waiting to join request queue
+103	1.0	Time spent waiting to join request queue
+104	5.0	Time spent waiting to join request queue
+105	2.0	Time spent waiting to join request queue
+106	5.0	Time spent waiting to join request queue
+107	3.0	Time spent waiting to join request queue
+108	4.0	Time spent waiting to join request queue
+109	4.0	Time spent waiting to join request queue
+110	1.0	Time spent waiting to join request queue
+111	2.0	Time spent waiting to join request queue
+112	1.0	Time spent waiting to join request queue
+113	2.0	Time spent waiting to join request queue
+114	4.0	Time spent waiting to join request queue
+115	1.0	Time spent waiting to join request queue
+116	2.0	Time spent waiting to join request queue
+118	2.0	Time spent waiting to join request queue
+119	1.0	Time spent waiting to join request queue
+120	2.0	Time spent waiting to join request queue
+121	2.0	Time spent waiting to join request queue
+122	4.0	Time spent waiting to join request queue
+123	1.0	Time spent waiting to join request queue
+124	3.0	Time spent waiting to join request queue
+125	2.0	Time spent waiting to join request queue
+126	4.0	Time spent waiting to join request queue
+128	1.0	Time spent waiting to join request queue
+130	3.0	Time spent waiting to join request queue
+131	1.0	Time spent waiting to join request queue
+133	3.0	Time spent waiting to join request queue
+135	2.0	Time spent waiting to join request queue
+136	1.0	Time spent waiting to join request queue
+137	1.0	Time spent waiting to join request queue
+139	3.0	Time spent waiting to join request queue
+140	1.0	Time spent waiting to join request queue
+141	1.0	Time spent waiting to join request queue
+142	1.0	Time spent waiting to join request queue
+143	1.0	Time spent waiting to join request queue
+146	2.0	Time spent waiting to join request queue
+147	1.0	Time spent waiting to join request queue
+149	2.0	Time spent waiting to join request queue
+151	1.0	Time spent waiting to join request queue
+152	1.0	Time spent waiting to join request queue
+156	3.0	Time spent waiting to join request queue
+157	1.0	Time spent waiting to join request queue
+159	1.0	Time spent waiting to join request queue
+162	2.0	Time spent waiting to join request queue
+163	1.0	Time spent waiting to join request queue
+165	1.0	Time spent waiting to join request queue
+167	1.0	Time spent waiting to join request queue
+168	2.0	Time spent waiting to join request queue
+176	1.0	Time spent waiting to join request queue
+185	1.0	Time spent waiting to join request queue
+187	1.0	Time spent waiting to join request queue
+189	2.0	Time spent waiting to join request queue
+191	1.0	Time spent waiting to join request queue
+192	1.0	Time spent waiting to join request queue
+193	1.0	Time spent waiting to join request queue
+194	1.0	Time spent waiting to join request queue
+195	1.0	Time spent waiting to join request queue
+202	1.0	Time spent waiting to join request queue
+205	2.0	Time spent waiting to join request queue
+212	1.0	Time spent waiting to join request queue
+213	1.0	Time spent waiting to join request queue
+217	1.0	Time spent waiting to join request queue
+219	1.0	Time spent waiting to join request queue
+222	1.0	Time spent waiting to join request queue
+237	1.0	Time spent waiting to join request queue
+242	1.0	Time spent waiting to join request queue
+243	1.0	Time spent waiting to join request queue
+244	1.0	Time spent waiting to join request queue
+248	1.0	Time spent waiting to join request queue
+252	1.0	Time spent waiting to join request queue
+271	1.0	Time spent waiting to join request queue
+273	1.0	Time spent waiting to join request queue
+359	1.0	Time spent waiting to join request queue
+747	1.0	Time spent waiting to join request queue
+}
+{QUEUE_OVERFLOW=1622, ADD_CREDIT=6020, REPORT_USAGE=204902}
+{}
+2026-11-24 21:15:37:Closing connection...
+2026-11-24 21:15:37:UNABLE_TO_MEET_REQUESTED_TPS
+exit=1

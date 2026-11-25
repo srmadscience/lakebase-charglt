@@ -1,0 +1,3891 @@
+2026-11-18 13:41:46:Parameters:[<lakebase-host>, 10000, 2, 900, 10, <user>, <redacted>, 150]
+2026-11-18 13:41:46:Logging into PostgreSQL
+2026-11-18 13:41:46:Clearing unfinished transactions from prior runs...
+2026-11-18 13:41:46:Clearing locked sessions from prior runs...
+2026-11-18 13:41:46:unlockAllRecords...done
+2026-11-18 13:41:46:clearUnfinishedTransactions...done
+2026-11-18 13:41:46:Creating 150 workers
+2026-11-18 13:41:46:Logging into PostgreSQL
+2026-11-18 13:41:46:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:47:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:48:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:49:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:50:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:51:Logging into PostgreSQL
+2026-11-18 13:41:52:Logging into PostgreSQL
+2026-11-18 13:41:52:Logging into PostgreSQL
+2026-11-18 13:41:52:Logging into PostgreSQL
+2026-11-18 13:41:52:Creating Connection records for 10000 users
+2026-11-18 13:41:52:starting...
+2026-11-18 13:41:52:Transaction 1
+2026-11-18 13:42:02:
+Query :1
+2026-11-18 13:42:02:Query loyalty card #42...
+2026-11-18 13:42:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:42:12:
+Query :1
+2026-11-18 13:42:12:Query loyalty card #42...
+2026-11-18 13:42:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:42:22:
+Query :1
+2026-11-18 13:42:22:Query loyalty card #42...
+2026-11-18 13:42:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:42:28:Transaction 100001
+2026-11-18 13:42:32:
+Query :1
+2026-11-18 13:42:32:Query loyalty card #42...
+2026-11-18 13:42:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:42:42:
+Query :1
+2026-11-18 13:42:42:Query loyalty card #42...
+2026-11-18 13:42:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:42:52:
+Query :1
+2026-11-18 13:42:52:Query loyalty card #42...
+2026-11-18 13:42:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:42:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:42:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:02:
+Query :1
+2026-11-18 13:43:02:Query loyalty card #42...
+2026-11-18 13:43:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:04:Transaction 200001
+2026-11-18 13:43:12:
+Query :1
+2026-11-18 13:43:12:Query loyalty card #42...
+2026-11-18 13:43:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:22:
+Query :1
+2026-11-18 13:43:22:Query loyalty card #42...
+2026-11-18 13:43:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:32:
+Query :1
+2026-11-18 13:43:32:Query loyalty card #42...
+2026-11-18 13:43:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:39:Transaction 300001
+2026-11-18 13:43:42:
+Query :1
+2026-11-18 13:43:42:Query loyalty card #42...
+2026-11-18 13:43:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:43:52:
+Query :1
+2026-11-18 13:43:52:Query loyalty card #42...
+2026-11-18 13:43:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:43:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:43:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:02:
+Query :1
+2026-11-18 13:44:02:Query loyalty card #42...
+2026-11-18 13:44:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:12:
+Query :1
+2026-11-18 13:44:12:Query loyalty card #42...
+2026-11-18 13:44:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:15:Transaction 400001
+2026-11-18 13:44:22:
+Query :1
+2026-11-18 13:44:22:Query loyalty card #42...
+2026-11-18 13:44:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:32:
+Query :1
+2026-11-18 13:44:32:Query loyalty card #42...
+2026-11-18 13:44:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:42:
+Query :1
+2026-11-18 13:44:42:Query loyalty card #42...
+2026-11-18 13:44:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:44:50:Transaction 500001
+2026-11-18 13:44:52:
+Query :1
+2026-11-18 13:44:52:Query loyalty card #42...
+2026-11-18 13:44:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:44:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:44:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:02:
+Query :1
+2026-11-18 13:45:02:Query loyalty card #42...
+2026-11-18 13:45:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:12:
+Query :1
+2026-11-18 13:45:12:Query loyalty card #42...
+2026-11-18 13:45:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:22:
+Query :1
+2026-11-18 13:45:22:Query loyalty card #42...
+2026-11-18 13:45:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:26:Transaction 600001
+2026-11-18 13:45:32:
+Query :1
+2026-11-18 13:45:32:Query loyalty card #42...
+2026-11-18 13:45:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:42:
+Query :1
+2026-11-18 13:45:42:Query loyalty card #42...
+2026-11-18 13:45:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:45:52:
+Query :1
+2026-11-18 13:45:52:Query loyalty card #42...
+2026-11-18 13:45:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:45:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:45:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:02:
+Query :1
+2026-11-18 13:46:02:Query loyalty card #42...
+2026-11-18 13:46:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:04:Transaction 700001
+2026-11-18 13:46:12:
+Query :1
+2026-11-18 13:46:12:Query loyalty card #42...
+2026-11-18 13:46:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:22:
+Query :1
+2026-11-18 13:46:22:Query loyalty card #42...
+2026-11-18 13:46:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:32:
+Query :1
+2026-11-18 13:46:32:Query loyalty card #42...
+2026-11-18 13:46:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:42:Transaction 800001
+2026-11-18 13:46:42:
+Query :1
+2026-11-18 13:46:42:Query loyalty card #42...
+2026-11-18 13:46:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:46:52:
+Query :1
+2026-11-18 13:46:52:Query loyalty card #42...
+2026-11-18 13:46:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:46:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:46:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:02:
+Query :1
+2026-11-18 13:47:02:Query loyalty card #42...
+2026-11-18 13:47:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:12:
+Query :1
+2026-11-18 13:47:12:Query loyalty card #42...
+2026-11-18 13:47:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:19:Transaction 900001
+2026-11-18 13:47:22:
+Query :1
+2026-11-18 13:47:22:Query loyalty card #42...
+2026-11-18 13:47:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:32:
+Query :1
+2026-11-18 13:47:32:Query loyalty card #42...
+2026-11-18 13:47:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:42:
+Query :1
+2026-11-18 13:47:42:Query loyalty card #42...
+2026-11-18 13:47:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:52:
+Query :1
+2026-11-18 13:47:52:Query loyalty card #42...
+2026-11-18 13:47:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:47:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:47:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:47:56:Transaction 1000001
+2026-11-18 13:48:02:
+Query :1
+2026-11-18 13:48:02:Query loyalty card #42...
+2026-11-18 13:48:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:48:12:
+Query :1
+2026-11-18 13:48:12:Query loyalty card #42...
+2026-11-18 13:48:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:48:22:
+Query :1
+2026-11-18 13:48:22:Query loyalty card #42...
+2026-11-18 13:48:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:48:32:
+Query :1
+2026-11-18 13:48:32:Query loyalty card #42...
+2026-11-18 13:48:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:48:32:Transaction 1100001
+2026-11-18 13:48:42:
+Query :1
+2026-11-18 13:48:42:Query loyalty card #42...
+2026-11-18 13:48:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:48:52:
+Query :1
+2026-11-18 13:48:52:Query loyalty card #42...
+2026-11-18 13:48:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:48:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:48:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:02:
+Query :1
+2026-11-18 13:49:02:Query loyalty card #42...
+2026-11-18 13:49:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:08:Transaction 1200001
+2026-11-18 13:49:12:
+Query :1
+2026-11-18 13:49:12:Query loyalty card #42...
+2026-11-18 13:49:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:22:
+Query :1
+2026-11-18 13:49:22:Query loyalty card #42...
+2026-11-18 13:49:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:32:
+Query :1
+2026-11-18 13:49:32:Query loyalty card #42...
+2026-11-18 13:49:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:42:
+Query :1
+2026-11-18 13:49:42:Query loyalty card #42...
+2026-11-18 13:49:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:49:43:Transaction 1300001
+2026-11-18 13:49:52:
+Query :1
+2026-11-18 13:49:52:Query loyalty card #42...
+2026-11-18 13:49:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:49:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:49:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:02:
+Query :1
+2026-11-18 13:50:02:Query loyalty card #42...
+2026-11-18 13:50:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:12:
+Query :1
+2026-11-18 13:50:12:Query loyalty card #42...
+2026-11-18 13:50:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:18:Transaction 1400001
+2026-11-18 13:50:22:
+Query :1
+2026-11-18 13:50:22:Query loyalty card #42...
+2026-11-18 13:50:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:32:
+Query :1
+2026-11-18 13:50:32:Query loyalty card #42...
+2026-11-18 13:50:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:42:
+Query :1
+2026-11-18 13:50:42:Query loyalty card #42...
+2026-11-18 13:50:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:52:
+Query :1
+2026-11-18 13:50:52:Query loyalty card #42...
+2026-11-18 13:50:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:50:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:50:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:50:56:Transaction 1500001
+2026-11-18 13:51:02:
+Query :1
+2026-11-18 13:51:02:Query loyalty card #42...
+2026-11-18 13:51:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:51:12:
+Query :1
+2026-11-18 13:51:12:Query loyalty card #42...
+2026-11-18 13:51:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:51:22:
+Query :1
+2026-11-18 13:51:22:Query loyalty card #42...
+2026-11-18 13:51:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:51:32:
+Query :1
+2026-11-18 13:51:32:Query loyalty card #42...
+2026-11-18 13:51:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:51:33:Transaction 1600001
+2026-11-18 13:51:42:
+Query :1
+2026-11-18 13:51:42:Query loyalty card #42...
+2026-11-18 13:51:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:51:52:
+Query :1
+2026-11-18 13:51:52:Query loyalty card #42...
+2026-11-18 13:51:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:51:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:51:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:02:
+Query :1
+2026-11-18 13:52:02:Query loyalty card #42...
+2026-11-18 13:52:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:11:Transaction 1700001
+2026-11-18 13:52:12:
+Query :1
+2026-11-18 13:52:12:Query loyalty card #42...
+2026-11-18 13:52:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:22:
+Query :1
+2026-11-18 13:52:22:Query loyalty card #42...
+2026-11-18 13:52:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:32:
+Query :1
+2026-11-18 13:52:32:Query loyalty card #42...
+2026-11-18 13:52:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:42:
+Query :1
+2026-11-18 13:52:42:Query loyalty card #42...
+2026-11-18 13:52:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:52:48:Transaction 1800001
+2026-11-18 13:52:52:
+Query :1
+2026-11-18 13:52:52:Query loyalty card #42...
+2026-11-18 13:52:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:52:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:52:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:02:
+Query :1
+2026-11-18 13:53:02:Query loyalty card #42...
+2026-11-18 13:53:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:12:
+Query :1
+2026-11-18 13:53:12:Query loyalty card #42...
+2026-11-18 13:53:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:22:
+Query :1
+2026-11-18 13:53:22:Query loyalty card #42...
+2026-11-18 13:53:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:24:Transaction 1900001
+2026-11-18 13:53:32:
+Query :1
+2026-11-18 13:53:32:Query loyalty card #42...
+2026-11-18 13:53:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:42:
+Query :1
+2026-11-18 13:53:42:Query loyalty card #42...
+2026-11-18 13:53:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:52:
+Query :1
+2026-11-18 13:53:52:Query loyalty card #42...
+2026-11-18 13:53:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:53:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:53:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:53:59:Transaction 2000001
+2026-11-18 13:54:02:
+Query :1
+2026-11-18 13:54:02:Query loyalty card #42...
+2026-11-18 13:54:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:54:12:
+Query :1
+2026-11-18 13:54:12:Query loyalty card #42...
+2026-11-18 13:54:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:54:22:
+Query :1
+2026-11-18 13:54:22:Query loyalty card #42...
+2026-11-18 13:54:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:54:32:
+Query :1
+2026-11-18 13:54:32:Query loyalty card #42...
+2026-11-18 13:54:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:54:35:Transaction 2100001
+2026-11-18 13:54:42:
+Query :1
+2026-11-18 13:54:42:Query loyalty card #42...
+2026-11-18 13:54:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:54:52:
+Query :1
+2026-11-18 13:54:52:Query loyalty card #42...
+2026-11-18 13:54:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:54:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:54:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:02:
+Query :1
+2026-11-18 13:55:02:Query loyalty card #42...
+2026-11-18 13:55:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:11:Transaction 2200001
+2026-11-18 13:55:12:
+Query :1
+2026-11-18 13:55:12:Query loyalty card #42...
+2026-11-18 13:55:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:22:
+Query :1
+2026-11-18 13:55:22:Query loyalty card #42...
+2026-11-18 13:55:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:32:
+Query :1
+2026-11-18 13:55:32:Query loyalty card #42...
+2026-11-18 13:55:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:42:
+Query :1
+2026-11-18 13:55:42:Query loyalty card #42...
+2026-11-18 13:55:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:55:47:Transaction 2300001
+2026-11-18 13:55:52:
+Query :1
+2026-11-18 13:55:52:Query loyalty card #42...
+2026-11-18 13:55:52:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:55:52:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:55:52:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:02:
+Query :1
+2026-11-18 13:56:02:Query loyalty card #42...
+2026-11-18 13:56:02:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:56:02:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:56:02:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:12:
+Query :1
+2026-11-18 13:56:12:Query loyalty card #42...
+2026-11-18 13:56:12:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:56:12:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:56:12:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:22:
+Query :1
+2026-11-18 13:56:22:Query loyalty card #42...
+2026-11-18 13:56:22:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:56:22:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:56:22:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:25:Transaction 2400001
+2026-11-18 13:56:32:
+Query :1
+2026-11-18 13:56:32:Query loyalty card #42...
+2026-11-18 13:56:32:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:56:32:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:56:32:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:42:
+Query :1
+2026-11-18 13:56:42:Query loyalty card #42...
+2026-11-18 13:56:42:
+1193	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "b1c1e95145d731e05d9a17497959b28dce593ac6fffc7ba7711d3d431e669855dbabb5518bc489fe0db31b891f09163c3556aeb6ec5048229b71"}
+2026-11-18 13:56:42:
+4975	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "69ca2777735f2354ad4a81eb7b2487f1ee15fa45b17887efaa8a927fc6ffe66b278433aa79a657b06386b25f68da092ff9cd1606bd31ddc96"}
+2026-11-18 13:56:42:
+8151	{"loyaltySchemeName": "HelperCard", "loyaltySchemeNumber": 42, "mysteriousHexPayload": "ac8cd1e9786ea920aa3c3c5acbeac1d5642af8774d3a626ef18ecdbe7623a0fb5b65d35bf04ba6a64357666f1c2f7f5620d84d628a721881a050fa"}
+2026-11-18 13:56:52:finished adding transactions to queue
+2026-11-18 13:56:52:Draining queue
+2026-11-18 13:56:52:0: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:1: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:2: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:3: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:4: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:5: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:6: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:7: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:8: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:9: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:10: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:11: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:12: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:13: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:14: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:15: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:16: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:17: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:18: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:19: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:20: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:21: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:22: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:23: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:24: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:25: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:26: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:27: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:28: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:29: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:30: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:31: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:32: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:33: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:34: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:35: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:36: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:37: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:38: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:39: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:40: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:41: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:42: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:43: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:44: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:45: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:46: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:47: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:48: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:49: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:50: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:51: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:52: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:53: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:54: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:55: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:56: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:57: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:58: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:59: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:60: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:61: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:62: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:63: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:64: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:65: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:66: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:67: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:68: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:69: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:70: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:71: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:72: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:73: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:74: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:75: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:76: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:77: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:78: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:79: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:80: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:81: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:82: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:83: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:84: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:85: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:86: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:87: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:88: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:89: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:90: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:91: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:92: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:93: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:94: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:95: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:96: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:97: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:98: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:99: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:100: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:101: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:102: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:103: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:104: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:105: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:106: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:107: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:108: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:109: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:110: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:111: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:112: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:113: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:114: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:115: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:116: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:117: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:118: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:119: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:120: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:121: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:122: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:123: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:124: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:125: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:126: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:127: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:128: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:129: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:130: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:131: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:132: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:133: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:134: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:135: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:136: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:137: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:138: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:139: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:140: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:141: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:142: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:143: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:144: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:145: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:146: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:147: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:148: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:149: KeepGoing set to false. Queue size: 0
+2026-11-18 13:56:52:Queue drained
+2026-11-18 13:56:52:Processed 2470681 transactions in 900175 milliseconds
+2026-11-18 13:56:52:TPS = 2745.201111111111
+2026-11-18 13:56:52:Add Credit calls = 67990
+2026-11-18 13:56:52:Report Usage calls = 2315083
+2026-11-18 13:56:52:Skipped because transaction was in flight = 87608
+2026-11-18 13:56:52:GREPABLE SUMMARY:2:2745.201111111111:0:0:0:34:103:165:426:1.0:1:1:1:2:2:2:2:12037.0:89:54:441:593:776:959:1275:1.0:132:98:489:648:836:1015:1390:1.0:0:0:0:0:0:0:0:0.0:0:0:0:0:0:0:0:0.0:
+2026-11-18 13:56:52:{KV_GET= 
+ Reports=               0 Average=             NaN, Total=               0, 50%=               0, 95%=               0, 99%=               0, 99.5%=               0, 99.95%=               0, Max=               0
+, KV_PUT= 
+ Reports=               0 Average=             NaN, Total=               0, 50%=               0, 95%=               0, 99%=               0, 99.5%=               0, 99.95%=               0, Max=               0
+, QUEUE_LAG=QUEUE_LAG 
+ Reports=         2383073 Average=              90, Total=     214,035,369, 50%=              54, 95%=             308, 99%=             441, 99.5%=             488, 99.95%=             641, Max=            1275
+0	550179.0	Time spent in request queue
+1	8990.0	Time spent in request queue
+2	8400.0	Time spent in request queue
+3	8404.0	Time spent in request queue
+4	8614.0	Time spent in request queue
+5	8774.0	Time spent in request queue
+6	9203.0	Time spent in request queue
+7	9447.0	Time spent in request queue
+8	9664.0	Time spent in request queue
+9	9945.0	Time spent in request queue
+10	10266.0	Time spent in request queue
+11	10720.0	Time spent in request queue
+12	10827.0	Time spent in request queue
+13	11301.0	Time spent in request queue
+14	11369.0	Time spent in request queue
+15	11592.0	Time spent in request queue
+16	12178.0	Time spent in request queue
+17	12259.0	Time spent in request queue
+18	12376.0	Time spent in request queue
+19	12804.0	Time spent in request queue
+20	12888.0	Time spent in request queue
+21	13310.0	Time spent in request queue
+22	13288.0	Time spent in request queue
+23	13571.0	Time spent in request queue
+24	13691.0	Time spent in request queue
+25	14028.0	Time spent in request queue
+26	13948.0	Time spent in request queue
+27	14212.0	Time spent in request queue
+28	14329.0	Time spent in request queue
+29	14217.0	Time spent in request queue
+30	14651.0	Time spent in request queue
+31	14620.0	Time spent in request queue
+32	14414.0	Time spent in request queue
+33	14269.0	Time spent in request queue
+34	14173.0	Time spent in request queue
+35	14135.0	Time spent in request queue
+36	13946.0	Time spent in request queue
+37	13743.0	Time spent in request queue
+38	13731.0	Time spent in request queue
+39	13378.0	Time spent in request queue
+40	13181.0	Time spent in request queue
+41	13071.0	Time spent in request queue
+42	12649.0	Time spent in request queue
+43	12405.0	Time spent in request queue
+44	12220.0	Time spent in request queue
+45	11867.0	Time spent in request queue
+46	11440.0	Time spent in request queue
+47	11471.0	Time spent in request queue
+48	11248.0	Time spent in request queue
+49	11026.0	Time spent in request queue
+50	10698.0	Time spent in request queue
+51	10507.0	Time spent in request queue
+52	10621.0	Time spent in request queue
+53	10329.0	Time spent in request queue
+54	10187.0	Time spent in request queue
+55	10194.0	Time spent in request queue
+56	9796.0	Time spent in request queue
+57	9905.0	Time spent in request queue
+58	9808.0	Time spent in request queue
+59	9751.0	Time spent in request queue
+60	9608.0	Time spent in request queue
+61	9445.0	Time spent in request queue
+62	9332.0	Time spent in request queue
+63	9449.0	Time spent in request queue
+64	9241.0	Time spent in request queue
+65	9108.0	Time spent in request queue
+66	9141.0	Time spent in request queue
+67	9002.0	Time spent in request queue
+68	8947.0	Time spent in request queue
+69	8926.0	Time spent in request queue
+70	8900.0	Time spent in request queue
+71	8916.0	Time spent in request queue
+72	8680.0	Time spent in request queue
+73	8630.0	Time spent in request queue
+74	8619.0	Time spent in request queue
+75	8588.0	Time spent in request queue
+76	8524.0	Time spent in request queue
+77	8448.0	Time spent in request queue
+78	8334.0	Time spent in request queue
+79	8258.0	Time spent in request queue
+80	8132.0	Time spent in request queue
+81	8112.0	Time spent in request queue
+82	8132.0	Time spent in request queue
+83	7871.0	Time spent in request queue
+84	7899.0	Time spent in request queue
+85	7706.0	Time spent in request queue
+86	7786.0	Time spent in request queue
+87	7631.0	Time spent in request queue
+88	7587.0	Time spent in request queue
+89	7458.0	Time spent in request queue
+90	7424.0	Time spent in request queue
+91	7514.0	Time spent in request queue
+92	7406.0	Time spent in request queue
+93	7264.0	Time spent in request queue
+94	7074.0	Time spent in request queue
+95	7188.0	Time spent in request queue
+96	7091.0	Time spent in request queue
+97	7226.0	Time spent in request queue
+98	6939.0	Time spent in request queue
+99	6888.0	Time spent in request queue
+100	6879.0	Time spent in request queue
+101	6675.0	Time spent in request queue
+102	6612.0	Time spent in request queue
+103	6735.0	Time spent in request queue
+104	6627.0	Time spent in request queue
+105	6629.0	Time spent in request queue
+106	6554.0	Time spent in request queue
+107	6494.0	Time spent in request queue
+108	6227.0	Time spent in request queue
+109	6241.0	Time spent in request queue
+110	6303.0	Time spent in request queue
+111	6117.0	Time spent in request queue
+112	6096.0	Time spent in request queue
+113	6067.0	Time spent in request queue
+114	6176.0	Time spent in request queue
+115	6032.0	Time spent in request queue
+116	5966.0	Time spent in request queue
+117	5867.0	Time spent in request queue
+118	5903.0	Time spent in request queue
+119	5902.0	Time spent in request queue
+120	5815.0	Time spent in request queue
+121	5574.0	Time spent in request queue
+122	5719.0	Time spent in request queue
+123	5628.0	Time spent in request queue
+124	5578.0	Time spent in request queue
+125	5594.0	Time spent in request queue
+126	5558.0	Time spent in request queue
+127	5544.0	Time spent in request queue
+128	5481.0	Time spent in request queue
+129	5269.0	Time spent in request queue
+130	5329.0	Time spent in request queue
+131	5251.0	Time spent in request queue
+132	5322.0	Time spent in request queue
+133	5292.0	Time spent in request queue
+134	5195.0	Time spent in request queue
+135	5112.0	Time spent in request queue
+136	5051.0	Time spent in request queue
+137	5093.0	Time spent in request queue
+138	5081.0	Time spent in request queue
+139	5050.0	Time spent in request queue
+140	4952.0	Time spent in request queue
+141	4792.0	Time spent in request queue
+142	4800.0	Time spent in request queue
+143	4679.0	Time spent in request queue
+144	4772.0	Time spent in request queue
+145	4746.0	Time spent in request queue
+146	4813.0	Time spent in request queue
+147	4488.0	Time spent in request queue
+148	4632.0	Time spent in request queue
+149	4569.0	Time spent in request queue
+150	4546.0	Time spent in request queue
+151	4462.0	Time spent in request queue
+152	4471.0	Time spent in request queue
+153	4544.0	Time spent in request queue
+154	4368.0	Time spent in request queue
+155	4361.0	Time spent in request queue
+156	4371.0	Time spent in request queue
+157	4282.0	Time spent in request queue
+158	4218.0	Time spent in request queue
+159	4183.0	Time spent in request queue
+160	4207.0	Time spent in request queue
+161	4187.0	Time spent in request queue
+162	4121.0	Time spent in request queue
+163	4172.0	Time spent in request queue
+164	4011.0	Time spent in request queue
+165	4089.0	Time spent in request queue
+166	4077.0	Time spent in request queue
+167	4057.0	Time spent in request queue
+168	3842.0	Time spent in request queue
+169	3849.0	Time spent in request queue
+170	3817.0	Time spent in request queue
+171	3828.0	Time spent in request queue
+172	3930.0	Time spent in request queue
+173	3746.0	Time spent in request queue
+174	3658.0	Time spent in request queue
+175	3704.0	Time spent in request queue
+176	3782.0	Time spent in request queue
+177	3789.0	Time spent in request queue
+178	3722.0	Time spent in request queue
+179	3708.0	Time spent in request queue
+180	3567.0	Time spent in request queue
+181	3523.0	Time spent in request queue
+182	3567.0	Time spent in request queue
+183	3463.0	Time spent in request queue
+184	3544.0	Time spent in request queue
+185	3386.0	Time spent in request queue
+186	3408.0	Time spent in request queue
+187	3441.0	Time spent in request queue
+188	3413.0	Time spent in request queue
+189	3293.0	Time spent in request queue
+190	3348.0	Time spent in request queue
+191	3281.0	Time spent in request queue
+192	3223.0	Time spent in request queue
+193	3158.0	Time spent in request queue
+194	3268.0	Time spent in request queue
+195	3217.0	Time spent in request queue
+196	3188.0	Time spent in request queue
+197	3098.0	Time spent in request queue
+198	3074.0	Time spent in request queue
+199	3063.0	Time spent in request queue
+200	3003.0	Time spent in request queue
+201	3026.0	Time spent in request queue
+202	3001.0	Time spent in request queue
+203	3063.0	Time spent in request queue
+204	2982.0	Time spent in request queue
+205	2950.0	Time spent in request queue
+206	2837.0	Time spent in request queue
+207	2947.0	Time spent in request queue
+208	2771.0	Time spent in request queue
+209	2807.0	Time spent in request queue
+210	2744.0	Time spent in request queue
+211	2940.0	Time spent in request queue
+212	2763.0	Time spent in request queue
+213	2723.0	Time spent in request queue
+214	2735.0	Time spent in request queue
+215	2716.0	Time spent in request queue
+216	2717.0	Time spent in request queue
+217	2603.0	Time spent in request queue
+218	2703.0	Time spent in request queue
+219	2567.0	Time spent in request queue
+220	2636.0	Time spent in request queue
+221	2588.0	Time spent in request queue
+222	2554.0	Time spent in request queue
+223	2415.0	Time spent in request queue
+224	2447.0	Time spent in request queue
+225	2519.0	Time spent in request queue
+226	2565.0	Time spent in request queue
+227	2393.0	Time spent in request queue
+228	2391.0	Time spent in request queue
+229	2293.0	Time spent in request queue
+230	2325.0	Time spent in request queue
+231	2331.0	Time spent in request queue
+232	2312.0	Time spent in request queue
+233	2232.0	Time spent in request queue
+234	2343.0	Time spent in request queue
+235	2247.0	Time spent in request queue
+236	2323.0	Time spent in request queue
+237	2203.0	Time spent in request queue
+238	2222.0	Time spent in request queue
+239	2279.0	Time spent in request queue
+240	2162.0	Time spent in request queue
+241	2123.0	Time spent in request queue
+242	2186.0	Time spent in request queue
+243	2209.0	Time spent in request queue
+244	2113.0	Time spent in request queue
+245	2077.0	Time spent in request queue
+246	2079.0	Time spent in request queue
+247	2003.0	Time spent in request queue
+248	2054.0	Time spent in request queue
+249	1956.0	Time spent in request queue
+250	2065.0	Time spent in request queue
+251	1947.0	Time spent in request queue
+252	1956.0	Time spent in request queue
+253	1903.0	Time spent in request queue
+254	1988.0	Time spent in request queue
+255	1930.0	Time spent in request queue
+256	1901.0	Time spent in request queue
+257	1850.0	Time spent in request queue
+258	1979.0	Time spent in request queue
+259	1796.0	Time spent in request queue
+260	1869.0	Time spent in request queue
+261	1835.0	Time spent in request queue
+262	1856.0	Time spent in request queue
+263	1858.0	Time spent in request queue
+264	1828.0	Time spent in request queue
+265	1774.0	Time spent in request queue
+266	1746.0	Time spent in request queue
+267	1737.0	Time spent in request queue
+268	1757.0	Time spent in request queue
+269	1685.0	Time spent in request queue
+270	1760.0	Time spent in request queue
+271	1663.0	Time spent in request queue
+272	1732.0	Time spent in request queue
+273	1642.0	Time spent in request queue
+274	1609.0	Time spent in request queue
+275	1621.0	Time spent in request queue
+276	1572.0	Time spent in request queue
+277	1500.0	Time spent in request queue
+278	1580.0	Time spent in request queue
+279	1504.0	Time spent in request queue
+280	1514.0	Time spent in request queue
+281	1530.0	Time spent in request queue
+282	1556.0	Time spent in request queue
+283	1570.0	Time spent in request queue
+284	1550.0	Time spent in request queue
+285	1410.0	Time spent in request queue
+286	1418.0	Time spent in request queue
+287	1471.0	Time spent in request queue
+288	1476.0	Time spent in request queue
+289	1445.0	Time spent in request queue
+290	1406.0	Time spent in request queue
+291	1418.0	Time spent in request queue
+292	1358.0	Time spent in request queue
+293	1377.0	Time spent in request queue
+294	1346.0	Time spent in request queue
+295	1308.0	Time spent in request queue
+296	1376.0	Time spent in request queue
+297	1337.0	Time spent in request queue
+298	1313.0	Time spent in request queue
+299	1311.0	Time spent in request queue
+300	1272.0	Time spent in request queue
+301	1319.0	Time spent in request queue
+302	1334.0	Time spent in request queue
+303	1310.0	Time spent in request queue
+304	1293.0	Time spent in request queue
+305	1199.0	Time spent in request queue
+306	1296.0	Time spent in request queue
+307	1256.0	Time spent in request queue
+308	1273.0	Time spent in request queue
+309	1259.0	Time spent in request queue
+310	1208.0	Time spent in request queue
+311	1207.0	Time spent in request queue
+312	1198.0	Time spent in request queue
+313	1194.0	Time spent in request queue
+314	1101.0	Time spent in request queue
+315	1126.0	Time spent in request queue
+316	1164.0	Time spent in request queue
+317	1138.0	Time spent in request queue
+318	1186.0	Time spent in request queue
+319	1109.0	Time spent in request queue
+320	1122.0	Time spent in request queue
+321	1094.0	Time spent in request queue
+322	1085.0	Time spent in request queue
+323	1066.0	Time spent in request queue
+324	1091.0	Time spent in request queue
+325	1056.0	Time spent in request queue
+326	1060.0	Time spent in request queue
+327	1026.0	Time spent in request queue
+328	988.0	Time spent in request queue
+329	1056.0	Time spent in request queue
+330	1069.0	Time spent in request queue
+331	1022.0	Time spent in request queue
+332	961.0	Time spent in request queue
+333	986.0	Time spent in request queue
+334	987.0	Time spent in request queue
+335	1047.0	Time spent in request queue
+336	966.0	Time spent in request queue
+337	937.0	Time spent in request queue
+338	964.0	Time spent in request queue
+339	920.0	Time spent in request queue
+340	937.0	Time spent in request queue
+341	926.0	Time spent in request queue
+342	917.0	Time spent in request queue
+343	844.0	Time spent in request queue
+344	878.0	Time spent in request queue
+345	925.0	Time spent in request queue
+346	819.0	Time spent in request queue
+347	883.0	Time spent in request queue
+348	776.0	Time spent in request queue
+349	860.0	Time spent in request queue
+350	893.0	Time spent in request queue
+351	830.0	Time spent in request queue
+352	882.0	Time spent in request queue
+353	775.0	Time spent in request queue
+354	807.0	Time spent in request queue
+355	814.0	Time spent in request queue
+356	774.0	Time spent in request queue
+357	779.0	Time spent in request queue
+358	773.0	Time spent in request queue
+359	819.0	Time spent in request queue
+360	805.0	Time spent in request queue
+361	772.0	Time spent in request queue
+362	751.0	Time spent in request queue
+363	744.0	Time spent in request queue
+364	776.0	Time spent in request queue
+365	763.0	Time spent in request queue
+366	732.0	Time spent in request queue
+367	704.0	Time spent in request queue
+368	684.0	Time spent in request queue
+369	737.0	Time spent in request queue
+370	724.0	Time spent in request queue
+371	725.0	Time spent in request queue
+372	684.0	Time spent in request queue
+373	681.0	Time spent in request queue
+374	733.0	Time spent in request queue
+375	716.0	Time spent in request queue
+376	723.0	Time spent in request queue
+377	626.0	Time spent in request queue
+378	666.0	Time spent in request queue
+379	680.0	Time spent in request queue
+380	610.0	Time spent in request queue
+381	678.0	Time spent in request queue
+382	642.0	Time spent in request queue
+383	608.0	Time spent in request queue
+384	614.0	Time spent in request queue
+385	615.0	Time spent in request queue
+386	637.0	Time spent in request queue
+387	595.0	Time spent in request queue
+388	580.0	Time spent in request queue
+389	593.0	Time spent in request queue
+390	581.0	Time spent in request queue
+391	597.0	Time spent in request queue
+392	569.0	Time spent in request queue
+393	622.0	Time spent in request queue
+394	558.0	Time spent in request queue
+395	545.0	Time spent in request queue
+396	569.0	Time spent in request queue
+397	560.0	Time spent in request queue
+398	528.0	Time spent in request queue
+399	580.0	Time spent in request queue
+400	497.0	Time spent in request queue
+401	520.0	Time spent in request queue
+402	507.0	Time spent in request queue
+403	503.0	Time spent in request queue
+404	569.0	Time spent in request queue
+405	527.0	Time spent in request queue
+406	490.0	Time spent in request queue
+407	533.0	Time spent in request queue
+408	503.0	Time spent in request queue
+409	525.0	Time spent in request queue
+410	483.0	Time spent in request queue
+411	466.0	Time spent in request queue
+412	503.0	Time spent in request queue
+413	486.0	Time spent in request queue
+414	459.0	Time spent in request queue
+415	443.0	Time spent in request queue
+416	423.0	Time spent in request queue
+417	436.0	Time spent in request queue
+418	447.0	Time spent in request queue
+419	427.0	Time spent in request queue
+420	416.0	Time spent in request queue
+421	380.0	Time spent in request queue
+422	422.0	Time spent in request queue
+423	427.0	Time spent in request queue
+424	443.0	Time spent in request queue
+425	428.0	Time spent in request queue
+426	367.0	Time spent in request queue
+427	372.0	Time spent in request queue
+428	391.0	Time spent in request queue
+429	398.0	Time spent in request queue
+430	386.0	Time spent in request queue
+431	368.0	Time spent in request queue
+432	375.0	Time spent in request queue
+433	374.0	Time spent in request queue
+434	356.0	Time spent in request queue
+435	369.0	Time spent in request queue
+436	355.0	Time spent in request queue
+437	371.0	Time spent in request queue
+438	301.0	Time spent in request queue
+439	325.0	Time spent in request queue
+440	359.0	Time spent in request queue
+441	359.0	Time spent in request queue
+442	361.0	Time spent in request queue
+443	322.0	Time spent in request queue
+444	318.0	Time spent in request queue
+445	325.0	Time spent in request queue
+446	294.0	Time spent in request queue
+447	307.0	Time spent in request queue
+448	301.0	Time spent in request queue
+449	321.0	Time spent in request queue
+450	288.0	Time spent in request queue
+451	293.0	Time spent in request queue
+452	286.0	Time spent in request queue
+453	285.0	Time spent in request queue
+454	289.0	Time spent in request queue
+455	287.0	Time spent in request queue
+456	239.0	Time spent in request queue
+457	272.0	Time spent in request queue
+458	275.0	Time spent in request queue
+459	284.0	Time spent in request queue
+460	260.0	Time spent in request queue
+461	282.0	Time spent in request queue
+462	267.0	Time spent in request queue
+463	265.0	Time spent in request queue
+464	239.0	Time spent in request queue
+465	245.0	Time spent in request queue
+466	233.0	Time spent in request queue
+467	248.0	Time spent in request queue
+468	249.0	Time spent in request queue
+469	255.0	Time spent in request queue
+470	251.0	Time spent in request queue
+471	201.0	Time spent in request queue
+472	210.0	Time spent in request queue
+473	190.0	Time spent in request queue
+474	216.0	Time spent in request queue
+475	213.0	Time spent in request queue
+476	201.0	Time spent in request queue
+477	215.0	Time spent in request queue
+478	233.0	Time spent in request queue
+479	229.0	Time spent in request queue
+480	233.0	Time spent in request queue
+481	208.0	Time spent in request queue
+482	200.0	Time spent in request queue
+483	181.0	Time spent in request queue
+484	191.0	Time spent in request queue
+485	169.0	Time spent in request queue
+486	173.0	Time spent in request queue
+487	172.0	Time spent in request queue
+488	218.0	Time spent in request queue
+489	184.0	Time spent in request queue
+490	189.0	Time spent in request queue
+491	164.0	Time spent in request queue
+492	171.0	Time spent in request queue
+493	177.0	Time spent in request queue
+494	175.0	Time spent in request queue
+495	162.0	Time spent in request queue
+496	169.0	Time spent in request queue
+497	158.0	Time spent in request queue
+498	141.0	Time spent in request queue
+499	155.0	Time spent in request queue
+500	164.0	Time spent in request queue
+501	162.0	Time spent in request queue
+502	130.0	Time spent in request queue
+503	131.0	Time spent in request queue
+504	153.0	Time spent in request queue
+505	129.0	Time spent in request queue
+506	134.0	Time spent in request queue
+507	141.0	Time spent in request queue
+508	135.0	Time spent in request queue
+509	123.0	Time spent in request queue
+510	126.0	Time spent in request queue
+511	127.0	Time spent in request queue
+512	115.0	Time spent in request queue
+513	112.0	Time spent in request queue
+514	113.0	Time spent in request queue
+515	129.0	Time spent in request queue
+516	124.0	Time spent in request queue
+517	125.0	Time spent in request queue
+518	126.0	Time spent in request queue
+519	109.0	Time spent in request queue
+520	110.0	Time spent in request queue
+521	111.0	Time spent in request queue
+522	118.0	Time spent in request queue
+523	114.0	Time spent in request queue
+524	96.0	Time spent in request queue
+525	99.0	Time spent in request queue
+526	101.0	Time spent in request queue
+527	88.0	Time spent in request queue
+528	99.0	Time spent in request queue
+529	89.0	Time spent in request queue
+530	87.0	Time spent in request queue
+531	77.0	Time spent in request queue
+532	96.0	Time spent in request queue
+533	108.0	Time spent in request queue
+534	101.0	Time spent in request queue
+535	85.0	Time spent in request queue
+536	74.0	Time spent in request queue
+537	79.0	Time spent in request queue
+538	83.0	Time spent in request queue
+539	91.0	Time spent in request queue
+540	71.0	Time spent in request queue
+541	83.0	Time spent in request queue
+542	84.0	Time spent in request queue
+543	100.0	Time spent in request queue
+544	86.0	Time spent in request queue
+545	75.0	Time spent in request queue
+546	77.0	Time spent in request queue
+547	76.0	Time spent in request queue
+548	65.0	Time spent in request queue
+549	82.0	Time spent in request queue
+550	67.0	Time spent in request queue
+551	67.0	Time spent in request queue
+552	68.0	Time spent in request queue
+553	66.0	Time spent in request queue
+554	67.0	Time spent in request queue
+555	64.0	Time spent in request queue
+556	59.0	Time spent in request queue
+557	61.0	Time spent in request queue
+558	65.0	Time spent in request queue
+559	59.0	Time spent in request queue
+560	57.0	Time spent in request queue
+561	61.0	Time spent in request queue
+562	72.0	Time spent in request queue
+563	61.0	Time spent in request queue
+564	59.0	Time spent in request queue
+565	50.0	Time spent in request queue
+566	61.0	Time spent in request queue
+567	59.0	Time spent in request queue
+568	47.0	Time spent in request queue
+569	54.0	Time spent in request queue
+570	58.0	Time spent in request queue
+571	53.0	Time spent in request queue
+572	38.0	Time spent in request queue
+573	43.0	Time spent in request queue
+574	52.0	Time spent in request queue
+575	51.0	Time spent in request queue
+576	46.0	Time spent in request queue
+577	42.0	Time spent in request queue
+578	46.0	Time spent in request queue
+579	48.0	Time spent in request queue
+580	51.0	Time spent in request queue
+581	33.0	Time spent in request queue
+582	44.0	Time spent in request queue
+583	27.0	Time spent in request queue
+584	30.0	Time spent in request queue
+585	37.0	Time spent in request queue
+586	43.0	Time spent in request queue
+587	39.0	Time spent in request queue
+588	40.0	Time spent in request queue
+589	39.0	Time spent in request queue
+590	34.0	Time spent in request queue
+591	47.0	Time spent in request queue
+592	39.0	Time spent in request queue
+593	34.0	Time spent in request queue
+594	35.0	Time spent in request queue
+595	35.0	Time spent in request queue
+596	33.0	Time spent in request queue
+597	35.0	Time spent in request queue
+598	35.0	Time spent in request queue
+599	37.0	Time spent in request queue
+600	26.0	Time spent in request queue
+601	31.0	Time spent in request queue
+602	31.0	Time spent in request queue
+603	26.0	Time spent in request queue
+604	26.0	Time spent in request queue
+605	32.0	Time spent in request queue
+606	28.0	Time spent in request queue
+607	31.0	Time spent in request queue
+608	35.0	Time spent in request queue
+609	22.0	Time spent in request queue
+610	28.0	Time spent in request queue
+611	36.0	Time spent in request queue
+612	18.0	Time spent in request queue
+613	21.0	Time spent in request queue
+614	36.0	Time spent in request queue
+615	30.0	Time spent in request queue
+616	19.0	Time spent in request queue
+617	24.0	Time spent in request queue
+618	28.0	Time spent in request queue
+619	18.0	Time spent in request queue
+620	25.0	Time spent in request queue
+621	19.0	Time spent in request queue
+622	16.0	Time spent in request queue
+623	27.0	Time spent in request queue
+624	20.0	Time spent in request queue
+625	18.0	Time spent in request queue
+626	31.0	Time spent in request queue
+627	22.0	Time spent in request queue
+628	14.0	Time spent in request queue
+629	22.0	Time spent in request queue
+630	22.0	Time spent in request queue
+631	13.0	Time spent in request queue
+632	22.0	Time spent in request queue
+633	14.0	Time spent in request queue
+634	21.0	Time spent in request queue
+635	14.0	Time spent in request queue
+636	16.0	Time spent in request queue
+637	20.0	Time spent in request queue
+638	19.0	Time spent in request queue
+639	13.0	Time spent in request queue
+640	14.0	Time spent in request queue
+641	15.0	Time spent in request queue
+642	23.0	Time spent in request queue
+643	17.0	Time spent in request queue
+644	16.0	Time spent in request queue
+645	14.0	Time spent in request queue
+646	12.0	Time spent in request queue
+647	10.0	Time spent in request queue
+648	13.0	Time spent in request queue
+649	15.0	Time spent in request queue
+650	8.0	Time spent in request queue
+651	8.0	Time spent in request queue
+652	14.0	Time spent in request queue
+653	15.0	Time spent in request queue
+654	17.0	Time spent in request queue
+655	19.0	Time spent in request queue
+656	12.0	Time spent in request queue
+657	11.0	Time spent in request queue
+658	8.0	Time spent in request queue
+659	12.0	Time spent in request queue
+660	9.0	Time spent in request queue
+661	15.0	Time spent in request queue
+662	13.0	Time spent in request queue
+663	10.0	Time spent in request queue
+664	16.0	Time spent in request queue
+665	9.0	Time spent in request queue
+666	18.0	Time spent in request queue
+667	23.0	Time spent in request queue
+668	12.0	Time spent in request queue
+669	11.0	Time spent in request queue
+670	10.0	Time spent in request queue
+671	8.0	Time spent in request queue
+672	7.0	Time spent in request queue
+673	12.0	Time spent in request queue
+674	11.0	Time spent in request queue
+675	10.0	Time spent in request queue
+676	12.0	Time spent in request queue
+677	10.0	Time spent in request queue
+678	17.0	Time spent in request queue
+679	6.0	Time spent in request queue
+680	7.0	Time spent in request queue
+681	9.0	Time spent in request queue
+682	10.0	Time spent in request queue
+683	11.0	Time spent in request queue
+684	6.0	Time spent in request queue
+685	11.0	Time spent in request queue
+686	3.0	Time spent in request queue
+687	11.0	Time spent in request queue
+688	5.0	Time spent in request queue
+689	6.0	Time spent in request queue
+690	7.0	Time spent in request queue
+691	12.0	Time spent in request queue
+692	6.0	Time spent in request queue
+693	15.0	Time spent in request queue
+694	6.0	Time spent in request queue
+695	5.0	Time spent in request queue
+696	5.0	Time spent in request queue
+697	3.0	Time spent in request queue
+698	9.0	Time spent in request queue
+699	7.0	Time spent in request queue
+700	7.0	Time spent in request queue
+701	5.0	Time spent in request queue
+702	6.0	Time spent in request queue
+703	8.0	Time spent in request queue
+704	7.0	Time spent in request queue
+705	4.0	Time spent in request queue
+706	3.0	Time spent in request queue
+707	6.0	Time spent in request queue
+708	4.0	Time spent in request queue
+709	11.0	Time spent in request queue
+710	6.0	Time spent in request queue
+711	8.0	Time spent in request queue
+712	9.0	Time spent in request queue
+713	7.0	Time spent in request queue
+714	5.0	Time spent in request queue
+715	9.0	Time spent in request queue
+716	1.0	Time spent in request queue
+717	7.0	Time spent in request queue
+718	6.0	Time spent in request queue
+719	6.0	Time spent in request queue
+720	5.0	Time spent in request queue
+721	8.0	Time spent in request queue
+722	3.0	Time spent in request queue
+723	4.0	Time spent in request queue
+724	4.0	Time spent in request queue
+725	8.0	Time spent in request queue
+726	5.0	Time spent in request queue
+727	7.0	Time spent in request queue
+728	5.0	Time spent in request queue
+729	2.0	Time spent in request queue
+730	4.0	Time spent in request queue
+731	5.0	Time spent in request queue
+732	5.0	Time spent in request queue
+733	4.0	Time spent in request queue
+734	4.0	Time spent in request queue
+735	5.0	Time spent in request queue
+736	1.0	Time spent in request queue
+737	1.0	Time spent in request queue
+738	2.0	Time spent in request queue
+739	3.0	Time spent in request queue
+740	4.0	Time spent in request queue
+741	3.0	Time spent in request queue
+742	4.0	Time spent in request queue
+743	1.0	Time spent in request queue
+744	8.0	Time spent in request queue
+745	7.0	Time spent in request queue
+746	2.0	Time spent in request queue
+747	6.0	Time spent in request queue
+748	1.0	Time spent in request queue
+749	3.0	Time spent in request queue
+750	5.0	Time spent in request queue
+751	3.0	Time spent in request queue
+752	3.0	Time spent in request queue
+753	3.0	Time spent in request queue
+754	4.0	Time spent in request queue
+756	6.0	Time spent in request queue
+757	3.0	Time spent in request queue
+758	2.0	Time spent in request queue
+759	1.0	Time spent in request queue
+760	1.0	Time spent in request queue
+761	1.0	Time spent in request queue
+762	1.0	Time spent in request queue
+763	3.0	Time spent in request queue
+764	2.0	Time spent in request queue
+765	1.0	Time spent in request queue
+766	4.0	Time spent in request queue
+767	3.0	Time spent in request queue
+768	1.0	Time spent in request queue
+769	3.0	Time spent in request queue
+771	2.0	Time spent in request queue
+772	3.0	Time spent in request queue
+773	2.0	Time spent in request queue
+774	1.0	Time spent in request queue
+775	5.0	Time spent in request queue
+776	2.0	Time spent in request queue
+777	1.0	Time spent in request queue
+778	3.0	Time spent in request queue
+779	2.0	Time spent in request queue
+780	1.0	Time spent in request queue
+781	2.0	Time spent in request queue
+782	5.0	Time spent in request queue
+783	3.0	Time spent in request queue
+784	3.0	Time spent in request queue
+785	1.0	Time spent in request queue
+786	1.0	Time spent in request queue
+787	2.0	Time spent in request queue
+788	1.0	Time spent in request queue
+789	3.0	Time spent in request queue
+790	4.0	Time spent in request queue
+791	2.0	Time spent in request queue
+792	1.0	Time spent in request queue
+793	1.0	Time spent in request queue
+794	2.0	Time spent in request queue
+795	2.0	Time spent in request queue
+796	3.0	Time spent in request queue
+797	2.0	Time spent in request queue
+798	3.0	Time spent in request queue
+799	2.0	Time spent in request queue
+800	1.0	Time spent in request queue
+801	3.0	Time spent in request queue
+802	4.0	Time spent in request queue
+803	2.0	Time spent in request queue
+804	1.0	Time spent in request queue
+805	4.0	Time spent in request queue
+806	2.0	Time spent in request queue
+808	6.0	Time spent in request queue
+809	2.0	Time spent in request queue
+810	3.0	Time spent in request queue
+811	2.0	Time spent in request queue
+813	3.0	Time spent in request queue
+814	3.0	Time spent in request queue
+815	3.0	Time spent in request queue
+816	3.0	Time spent in request queue
+817	5.0	Time spent in request queue
+818	2.0	Time spent in request queue
+819	1.0	Time spent in request queue
+820	1.0	Time spent in request queue
+821	4.0	Time spent in request queue
+822	3.0	Time spent in request queue
+824	3.0	Time spent in request queue
+826	1.0	Time spent in request queue
+827	2.0	Time spent in request queue
+828	3.0	Time spent in request queue
+830	1.0	Time spent in request queue
+831	2.0	Time spent in request queue
+832	1.0	Time spent in request queue
+834	3.0	Time spent in request queue
+835	2.0	Time spent in request queue
+836	1.0	Time spent in request queue
+837	2.0	Time spent in request queue
+840	1.0	Time spent in request queue
+841	1.0	Time spent in request queue
+842	3.0	Time spent in request queue
+844	3.0	Time spent in request queue
+845	1.0	Time spent in request queue
+846	1.0	Time spent in request queue
+848	1.0	Time spent in request queue
+851	1.0	Time spent in request queue
+852	2.0	Time spent in request queue
+854	4.0	Time spent in request queue
+855	1.0	Time spent in request queue
+856	1.0	Time spent in request queue
+858	1.0	Time spent in request queue
+859	4.0	Time spent in request queue
+860	1.0	Time spent in request queue
+861	1.0	Time spent in request queue
+864	2.0	Time spent in request queue
+866	1.0	Time spent in request queue
+867	1.0	Time spent in request queue
+868	2.0	Time spent in request queue
+869	1.0	Time spent in request queue
+871	1.0	Time spent in request queue
+873	1.0	Time spent in request queue
+876	1.0	Time spent in request queue
+878	1.0	Time spent in request queue
+879	2.0	Time spent in request queue
+881	1.0	Time spent in request queue
+882	1.0	Time spent in request queue
+885	1.0	Time spent in request queue
+887	1.0	Time spent in request queue
+889	2.0	Time spent in request queue
+890	1.0	Time spent in request queue
+891	1.0	Time spent in request queue
+892	1.0	Time spent in request queue
+893	1.0	Time spent in request queue
+895	1.0	Time spent in request queue
+896	2.0	Time spent in request queue
+897	2.0	Time spent in request queue
+899	1.0	Time spent in request queue
+902	1.0	Time spent in request queue
+906	1.0	Time spent in request queue
+908	1.0	Time spent in request queue
+909	1.0	Time spent in request queue
+910	1.0	Time spent in request queue
+912	3.0	Time spent in request queue
+913	1.0	Time spent in request queue
+916	3.0	Time spent in request queue
+917	1.0	Time spent in request queue
+919	1.0	Time spent in request queue
+925	1.0	Time spent in request queue
+930	1.0	Time spent in request queue
+931	1.0	Time spent in request queue
+935	1.0	Time spent in request queue
+940	5.0	Time spent in request queue
+941	1.0	Time spent in request queue
+947	3.0	Time spent in request queue
+954	1.0	Time spent in request queue
+957	1.0	Time spent in request queue
+959	1.0	Time spent in request queue
+961	2.0	Time spent in request queue
+963	1.0	Time spent in request queue
+964	1.0	Time spent in request queue
+968	1.0	Time spent in request queue
+969	1.0	Time spent in request queue
+978	1.0	Time spent in request queue
+980	1.0	Time spent in request queue
+981	1.0	Time spent in request queue
+1000	1.0	Time spent in request queue
+1010	1.0	Time spent in request queue
+1012	1.0	Time spent in request queue
+1025	1.0	Time spent in request queue
+1036	1.0	Time spent in request queue
+1040	1.0	Time spent in request queue
+1076	1.0	Time spent in request queue
+1196	1.0	Time spent in request queue
+1201	1.0	Time spent in request queue
+1217	1.0	Time spent in request queue
+1255	1.0	Time spent in request queue
+1265	1.0	Time spent in request queue
+1269	1.0	Time spent in request queue
+1275	1.0	Time spent in request queue
+, ATTEMPTS=ATTEMPTS 
+ Reports=         2383073 Average=               1, Total=       2,395,110, 50%=               1, 95%=               1, 99%=               1, 99.5%=               2, 99.95%=               2, Max=               2
+1	2371036.0	Attempts needed to get into queue
+2	12037.0	Attempts needed to get into queue
+, ReportQuotaUsage=ReportQuotaUsage 
+ Reports=         2315082 Average=             132, Total=     306,550,282, 50%=              98, 95%=             354, 99%=             489, 99.5%=             538, 99.95%=             699, Max=            1390
+5	1.0	REPORT_QUOTA_USAGE
+6	20.0	REPORT_QUOTA_USAGE
+7	59.0	REPORT_QUOTA_USAGE
+8	159.0	REPORT_QUOTA_USAGE
+9	377.0	REPORT_QUOTA_USAGE
+10	634.0	REPORT_QUOTA_USAGE
+11	971.0	REPORT_QUOTA_USAGE
+12	1464.0	REPORT_QUOTA_USAGE
+13	1981.0	REPORT_QUOTA_USAGE
+14	2423.0	REPORT_QUOTA_USAGE
+15	3070.0	REPORT_QUOTA_USAGE
+16	3591.0	REPORT_QUOTA_USAGE
+17	4152.0	REPORT_QUOTA_USAGE
+18	4862.0	REPORT_QUOTA_USAGE
+19	5499.0	REPORT_QUOTA_USAGE
+20	6232.0	REPORT_QUOTA_USAGE
+21	7064.0	REPORT_QUOTA_USAGE
+22	7677.0	REPORT_QUOTA_USAGE
+23	8692.0	REPORT_QUOTA_USAGE
+24	9604.0	REPORT_QUOTA_USAGE
+25	10736.0	REPORT_QUOTA_USAGE
+26	11739.0	REPORT_QUOTA_USAGE
+27	12733.0	REPORT_QUOTA_USAGE
+28	13759.0	REPORT_QUOTA_USAGE
+29	15144.0	REPORT_QUOTA_USAGE
+30	16022.0	REPORT_QUOTA_USAGE
+31	17371.0	REPORT_QUOTA_USAGE
+32	18130.0	REPORT_QUOTA_USAGE
+33	19195.0	REPORT_QUOTA_USAGE
+34	19781.0	REPORT_QUOTA_USAGE
+35	20725.0	REPORT_QUOTA_USAGE
+36	21759.0	REPORT_QUOTA_USAGE
+37	22133.0	REPORT_QUOTA_USAGE
+38	22564.0	REPORT_QUOTA_USAGE
+39	22754.0	REPORT_QUOTA_USAGE
+40	23034.0	REPORT_QUOTA_USAGE
+41	22750.0	REPORT_QUOTA_USAGE
+42	23234.0	REPORT_QUOTA_USAGE
+43	22589.0	REPORT_QUOTA_USAGE
+44	22465.0	REPORT_QUOTA_USAGE
+45	21797.0	REPORT_QUOTA_USAGE
+46	21459.0	REPORT_QUOTA_USAGE
+47	20670.0	REPORT_QUOTA_USAGE
+48	20066.0	REPORT_QUOTA_USAGE
+49	19200.0	REPORT_QUOTA_USAGE
+50	18452.0	REPORT_QUOTA_USAGE
+51	17489.0	REPORT_QUOTA_USAGE
+52	16888.0	REPORT_QUOTA_USAGE
+53	16471.0	REPORT_QUOTA_USAGE
+54	16015.0	REPORT_QUOTA_USAGE
+55	15465.0	REPORT_QUOTA_USAGE
+56	14901.0	REPORT_QUOTA_USAGE
+57	14628.0	REPORT_QUOTA_USAGE
+58	14422.0	REPORT_QUOTA_USAGE
+59	13884.0	REPORT_QUOTA_USAGE
+60	13798.0	REPORT_QUOTA_USAGE
+61	13575.0	REPORT_QUOTA_USAGE
+62	13209.0	REPORT_QUOTA_USAGE
+63	13128.0	REPORT_QUOTA_USAGE
+64	13131.0	REPORT_QUOTA_USAGE
+65	12703.0	REPORT_QUOTA_USAGE
+66	12626.0	REPORT_QUOTA_USAGE
+67	12710.0	REPORT_QUOTA_USAGE
+68	12477.0	REPORT_QUOTA_USAGE
+69	12555.0	REPORT_QUOTA_USAGE
+70	12300.0	REPORT_QUOTA_USAGE
+71	12231.0	REPORT_QUOTA_USAGE
+72	12297.0	REPORT_QUOTA_USAGE
+73	12157.0	REPORT_QUOTA_USAGE
+74	12093.0	REPORT_QUOTA_USAGE
+75	11984.0	REPORT_QUOTA_USAGE
+76	12055.0	REPORT_QUOTA_USAGE
+77	12074.0	REPORT_QUOTA_USAGE
+78	11682.0	REPORT_QUOTA_USAGE
+79	11803.0	REPORT_QUOTA_USAGE
+80	11763.0	REPORT_QUOTA_USAGE
+81	11700.0	REPORT_QUOTA_USAGE
+82	11422.0	REPORT_QUOTA_USAGE
+83	11457.0	REPORT_QUOTA_USAGE
+84	11186.0	REPORT_QUOTA_USAGE
+85	11080.0	REPORT_QUOTA_USAGE
+86	11093.0	REPORT_QUOTA_USAGE
+87	10874.0	REPORT_QUOTA_USAGE
+88	10760.0	REPORT_QUOTA_USAGE
+89	10736.0	REPORT_QUOTA_USAGE
+90	10485.0	REPORT_QUOTA_USAGE
+91	10386.0	REPORT_QUOTA_USAGE
+92	10412.0	REPORT_QUOTA_USAGE
+93	10106.0	REPORT_QUOTA_USAGE
+94	10118.0	REPORT_QUOTA_USAGE
+95	10171.0	REPORT_QUOTA_USAGE
+96	9877.0	REPORT_QUOTA_USAGE
+97	10000.0	REPORT_QUOTA_USAGE
+98	9651.0	REPORT_QUOTA_USAGE
+99	9682.0	REPORT_QUOTA_USAGE
+100	9360.0	REPORT_QUOTA_USAGE
+101	9337.0	REPORT_QUOTA_USAGE
+102	9419.0	REPORT_QUOTA_USAGE
+103	9187.0	REPORT_QUOTA_USAGE
+104	9094.0	REPORT_QUOTA_USAGE
+105	9175.0	REPORT_QUOTA_USAGE
+106	8699.0	REPORT_QUOTA_USAGE
+107	9060.0	REPORT_QUOTA_USAGE
+108	8751.0	REPORT_QUOTA_USAGE
+109	8847.0	REPORT_QUOTA_USAGE
+110	8727.0	REPORT_QUOTA_USAGE
+111	8604.0	REPORT_QUOTA_USAGE
+112	8578.0	REPORT_QUOTA_USAGE
+113	8479.0	REPORT_QUOTA_USAGE
+114	8466.0	REPORT_QUOTA_USAGE
+115	8317.0	REPORT_QUOTA_USAGE
+116	8300.0	REPORT_QUOTA_USAGE
+117	8457.0	REPORT_QUOTA_USAGE
+118	8205.0	REPORT_QUOTA_USAGE
+119	8120.0	REPORT_QUOTA_USAGE
+120	8154.0	REPORT_QUOTA_USAGE
+121	8103.0	REPORT_QUOTA_USAGE
+122	7859.0	REPORT_QUOTA_USAGE
+123	7759.0	REPORT_QUOTA_USAGE
+124	7871.0	REPORT_QUOTA_USAGE
+125	7713.0	REPORT_QUOTA_USAGE
+126	7593.0	REPORT_QUOTA_USAGE
+127	7476.0	REPORT_QUOTA_USAGE
+128	7447.0	REPORT_QUOTA_USAGE
+129	7491.0	REPORT_QUOTA_USAGE
+130	7389.0	REPORT_QUOTA_USAGE
+131	7111.0	REPORT_QUOTA_USAGE
+132	7319.0	REPORT_QUOTA_USAGE
+133	7010.0	REPORT_QUOTA_USAGE
+134	7096.0	REPORT_QUOTA_USAGE
+135	7041.0	REPORT_QUOTA_USAGE
+136	7124.0	REPORT_QUOTA_USAGE
+137	6944.0	REPORT_QUOTA_USAGE
+138	6908.0	REPORT_QUOTA_USAGE
+139	6889.0	REPORT_QUOTA_USAGE
+140	6881.0	REPORT_QUOTA_USAGE
+141	6866.0	REPORT_QUOTA_USAGE
+142	6630.0	REPORT_QUOTA_USAGE
+143	6641.0	REPORT_QUOTA_USAGE
+144	6564.0	REPORT_QUOTA_USAGE
+145	6521.0	REPORT_QUOTA_USAGE
+146	6497.0	REPORT_QUOTA_USAGE
+147	6544.0	REPORT_QUOTA_USAGE
+148	6330.0	REPORT_QUOTA_USAGE
+149	6346.0	REPORT_QUOTA_USAGE
+150	6308.0	REPORT_QUOTA_USAGE
+151	6227.0	REPORT_QUOTA_USAGE
+152	6189.0	REPORT_QUOTA_USAGE
+153	6006.0	REPORT_QUOTA_USAGE
+154	5996.0	REPORT_QUOTA_USAGE
+155	6106.0	REPORT_QUOTA_USAGE
+156	5922.0	REPORT_QUOTA_USAGE
+157	5934.0	REPORT_QUOTA_USAGE
+158	5831.0	REPORT_QUOTA_USAGE
+159	5729.0	REPORT_QUOTA_USAGE
+160	5907.0	REPORT_QUOTA_USAGE
+161	5745.0	REPORT_QUOTA_USAGE
+162	5760.0	REPORT_QUOTA_USAGE
+163	5684.0	REPORT_QUOTA_USAGE
+164	5583.0	REPORT_QUOTA_USAGE
+165	5660.0	REPORT_QUOTA_USAGE
+166	5493.0	REPORT_QUOTA_USAGE
+167	5378.0	REPORT_QUOTA_USAGE
+168	5336.0	REPORT_QUOTA_USAGE
+169	5265.0	REPORT_QUOTA_USAGE
+170	5338.0	REPORT_QUOTA_USAGE
+171	5378.0	REPORT_QUOTA_USAGE
+172	5312.0	REPORT_QUOTA_USAGE
+173	5315.0	REPORT_QUOTA_USAGE
+174	5129.0	REPORT_QUOTA_USAGE
+175	5047.0	REPORT_QUOTA_USAGE
+176	5095.0	REPORT_QUOTA_USAGE
+177	5009.0	REPORT_QUOTA_USAGE
+178	5092.0	REPORT_QUOTA_USAGE
+179	5135.0	REPORT_QUOTA_USAGE
+180	4853.0	REPORT_QUOTA_USAGE
+181	4972.0	REPORT_QUOTA_USAGE
+182	4851.0	REPORT_QUOTA_USAGE
+183	4755.0	REPORT_QUOTA_USAGE
+184	4744.0	REPORT_QUOTA_USAGE
+185	4792.0	REPORT_QUOTA_USAGE
+186	4752.0	REPORT_QUOTA_USAGE
+187	4698.0	REPORT_QUOTA_USAGE
+188	4542.0	REPORT_QUOTA_USAGE
+189	4604.0	REPORT_QUOTA_USAGE
+190	4674.0	REPORT_QUOTA_USAGE
+191	4631.0	REPORT_QUOTA_USAGE
+192	4449.0	REPORT_QUOTA_USAGE
+193	4491.0	REPORT_QUOTA_USAGE
+194	4530.0	REPORT_QUOTA_USAGE
+195	4449.0	REPORT_QUOTA_USAGE
+196	4436.0	REPORT_QUOTA_USAGE
+197	4293.0	REPORT_QUOTA_USAGE
+198	4252.0	REPORT_QUOTA_USAGE
+199	4273.0	REPORT_QUOTA_USAGE
+200	4196.0	REPORT_QUOTA_USAGE
+201	4171.0	REPORT_QUOTA_USAGE
+202	4132.0	REPORT_QUOTA_USAGE
+203	4319.0	REPORT_QUOTA_USAGE
+204	4034.0	REPORT_QUOTA_USAGE
+205	4100.0	REPORT_QUOTA_USAGE
+206	4086.0	REPORT_QUOTA_USAGE
+207	4114.0	REPORT_QUOTA_USAGE
+208	3916.0	REPORT_QUOTA_USAGE
+209	3961.0	REPORT_QUOTA_USAGE
+210	3887.0	REPORT_QUOTA_USAGE
+211	3880.0	REPORT_QUOTA_USAGE
+212	3961.0	REPORT_QUOTA_USAGE
+213	3892.0	REPORT_QUOTA_USAGE
+214	3851.0	REPORT_QUOTA_USAGE
+215	3936.0	REPORT_QUOTA_USAGE
+216	3735.0	REPORT_QUOTA_USAGE
+217	3760.0	REPORT_QUOTA_USAGE
+218	3713.0	REPORT_QUOTA_USAGE
+219	3723.0	REPORT_QUOTA_USAGE
+220	3719.0	REPORT_QUOTA_USAGE
+221	3522.0	REPORT_QUOTA_USAGE
+222	3651.0	REPORT_QUOTA_USAGE
+223	3597.0	REPORT_QUOTA_USAGE
+224	3629.0	REPORT_QUOTA_USAGE
+225	3505.0	REPORT_QUOTA_USAGE
+226	3450.0	REPORT_QUOTA_USAGE
+227	3379.0	REPORT_QUOTA_USAGE
+228	3418.0	REPORT_QUOTA_USAGE
+229	3480.0	REPORT_QUOTA_USAGE
+230	3293.0	REPORT_QUOTA_USAGE
+231	3325.0	REPORT_QUOTA_USAGE
+232	3254.0	REPORT_QUOTA_USAGE
+233	3310.0	REPORT_QUOTA_USAGE
+234	3102.0	REPORT_QUOTA_USAGE
+235	3181.0	REPORT_QUOTA_USAGE
+236	3199.0	REPORT_QUOTA_USAGE
+237	3149.0	REPORT_QUOTA_USAGE
+238	3068.0	REPORT_QUOTA_USAGE
+239	3153.0	REPORT_QUOTA_USAGE
+240	3111.0	REPORT_QUOTA_USAGE
+241	3025.0	REPORT_QUOTA_USAGE
+242	3049.0	REPORT_QUOTA_USAGE
+243	3028.0	REPORT_QUOTA_USAGE
+244	3046.0	REPORT_QUOTA_USAGE
+245	2908.0	REPORT_QUOTA_USAGE
+246	2841.0	REPORT_QUOTA_USAGE
+247	2978.0	REPORT_QUOTA_USAGE
+248	2830.0	REPORT_QUOTA_USAGE
+249	2882.0	REPORT_QUOTA_USAGE
+250	2853.0	REPORT_QUOTA_USAGE
+251	2882.0	REPORT_QUOTA_USAGE
+252	2760.0	REPORT_QUOTA_USAGE
+253	2788.0	REPORT_QUOTA_USAGE
+254	2830.0	REPORT_QUOTA_USAGE
+255	2745.0	REPORT_QUOTA_USAGE
+256	2809.0	REPORT_QUOTA_USAGE
+257	2757.0	REPORT_QUOTA_USAGE
+258	2642.0	REPORT_QUOTA_USAGE
+259	2631.0	REPORT_QUOTA_USAGE
+260	2568.0	REPORT_QUOTA_USAGE
+261	2603.0	REPORT_QUOTA_USAGE
+262	2641.0	REPORT_QUOTA_USAGE
+263	2670.0	REPORT_QUOTA_USAGE
+264	2531.0	REPORT_QUOTA_USAGE
+265	2584.0	REPORT_QUOTA_USAGE
+266	2524.0	REPORT_QUOTA_USAGE
+267	2573.0	REPORT_QUOTA_USAGE
+268	2599.0	REPORT_QUOTA_USAGE
+269	2456.0	REPORT_QUOTA_USAGE
+270	2346.0	REPORT_QUOTA_USAGE
+271	2425.0	REPORT_QUOTA_USAGE
+272	2382.0	REPORT_QUOTA_USAGE
+273	2393.0	REPORT_QUOTA_USAGE
+274	2313.0	REPORT_QUOTA_USAGE
+275	2316.0	REPORT_QUOTA_USAGE
+276	2328.0	REPORT_QUOTA_USAGE
+277	2274.0	REPORT_QUOTA_USAGE
+278	2284.0	REPORT_QUOTA_USAGE
+279	2233.0	REPORT_QUOTA_USAGE
+280	2228.0	REPORT_QUOTA_USAGE
+281	2244.0	REPORT_QUOTA_USAGE
+282	2178.0	REPORT_QUOTA_USAGE
+283	2171.0	REPORT_QUOTA_USAGE
+284	2156.0	REPORT_QUOTA_USAGE
+285	2180.0	REPORT_QUOTA_USAGE
+286	2111.0	REPORT_QUOTA_USAGE
+287	2070.0	REPORT_QUOTA_USAGE
+288	2069.0	REPORT_QUOTA_USAGE
+289	2061.0	REPORT_QUOTA_USAGE
+290	2018.0	REPORT_QUOTA_USAGE
+291	2000.0	REPORT_QUOTA_USAGE
+292	2032.0	REPORT_QUOTA_USAGE
+293	2035.0	REPORT_QUOTA_USAGE
+294	2080.0	REPORT_QUOTA_USAGE
+295	1953.0	REPORT_QUOTA_USAGE
+296	1963.0	REPORT_QUOTA_USAGE
+297	1883.0	REPORT_QUOTA_USAGE
+298	1939.0	REPORT_QUOTA_USAGE
+299	1857.0	REPORT_QUOTA_USAGE
+300	1854.0	REPORT_QUOTA_USAGE
+301	1924.0	REPORT_QUOTA_USAGE
+302	1863.0	REPORT_QUOTA_USAGE
+303	1828.0	REPORT_QUOTA_USAGE
+304	1798.0	REPORT_QUOTA_USAGE
+305	1810.0	REPORT_QUOTA_USAGE
+306	1783.0	REPORT_QUOTA_USAGE
+307	1750.0	REPORT_QUOTA_USAGE
+308	1764.0	REPORT_QUOTA_USAGE
+309	1722.0	REPORT_QUOTA_USAGE
+310	1663.0	REPORT_QUOTA_USAGE
+311	1756.0	REPORT_QUOTA_USAGE
+312	1713.0	REPORT_QUOTA_USAGE
+313	1711.0	REPORT_QUOTA_USAGE
+314	1743.0	REPORT_QUOTA_USAGE
+315	1669.0	REPORT_QUOTA_USAGE
+316	1705.0	REPORT_QUOTA_USAGE
+317	1648.0	REPORT_QUOTA_USAGE
+318	1621.0	REPORT_QUOTA_USAGE
+319	1580.0	REPORT_QUOTA_USAGE
+320	1600.0	REPORT_QUOTA_USAGE
+321	1566.0	REPORT_QUOTA_USAGE
+322	1573.0	REPORT_QUOTA_USAGE
+323	1598.0	REPORT_QUOTA_USAGE
+324	1565.0	REPORT_QUOTA_USAGE
+325	1558.0	REPORT_QUOTA_USAGE
+326	1498.0	REPORT_QUOTA_USAGE
+327	1469.0	REPORT_QUOTA_USAGE
+328	1469.0	REPORT_QUOTA_USAGE
+329	1465.0	REPORT_QUOTA_USAGE
+330	1444.0	REPORT_QUOTA_USAGE
+331	1461.0	REPORT_QUOTA_USAGE
+332	1497.0	REPORT_QUOTA_USAGE
+333	1474.0	REPORT_QUOTA_USAGE
+334	1357.0	REPORT_QUOTA_USAGE
+335	1338.0	REPORT_QUOTA_USAGE
+336	1426.0	REPORT_QUOTA_USAGE
+337	1366.0	REPORT_QUOTA_USAGE
+338	1345.0	REPORT_QUOTA_USAGE
+339	1340.0	REPORT_QUOTA_USAGE
+340	1337.0	REPORT_QUOTA_USAGE
+341	1359.0	REPORT_QUOTA_USAGE
+342	1357.0	REPORT_QUOTA_USAGE
+343	1357.0	REPORT_QUOTA_USAGE
+344	1291.0	REPORT_QUOTA_USAGE
+345	1323.0	REPORT_QUOTA_USAGE
+346	1259.0	REPORT_QUOTA_USAGE
+347	1326.0	REPORT_QUOTA_USAGE
+348	1283.0	REPORT_QUOTA_USAGE
+349	1250.0	REPORT_QUOTA_USAGE
+350	1221.0	REPORT_QUOTA_USAGE
+351	1318.0	REPORT_QUOTA_USAGE
+352	1256.0	REPORT_QUOTA_USAGE
+353	1262.0	REPORT_QUOTA_USAGE
+354	1174.0	REPORT_QUOTA_USAGE
+355	1145.0	REPORT_QUOTA_USAGE
+356	1144.0	REPORT_QUOTA_USAGE
+357	1115.0	REPORT_QUOTA_USAGE
+358	1141.0	REPORT_QUOTA_USAGE
+359	1186.0	REPORT_QUOTA_USAGE
+360	1137.0	REPORT_QUOTA_USAGE
+361	1109.0	REPORT_QUOTA_USAGE
+362	1152.0	REPORT_QUOTA_USAGE
+363	1107.0	REPORT_QUOTA_USAGE
+364	1141.0	REPORT_QUOTA_USAGE
+365	1047.0	REPORT_QUOTA_USAGE
+366	1044.0	REPORT_QUOTA_USAGE
+367	1088.0	REPORT_QUOTA_USAGE
+368	1081.0	REPORT_QUOTA_USAGE
+369	1065.0	REPORT_QUOTA_USAGE
+370	1070.0	REPORT_QUOTA_USAGE
+371	968.0	REPORT_QUOTA_USAGE
+372	1034.0	REPORT_QUOTA_USAGE
+373	977.0	REPORT_QUOTA_USAGE
+374	950.0	REPORT_QUOTA_USAGE
+375	960.0	REPORT_QUOTA_USAGE
+376	1001.0	REPORT_QUOTA_USAGE
+377	1040.0	REPORT_QUOTA_USAGE
+378	946.0	REPORT_QUOTA_USAGE
+379	963.0	REPORT_QUOTA_USAGE
+380	958.0	REPORT_QUOTA_USAGE
+381	965.0	REPORT_QUOTA_USAGE
+382	986.0	REPORT_QUOTA_USAGE
+383	915.0	REPORT_QUOTA_USAGE
+384	940.0	REPORT_QUOTA_USAGE
+385	891.0	REPORT_QUOTA_USAGE
+386	930.0	REPORT_QUOTA_USAGE
+387	922.0	REPORT_QUOTA_USAGE
+388	913.0	REPORT_QUOTA_USAGE
+389	929.0	REPORT_QUOTA_USAGE
+390	852.0	REPORT_QUOTA_USAGE
+391	901.0	REPORT_QUOTA_USAGE
+392	879.0	REPORT_QUOTA_USAGE
+393	824.0	REPORT_QUOTA_USAGE
+394	828.0	REPORT_QUOTA_USAGE
+395	867.0	REPORT_QUOTA_USAGE
+396	840.0	REPORT_QUOTA_USAGE
+397	783.0	REPORT_QUOTA_USAGE
+398	778.0	REPORT_QUOTA_USAGE
+399	777.0	REPORT_QUOTA_USAGE
+400	779.0	REPORT_QUOTA_USAGE
+401	771.0	REPORT_QUOTA_USAGE
+402	791.0	REPORT_QUOTA_USAGE
+403	768.0	REPORT_QUOTA_USAGE
+404	760.0	REPORT_QUOTA_USAGE
+405	801.0	REPORT_QUOTA_USAGE
+406	745.0	REPORT_QUOTA_USAGE
+407	764.0	REPORT_QUOTA_USAGE
+408	699.0	REPORT_QUOTA_USAGE
+409	793.0	REPORT_QUOTA_USAGE
+410	747.0	REPORT_QUOTA_USAGE
+411	692.0	REPORT_QUOTA_USAGE
+412	710.0	REPORT_QUOTA_USAGE
+413	738.0	REPORT_QUOTA_USAGE
+414	714.0	REPORT_QUOTA_USAGE
+415	711.0	REPORT_QUOTA_USAGE
+416	701.0	REPORT_QUOTA_USAGE
+417	659.0	REPORT_QUOTA_USAGE
+418	670.0	REPORT_QUOTA_USAGE
+419	663.0	REPORT_QUOTA_USAGE
+420	694.0	REPORT_QUOTA_USAGE
+421	628.0	REPORT_QUOTA_USAGE
+422	631.0	REPORT_QUOTA_USAGE
+423	652.0	REPORT_QUOTA_USAGE
+424	669.0	REPORT_QUOTA_USAGE
+425	619.0	REPORT_QUOTA_USAGE
+426	673.0	REPORT_QUOTA_USAGE
+427	651.0	REPORT_QUOTA_USAGE
+428	607.0	REPORT_QUOTA_USAGE
+429	616.0	REPORT_QUOTA_USAGE
+430	658.0	REPORT_QUOTA_USAGE
+431	599.0	REPORT_QUOTA_USAGE
+432	625.0	REPORT_QUOTA_USAGE
+433	593.0	REPORT_QUOTA_USAGE
+434	549.0	REPORT_QUOTA_USAGE
+435	544.0	REPORT_QUOTA_USAGE
+436	569.0	REPORT_QUOTA_USAGE
+437	605.0	REPORT_QUOTA_USAGE
+438	565.0	REPORT_QUOTA_USAGE
+439	528.0	REPORT_QUOTA_USAGE
+440	574.0	REPORT_QUOTA_USAGE
+441	511.0	REPORT_QUOTA_USAGE
+442	537.0	REPORT_QUOTA_USAGE
+443	526.0	REPORT_QUOTA_USAGE
+444	526.0	REPORT_QUOTA_USAGE
+445	502.0	REPORT_QUOTA_USAGE
+446	491.0	REPORT_QUOTA_USAGE
+447	495.0	REPORT_QUOTA_USAGE
+448	532.0	REPORT_QUOTA_USAGE
+449	487.0	REPORT_QUOTA_USAGE
+450	494.0	REPORT_QUOTA_USAGE
+451	506.0	REPORT_QUOTA_USAGE
+452	476.0	REPORT_QUOTA_USAGE
+453	487.0	REPORT_QUOTA_USAGE
+454	459.0	REPORT_QUOTA_USAGE
+455	449.0	REPORT_QUOTA_USAGE
+456	510.0	REPORT_QUOTA_USAGE
+457	478.0	REPORT_QUOTA_USAGE
+458	427.0	REPORT_QUOTA_USAGE
+459	454.0	REPORT_QUOTA_USAGE
+460	408.0	REPORT_QUOTA_USAGE
+461	436.0	REPORT_QUOTA_USAGE
+462	479.0	REPORT_QUOTA_USAGE
+463	450.0	REPORT_QUOTA_USAGE
+464	403.0	REPORT_QUOTA_USAGE
+465	400.0	REPORT_QUOTA_USAGE
+466	410.0	REPORT_QUOTA_USAGE
+467	380.0	REPORT_QUOTA_USAGE
+468	397.0	REPORT_QUOTA_USAGE
+469	387.0	REPORT_QUOTA_USAGE
+470	388.0	REPORT_QUOTA_USAGE
+471	409.0	REPORT_QUOTA_USAGE
+472	385.0	REPORT_QUOTA_USAGE
+473	384.0	REPORT_QUOTA_USAGE
+474	349.0	REPORT_QUOTA_USAGE
+475	368.0	REPORT_QUOTA_USAGE
+476	336.0	REPORT_QUOTA_USAGE
+477	359.0	REPORT_QUOTA_USAGE
+478	366.0	REPORT_QUOTA_USAGE
+479	316.0	REPORT_QUOTA_USAGE
+480	356.0	REPORT_QUOTA_USAGE
+481	343.0	REPORT_QUOTA_USAGE
+482	324.0	REPORT_QUOTA_USAGE
+483	334.0	REPORT_QUOTA_USAGE
+484	308.0	REPORT_QUOTA_USAGE
+485	312.0	REPORT_QUOTA_USAGE
+486	327.0	REPORT_QUOTA_USAGE
+487	336.0	REPORT_QUOTA_USAGE
+488	318.0	REPORT_QUOTA_USAGE
+489	329.0	REPORT_QUOTA_USAGE
+490	299.0	REPORT_QUOTA_USAGE
+491	289.0	REPORT_QUOTA_USAGE
+492	319.0	REPORT_QUOTA_USAGE
+493	305.0	REPORT_QUOTA_USAGE
+494	279.0	REPORT_QUOTA_USAGE
+495	287.0	REPORT_QUOTA_USAGE
+496	265.0	REPORT_QUOTA_USAGE
+497	272.0	REPORT_QUOTA_USAGE
+498	249.0	REPORT_QUOTA_USAGE
+499	286.0	REPORT_QUOTA_USAGE
+500	264.0	REPORT_QUOTA_USAGE
+501	269.0	REPORT_QUOTA_USAGE
+502	292.0	REPORT_QUOTA_USAGE
+503	270.0	REPORT_QUOTA_USAGE
+504	273.0	REPORT_QUOTA_USAGE
+505	242.0	REPORT_QUOTA_USAGE
+506	234.0	REPORT_QUOTA_USAGE
+507	249.0	REPORT_QUOTA_USAGE
+508	271.0	REPORT_QUOTA_USAGE
+509	281.0	REPORT_QUOTA_USAGE
+510	238.0	REPORT_QUOTA_USAGE
+511	244.0	REPORT_QUOTA_USAGE
+512	220.0	REPORT_QUOTA_USAGE
+513	222.0	REPORT_QUOTA_USAGE
+514	240.0	REPORT_QUOTA_USAGE
+515	249.0	REPORT_QUOTA_USAGE
+516	229.0	REPORT_QUOTA_USAGE
+517	213.0	REPORT_QUOTA_USAGE
+518	235.0	REPORT_QUOTA_USAGE
+519	222.0	REPORT_QUOTA_USAGE
+520	201.0	REPORT_QUOTA_USAGE
+521	209.0	REPORT_QUOTA_USAGE
+522	218.0	REPORT_QUOTA_USAGE
+523	202.0	REPORT_QUOTA_USAGE
+524	204.0	REPORT_QUOTA_USAGE
+525	209.0	REPORT_QUOTA_USAGE
+526	196.0	REPORT_QUOTA_USAGE
+527	200.0	REPORT_QUOTA_USAGE
+528	201.0	REPORT_QUOTA_USAGE
+529	207.0	REPORT_QUOTA_USAGE
+530	193.0	REPORT_QUOTA_USAGE
+531	190.0	REPORT_QUOTA_USAGE
+532	193.0	REPORT_QUOTA_USAGE
+533	192.0	REPORT_QUOTA_USAGE
+534	189.0	REPORT_QUOTA_USAGE
+535	184.0	REPORT_QUOTA_USAGE
+536	178.0	REPORT_QUOTA_USAGE
+537	169.0	REPORT_QUOTA_USAGE
+538	174.0	REPORT_QUOTA_USAGE
+539	142.0	REPORT_QUOTA_USAGE
+540	156.0	REPORT_QUOTA_USAGE
+541	168.0	REPORT_QUOTA_USAGE
+542	146.0	REPORT_QUOTA_USAGE
+543	188.0	REPORT_QUOTA_USAGE
+544	146.0	REPORT_QUOTA_USAGE
+545	147.0	REPORT_QUOTA_USAGE
+546	169.0	REPORT_QUOTA_USAGE
+547	139.0	REPORT_QUOTA_USAGE
+548	158.0	REPORT_QUOTA_USAGE
+549	146.0	REPORT_QUOTA_USAGE
+550	139.0	REPORT_QUOTA_USAGE
+551	147.0	REPORT_QUOTA_USAGE
+552	120.0	REPORT_QUOTA_USAGE
+553	140.0	REPORT_QUOTA_USAGE
+554	143.0	REPORT_QUOTA_USAGE
+555	124.0	REPORT_QUOTA_USAGE
+556	138.0	REPORT_QUOTA_USAGE
+557	109.0	REPORT_QUOTA_USAGE
+558	127.0	REPORT_QUOTA_USAGE
+559	107.0	REPORT_QUOTA_USAGE
+560	113.0	REPORT_QUOTA_USAGE
+561	143.0	REPORT_QUOTA_USAGE
+562	118.0	REPORT_QUOTA_USAGE
+563	117.0	REPORT_QUOTA_USAGE
+564	141.0	REPORT_QUOTA_USAGE
+565	117.0	REPORT_QUOTA_USAGE
+566	120.0	REPORT_QUOTA_USAGE
+567	112.0	REPORT_QUOTA_USAGE
+568	94.0	REPORT_QUOTA_USAGE
+569	116.0	REPORT_QUOTA_USAGE
+570	103.0	REPORT_QUOTA_USAGE
+571	106.0	REPORT_QUOTA_USAGE
+572	98.0	REPORT_QUOTA_USAGE
+573	120.0	REPORT_QUOTA_USAGE
+574	94.0	REPORT_QUOTA_USAGE
+575	97.0	REPORT_QUOTA_USAGE
+576	106.0	REPORT_QUOTA_USAGE
+577	94.0	REPORT_QUOTA_USAGE
+578	90.0	REPORT_QUOTA_USAGE
+579	86.0	REPORT_QUOTA_USAGE
+580	93.0	REPORT_QUOTA_USAGE
+581	85.0	REPORT_QUOTA_USAGE
+582	93.0	REPORT_QUOTA_USAGE
+583	82.0	REPORT_QUOTA_USAGE
+584	103.0	REPORT_QUOTA_USAGE
+585	82.0	REPORT_QUOTA_USAGE
+586	76.0	REPORT_QUOTA_USAGE
+587	86.0	REPORT_QUOTA_USAGE
+588	68.0	REPORT_QUOTA_USAGE
+589	76.0	REPORT_QUOTA_USAGE
+590	82.0	REPORT_QUOTA_USAGE
+591	75.0	REPORT_QUOTA_USAGE
+592	68.0	REPORT_QUOTA_USAGE
+593	68.0	REPORT_QUOTA_USAGE
+594	82.0	REPORT_QUOTA_USAGE
+595	83.0	REPORT_QUOTA_USAGE
+596	64.0	REPORT_QUOTA_USAGE
+597	76.0	REPORT_QUOTA_USAGE
+598	69.0	REPORT_QUOTA_USAGE
+599	75.0	REPORT_QUOTA_USAGE
+600	75.0	REPORT_QUOTA_USAGE
+601	63.0	REPORT_QUOTA_USAGE
+602	48.0	REPORT_QUOTA_USAGE
+603	63.0	REPORT_QUOTA_USAGE
+604	77.0	REPORT_QUOTA_USAGE
+605	57.0	REPORT_QUOTA_USAGE
+606	68.0	REPORT_QUOTA_USAGE
+607	61.0	REPORT_QUOTA_USAGE
+608	65.0	REPORT_QUOTA_USAGE
+609	69.0	REPORT_QUOTA_USAGE
+610	52.0	REPORT_QUOTA_USAGE
+611	62.0	REPORT_QUOTA_USAGE
+612	51.0	REPORT_QUOTA_USAGE
+613	69.0	REPORT_QUOTA_USAGE
+614	58.0	REPORT_QUOTA_USAGE
+615	39.0	REPORT_QUOTA_USAGE
+616	46.0	REPORT_QUOTA_USAGE
+617	56.0	REPORT_QUOTA_USAGE
+618	74.0	REPORT_QUOTA_USAGE
+619	56.0	REPORT_QUOTA_USAGE
+620	51.0	REPORT_QUOTA_USAGE
+621	56.0	REPORT_QUOTA_USAGE
+622	54.0	REPORT_QUOTA_USAGE
+623	40.0	REPORT_QUOTA_USAGE
+624	48.0	REPORT_QUOTA_USAGE
+625	44.0	REPORT_QUOTA_USAGE
+626	44.0	REPORT_QUOTA_USAGE
+627	39.0	REPORT_QUOTA_USAGE
+628	45.0	REPORT_QUOTA_USAGE
+629	47.0	REPORT_QUOTA_USAGE
+630	39.0	REPORT_QUOTA_USAGE
+631	31.0	REPORT_QUOTA_USAGE
+632	41.0	REPORT_QUOTA_USAGE
+633	44.0	REPORT_QUOTA_USAGE
+634	45.0	REPORT_QUOTA_USAGE
+635	37.0	REPORT_QUOTA_USAGE
+636	27.0	REPORT_QUOTA_USAGE
+637	38.0	REPORT_QUOTA_USAGE
+638	37.0	REPORT_QUOTA_USAGE
+639	37.0	REPORT_QUOTA_USAGE
+640	43.0	REPORT_QUOTA_USAGE
+641	35.0	REPORT_QUOTA_USAGE
+642	31.0	REPORT_QUOTA_USAGE
+643	36.0	REPORT_QUOTA_USAGE
+644	43.0	REPORT_QUOTA_USAGE
+645	32.0	REPORT_QUOTA_USAGE
+646	28.0	REPORT_QUOTA_USAGE
+647	38.0	REPORT_QUOTA_USAGE
+648	33.0	REPORT_QUOTA_USAGE
+649	38.0	REPORT_QUOTA_USAGE
+650	30.0	REPORT_QUOTA_USAGE
+651	26.0	REPORT_QUOTA_USAGE
+652	35.0	REPORT_QUOTA_USAGE
+653	28.0	REPORT_QUOTA_USAGE
+654	35.0	REPORT_QUOTA_USAGE
+655	28.0	REPORT_QUOTA_USAGE
+656	29.0	REPORT_QUOTA_USAGE
+657	25.0	REPORT_QUOTA_USAGE
+658	24.0	REPORT_QUOTA_USAGE
+659	27.0	REPORT_QUOTA_USAGE
+660	31.0	REPORT_QUOTA_USAGE
+661	27.0	REPORT_QUOTA_USAGE
+662	22.0	REPORT_QUOTA_USAGE
+663	37.0	REPORT_QUOTA_USAGE
+664	22.0	REPORT_QUOTA_USAGE
+665	19.0	REPORT_QUOTA_USAGE
+666	22.0	REPORT_QUOTA_USAGE
+667	30.0	REPORT_QUOTA_USAGE
+668	29.0	REPORT_QUOTA_USAGE
+669	26.0	REPORT_QUOTA_USAGE
+670	29.0	REPORT_QUOTA_USAGE
+671	24.0	REPORT_QUOTA_USAGE
+672	21.0	REPORT_QUOTA_USAGE
+673	20.0	REPORT_QUOTA_USAGE
+674	16.0	REPORT_QUOTA_USAGE
+675	27.0	REPORT_QUOTA_USAGE
+676	19.0	REPORT_QUOTA_USAGE
+677	20.0	REPORT_QUOTA_USAGE
+678	22.0	REPORT_QUOTA_USAGE
+679	27.0	REPORT_QUOTA_USAGE
+680	20.0	REPORT_QUOTA_USAGE
+681	17.0	REPORT_QUOTA_USAGE
+682	17.0	REPORT_QUOTA_USAGE
+683	20.0	REPORT_QUOTA_USAGE
+684	15.0	REPORT_QUOTA_USAGE
+685	16.0	REPORT_QUOTA_USAGE
+686	17.0	REPORT_QUOTA_USAGE
+687	20.0	REPORT_QUOTA_USAGE
+688	23.0	REPORT_QUOTA_USAGE
+689	4.0	REPORT_QUOTA_USAGE
+690	17.0	REPORT_QUOTA_USAGE
+691	21.0	REPORT_QUOTA_USAGE
+692	18.0	REPORT_QUOTA_USAGE
+693	17.0	REPORT_QUOTA_USAGE
+694	15.0	REPORT_QUOTA_USAGE
+695	16.0	REPORT_QUOTA_USAGE
+696	17.0	REPORT_QUOTA_USAGE
+697	12.0	REPORT_QUOTA_USAGE
+698	19.0	REPORT_QUOTA_USAGE
+699	17.0	REPORT_QUOTA_USAGE
+700	17.0	REPORT_QUOTA_USAGE
+701	18.0	REPORT_QUOTA_USAGE
+702	22.0	REPORT_QUOTA_USAGE
+703	14.0	REPORT_QUOTA_USAGE
+704	16.0	REPORT_QUOTA_USAGE
+705	14.0	REPORT_QUOTA_USAGE
+706	18.0	REPORT_QUOTA_USAGE
+707	10.0	REPORT_QUOTA_USAGE
+708	16.0	REPORT_QUOTA_USAGE
+709	18.0	REPORT_QUOTA_USAGE
+710	11.0	REPORT_QUOTA_USAGE
+711	12.0	REPORT_QUOTA_USAGE
+712	11.0	REPORT_QUOTA_USAGE
+713	12.0	REPORT_QUOTA_USAGE
+714	18.0	REPORT_QUOTA_USAGE
+715	13.0	REPORT_QUOTA_USAGE
+716	10.0	REPORT_QUOTA_USAGE
+717	10.0	REPORT_QUOTA_USAGE
+718	17.0	REPORT_QUOTA_USAGE
+719	9.0	REPORT_QUOTA_USAGE
+720	13.0	REPORT_QUOTA_USAGE
+721	5.0	REPORT_QUOTA_USAGE
+722	10.0	REPORT_QUOTA_USAGE
+723	17.0	REPORT_QUOTA_USAGE
+724	4.0	REPORT_QUOTA_USAGE
+725	12.0	REPORT_QUOTA_USAGE
+726	13.0	REPORT_QUOTA_USAGE
+727	9.0	REPORT_QUOTA_USAGE
+728	6.0	REPORT_QUOTA_USAGE
+729	3.0	REPORT_QUOTA_USAGE
+730	14.0	REPORT_QUOTA_USAGE
+731	10.0	REPORT_QUOTA_USAGE
+732	5.0	REPORT_QUOTA_USAGE
+733	5.0	REPORT_QUOTA_USAGE
+734	6.0	REPORT_QUOTA_USAGE
+735	11.0	REPORT_QUOTA_USAGE
+736	8.0	REPORT_QUOTA_USAGE
+737	11.0	REPORT_QUOTA_USAGE
+738	11.0	REPORT_QUOTA_USAGE
+739	11.0	REPORT_QUOTA_USAGE
+740	14.0	REPORT_QUOTA_USAGE
+741	5.0	REPORT_QUOTA_USAGE
+742	9.0	REPORT_QUOTA_USAGE
+743	9.0	REPORT_QUOTA_USAGE
+744	9.0	REPORT_QUOTA_USAGE
+745	12.0	REPORT_QUOTA_USAGE
+746	9.0	REPORT_QUOTA_USAGE
+747	12.0	REPORT_QUOTA_USAGE
+748	6.0	REPORT_QUOTA_USAGE
+749	8.0	REPORT_QUOTA_USAGE
+750	10.0	REPORT_QUOTA_USAGE
+751	9.0	REPORT_QUOTA_USAGE
+752	5.0	REPORT_QUOTA_USAGE
+753	4.0	REPORT_QUOTA_USAGE
+754	7.0	REPORT_QUOTA_USAGE
+755	10.0	REPORT_QUOTA_USAGE
+756	7.0	REPORT_QUOTA_USAGE
+757	5.0	REPORT_QUOTA_USAGE
+758	11.0	REPORT_QUOTA_USAGE
+759	8.0	REPORT_QUOTA_USAGE
+760	11.0	REPORT_QUOTA_USAGE
+761	2.0	REPORT_QUOTA_USAGE
+762	4.0	REPORT_QUOTA_USAGE
+763	5.0	REPORT_QUOTA_USAGE
+764	2.0	REPORT_QUOTA_USAGE
+765	4.0	REPORT_QUOTA_USAGE
+766	4.0	REPORT_QUOTA_USAGE
+767	5.0	REPORT_QUOTA_USAGE
+768	7.0	REPORT_QUOTA_USAGE
+769	6.0	REPORT_QUOTA_USAGE
+770	5.0	REPORT_QUOTA_USAGE
+771	1.0	REPORT_QUOTA_USAGE
+772	4.0	REPORT_QUOTA_USAGE
+773	6.0	REPORT_QUOTA_USAGE
+774	9.0	REPORT_QUOTA_USAGE
+775	3.0	REPORT_QUOTA_USAGE
+776	5.0	REPORT_QUOTA_USAGE
+777	3.0	REPORT_QUOTA_USAGE
+778	2.0	REPORT_QUOTA_USAGE
+779	4.0	REPORT_QUOTA_USAGE
+780	3.0	REPORT_QUOTA_USAGE
+781	3.0	REPORT_QUOTA_USAGE
+782	4.0	REPORT_QUOTA_USAGE
+783	4.0	REPORT_QUOTA_USAGE
+784	2.0	REPORT_QUOTA_USAGE
+785	1.0	REPORT_QUOTA_USAGE
+786	1.0	REPORT_QUOTA_USAGE
+787	1.0	REPORT_QUOTA_USAGE
+788	3.0	REPORT_QUOTA_USAGE
+789	2.0	REPORT_QUOTA_USAGE
+790	5.0	REPORT_QUOTA_USAGE
+791	4.0	REPORT_QUOTA_USAGE
+792	3.0	REPORT_QUOTA_USAGE
+794	8.0	REPORT_QUOTA_USAGE
+795	8.0	REPORT_QUOTA_USAGE
+796	4.0	REPORT_QUOTA_USAGE
+797	4.0	REPORT_QUOTA_USAGE
+798	3.0	REPORT_QUOTA_USAGE
+799	5.0	REPORT_QUOTA_USAGE
+800	5.0	REPORT_QUOTA_USAGE
+801	6.0	REPORT_QUOTA_USAGE
+802	3.0	REPORT_QUOTA_USAGE
+803	2.0	REPORT_QUOTA_USAGE
+804	7.0	REPORT_QUOTA_USAGE
+805	5.0	REPORT_QUOTA_USAGE
+806	4.0	REPORT_QUOTA_USAGE
+807	3.0	REPORT_QUOTA_USAGE
+808	3.0	REPORT_QUOTA_USAGE
+809	4.0	REPORT_QUOTA_USAGE
+810	4.0	REPORT_QUOTA_USAGE
+811	3.0	REPORT_QUOTA_USAGE
+812	4.0	REPORT_QUOTA_USAGE
+813	1.0	REPORT_QUOTA_USAGE
+814	2.0	REPORT_QUOTA_USAGE
+815	1.0	REPORT_QUOTA_USAGE
+816	6.0	REPORT_QUOTA_USAGE
+817	3.0	REPORT_QUOTA_USAGE
+818	2.0	REPORT_QUOTA_USAGE
+819	9.0	REPORT_QUOTA_USAGE
+820	1.0	REPORT_QUOTA_USAGE
+821	2.0	REPORT_QUOTA_USAGE
+822	3.0	REPORT_QUOTA_USAGE
+823	3.0	REPORT_QUOTA_USAGE
+824	8.0	REPORT_QUOTA_USAGE
+825	2.0	REPORT_QUOTA_USAGE
+826	5.0	REPORT_QUOTA_USAGE
+827	3.0	REPORT_QUOTA_USAGE
+828	1.0	REPORT_QUOTA_USAGE
+829	2.0	REPORT_QUOTA_USAGE
+831	4.0	REPORT_QUOTA_USAGE
+832	6.0	REPORT_QUOTA_USAGE
+833	2.0	REPORT_QUOTA_USAGE
+834	3.0	REPORT_QUOTA_USAGE
+835	4.0	REPORT_QUOTA_USAGE
+836	3.0	REPORT_QUOTA_USAGE
+837	5.0	REPORT_QUOTA_USAGE
+838	2.0	REPORT_QUOTA_USAGE
+839	1.0	REPORT_QUOTA_USAGE
+841	3.0	REPORT_QUOTA_USAGE
+842	2.0	REPORT_QUOTA_USAGE
+843	4.0	REPORT_QUOTA_USAGE
+844	5.0	REPORT_QUOTA_USAGE
+845	2.0	REPORT_QUOTA_USAGE
+847	1.0	REPORT_QUOTA_USAGE
+848	4.0	REPORT_QUOTA_USAGE
+849	3.0	REPORT_QUOTA_USAGE
+850	2.0	REPORT_QUOTA_USAGE
+851	1.0	REPORT_QUOTA_USAGE
+852	2.0	REPORT_QUOTA_USAGE
+853	2.0	REPORT_QUOTA_USAGE
+854	2.0	REPORT_QUOTA_USAGE
+855	3.0	REPORT_QUOTA_USAGE
+856	3.0	REPORT_QUOTA_USAGE
+857	2.0	REPORT_QUOTA_USAGE
+858	2.0	REPORT_QUOTA_USAGE
+859	2.0	REPORT_QUOTA_USAGE
+860	3.0	REPORT_QUOTA_USAGE
+861	2.0	REPORT_QUOTA_USAGE
+862	3.0	REPORT_QUOTA_USAGE
+863	4.0	REPORT_QUOTA_USAGE
+864	3.0	REPORT_QUOTA_USAGE
+865	2.0	REPORT_QUOTA_USAGE
+866	3.0	REPORT_QUOTA_USAGE
+869	2.0	REPORT_QUOTA_USAGE
+870	1.0	REPORT_QUOTA_USAGE
+872	1.0	REPORT_QUOTA_USAGE
+873	3.0	REPORT_QUOTA_USAGE
+874	1.0	REPORT_QUOTA_USAGE
+875	1.0	REPORT_QUOTA_USAGE
+876	4.0	REPORT_QUOTA_USAGE
+877	4.0	REPORT_QUOTA_USAGE
+878	3.0	REPORT_QUOTA_USAGE
+879	2.0	REPORT_QUOTA_USAGE
+880	2.0	REPORT_QUOTA_USAGE
+881	1.0	REPORT_QUOTA_USAGE
+882	2.0	REPORT_QUOTA_USAGE
+883	1.0	REPORT_QUOTA_USAGE
+884	1.0	REPORT_QUOTA_USAGE
+885	1.0	REPORT_QUOTA_USAGE
+886	1.0	REPORT_QUOTA_USAGE
+888	1.0	REPORT_QUOTA_USAGE
+889	2.0	REPORT_QUOTA_USAGE
+890	3.0	REPORT_QUOTA_USAGE
+891	1.0	REPORT_QUOTA_USAGE
+892	1.0	REPORT_QUOTA_USAGE
+894	2.0	REPORT_QUOTA_USAGE
+895	1.0	REPORT_QUOTA_USAGE
+896	1.0	REPORT_QUOTA_USAGE
+897	1.0	REPORT_QUOTA_USAGE
+898	2.0	REPORT_QUOTA_USAGE
+899	1.0	REPORT_QUOTA_USAGE
+900	1.0	REPORT_QUOTA_USAGE
+901	2.0	REPORT_QUOTA_USAGE
+902	2.0	REPORT_QUOTA_USAGE
+903	2.0	REPORT_QUOTA_USAGE
+904	2.0	REPORT_QUOTA_USAGE
+905	2.0	REPORT_QUOTA_USAGE
+906	1.0	REPORT_QUOTA_USAGE
+909	2.0	REPORT_QUOTA_USAGE
+910	4.0	REPORT_QUOTA_USAGE
+911	3.0	REPORT_QUOTA_USAGE
+912	1.0	REPORT_QUOTA_USAGE
+913	1.0	REPORT_QUOTA_USAGE
+914	1.0	REPORT_QUOTA_USAGE
+915	2.0	REPORT_QUOTA_USAGE
+917	2.0	REPORT_QUOTA_USAGE
+918	2.0	REPORT_QUOTA_USAGE
+919	1.0	REPORT_QUOTA_USAGE
+921	1.0	REPORT_QUOTA_USAGE
+926	1.0	REPORT_QUOTA_USAGE
+927	1.0	REPORT_QUOTA_USAGE
+928	1.0	REPORT_QUOTA_USAGE
+930	1.0	REPORT_QUOTA_USAGE
+931	2.0	REPORT_QUOTA_USAGE
+932	2.0	REPORT_QUOTA_USAGE
+933	2.0	REPORT_QUOTA_USAGE
+934	1.0	REPORT_QUOTA_USAGE
+939	2.0	REPORT_QUOTA_USAGE
+940	1.0	REPORT_QUOTA_USAGE
+942	1.0	REPORT_QUOTA_USAGE
+945	1.0	REPORT_QUOTA_USAGE
+946	2.0	REPORT_QUOTA_USAGE
+949	1.0	REPORT_QUOTA_USAGE
+950	1.0	REPORT_QUOTA_USAGE
+951	1.0	REPORT_QUOTA_USAGE
+952	1.0	REPORT_QUOTA_USAGE
+953	1.0	REPORT_QUOTA_USAGE
+954	1.0	REPORT_QUOTA_USAGE
+955	2.0	REPORT_QUOTA_USAGE
+956	1.0	REPORT_QUOTA_USAGE
+959	1.0	REPORT_QUOTA_USAGE
+961	2.0	REPORT_QUOTA_USAGE
+963	1.0	REPORT_QUOTA_USAGE
+966	1.0	REPORT_QUOTA_USAGE
+968	1.0	REPORT_QUOTA_USAGE
+969	1.0	REPORT_QUOTA_USAGE
+970	2.0	REPORT_QUOTA_USAGE
+972	1.0	REPORT_QUOTA_USAGE
+974	1.0	REPORT_QUOTA_USAGE
+975	1.0	REPORT_QUOTA_USAGE
+977	2.0	REPORT_QUOTA_USAGE
+979	1.0	REPORT_QUOTA_USAGE
+980	1.0	REPORT_QUOTA_USAGE
+981	1.0	REPORT_QUOTA_USAGE
+984	1.0	REPORT_QUOTA_USAGE
+985	1.0	REPORT_QUOTA_USAGE
+988	1.0	REPORT_QUOTA_USAGE
+991	1.0	REPORT_QUOTA_USAGE
+993	1.0	REPORT_QUOTA_USAGE
+994	2.0	REPORT_QUOTA_USAGE
+1002	1.0	REPORT_QUOTA_USAGE
+1004	1.0	REPORT_QUOTA_USAGE
+1015	1.0	REPORT_QUOTA_USAGE
+1017	1.0	REPORT_QUOTA_USAGE
+1020	1.0	REPORT_QUOTA_USAGE
+1031	1.0	REPORT_QUOTA_USAGE
+1038	1.0	REPORT_QUOTA_USAGE
+1054	1.0	REPORT_QUOTA_USAGE
+1059	1.0	REPORT_QUOTA_USAGE
+1078	1.0	REPORT_QUOTA_USAGE
+1081	1.0	REPORT_QUOTA_USAGE
+1099	1.0	REPORT_QUOTA_USAGE
+1128	1.0	REPORT_QUOTA_USAGE
+1176	1.0	REPORT_QUOTA_USAGE
+1212	2.0	REPORT_QUOTA_USAGE
+1223	1.0	REPORT_QUOTA_USAGE
+1225	1.0	REPORT_QUOTA_USAGE
+1234	2.0	REPORT_QUOTA_USAGE
+1272	1.0	REPORT_QUOTA_USAGE
+1276	1.0	REPORT_QUOTA_USAGE
+1290	2.0	REPORT_QUOTA_USAGE
+1300	1.0	REPORT_QUOTA_USAGE
+1390	1.0	REPORT_QUOTA_USAGE
+, ADD_CREDIT=ADD_CREDIT 
+ Reports=           67990 Average=             132, Total=       8,977,469, 50%=              98, 95%=             354, 99%=             485, 99.5%=             533, 99.95%=             675, Max=             872
+7	3.0	ADD_CREDIT
+8	5.0	ADD_CREDIT
+9	2.0	ADD_CREDIT
+10	18.0	ADD_CREDIT
+11	31.0	ADD_CREDIT
+12	35.0	ADD_CREDIT
+13	57.0	ADD_CREDIT
+14	59.0	ADD_CREDIT
+15	94.0	ADD_CREDIT
+16	93.0	ADD_CREDIT
+17	120.0	ADD_CREDIT
+18	137.0	ADD_CREDIT
+19	144.0	ADD_CREDIT
+20	185.0	ADD_CREDIT
+21	200.0	ADD_CREDIT
+22	237.0	ADD_CREDIT
+23	257.0	ADD_CREDIT
+24	289.0	ADD_CREDIT
+25	342.0	ADD_CREDIT
+26	365.0	ADD_CREDIT
+27	384.0	ADD_CREDIT
+28	425.0	ADD_CREDIT
+29	494.0	ADD_CREDIT
+30	467.0	ADD_CREDIT
+31	510.0	ADD_CREDIT
+32	552.0	ADD_CREDIT
+33	562.0	ADD_CREDIT
+34	592.0	ADD_CREDIT
+35	642.0	ADD_CREDIT
+36	609.0	ADD_CREDIT
+37	656.0	ADD_CREDIT
+38	677.0	ADD_CREDIT
+39	660.0	ADD_CREDIT
+40	619.0	ADD_CREDIT
+41	650.0	ADD_CREDIT
+42	672.0	ADD_CREDIT
+43	638.0	ADD_CREDIT
+44	645.0	ADD_CREDIT
+45	652.0	ADD_CREDIT
+46	568.0	ADD_CREDIT
+47	594.0	ADD_CREDIT
+48	604.0	ADD_CREDIT
+49	564.0	ADD_CREDIT
+50	532.0	ADD_CREDIT
+51	562.0	ADD_CREDIT
+52	485.0	ADD_CREDIT
+53	476.0	ADD_CREDIT
+54	480.0	ADD_CREDIT
+55	457.0	ADD_CREDIT
+56	461.0	ADD_CREDIT
+57	421.0	ADD_CREDIT
+58	436.0	ADD_CREDIT
+59	382.0	ADD_CREDIT
+60	390.0	ADD_CREDIT
+61	413.0	ADD_CREDIT
+62	382.0	ADD_CREDIT
+63	379.0	ADD_CREDIT
+64	357.0	ADD_CREDIT
+65	402.0	ADD_CREDIT
+66	391.0	ADD_CREDIT
+67	403.0	ADD_CREDIT
+68	370.0	ADD_CREDIT
+69	357.0	ADD_CREDIT
+70	360.0	ADD_CREDIT
+71	352.0	ADD_CREDIT
+72	333.0	ADD_CREDIT
+73	369.0	ADD_CREDIT
+74	345.0	ADD_CREDIT
+75	350.0	ADD_CREDIT
+76	364.0	ADD_CREDIT
+77	348.0	ADD_CREDIT
+78	356.0	ADD_CREDIT
+79	316.0	ADD_CREDIT
+80	342.0	ADD_CREDIT
+81	341.0	ADD_CREDIT
+82	306.0	ADD_CREDIT
+83	358.0	ADD_CREDIT
+84	329.0	ADD_CREDIT
+85	313.0	ADD_CREDIT
+86	290.0	ADD_CREDIT
+87	344.0	ADD_CREDIT
+88	298.0	ADD_CREDIT
+89	309.0	ADD_CREDIT
+90	346.0	ADD_CREDIT
+91	300.0	ADD_CREDIT
+92	319.0	ADD_CREDIT
+93	307.0	ADD_CREDIT
+94	290.0	ADD_CREDIT
+95	284.0	ADD_CREDIT
+96	299.0	ADD_CREDIT
+97	318.0	ADD_CREDIT
+98	273.0	ADD_CREDIT
+99	267.0	ADD_CREDIT
+100	284.0	ADD_CREDIT
+101	268.0	ADD_CREDIT
+102	267.0	ADD_CREDIT
+103	259.0	ADD_CREDIT
+104	285.0	ADD_CREDIT
+105	264.0	ADD_CREDIT
+106	295.0	ADD_CREDIT
+107	235.0	ADD_CREDIT
+108	254.0	ADD_CREDIT
+109	239.0	ADD_CREDIT
+110	233.0	ADD_CREDIT
+111	260.0	ADD_CREDIT
+112	280.0	ADD_CREDIT
+113	244.0	ADD_CREDIT
+114	268.0	ADD_CREDIT
+115	223.0	ADD_CREDIT
+116	249.0	ADD_CREDIT
+117	229.0	ADD_CREDIT
+118	248.0	ADD_CREDIT
+119	273.0	ADD_CREDIT
+120	264.0	ADD_CREDIT
+121	255.0	ADD_CREDIT
+122	246.0	ADD_CREDIT
+123	236.0	ADD_CREDIT
+124	249.0	ADD_CREDIT
+125	214.0	ADD_CREDIT
+126	241.0	ADD_CREDIT
+127	214.0	ADD_CREDIT
+128	234.0	ADD_CREDIT
+129	223.0	ADD_CREDIT
+130	240.0	ADD_CREDIT
+131	245.0	ADD_CREDIT
+132	200.0	ADD_CREDIT
+133	202.0	ADD_CREDIT
+134	187.0	ADD_CREDIT
+135	223.0	ADD_CREDIT
+136	204.0	ADD_CREDIT
+137	201.0	ADD_CREDIT
+138	186.0	ADD_CREDIT
+139	180.0	ADD_CREDIT
+140	191.0	ADD_CREDIT
+141	198.0	ADD_CREDIT
+142	183.0	ADD_CREDIT
+143	196.0	ADD_CREDIT
+144	194.0	ADD_CREDIT
+145	194.0	ADD_CREDIT
+146	186.0	ADD_CREDIT
+147	208.0	ADD_CREDIT
+148	191.0	ADD_CREDIT
+149	168.0	ADD_CREDIT
+150	192.0	ADD_CREDIT
+151	189.0	ADD_CREDIT
+152	173.0	ADD_CREDIT
+153	192.0	ADD_CREDIT
+154	176.0	ADD_CREDIT
+155	189.0	ADD_CREDIT
+156	170.0	ADD_CREDIT
+157	169.0	ADD_CREDIT
+158	186.0	ADD_CREDIT
+159	207.0	ADD_CREDIT
+160	184.0	ADD_CREDIT
+161	162.0	ADD_CREDIT
+162	161.0	ADD_CREDIT
+163	202.0	ADD_CREDIT
+164	166.0	ADD_CREDIT
+165	154.0	ADD_CREDIT
+166	161.0	ADD_CREDIT
+167	145.0	ADD_CREDIT
+168	175.0	ADD_CREDIT
+169	173.0	ADD_CREDIT
+170	162.0	ADD_CREDIT
+171	143.0	ADD_CREDIT
+172	159.0	ADD_CREDIT
+173	147.0	ADD_CREDIT
+174	158.0	ADD_CREDIT
+175	155.0	ADD_CREDIT
+176	143.0	ADD_CREDIT
+177	142.0	ADD_CREDIT
+178	145.0	ADD_CREDIT
+179	144.0	ADD_CREDIT
+180	139.0	ADD_CREDIT
+181	151.0	ADD_CREDIT
+182	172.0	ADD_CREDIT
+183	130.0	ADD_CREDIT
+184	125.0	ADD_CREDIT
+185	131.0	ADD_CREDIT
+186	142.0	ADD_CREDIT
+187	131.0	ADD_CREDIT
+188	139.0	ADD_CREDIT
+189	140.0	ADD_CREDIT
+190	151.0	ADD_CREDIT
+191	152.0	ADD_CREDIT
+192	118.0	ADD_CREDIT
+193	137.0	ADD_CREDIT
+194	145.0	ADD_CREDIT
+195	149.0	ADD_CREDIT
+196	120.0	ADD_CREDIT
+197	123.0	ADD_CREDIT
+198	117.0	ADD_CREDIT
+199	120.0	ADD_CREDIT
+200	133.0	ADD_CREDIT
+201	132.0	ADD_CREDIT
+202	110.0	ADD_CREDIT
+203	120.0	ADD_CREDIT
+204	125.0	ADD_CREDIT
+205	126.0	ADD_CREDIT
+206	124.0	ADD_CREDIT
+207	156.0	ADD_CREDIT
+208	141.0	ADD_CREDIT
+209	101.0	ADD_CREDIT
+210	115.0	ADD_CREDIT
+211	121.0	ADD_CREDIT
+212	103.0	ADD_CREDIT
+213	112.0	ADD_CREDIT
+214	103.0	ADD_CREDIT
+215	111.0	ADD_CREDIT
+216	128.0	ADD_CREDIT
+217	112.0	ADD_CREDIT
+218	105.0	ADD_CREDIT
+219	97.0	ADD_CREDIT
+220	117.0	ADD_CREDIT
+221	107.0	ADD_CREDIT
+222	115.0	ADD_CREDIT
+223	102.0	ADD_CREDIT
+224	116.0	ADD_CREDIT
+225	107.0	ADD_CREDIT
+226	92.0	ADD_CREDIT
+227	107.0	ADD_CREDIT
+228	82.0	ADD_CREDIT
+229	115.0	ADD_CREDIT
+230	103.0	ADD_CREDIT
+231	94.0	ADD_CREDIT
+232	89.0	ADD_CREDIT
+233	90.0	ADD_CREDIT
+234	98.0	ADD_CREDIT
+235	85.0	ADD_CREDIT
+236	83.0	ADD_CREDIT
+237	81.0	ADD_CREDIT
+238	97.0	ADD_CREDIT
+239	75.0	ADD_CREDIT
+240	94.0	ADD_CREDIT
+241	107.0	ADD_CREDIT
+242	96.0	ADD_CREDIT
+243	83.0	ADD_CREDIT
+244	84.0	ADD_CREDIT
+245	88.0	ADD_CREDIT
+246	96.0	ADD_CREDIT
+247	108.0	ADD_CREDIT
+248	73.0	ADD_CREDIT
+249	61.0	ADD_CREDIT
+250	90.0	ADD_CREDIT
+251	85.0	ADD_CREDIT
+252	93.0	ADD_CREDIT
+253	72.0	ADD_CREDIT
+254	76.0	ADD_CREDIT
+255	80.0	ADD_CREDIT
+256	75.0	ADD_CREDIT
+257	84.0	ADD_CREDIT
+258	83.0	ADD_CREDIT
+259	72.0	ADD_CREDIT
+260	64.0	ADD_CREDIT
+261	79.0	ADD_CREDIT
+262	81.0	ADD_CREDIT
+263	61.0	ADD_CREDIT
+264	70.0	ADD_CREDIT
+265	61.0	ADD_CREDIT
+266	62.0	ADD_CREDIT
+267	69.0	ADD_CREDIT
+268	67.0	ADD_CREDIT
+269	73.0	ADD_CREDIT
+270	71.0	ADD_CREDIT
+271	72.0	ADD_CREDIT
+272	81.0	ADD_CREDIT
+273	57.0	ADD_CREDIT
+274	65.0	ADD_CREDIT
+275	57.0	ADD_CREDIT
+276	66.0	ADD_CREDIT
+277	54.0	ADD_CREDIT
+278	78.0	ADD_CREDIT
+279	56.0	ADD_CREDIT
+280	71.0	ADD_CREDIT
+281	66.0	ADD_CREDIT
+282	58.0	ADD_CREDIT
+283	61.0	ADD_CREDIT
+284	60.0	ADD_CREDIT
+285	64.0	ADD_CREDIT
+286	75.0	ADD_CREDIT
+287	52.0	ADD_CREDIT
+288	54.0	ADD_CREDIT
+289	55.0	ADD_CREDIT
+290	47.0	ADD_CREDIT
+291	60.0	ADD_CREDIT
+292	59.0	ADD_CREDIT
+293	59.0	ADD_CREDIT
+294	57.0	ADD_CREDIT
+295	68.0	ADD_CREDIT
+296	63.0	ADD_CREDIT
+297	55.0	ADD_CREDIT
+298	47.0	ADD_CREDIT
+299	64.0	ADD_CREDIT
+300	60.0	ADD_CREDIT
+301	53.0	ADD_CREDIT
+302	56.0	ADD_CREDIT
+303	54.0	ADD_CREDIT
+304	54.0	ADD_CREDIT
+305	55.0	ADD_CREDIT
+306	50.0	ADD_CREDIT
+307	53.0	ADD_CREDIT
+308	60.0	ADD_CREDIT
+309	51.0	ADD_CREDIT
+310	54.0	ADD_CREDIT
+311	44.0	ADD_CREDIT
+312	47.0	ADD_CREDIT
+313	53.0	ADD_CREDIT
+314	50.0	ADD_CREDIT
+315	45.0	ADD_CREDIT
+316	52.0	ADD_CREDIT
+317	36.0	ADD_CREDIT
+318	43.0	ADD_CREDIT
+319	39.0	ADD_CREDIT
+320	38.0	ADD_CREDIT
+321	52.0	ADD_CREDIT
+322	44.0	ADD_CREDIT
+323	45.0	ADD_CREDIT
+324	51.0	ADD_CREDIT
+325	49.0	ADD_CREDIT
+326	44.0	ADD_CREDIT
+327	46.0	ADD_CREDIT
+328	37.0	ADD_CREDIT
+329	38.0	ADD_CREDIT
+330	42.0	ADD_CREDIT
+331	42.0	ADD_CREDIT
+332	30.0	ADD_CREDIT
+333	32.0	ADD_CREDIT
+334	40.0	ADD_CREDIT
+335	46.0	ADD_CREDIT
+336	37.0	ADD_CREDIT
+337	38.0	ADD_CREDIT
+338	44.0	ADD_CREDIT
+339	38.0	ADD_CREDIT
+340	36.0	ADD_CREDIT
+341	45.0	ADD_CREDIT
+342	37.0	ADD_CREDIT
+343	40.0	ADD_CREDIT
+344	42.0	ADD_CREDIT
+345	35.0	ADD_CREDIT
+346	39.0	ADD_CREDIT
+347	39.0	ADD_CREDIT
+348	37.0	ADD_CREDIT
+349	38.0	ADD_CREDIT
+350	35.0	ADD_CREDIT
+351	34.0	ADD_CREDIT
+352	43.0	ADD_CREDIT
+353	20.0	ADD_CREDIT
+354	34.0	ADD_CREDIT
+355	32.0	ADD_CREDIT
+356	37.0	ADD_CREDIT
+357	39.0	ADD_CREDIT
+358	24.0	ADD_CREDIT
+359	35.0	ADD_CREDIT
+360	30.0	ADD_CREDIT
+361	39.0	ADD_CREDIT
+362	23.0	ADD_CREDIT
+363	26.0	ADD_CREDIT
+364	32.0	ADD_CREDIT
+365	33.0	ADD_CREDIT
+366	35.0	ADD_CREDIT
+367	41.0	ADD_CREDIT
+368	32.0	ADD_CREDIT
+369	27.0	ADD_CREDIT
+370	26.0	ADD_CREDIT
+371	28.0	ADD_CREDIT
+372	22.0	ADD_CREDIT
+373	32.0	ADD_CREDIT
+374	37.0	ADD_CREDIT
+375	27.0	ADD_CREDIT
+376	33.0	ADD_CREDIT
+377	26.0	ADD_CREDIT
+378	43.0	ADD_CREDIT
+379	28.0	ADD_CREDIT
+380	21.0	ADD_CREDIT
+381	27.0	ADD_CREDIT
+382	20.0	ADD_CREDIT
+383	31.0	ADD_CREDIT
+384	32.0	ADD_CREDIT
+385	25.0	ADD_CREDIT
+386	27.0	ADD_CREDIT
+387	19.0	ADD_CREDIT
+388	30.0	ADD_CREDIT
+389	34.0	ADD_CREDIT
+390	22.0	ADD_CREDIT
+391	17.0	ADD_CREDIT
+392	16.0	ADD_CREDIT
+393	16.0	ADD_CREDIT
+394	29.0	ADD_CREDIT
+395	29.0	ADD_CREDIT
+396	26.0	ADD_CREDIT
+397	17.0	ADD_CREDIT
+398	28.0	ADD_CREDIT
+399	26.0	ADD_CREDIT
+400	28.0	ADD_CREDIT
+401	15.0	ADD_CREDIT
+402	28.0	ADD_CREDIT
+403	27.0	ADD_CREDIT
+404	15.0	ADD_CREDIT
+405	23.0	ADD_CREDIT
+406	29.0	ADD_CREDIT
+407	16.0	ADD_CREDIT
+408	14.0	ADD_CREDIT
+409	33.0	ADD_CREDIT
+410	20.0	ADD_CREDIT
+411	26.0	ADD_CREDIT
+412	17.0	ADD_CREDIT
+413	27.0	ADD_CREDIT
+414	13.0	ADD_CREDIT
+415	20.0	ADD_CREDIT
+416	16.0	ADD_CREDIT
+417	17.0	ADD_CREDIT
+418	17.0	ADD_CREDIT
+419	25.0	ADD_CREDIT
+420	30.0	ADD_CREDIT
+421	19.0	ADD_CREDIT
+422	17.0	ADD_CREDIT
+423	18.0	ADD_CREDIT
+424	16.0	ADD_CREDIT
+425	28.0	ADD_CREDIT
+426	22.0	ADD_CREDIT
+427	23.0	ADD_CREDIT
+428	17.0	ADD_CREDIT
+429	20.0	ADD_CREDIT
+430	18.0	ADD_CREDIT
+431	10.0	ADD_CREDIT
+432	21.0	ADD_CREDIT
+433	21.0	ADD_CREDIT
+434	23.0	ADD_CREDIT
+435	10.0	ADD_CREDIT
+436	20.0	ADD_CREDIT
+437	18.0	ADD_CREDIT
+438	14.0	ADD_CREDIT
+439	19.0	ADD_CREDIT
+440	9.0	ADD_CREDIT
+441	22.0	ADD_CREDIT
+442	20.0	ADD_CREDIT
+443	15.0	ADD_CREDIT
+444	14.0	ADD_CREDIT
+445	13.0	ADD_CREDIT
+446	20.0	ADD_CREDIT
+447	13.0	ADD_CREDIT
+448	4.0	ADD_CREDIT
+449	21.0	ADD_CREDIT
+450	23.0	ADD_CREDIT
+451	16.0	ADD_CREDIT
+452	14.0	ADD_CREDIT
+453	15.0	ADD_CREDIT
+454	13.0	ADD_CREDIT
+455	11.0	ADD_CREDIT
+456	7.0	ADD_CREDIT
+457	19.0	ADD_CREDIT
+458	12.0	ADD_CREDIT
+459	12.0	ADD_CREDIT
+460	16.0	ADD_CREDIT
+461	22.0	ADD_CREDIT
+462	18.0	ADD_CREDIT
+463	11.0	ADD_CREDIT
+464	16.0	ADD_CREDIT
+465	10.0	ADD_CREDIT
+466	11.0	ADD_CREDIT
+467	19.0	ADD_CREDIT
+468	13.0	ADD_CREDIT
+469	6.0	ADD_CREDIT
+470	10.0	ADD_CREDIT
+471	10.0	ADD_CREDIT
+472	12.0	ADD_CREDIT
+473	12.0	ADD_CREDIT
+474	6.0	ADD_CREDIT
+475	12.0	ADD_CREDIT
+476	15.0	ADD_CREDIT
+477	15.0	ADD_CREDIT
+478	12.0	ADD_CREDIT
+479	20.0	ADD_CREDIT
+480	10.0	ADD_CREDIT
+481	18.0	ADD_CREDIT
+482	7.0	ADD_CREDIT
+483	6.0	ADD_CREDIT
+484	10.0	ADD_CREDIT
+485	10.0	ADD_CREDIT
+486	8.0	ADD_CREDIT
+487	8.0	ADD_CREDIT
+488	7.0	ADD_CREDIT
+489	9.0	ADD_CREDIT
+490	17.0	ADD_CREDIT
+491	12.0	ADD_CREDIT
+492	7.0	ADD_CREDIT
+493	13.0	ADD_CREDIT
+494	5.0	ADD_CREDIT
+495	9.0	ADD_CREDIT
+496	5.0	ADD_CREDIT
+497	3.0	ADD_CREDIT
+498	7.0	ADD_CREDIT
+499	8.0	ADD_CREDIT
+500	9.0	ADD_CREDIT
+501	12.0	ADD_CREDIT
+502	5.0	ADD_CREDIT
+503	6.0	ADD_CREDIT
+504	9.0	ADD_CREDIT
+505	14.0	ADD_CREDIT
+506	10.0	ADD_CREDIT
+507	5.0	ADD_CREDIT
+508	8.0	ADD_CREDIT
+509	7.0	ADD_CREDIT
+510	6.0	ADD_CREDIT
+511	4.0	ADD_CREDIT
+512	8.0	ADD_CREDIT
+513	3.0	ADD_CREDIT
+514	7.0	ADD_CREDIT
+515	6.0	ADD_CREDIT
+516	5.0	ADD_CREDIT
+517	3.0	ADD_CREDIT
+518	4.0	ADD_CREDIT
+519	5.0	ADD_CREDIT
+520	6.0	ADD_CREDIT
+521	4.0	ADD_CREDIT
+522	5.0	ADD_CREDIT
+523	11.0	ADD_CREDIT
+524	5.0	ADD_CREDIT
+525	6.0	ADD_CREDIT
+526	8.0	ADD_CREDIT
+527	7.0	ADD_CREDIT
+528	4.0	ADD_CREDIT
+529	9.0	ADD_CREDIT
+530	10.0	ADD_CREDIT
+531	5.0	ADD_CREDIT
+532	5.0	ADD_CREDIT
+533	6.0	ADD_CREDIT
+534	2.0	ADD_CREDIT
+535	4.0	ADD_CREDIT
+536	3.0	ADD_CREDIT
+537	5.0	ADD_CREDIT
+538	5.0	ADD_CREDIT
+539	8.0	ADD_CREDIT
+540	6.0	ADD_CREDIT
+541	5.0	ADD_CREDIT
+542	7.0	ADD_CREDIT
+543	1.0	ADD_CREDIT
+544	4.0	ADD_CREDIT
+545	5.0	ADD_CREDIT
+546	4.0	ADD_CREDIT
+547	4.0	ADD_CREDIT
+548	4.0	ADD_CREDIT
+549	6.0	ADD_CREDIT
+550	3.0	ADD_CREDIT
+551	2.0	ADD_CREDIT
+552	5.0	ADD_CREDIT
+553	5.0	ADD_CREDIT
+554	5.0	ADD_CREDIT
+555	1.0	ADD_CREDIT
+556	5.0	ADD_CREDIT
+557	6.0	ADD_CREDIT
+558	1.0	ADD_CREDIT
+560	3.0	ADD_CREDIT
+561	4.0	ADD_CREDIT
+562	11.0	ADD_CREDIT
+563	3.0	ADD_CREDIT
+564	1.0	ADD_CREDIT
+565	4.0	ADD_CREDIT
+566	3.0	ADD_CREDIT
+567	5.0	ADD_CREDIT
+568	2.0	ADD_CREDIT
+569	2.0	ADD_CREDIT
+570	2.0	ADD_CREDIT
+571	4.0	ADD_CREDIT
+572	5.0	ADD_CREDIT
+573	4.0	ADD_CREDIT
+574	3.0	ADD_CREDIT
+575	4.0	ADD_CREDIT
+576	4.0	ADD_CREDIT
+577	3.0	ADD_CREDIT
+578	1.0	ADD_CREDIT
+579	3.0	ADD_CREDIT
+580	7.0	ADD_CREDIT
+582	2.0	ADD_CREDIT
+583	2.0	ADD_CREDIT
+584	2.0	ADD_CREDIT
+585	2.0	ADD_CREDIT
+586	6.0	ADD_CREDIT
+587	2.0	ADD_CREDIT
+588	3.0	ADD_CREDIT
+589	2.0	ADD_CREDIT
+591	2.0	ADD_CREDIT
+592	1.0	ADD_CREDIT
+594	2.0	ADD_CREDIT
+595	2.0	ADD_CREDIT
+596	2.0	ADD_CREDIT
+597	1.0	ADD_CREDIT
+598	3.0	ADD_CREDIT
+599	2.0	ADD_CREDIT
+601	1.0	ADD_CREDIT
+602	2.0	ADD_CREDIT
+603	3.0	ADD_CREDIT
+605	2.0	ADD_CREDIT
+606	1.0	ADD_CREDIT
+607	2.0	ADD_CREDIT
+608	2.0	ADD_CREDIT
+609	2.0	ADD_CREDIT
+610	2.0	ADD_CREDIT
+611	1.0	ADD_CREDIT
+612	2.0	ADD_CREDIT
+614	1.0	ADD_CREDIT
+615	1.0	ADD_CREDIT
+616	1.0	ADD_CREDIT
+617	1.0	ADD_CREDIT
+618	1.0	ADD_CREDIT
+619	3.0	ADD_CREDIT
+622	1.0	ADD_CREDIT
+624	2.0	ADD_CREDIT
+625	1.0	ADD_CREDIT
+626	2.0	ADD_CREDIT
+628	1.0	ADD_CREDIT
+629	1.0	ADD_CREDIT
+630	2.0	ADD_CREDIT
+631	3.0	ADD_CREDIT
+633	1.0	ADD_CREDIT
+634	3.0	ADD_CREDIT
+635	1.0	ADD_CREDIT
+636	2.0	ADD_CREDIT
+638	1.0	ADD_CREDIT
+639	1.0	ADD_CREDIT
+643	1.0	ADD_CREDIT
+644	2.0	ADD_CREDIT
+645	1.0	ADD_CREDIT
+648	1.0	ADD_CREDIT
+650	1.0	ADD_CREDIT
+651	2.0	ADD_CREDIT
+652	4.0	ADD_CREDIT
+653	3.0	ADD_CREDIT
+655	2.0	ADD_CREDIT
+658	1.0	ADD_CREDIT
+659	1.0	ADD_CREDIT
+660	1.0	ADD_CREDIT
+661	3.0	ADD_CREDIT
+665	2.0	ADD_CREDIT
+666	1.0	ADD_CREDIT
+668	1.0	ADD_CREDIT
+673	2.0	ADD_CREDIT
+674	1.0	ADD_CREDIT
+675	1.0	ADD_CREDIT
+676	1.0	ADD_CREDIT
+677	1.0	ADD_CREDIT
+679	1.0	ADD_CREDIT
+680	1.0	ADD_CREDIT
+682	1.0	ADD_CREDIT
+686	4.0	ADD_CREDIT
+689	2.0	ADD_CREDIT
+691	1.0	ADD_CREDIT
+693	1.0	ADD_CREDIT
+694	1.0	ADD_CREDIT
+695	2.0	ADD_CREDIT
+699	1.0	ADD_CREDIT
+700	2.0	ADD_CREDIT
+705	1.0	ADD_CREDIT
+710	1.0	ADD_CREDIT
+714	1.0	ADD_CREDIT
+717	1.0	ADD_CREDIT
+730	1.0	ADD_CREDIT
+735	1.0	ADD_CREDIT
+736	1.0	ADD_CREDIT
+740	1.0	ADD_CREDIT
+768	1.0	ADD_CREDIT
+782	1.0	ADD_CREDIT
+792	1.0	ADD_CREDIT
+795	1.0	ADD_CREDIT
+809	1.0	ADD_CREDIT
+872	1.0	ADD_CREDIT
+, QUEUE_QUEUE=QUEUE_QUEUE 
+ Reports=         2383073 Average=               0, Total=         292,222, 50%=               0, 95%=               0, 99%=               0, 99.5%=               1, 99.95%=              47, Max=             426
+0	2371152.0	Time spent waiting to join request queue
+1	375.0	Time spent waiting to join request queue
+2	288.0	Time spent waiting to join request queue
+3	255.0	Time spent waiting to join request queue
+4	295.0	Time spent waiting to join request queue
+5	276.0	Time spent waiting to join request queue
+6	312.0	Time spent waiting to join request queue
+7	307.0	Time spent waiting to join request queue
+8	340.0	Time spent waiting to join request queue
+9	333.0	Time spent waiting to join request queue
+10	349.0	Time spent waiting to join request queue
+11	341.0	Time spent waiting to join request queue
+12	372.0	Time spent waiting to join request queue
+13	348.0	Time spent waiting to join request queue
+14	349.0	Time spent waiting to join request queue
+15	373.0	Time spent waiting to join request queue
+16	336.0	Time spent waiting to join request queue
+17	348.0	Time spent waiting to join request queue
+18	298.0	Time spent waiting to join request queue
+19	273.0	Time spent waiting to join request queue
+20	322.0	Time spent waiting to join request queue
+21	314.0	Time spent waiting to join request queue
+22	298.0	Time spent waiting to join request queue
+23	264.0	Time spent waiting to join request queue
+24	264.0	Time spent waiting to join request queue
+25	237.0	Time spent waiting to join request queue
+26	247.0	Time spent waiting to join request queue
+27	236.0	Time spent waiting to join request queue
+28	224.0	Time spent waiting to join request queue
+29	211.0	Time spent waiting to join request queue
+30	189.0	Time spent waiting to join request queue
+31	196.0	Time spent waiting to join request queue
+32	165.0	Time spent waiting to join request queue
+33	154.0	Time spent waiting to join request queue
+34	142.0	Time spent waiting to join request queue
+35	158.0	Time spent waiting to join request queue
+36	111.0	Time spent waiting to join request queue
+37	124.0	Time spent waiting to join request queue
+38	108.0	Time spent waiting to join request queue
+39	89.0	Time spent waiting to join request queue
+40	107.0	Time spent waiting to join request queue
+41	89.0	Time spent waiting to join request queue
+42	61.0	Time spent waiting to join request queue
+43	68.0	Time spent waiting to join request queue
+44	60.0	Time spent waiting to join request queue
+45	51.0	Time spent waiting to join request queue
+46	50.0	Time spent waiting to join request queue
+47	51.0	Time spent waiting to join request queue
+48	36.0	Time spent waiting to join request queue
+49	44.0	Time spent waiting to join request queue
+50	28.0	Time spent waiting to join request queue
+51	33.0	Time spent waiting to join request queue
+52	33.0	Time spent waiting to join request queue
+53	26.0	Time spent waiting to join request queue
+54	37.0	Time spent waiting to join request queue
+55	23.0	Time spent waiting to join request queue
+56	20.0	Time spent waiting to join request queue
+57	20.0	Time spent waiting to join request queue
+58	27.0	Time spent waiting to join request queue
+59	22.0	Time spent waiting to join request queue
+60	21.0	Time spent waiting to join request queue
+61	21.0	Time spent waiting to join request queue
+62	23.0	Time spent waiting to join request queue
+63	21.0	Time spent waiting to join request queue
+64	17.0	Time spent waiting to join request queue
+65	19.0	Time spent waiting to join request queue
+66	17.0	Time spent waiting to join request queue
+67	16.0	Time spent waiting to join request queue
+68	17.0	Time spent waiting to join request queue
+69	26.0	Time spent waiting to join request queue
+70	16.0	Time spent waiting to join request queue
+71	9.0	Time spent waiting to join request queue
+72	9.0	Time spent waiting to join request queue
+73	15.0	Time spent waiting to join request queue
+74	18.0	Time spent waiting to join request queue
+75	16.0	Time spent waiting to join request queue
+76	17.0	Time spent waiting to join request queue
+77	19.0	Time spent waiting to join request queue
+78	16.0	Time spent waiting to join request queue
+79	8.0	Time spent waiting to join request queue
+80	15.0	Time spent waiting to join request queue
+81	12.0	Time spent waiting to join request queue
+82	16.0	Time spent waiting to join request queue
+83	12.0	Time spent waiting to join request queue
+84	13.0	Time spent waiting to join request queue
+85	7.0	Time spent waiting to join request queue
+86	13.0	Time spent waiting to join request queue
+87	9.0	Time spent waiting to join request queue
+88	7.0	Time spent waiting to join request queue
+89	5.0	Time spent waiting to join request queue
+90	10.0	Time spent waiting to join request queue
+91	7.0	Time spent waiting to join request queue
+92	5.0	Time spent waiting to join request queue
+93	6.0	Time spent waiting to join request queue
+94	7.0	Time spent waiting to join request queue
+95	16.0	Time spent waiting to join request queue
+96	12.0	Time spent waiting to join request queue
+97	14.0	Time spent waiting to join request queue
+98	12.0	Time spent waiting to join request queue
+99	9.0	Time spent waiting to join request queue
+100	6.0	Time spent waiting to join request queue
+101	9.0	Time spent waiting to join request queue
+102	7.0	Time spent waiting to join request queue
+103	12.0	Time spent waiting to join request queue
+104	9.0	Time spent waiting to join request queue
+105	8.0	Time spent waiting to join request queue
+106	10.0	Time spent waiting to join request queue
+107	6.0	Time spent waiting to join request queue
+108	8.0	Time spent waiting to join request queue
+109	4.0	Time spent waiting to join request queue
+110	4.0	Time spent waiting to join request queue
+111	4.0	Time spent waiting to join request queue
+112	6.0	Time spent waiting to join request queue
+113	2.0	Time spent waiting to join request queue
+114	2.0	Time spent waiting to join request queue
+115	6.0	Time spent waiting to join request queue
+116	5.0	Time spent waiting to join request queue
+117	4.0	Time spent waiting to join request queue
+118	5.0	Time spent waiting to join request queue
+119	5.0	Time spent waiting to join request queue
+120	3.0	Time spent waiting to join request queue
+121	4.0	Time spent waiting to join request queue
+122	3.0	Time spent waiting to join request queue
+123	2.0	Time spent waiting to join request queue
+124	4.0	Time spent waiting to join request queue
+125	5.0	Time spent waiting to join request queue
+126	7.0	Time spent waiting to join request queue
+127	2.0	Time spent waiting to join request queue
+128	3.0	Time spent waiting to join request queue
+129	1.0	Time spent waiting to join request queue
+130	4.0	Time spent waiting to join request queue
+131	4.0	Time spent waiting to join request queue
+132	1.0	Time spent waiting to join request queue
+133	3.0	Time spent waiting to join request queue
+134	2.0	Time spent waiting to join request queue
+135	2.0	Time spent waiting to join request queue
+136	3.0	Time spent waiting to join request queue
+137	3.0	Time spent waiting to join request queue
+138	1.0	Time spent waiting to join request queue
+139	4.0	Time spent waiting to join request queue
+140	4.0	Time spent waiting to join request queue
+141	5.0	Time spent waiting to join request queue
+142	2.0	Time spent waiting to join request queue
+143	3.0	Time spent waiting to join request queue
+144	2.0	Time spent waiting to join request queue
+145	2.0	Time spent waiting to join request queue
+146	3.0	Time spent waiting to join request queue
+147	3.0	Time spent waiting to join request queue
+148	3.0	Time spent waiting to join request queue
+149	5.0	Time spent waiting to join request queue
+150	1.0	Time spent waiting to join request queue
+151	3.0	Time spent waiting to join request queue
+152	3.0	Time spent waiting to join request queue
+153	1.0	Time spent waiting to join request queue
+154	2.0	Time spent waiting to join request queue
+155	2.0	Time spent waiting to join request queue
+156	2.0	Time spent waiting to join request queue
+157	1.0	Time spent waiting to join request queue
+159	4.0	Time spent waiting to join request queue
+160	3.0	Time spent waiting to join request queue
+161	3.0	Time spent waiting to join request queue
+162	1.0	Time spent waiting to join request queue
+163	1.0	Time spent waiting to join request queue
+165	1.0	Time spent waiting to join request queue
+166	1.0	Time spent waiting to join request queue
+167	2.0	Time spent waiting to join request queue
+168	1.0	Time spent waiting to join request queue
+169	2.0	Time spent waiting to join request queue
+170	2.0	Time spent waiting to join request queue
+171	1.0	Time spent waiting to join request queue
+174	3.0	Time spent waiting to join request queue
+187	1.0	Time spent waiting to join request queue
+188	2.0	Time spent waiting to join request queue
+189	1.0	Time spent waiting to join request queue
+191	1.0	Time spent waiting to join request queue
+193	1.0	Time spent waiting to join request queue
+195	1.0	Time spent waiting to join request queue
+202	1.0	Time spent waiting to join request queue
+210	1.0	Time spent waiting to join request queue
+320	1.0	Time spent waiting to join request queue
+426	1.0	Time spent waiting to join request queue
+}
+{QUEUE_OVERFLOW=12037, ADD_CREDIT=67990, REPORT_USAGE=2315083}
+{}
+2026-11-18 13:56:52:Closing connection...
+exit=0

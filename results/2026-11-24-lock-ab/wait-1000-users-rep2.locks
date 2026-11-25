@@ -1,0 +1,95 @@
+20:35:47|0|0|0|0|
+20:35:48|0|0|0|0|
+20:35:49|0|0|0|0|
+20:35:50|0|0|0|0|
+20:35:51|0|0|0|0|
+20:35:52|0|0|0|0|
+20:35:54|11|11|0|107|transactionid=11
+20:35:55|10|8|2|90|tuple=2 transactionid=8
+20:35:57|8|8|0|132|transactionid=8
+20:35:58|3|3|0|73|transactionid=3
+20:35:59|10|9|1|65|tuple=1 transactionid=9
+20:36:00|4|4|0|73|transactionid=4
+20:36:02|2|2|0|86|transactionid=2
+20:36:03|13|12|1|101|tuple=1 transactionid=12
+20:36:04|6|6|0|88|transactionid=6
+20:36:05|9|8|1|106|tuple=1 transactionid=8
+20:36:07|7|7|0|123|transactionid=7
+20:36:08|3|3|0|118|transactionid=3
+20:36:10|3|3|0|71|transactionid=3
+20:36:11|0|0|0|64|
+20:36:12|5|5|0|69|transactionid=5
+20:36:14|1|1|0|30|transactionid=1
+20:36:15|2|2|0|114|transactionid=2
+20:36:17|5|4|1|117|transactionid=4 tuple=1
+20:36:18|1|0|1|51|tuple=1
+20:36:19|2|2|0|67|transactionid=2
+20:36:21|4|4|0|99|transactionid=4
+20:36:22|7|7|0|111|transactionid=7
+20:36:23|14|12|2|70|tuple=2 transactionid=12
+20:36:25|4|3|1|64|transactionid=3 tuple=1
+20:36:26|0|0|0|9|
+20:36:27|5|5|0|95|transactionid=5
+20:36:29|6|6|0|82|transactionid=6
+20:36:30|0|0|0|38|
+20:36:31|6|6|0|131|transactionid=6
+20:36:33|4|4|0|91|transactionid=4
+20:36:34|3|3|0|85|transactionid=3
+20:36:35|2|2|0|120|transactionid=2
+20:36:37|11|11|0|87|transactionid=11
+20:36:38|4|4|0|114|transactionid=4
+20:36:39|11|11|0|110|transactionid=11
+20:36:41|3|3|0|62|transactionid=3
+20:36:42|6|6|0|84|transactionid=6
+20:36:44|4|4|0|92|transactionid=4
+20:36:45|10|10|0|135|transactionid=10
+20:36:46|1|1|0|30|transactionid=1
+20:36:48|4|4|0|118|transactionid=4
+20:36:49|9|9|0|140|transactionid=9
+20:36:51|3|3|0|96|transactionid=3
+20:36:52|6|5|1|123|transactionid=5 tuple=1
+20:36:53|8|7|1|61|tuple=1 transactionid=7
+20:36:55|11|10|1|112|tuple=1 transactionid=10
+20:36:56|5|5|0|37|transactionid=5
+20:36:57|10|10|0|121|transactionid=10
+20:36:59|2|2|0|73|transactionid=2
+20:37:00|1|1|0|93|transactionid=1
+20:37:01|3|3|0|136|transactionid=3
+20:37:03|7|6|1|116|tuple=1 transactionid=6
+20:37:04|7|7|0|133|transactionid=7
+20:37:05|9|9|0|54|transactionid=9
+20:37:07|9|9|0|128|transactionid=9
+20:37:08|9|9|0|126|transactionid=9
+20:37:09|1|1|0|58|transactionid=1
+20:37:11|3|2|1|109|tuple=1 transactionid=2
+20:37:12|5|5|0|115|transactionid=5
+20:37:14|3|3|0|58|transactionid=3
+20:37:15|10|8|2|117|tuple=2 transactionid=8
+20:37:16|10|10|0|139|transactionid=10
+20:37:18|13|12|1|106|transactionid=12 tuple=1
+20:37:19|7|7|0|113|transactionid=7
+20:37:20|10|9|1|78|tuple=1 transactionid=9
+20:37:22|13|13|0|123|transactionid=13
+20:37:23|0|0|0|40|
+20:37:25|85|6|0|109|transactionid=6 extend=79
+20:37:26|18|16|2|111|tuple=2 transactionid=16
+20:37:27|10|9|1|51|tuple=1 transactionid=9
+20:37:29|6|6|0|99|transactionid=6
+20:37:30|0|0|0|55|
+20:37:31|0|0|0|27|
+20:37:33|4|4|0|46|transactionid=4
+20:37:34|6|6|0|90|transactionid=6
+20:37:35|10|10|0|128|transactionid=10
+20:37:37|9|9|0|121|transactionid=9
+20:37:38|4|4|0|121|transactionid=4
+20:37:40|12|10|2|78|tuple=2 transactionid=10
+20:37:41|4|4|0|92|transactionid=4
+20:37:43|11|11|0|134|transactionid=11
+20:37:44|10|10|0|92|transactionid=10
+20:37:46|4|4|0|44|transactionid=4
+20:37:47|7|7|0|119|transactionid=7
+20:37:48|3|2|1|61|transactionid=2 tuple=1
+20:37:50|14|12|2|141|transactionid=12 tuple=2
+20:37:51|1|1|0|87|transactionid=1
+20:37:52|8|7|1|113|tuple=1 transactionid=7
+20:37:54|0|0|0|1|
